@@ -2,6 +2,8 @@ import json
 import boto3
 import os
 from dotenv import load_dotenv
+from botocore.exceptions import ClientError
+import time
 from decimal import Decimal
 
 # Cargar variables de entorno desde .env (si existe)
@@ -13,6 +15,7 @@ load_dotenv()
 AWS_REGION = os.getenv('AWS_REGION', 'us-east-1')
 
 dynamodb = boto3.resource('dynamodb', region_name=AWS_REGION)
+dynamodb_client = boto3.client('dynamodb', region_name=AWS_REGION)
 
 # Nombres de las tablas DynamoDB
 TABLE_LOCALES = os.getenv('TABLE_LOCALES')
@@ -83,6 +86,100 @@ def get_dynamodb_client():
         return None
 
 
+def table_exists(table_name):
+    """Verifica si una tabla existe en DynamoDB"""
+    try:
+        dynamodb_client.describe_table(TableName=table_name)
+        return True
+    except ClientError as e:
+        if e.response['Error']['Code'] == 'ResourceNotFoundException':
+            return False
+        else:
+            raise
+
+
+def create_table(table_name):
+    """Crea una tabla en DynamoDB con configuración básica"""
+    print(f"   📋 Tabla '{table_name}' no existe. Creándola...")
+    
+    # Configuración de claves según el tipo de tabla
+    key_schema = [
+        {'AttributeName': 'PK', 'KeyType': 'HASH'},   # Partition key
+        {'AttributeName': 'SK', 'KeyType': 'RANGE'}   # Sort key
+    ]
+    
+    attribute_definitions = [
+        {'AttributeName': 'PK', 'AttributeType': 'S'},
+        {'AttributeName': 'SK', 'AttributeType': 'S'}
+    ]
+    
+    # Configuración para tabla de pedidos (necesita índices adicionales)
+    global_secondary_indexes = []
+    
+    if 'Pedidos' in table_name:
+        attribute_definitions.extend([
+            {'AttributeName': 'usuario_id', 'AttributeType': 'S'},
+            {'AttributeName': 'status', 'AttributeType': 'S'}
+        ])
+        
+        global_secondary_indexes = [
+            {
+                'IndexName': 'UsuarioIndex',
+                'KeySchema': [
+                    {'AttributeName': 'usuario_id', 'KeyType': 'HASH'},
+                    {'AttributeName': 'SK', 'KeyType': 'RANGE'}
+                ],
+                'Projection': {'ProjectionType': 'ALL'},
+                'ProvisionedThroughput': {
+                    'ReadCapacityUnits': 5,
+                    'WriteCapacityUnits': 5
+                }
+            },
+            {
+                'IndexName': 'StatusIndex',
+                'KeySchema': [
+                    {'AttributeName': 'status', 'KeyType': 'HASH'},
+                    {'AttributeName': 'SK', 'KeyType': 'RANGE'}
+                ],
+                'Projection': {'ProjectionType': 'ALL'},
+                'ProvisionedThroughput': {
+                    'ReadCapacityUnits': 5,
+                    'WriteCapacityUnits': 5
+                }
+            }
+        ]
+    
+    try:
+        table_config = {
+            'TableName': table_name,
+            'KeySchema': key_schema,
+            'AttributeDefinitions': attribute_definitions,
+            'BillingMode': 'PAY_PER_REQUEST'  # On-demand pricing (sin necesidad de configurar capacidad)
+        }
+        
+        # Agregar índices secundarios si existen
+        if global_secondary_indexes:
+            table_config['GlobalSecondaryIndexes'] = global_secondary_indexes
+            # Con GSI necesitamos usar provisioned throughput
+            table_config['BillingMode'] = 'PROVISIONED'
+            table_config['ProvisionedThroughput'] = {
+                'ReadCapacityUnits': 5,
+                'WriteCapacityUnits': 5
+            }
+        
+        table = dynamodb.create_table(**table_config)
+        
+        print(f"   ⏳ Esperando a que la tabla '{table_name}' esté activa...")
+        table.wait_until_exists()
+        
+        print(f"   ✅ Tabla '{table_name}' creada exitosamente")
+        return True
+        
+    except ClientError as e:
+        print(f"   ❌ Error al crear tabla '{table_name}': {e.response['Error']['Message']}")
+        return False
+
+
 def load_json_file(filename):
     """
     Carga un archivo JSON y retorna su contenido
@@ -101,78 +198,88 @@ def load_json_file(filename):
         return None
 
 
-def batch_write_items(table, items, batch_size=25):
-    """
-    Escribe items en lotes a DynamoDB (máximo 25 items por batch)
-    """
-    total_items = len(items)
+def batch_write_items(table, items, table_name):
+    """Escribe items en lotes a DynamoDB"""
     success_count = 0
     error_count = 0
-
-    for i in range(0, total_items, batch_size):
-        batch = items[i:i + batch_size]
-
-        try:
-            with table.batch_writer() as batch_writer:
-                for item in batch:
+    
+    try:
+        with table.batch_writer() as batch_writer:
+            for item in items:
+                try:
                     batch_writer.put_item(Item=item)
                     success_count += 1
-
-            print(f"  ✓ Procesados {min(i + batch_size, total_items)}/{total_items} items")
-
-        except ClientError as e:
-            error_count += len(batch)
-            print(f"  ✗ Error en batch {i // batch_size + 1}: {e.response['Error']['Message']}")
-        except Exception as e:
-            error_count += len(batch)
-            print(f"  ✗ Error inesperado en batch {i // batch_size + 1}: {e}")
-
+                except Exception as e:
+                    error_count += 1
+                    print(f"      ⚠️  Error al insertar item: {str(e)[:100]}")
+                    
+    except ClientError as e:
+        error_code = e.response['Error']['Code']
+        error_msg = e.response['Error']['Message']
+        
+        if error_code == 'ResourceNotFoundException':
+            print(f"   ❌ La tabla '{table_name}' no existe")
+            return 0, len(items)
+        else:
+            print(f"   ❌ Error de AWS: {error_code} - {error_msg}")
+            return success_count, len(items) - success_count
+    
     return success_count, error_count
 
 
 def populate_table(dynamodb, filename, table_name):
-    """
-    Población de una tabla específica con datos del archivo JSON
-    """
+    """Puebla una tabla de DynamoDB con datos de un archivo JSON"""
+    filepath = os.path.join("dynamodb_data", filename)
+    
     print(f"\n📤 Poblando tabla: {table_name}")
     print(f"   Archivo: {filename}")
-
-    # Validar nombre de tabla
-    if not table_name:
-        print(f"  ⚠️  Nombre de tabla no configurado en .env para {filename}")
-        return False
-
+    
+    # Verificar si la tabla existe, si no, crearla
+    if not table_exists(table_name):
+        if not create_table(table_name):
+            print(f"   ❌ No se pudo crear la tabla '{table_name}'. Saltando...")
+            return False
+        # Esperar un momento adicional para asegurar que la tabla esté lista
+        time.sleep(2)
+    else:
+        print(f"   ✅ Tabla '{table_name}' existe")
+    
     # Cargar datos del archivo
-    items = load_json_file(filename)
+    items = load_json_file(filepath)
+    
     if items is None:
         return False
-
-    if len(items) == 0:
-        print(f"  ⚠️  El archivo {filename} está vacío")
+    
+    if not isinstance(items, list):
+        print(f"   ❌ El archivo debe contener un array JSON")
         return False
-
+    
+    if len(items) == 0:
+        print(f"   ⚠️  El archivo está vacío, no hay datos para insertar")
+        return True
+    
+    print(f"   📊 Total de items a insertar: {len(items)}")
+    
     try:
         # Obtener referencia a la tabla
         table = dynamodb.Table(table_name)
-
-        # Escribir items en lotes
-        success, errors = batch_write_items(table, items)
-
-        print(f"  ✅ Completado: {success} items insertados")
-        if errors > 0:
-            print(f"  ⚠️  {errors} items fallaron")
-
-        return errors == 0
-
+        
+        # Insertar items en lotes
+        success_count, error_count = batch_write_items(table, items, table_name)
+        
+        print(f"   ✅ Insertados exitosamente: {success_count} items")
+        if error_count > 0:
+            print(f"   ⚠️  Errores: {error_count} items")
+        
+        return error_count == 0
+        
     except ClientError as e:
         error_code = e.response['Error']['Code']
-        if error_code == 'ResourceNotFoundException':
-            print(f"  ❌ La tabla '{table_name}' no existe en DynamoDB")
-        else:
-            print(f"  ❌ Error de DynamoDB: {e.response['Error']['Message']}")
+        error_msg = e.response['Error']['Message']
+        print(f"   ❌ Error de AWS: {error_code} - {error_msg}")
         return False
     except Exception as e:
-        print(f"  ❌ Error inesperado: {e}")
+        print(f"   ❌ Error inesperado: {str(e)}")
         return False
 
 
