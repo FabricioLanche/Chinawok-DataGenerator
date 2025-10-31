@@ -1,722 +1,18 @@
 [
   {
-    "PK": "LOCAL#ce6cc083-4a63-4b7b-b930-e47d2a553fad",
-    "SK": "LOCAL#ce6cc083-4a63-4b7b-b930-e47d2a553fad",
-    "local_id": "ce6cc083-4a63-4b7b-b930-e47d2a553fad",
-    "nombre": "China Wok Mi Perú",
-    "direccion": {
-      "calle": "Av. Las Torres",
-      "numero": "3243",
-      "distrito": "Mi Perú",
-      "ciudad": "Lima",
-      "codigo_postal": "15082"
-    },
-    "telefono": "+51-969272069",
-    "email": "local1@chinawok.pe",
-    "horario": {
-      "apertura": "08:00",
-      "cierre": "22:00",
-      "dias_atencion": [
-        "Lunes",
-        "Martes",
-        "Miércoles",
-        "Jueves",
-        "Viernes",
-        "Sábado",
-        "Domingo"
-      ]
-    },
-    "capacidad_maxima": 157,
-    "activo": true,
-    "created_at": "2025-10-31T15:15:05.836709",
-    "updated_at": "2025-10-31T15:15:05.836718"
-  },
-  {
-    "PK": "LOCAL#b56de8a9-6609-45b1-bb76-4f09247ebd25",
-    "SK": "LOCAL#b56de8a9-6609-45b1-bb76-4f09247ebd25",
-    "local_id": "b56de8a9-6609-45b1-bb76-4f09247ebd25",
-    "nombre": "China Wok Chaclacayo",
-    "direccion": {
-      "calle": "Av. Petit Thouars",
-      "numero": "7519",
-      "distrito": "Chaclacayo",
-      "ciudad": "Lima",
-      "codigo_postal": "15022"
-    },
-    "telefono": "+51-905544407",
-    "email": "local2@chinawok.pe",
-    "horario": {
-      "apertura": "08:00",
-      "cierre": "22:00",
-      "dias_atencion": [
-        "Lunes",
-        "Martes",
-        "Miércoles",
-        "Jueves",
-        "Viernes",
-        "Sábado",
-        "Domingo"
-      ]
-    },
-    "capacidad_maxima": 159,
-    "activo": true,
-    "created_at": "2025-10-31T15:15:05.836747",
-    "updated_at": "2025-10-31T15:15:05.836749"
-  },
-  {
-    "PK": "LOCAL#b37e6853-4158-4f53-8bf9-a2f15e3da15c",
-    "SK": "LOCAL#b37e6853-4158-4f53-8bf9-a2f15e3da15c",
-    "local_id": "b37e6853-4158-4f53-8bf9-a2f15e3da15c",
-    "nombre": "China Wok Pachacámac",
-    "direccion": {
-      "calle": "Av. Dos de Mayo",
-      "numero": "8374",
-      "distrito": "Pachacámac",
-      "ciudad": "Lima",
-      "codigo_postal": "15045"
-    },
-    "telefono": "+51-953894117",
-    "email": "local3@chinawok.pe",
-    "horario": {
-      "apertura": "08:00",
-      "cierre": "22:00",
-      "dias_atencion": [
-        "Lunes",
-        "Martes",
-        "Miércoles",
-        "Jueves",
-        "Viernes",
-        "Sábado",
-        "Domingo"
-      ]
-    },
-    "capacidad_maxima": 154,
-    "activo": true,
-    "created_at": "2025-10-31T15:15:05.836770",
-    "updated_at": "2025-10-31T15:15:05.836772"
-  },
-  {
-    "PK": "LOCAL#4922d3c5-8ab3-4393-a023-6dba2bc0182b",
-    "SK": "LOCAL#4922d3c5-8ab3-4393-a023-6dba2bc0182b",
-    "local_id": "4922d3c5-8ab3-4393-a023-6dba2bc0182b",
-    "nombre": "China Wok Comas",
-    "direccion": {
-      "calle": "Calle Colina",
-      "numero": "5927",
-      "distrito": "Comas",
-      "ciudad": "Lima",
-      "codigo_postal": "15093"
-    },
-    "telefono": "+51-900788726",
-    "email": "local4@chinawok.pe",
-    "horario": {
-      "apertura": "08:00",
-      "cierre": "22:00",
-      "dias_atencion": [
-        "Lunes",
-        "Martes",
-        "Miércoles",
-        "Jueves",
-        "Viernes",
-        "Sábado",
-        "Domingo"
-      ]
-    },
-    "capacidad_maxima": 84,
-    "activo": true,
-    "created_at": "2025-10-31T15:15:05.836789",
-    "updated_at": "2025-10-31T15:15:05.836792"
-  },
-  {
-    "PK": "LOCAL#493f7700-bd7b-44d4-8fe8-97933ad7b2ac",
-    "SK": "LOCAL#493f7700-bd7b-44d4-8fe8-97933ad7b2ac",
-    "local_id": "493f7700-bd7b-44d4-8fe8-97933ad7b2ac",
-    "nombre": "China Wok Villa El Salvador",
-    "direccion": {
-      "calle": "Av. Petit Thouars",
-      "numero": "1231",
-      "distrito": "Villa El Salvador",
-      "ciudad": "Lima",
-      "codigo_postal": "15060"
-    },
-    "telefono": "+51-944816287",
-    "email": "local5@chinawok.pe",
-    "horario": {
-      "apertura": "08:00",
-      "cierre": "22:00",
-      "dias_atencion": [
-        "Lunes",
-        "Martes",
-        "Miércoles",
-        "Jueves",
-        "Viernes",
-        "Sábado",
-        "Domingo"
-      ]
-    },
-    "capacidad_maxima": 144,
-    "activo": true,
-    "created_at": "2025-10-31T15:15:05.836809",
-    "updated_at": "2025-10-31T15:15:05.836811"
-  },
-  {
-    "PK": "LOCAL#a1732deb-7ec7-4d9e-bb1a-08aea9281168",
-    "SK": "LOCAL#a1732deb-7ec7-4d9e-bb1a-08aea9281168",
-    "local_id": "a1732deb-7ec7-4d9e-bb1a-08aea9281168",
-    "nombre": "China Wok Santa María del Mar",
-    "direccion": {
-      "calle": "Calle Talara",
-      "numero": "6168",
-      "distrito": "Santa María del Mar",
-      "ciudad": "Lima",
-      "codigo_postal": "15023"
-    },
-    "telefono": "+51-904255198",
-    "email": "local6@chinawok.pe",
-    "horario": {
-      "apertura": "08:00",
-      "cierre": "22:00",
-      "dias_atencion": [
-        "Lunes",
-        "Martes",
-        "Miércoles",
-        "Jueves",
-        "Viernes",
-        "Sábado",
-        "Domingo"
-      ]
-    },
-    "capacidad_maxima": 179,
-    "activo": true,
-    "created_at": "2025-10-31T15:15:05.836828",
-    "updated_at": "2025-10-31T15:15:05.836831"
-  },
-  {
-    "PK": "LOCAL#c9dfec9d-7d4c-4e78-99cf-304e4d1d5291",
-    "SK": "LOCAL#c9dfec9d-7d4c-4e78-99cf-304e4d1d5291",
-    "local_id": "c9dfec9d-7d4c-4e78-99cf-304e4d1d5291",
-    "nombre": "China Wok Pachacámac",
-    "direccion": {
-      "calle": "Calle Porta",
-      "numero": "5028",
-      "distrito": "Pachacámac",
-      "ciudad": "Lima",
-      "codigo_postal": "15063"
-    },
-    "telefono": "+51-972298565",
-    "email": "local7@chinawok.pe",
-    "horario": {
-      "apertura": "08:00",
-      "cierre": "22:00",
-      "dias_atencion": [
-        "Lunes",
-        "Martes",
-        "Miércoles",
-        "Jueves",
-        "Viernes",
-        "Sábado",
-        "Domingo"
-      ]
-    },
-    "capacidad_maxima": 80,
-    "activo": true,
-    "created_at": "2025-10-31T15:15:05.836849",
-    "updated_at": "2025-10-31T15:15:05.836851"
-  },
-  {
-    "PK": "LOCAL#a7374526-62cf-4fe1-9758-c8689c960fc4",
-    "SK": "LOCAL#a7374526-62cf-4fe1-9758-c8689c960fc4",
-    "local_id": "a7374526-62cf-4fe1-9758-c8689c960fc4",
-    "nombre": "China Wok San Juan de Miraflores",
-    "direccion": {
-      "calle": "Calle Colina",
-      "numero": "6907",
-      "distrito": "San Juan de Miraflores",
-      "ciudad": "Lima",
-      "codigo_postal": "15074"
-    },
-    "telefono": "+51-970108261",
-    "email": "local8@chinawok.pe",
-    "horario": {
-      "apertura": "08:00",
-      "cierre": "22:00",
-      "dias_atencion": [
-        "Lunes",
-        "Martes",
-        "Miércoles",
-        "Jueves",
-        "Viernes",
-        "Sábado",
-        "Domingo"
-      ]
-    },
-    "capacidad_maxima": 58,
-    "activo": true,
-    "created_at": "2025-10-31T15:15:05.836870",
-    "updated_at": "2025-10-31T15:15:05.836872"
-  },
-  {
-    "PK": "LOCAL#ea3c0586-5f81-4cb0-9bd8-76c848c1322c",
-    "SK": "LOCAL#ea3c0586-5f81-4cb0-9bd8-76c848c1322c",
-    "local_id": "ea3c0586-5f81-4cb0-9bd8-76c848c1322c",
-    "nombre": "China Wok San Isidro",
-    "direccion": {
-      "calle": "Av. Separadora Industrial",
-      "numero": "2279",
-      "distrito": "San Isidro",
-      "ciudad": "Lima",
-      "codigo_postal": "15010"
-    },
-    "telefono": "+51-937622028",
-    "email": "local9@chinawok.pe",
-    "horario": {
-      "apertura": "08:00",
-      "cierre": "22:00",
-      "dias_atencion": [
-        "Lunes",
-        "Martes",
-        "Miércoles",
-        "Jueves",
-        "Viernes",
-        "Sábado",
-        "Domingo"
-      ]
-    },
-    "capacidad_maxima": 154,
-    "activo": true,
-    "created_at": "2025-10-31T15:15:05.836892",
-    "updated_at": "2025-10-31T15:15:05.836894"
-  },
-  {
-    "PK": "LOCAL#2bcc12b1-7949-4a11-8d4d-ba665190cc26",
-    "SK": "LOCAL#2bcc12b1-7949-4a11-8d4d-ba665190cc26",
-    "local_id": "2bcc12b1-7949-4a11-8d4d-ba665190cc26",
-    "nombre": "China Wok Punta Negra",
-    "direccion": {
-      "calle": "Av. Naranjal",
-      "numero": "3178",
-      "distrito": "Punta Negra",
-      "ciudad": "Lima",
-      "codigo_postal": "15038"
-    },
-    "telefono": "+51-908446807",
-    "email": "local10@chinawok.pe",
-    "horario": {
-      "apertura": "08:00",
-      "cierre": "22:00",
-      "dias_atencion": [
-        "Lunes",
-        "Martes",
-        "Miércoles",
-        "Jueves",
-        "Viernes",
-        "Sábado",
-        "Domingo"
-      ]
-    },
-    "capacidad_maxima": 121,
-    "activo": true,
-    "created_at": "2025-10-31T15:15:05.836905",
-    "updated_at": "2025-10-31T15:15:05.836906"
-  },
-  {
-    "PK": "LOCAL#fd0cfdbe-050f-46ee-ab6c-f085f75f9709",
-    "SK": "LOCAL#fd0cfdbe-050f-46ee-ab6c-f085f75f9709",
-    "local_id": "fd0cfdbe-050f-46ee-ab6c-f085f75f9709",
-    "nombre": "China Wok Pachacámac",
-    "direccion": {
-      "calle": "Calle Colina",
-      "numero": "3240",
-      "distrito": "Pachacámac",
-      "ciudad": "Lima",
-      "codigo_postal": "15071"
-    },
-    "telefono": "+51-902880644",
-    "email": "local11@chinawok.pe",
-    "horario": {
-      "apertura": "08:00",
-      "cierre": "22:00",
-      "dias_atencion": [
-        "Lunes",
-        "Martes",
-        "Miércoles",
-        "Jueves",
-        "Viernes",
-        "Sábado",
-        "Domingo"
-      ]
-    },
-    "capacidad_maxima": 177,
-    "activo": true,
-    "created_at": "2025-10-31T15:15:05.836916",
-    "updated_at": "2025-10-31T15:15:05.836917"
-  },
-  {
-    "PK": "LOCAL#a9ad099f-b23a-4e5c-a108-4ccc32d35cea",
-    "SK": "LOCAL#a9ad099f-b23a-4e5c-a108-4ccc32d35cea",
-    "local_id": "a9ad099f-b23a-4e5c-a108-4ccc32d35cea",
-    "nombre": "China Wok Bellavista",
-    "direccion": {
-      "calle": "Av. Raúl Ferrero",
-      "numero": "5547",
-      "distrito": "Bellavista",
-      "ciudad": "Lima",
-      "codigo_postal": "15066"
-    },
-    "telefono": "+51-941589342",
-    "email": "local12@chinawok.pe",
-    "horario": {
-      "apertura": "08:00",
-      "cierre": "22:00",
-      "dias_atencion": [
-        "Lunes",
-        "Martes",
-        "Miércoles",
-        "Jueves",
-        "Viernes",
-        "Sábado",
-        "Domingo"
-      ]
-    },
-    "capacidad_maxima": 83,
-    "activo": true,
-    "created_at": "2025-10-31T15:15:05.836928",
-    "updated_at": "2025-10-31T15:15:05.836929"
-  },
-  {
-    "PK": "LOCAL#184ccd2a-cfe1-4f3c-a6aa-4e69009db2ec",
-    "SK": "LOCAL#184ccd2a-cfe1-4f3c-a6aa-4e69009db2ec",
-    "local_id": "184ccd2a-cfe1-4f3c-a6aa-4e69009db2ec",
-    "nombre": "China Wok Pachacámac",
-    "direccion": {
-      "calle": "Av. Colonial",
-      "numero": "2494",
-      "distrito": "Pachacámac",
-      "ciudad": "Lima",
-      "codigo_postal": "15072"
-    },
-    "telefono": "+51-903924018",
-    "email": "local13@chinawok.pe",
-    "horario": {
-      "apertura": "08:00",
-      "cierre": "22:00",
-      "dias_atencion": [
-        "Lunes",
-        "Martes",
-        "Miércoles",
-        "Jueves",
-        "Viernes",
-        "Sábado",
-        "Domingo"
-      ]
-    },
-    "capacidad_maxima": 71,
-    "activo": true,
-    "created_at": "2025-10-31T15:15:05.836939",
-    "updated_at": "2025-10-31T15:15:05.836941"
-  },
-  {
-    "PK": "LOCAL#19bd76a6-4588-4ad5-a29f-ca0991cd3b28",
-    "SK": "LOCAL#19bd76a6-4588-4ad5-a29f-ca0991cd3b28",
-    "local_id": "19bd76a6-4588-4ad5-a29f-ca0991cd3b28",
-    "nombre": "China Wok Ancón",
-    "direccion": {
-      "calle": "Av. El Ejército",
-      "numero": "2226",
-      "distrito": "Ancón",
-      "ciudad": "Lima",
-      "codigo_postal": "15084"
-    },
-    "telefono": "+51-921763577",
-    "email": "local14@chinawok.pe",
-    "horario": {
-      "apertura": "08:00",
-      "cierre": "22:00",
-      "dias_atencion": [
-        "Lunes",
-        "Martes",
-        "Miércoles",
-        "Jueves",
-        "Viernes",
-        "Sábado",
-        "Domingo"
-      ]
-    },
-    "capacidad_maxima": 88,
-    "activo": true,
-    "created_at": "2025-10-31T15:15:05.836956",
-    "updated_at": "2025-10-31T15:15:05.836957"
-  },
-  {
-    "PK": "LOCAL#fc933e11-1c10-4266-9315-4562ec9a6f95",
-    "SK": "LOCAL#fc933e11-1c10-4266-9315-4562ec9a6f95",
-    "local_id": "fc933e11-1c10-4266-9315-4562ec9a6f95",
-    "nombre": "China Wok San Juan de Miraflores",
-    "direccion": {
-      "calle": "Av. Paseo de la República",
-      "numero": "369",
-      "distrito": "San Juan de Miraflores",
-      "ciudad": "Lima",
-      "codigo_postal": "15042"
-    },
-    "telefono": "+51-933749064",
-    "email": "local15@chinawok.pe",
-    "horario": {
-      "apertura": "08:00",
-      "cierre": "22:00",
-      "dias_atencion": [
-        "Lunes",
-        "Martes",
-        "Miércoles",
-        "Jueves",
-        "Viernes",
-        "Sábado",
-        "Domingo"
-      ]
-    },
-    "capacidad_maxima": 111,
-    "activo": true,
-    "created_at": "2025-10-31T15:15:05.836967",
-    "updated_at": "2025-10-31T15:15:05.836968"
-  },
-  {
-    "PK": "LOCAL#e255d3bb-691b-40f9-8f4c-55edd36b7771",
-    "SK": "LOCAL#e255d3bb-691b-40f9-8f4c-55edd36b7771",
-    "local_id": "e255d3bb-691b-40f9-8f4c-55edd36b7771",
-    "nombre": "China Wok Ventanilla",
-    "direccion": {
-      "calle": "Av. Pershing",
-      "numero": "1549",
-      "distrito": "Ventanilla",
-      "ciudad": "Lima",
-      "codigo_postal": "15060"
-    },
-    "telefono": "+51-913549379",
-    "email": "local16@chinawok.pe",
-    "horario": {
-      "apertura": "08:00",
-      "cierre": "22:00",
-      "dias_atencion": [
-        "Lunes",
-        "Martes",
-        "Miércoles",
-        "Jueves",
-        "Viernes",
-        "Sábado",
-        "Domingo"
-      ]
-    },
-    "capacidad_maxima": 99,
-    "activo": true,
-    "created_at": "2025-10-31T15:15:05.836978",
-    "updated_at": "2025-10-31T15:15:05.836980"
-  },
-  {
-    "PK": "LOCAL#85fa770d-3cbd-4bd6-a272-4d459dca8ac6",
-    "SK": "LOCAL#85fa770d-3cbd-4bd6-a272-4d459dca8ac6",
-    "local_id": "85fa770d-3cbd-4bd6-a272-4d459dca8ac6",
-    "nombre": "China Wok Cieneguilla",
-    "direccion": {
-      "calle": "Av. Tomás Marsano",
-      "numero": "5535",
-      "distrito": "Cieneguilla",
-      "ciudad": "Lima",
-      "codigo_postal": "15084"
-    },
-    "telefono": "+51-902049607",
-    "email": "local17@chinawok.pe",
-    "horario": {
-      "apertura": "08:00",
-      "cierre": "22:00",
-      "dias_atencion": [
-        "Lunes",
-        "Martes",
-        "Miércoles",
-        "Jueves",
-        "Viernes",
-        "Sábado",
-        "Domingo"
-      ]
-    },
-    "capacidad_maxima": 71,
-    "activo": true,
-    "created_at": "2025-10-31T15:15:05.836990",
-    "updated_at": "2025-10-31T15:15:05.836991"
-  },
-  {
-    "PK": "LOCAL#e8af82f2-e3de-43ca-b7b1-c71f220e7dca",
-    "SK": "LOCAL#e8af82f2-e3de-43ca-b7b1-c71f220e7dca",
-    "local_id": "e8af82f2-e3de-43ca-b7b1-c71f220e7dca",
-    "nombre": "China Wok Chorrillos",
-    "direccion": {
-      "calle": "Av. Separadora Industrial",
-      "numero": "9592",
-      "distrito": "Chorrillos",
-      "ciudad": "Lima",
-      "codigo_postal": "15093"
-    },
-    "telefono": "+51-989603793",
-    "email": "local18@chinawok.pe",
-    "horario": {
-      "apertura": "08:00",
-      "cierre": "22:00",
-      "dias_atencion": [
-        "Lunes",
-        "Martes",
-        "Miércoles",
-        "Jueves",
-        "Viernes",
-        "Sábado",
-        "Domingo"
-      ]
-    },
-    "capacidad_maxima": 69,
-    "activo": true,
-    "created_at": "2025-10-31T15:15:05.837001",
-    "updated_at": "2025-10-31T15:15:05.837002"
-  },
-  {
-    "PK": "LOCAL#547afb21-e40f-4260-aa70-8c90dbabd450",
-    "SK": "LOCAL#547afb21-e40f-4260-aa70-8c90dbabd450",
-    "local_id": "547afb21-e40f-4260-aa70-8c90dbabd450",
-    "nombre": "China Wok San Juan de Miraflores",
+    "PK": "LOCAL#a83aa63c-872a-4e13-a475-5108093e355a",
+    "SK": "LOCAL#a83aa63c-872a-4e13-a475-5108093e355a",
+    "local_id": "a83aa63c-872a-4e13-a475-5108093e355a",
+    "nombre": "China Wok San Luis",
     "direccion": {
       "calle": "Calle Las Magnolias",
-      "numero": "9787",
-      "distrito": "San Juan de Miraflores",
+      "numero": "205",
+      "distrito": "San Luis",
       "ciudad": "Lima",
-      "codigo_postal": "15044"
+      "codigo_postal": "15053"
     },
-    "telefono": "+51-995201412",
-    "email": "local19@chinawok.pe",
-    "horario": {
-      "apertura": "08:00",
-      "cierre": "22:00",
-      "dias_atencion": [
-        "Lunes",
-        "Martes",
-        "Miércoles",
-        "Jueves",
-        "Viernes",
-        "Sábado",
-        "Domingo"
-      ]
-    },
-    "capacidad_maxima": 103,
-    "activo": true,
-    "created_at": "2025-10-31T15:15:05.837012",
-    "updated_at": "2025-10-31T15:15:05.837013"
-  },
-  {
-    "PK": "LOCAL#654e2b56-1feb-4e7c-9879-c968e9c190d4",
-    "SK": "LOCAL#654e2b56-1feb-4e7c-9879-c968e9c190d4",
-    "local_id": "654e2b56-1feb-4e7c-9879-c968e9c190d4",
-    "nombre": "China Wok Pachacámac",
-    "direccion": {
-      "calle": "Jr. Huallaga",
-      "numero": "8290",
-      "distrito": "Pachacámac",
-      "ciudad": "Lima",
-      "codigo_postal": "15026"
-    },
-    "telefono": "+51-944481425",
-    "email": "local20@chinawok.pe",
-    "horario": {
-      "apertura": "08:00",
-      "cierre": "22:00",
-      "dias_atencion": [
-        "Lunes",
-        "Martes",
-        "Miércoles",
-        "Jueves",
-        "Viernes",
-        "Sábado",
-        "Domingo"
-      ]
-    },
-    "capacidad_maxima": 113,
-    "activo": true,
-    "created_at": "2025-10-31T15:15:05.837023",
-    "updated_at": "2025-10-31T15:15:05.837024"
-  },
-  {
-    "PK": "LOCAL#19fb98cf-7f15-4522-abac-5684c90cffa7",
-    "SK": "LOCAL#19fb98cf-7f15-4522-abac-5684c90cffa7",
-    "local_id": "19fb98cf-7f15-4522-abac-5684c90cffa7",
-    "nombre": "China Wok Independencia",
-    "direccion": {
-      "calle": "Av. Encalada",
-      "numero": "3379",
-      "distrito": "Independencia",
-      "ciudad": "Lima",
-      "codigo_postal": "15064"
-    },
-    "telefono": "+51-911489591",
-    "email": "local21@chinawok.pe",
-    "horario": {
-      "apertura": "08:00",
-      "cierre": "22:00",
-      "dias_atencion": [
-        "Lunes",
-        "Martes",
-        "Miércoles",
-        "Jueves",
-        "Viernes",
-        "Sábado",
-        "Domingo"
-      ]
-    },
-    "capacidad_maxima": 61,
-    "activo": true,
-    "created_at": "2025-10-31T15:15:05.837037",
-    "updated_at": "2025-10-31T15:15:05.837038"
-  },
-  {
-    "PK": "LOCAL#56b7464b-b572-4d28-a409-f30ec57df760",
-    "SK": "LOCAL#56b7464b-b572-4d28-a409-f30ec57df760",
-    "local_id": "56b7464b-b572-4d28-a409-f30ec57df760",
-    "nombre": "China Wok Ancón",
-    "direccion": {
-      "calle": "Av. José Pardo",
-      "numero": "6131",
-      "distrito": "Ancón",
-      "ciudad": "Lima",
-      "codigo_postal": "15082"
-    },
-    "telefono": "+51-996759498",
-    "email": "local22@chinawok.pe",
-    "horario": {
-      "apertura": "08:00",
-      "cierre": "22:00",
-      "dias_atencion": [
-        "Lunes",
-        "Martes",
-        "Miércoles",
-        "Jueves",
-        "Viernes",
-        "Sábado",
-        "Domingo"
-      ]
-    },
-    "capacidad_maxima": 184,
-    "activo": true,
-    "created_at": "2025-10-31T15:15:05.837051",
-    "updated_at": "2025-10-31T15:15:05.837052"
-  },
-  {
-    "PK": "LOCAL#2f03d2b4-01a4-4108-a9cb-e73cc33a1a38",
-    "SK": "LOCAL#2f03d2b4-01a4-4108-a9cb-e73cc33a1a38",
-    "local_id": "2f03d2b4-01a4-4108-a9cb-e73cc33a1a38",
-    "nombre": "China Wok Puente Piedra",
-    "direccion": {
-      "calle": "Calle Las Palmeras",
-      "numero": "6469",
-      "distrito": "Puente Piedra",
-      "ciudad": "Lima",
-      "codigo_postal": "15038"
-    },
-    "telefono": "+51-988629741",
-    "email": "local23@chinawok.pe",
+    "telefono": "+51-935247292",
+    "email": "local1@chinawok.pe",
     "horario": {
       "apertura": "08:00",
       "cierre": "22:00",
@@ -732,23 +28,23 @@
     },
     "capacidad_maxima": 182,
     "activo": true,
-    "created_at": "2025-10-31T15:15:05.837062",
-    "updated_at": "2025-10-31T15:15:05.837064"
+    "created_at": "2025-10-31T15:40:51.534144",
+    "updated_at": "2025-10-31T15:40:51.534151"
   },
   {
-    "PK": "LOCAL#839ce147-2a17-47d7-9f85-d0ea06bb386b",
-    "SK": "LOCAL#839ce147-2a17-47d7-9f85-d0ea06bb386b",
-    "local_id": "839ce147-2a17-47d7-9f85-d0ea06bb386b",
-    "nombre": "China Wok Breña",
+    "PK": "LOCAL#931dff0a-ceaf-4f24-aebf-cb2dbc38721b",
+    "SK": "LOCAL#931dff0a-ceaf-4f24-aebf-cb2dbc38721b",
+    "local_id": "931dff0a-ceaf-4f24-aebf-cb2dbc38721b",
+    "nombre": "China Wok El Agustino",
     "direccion": {
-      "calle": "Av. Túpac Amaru",
-      "numero": "330",
-      "distrito": "Breña",
+      "calle": "Av. Benavides",
+      "numero": "8802",
+      "distrito": "El Agustino",
       "ciudad": "Lima",
-      "codigo_postal": "15015"
+      "codigo_postal": "15021"
     },
-    "telefono": "+51-983502397",
-    "email": "local24@chinawok.pe",
+    "telefono": "+51-936361119",
+    "email": "local2@chinawok.pe",
     "horario": {
       "apertura": "08:00",
       "cierre": "22:00",
@@ -762,25 +58,25 @@
         "Domingo"
       ]
     },
-    "capacidad_maxima": 66,
+    "capacidad_maxima": 65,
     "activo": true,
-    "created_at": "2025-10-31T15:15:05.837078",
-    "updated_at": "2025-10-31T15:15:05.837079"
+    "created_at": "2025-10-31T15:40:51.534180",
+    "updated_at": "2025-10-31T15:40:51.534183"
   },
   {
-    "PK": "LOCAL#1c6c4353-65fb-4525-a992-45f6fa33f68a",
-    "SK": "LOCAL#1c6c4353-65fb-4525-a992-45f6fa33f68a",
-    "local_id": "1c6c4353-65fb-4525-a992-45f6fa33f68a",
-    "nombre": "China Wok Ate",
+    "PK": "LOCAL#83240654-8e35-49dc-811f-a0371802dea0",
+    "SK": "LOCAL#83240654-8e35-49dc-811f-a0371802dea0",
+    "local_id": "83240654-8e35-49dc-811f-a0371802dea0",
+    "nombre": "China Wok San Luis",
     "direccion": {
-      "calle": "Calle San Martín",
-      "numero": "255",
-      "distrito": "Ate",
+      "calle": "Jr. Junín",
+      "numero": "7206",
+      "distrito": "San Luis",
       "ciudad": "Lima",
-      "codigo_postal": "15062"
+      "codigo_postal": "15014"
     },
-    "telefono": "+51-910179153",
-    "email": "local25@chinawok.pe",
+    "telefono": "+51-948404389",
+    "email": "local3@chinawok.pe",
     "horario": {
       "apertura": "08:00",
       "cierre": "22:00",
@@ -794,985 +90,25 @@
         "Domingo"
       ]
     },
-    "capacidad_maxima": 52,
+    "capacidad_maxima": 96,
     "activo": true,
-    "created_at": "2025-10-31T15:15:05.837090",
-    "updated_at": "2025-10-31T15:15:05.837091"
+    "created_at": "2025-10-31T15:40:51.534205",
+    "updated_at": "2025-10-31T15:40:51.534207"
   },
   {
-    "PK": "LOCAL#7748d861-3e60-46ec-8e7b-ab1644331750",
-    "SK": "LOCAL#7748d861-3e60-46ec-8e7b-ab1644331750",
-    "local_id": "7748d861-3e60-46ec-8e7b-ab1644331750",
-    "nombre": "China Wok San Borja",
+    "PK": "LOCAL#ef5a2490-def0-4be0-95d3-2f00bcdc5047",
+    "SK": "LOCAL#ef5a2490-def0-4be0-95d3-2f00bcdc5047",
+    "local_id": "ef5a2490-def0-4be0-95d3-2f00bcdc5047",
+    "nombre": "China Wok Puente Piedra",
     "direccion": {
-      "calle": "Av. Grau",
-      "numero": "9234",
-      "distrito": "San Borja",
-      "ciudad": "Lima",
-      "codigo_postal": "15088"
-    },
-    "telefono": "+51-960190924",
-    "email": "local26@chinawok.pe",
-    "horario": {
-      "apertura": "08:00",
-      "cierre": "22:00",
-      "dias_atencion": [
-        "Lunes",
-        "Martes",
-        "Miércoles",
-        "Jueves",
-        "Viernes",
-        "Sábado",
-        "Domingo"
-      ]
-    },
-    "capacidad_maxima": 140,
-    "activo": true,
-    "created_at": "2025-10-31T15:15:05.837101",
-    "updated_at": "2025-10-31T15:15:05.837102"
-  },
-  {
-    "PK": "LOCAL#2da219d6-e5bd-4ac3-83ac-bb565d2a069b",
-    "SK": "LOCAL#2da219d6-e5bd-4ac3-83ac-bb565d2a069b",
-    "local_id": "2da219d6-e5bd-4ac3-83ac-bb565d2a069b",
-    "nombre": "China Wok Comas",
-    "direccion": {
-      "calle": "Jr. Callao",
-      "numero": "1428",
-      "distrito": "Comas",
-      "ciudad": "Lima",
-      "codigo_postal": "15044"
-    },
-    "telefono": "+51-983905014",
-    "email": "local27@chinawok.pe",
-    "horario": {
-      "apertura": "08:00",
-      "cierre": "22:00",
-      "dias_atencion": [
-        "Lunes",
-        "Martes",
-        "Miércoles",
-        "Jueves",
-        "Viernes",
-        "Sábado",
-        "Domingo"
-      ]
-    },
-    "capacidad_maxima": 175,
-    "activo": true,
-    "created_at": "2025-10-31T15:15:05.837112",
-    "updated_at": "2025-10-31T15:15:05.837113"
-  },
-  {
-    "PK": "LOCAL#9a3c70a9-d074-4298-9906-163a52a17eef",
-    "SK": "LOCAL#9a3c70a9-d074-4298-9906-163a52a17eef",
-    "local_id": "9a3c70a9-d074-4298-9906-163a52a17eef",
-    "nombre": "China Wok Cieneguilla",
-    "direccion": {
-      "calle": "Av. Del Parque",
-      "numero": "3129",
-      "distrito": "Cieneguilla",
-      "ciudad": "Lima",
-      "codigo_postal": "15080"
-    },
-    "telefono": "+51-968144581",
-    "email": "local28@chinawok.pe",
-    "horario": {
-      "apertura": "08:00",
-      "cierre": "22:00",
-      "dias_atencion": [
-        "Lunes",
-        "Martes",
-        "Miércoles",
-        "Jueves",
-        "Viernes",
-        "Sábado",
-        "Domingo"
-      ]
-    },
-    "capacidad_maxima": 161,
-    "activo": true,
-    "created_at": "2025-10-31T15:15:05.837125",
-    "updated_at": "2025-10-31T15:15:05.837127"
-  },
-  {
-    "PK": "LOCAL#9018c1ce-05ee-44c7-9977-632956af6e9b",
-    "SK": "LOCAL#9018c1ce-05ee-44c7-9977-632956af6e9b",
-    "local_id": "9018c1ce-05ee-44c7-9977-632956af6e9b",
-    "nombre": "China Wok Lima Cercado",
-    "direccion": {
-      "calle": "Av. Caminos del Inca",
-      "numero": "7807",
-      "distrito": "Lima Cercado",
-      "ciudad": "Lima",
-      "codigo_postal": "15070"
-    },
-    "telefono": "+51-974389999",
-    "email": "local29@chinawok.pe",
-    "horario": {
-      "apertura": "08:00",
-      "cierre": "22:00",
-      "dias_atencion": [
-        "Lunes",
-        "Martes",
-        "Miércoles",
-        "Jueves",
-        "Viernes",
-        "Sábado",
-        "Domingo"
-      ]
-    },
-    "capacidad_maxima": 195,
-    "activo": true,
-    "created_at": "2025-10-31T15:15:05.837137",
-    "updated_at": "2025-10-31T15:15:05.837138"
-  },
-  {
-    "PK": "LOCAL#3b21c636-58f4-45cf-a876-9f2129ca4490",
-    "SK": "LOCAL#3b21c636-58f4-45cf-a876-9f2129ca4490",
-    "local_id": "3b21c636-58f4-45cf-a876-9f2129ca4490",
-    "nombre": "China Wok Punta Hermosa",
-    "direccion": {
-      "calle": "Av. Nicolás de Piérola",
-      "numero": "4462",
-      "distrito": "Punta Hermosa",
-      "ciudad": "Lima",
-      "codigo_postal": "15068"
-    },
-    "telefono": "+51-957916640",
-    "email": "local30@chinawok.pe",
-    "horario": {
-      "apertura": "08:00",
-      "cierre": "22:00",
-      "dias_atencion": [
-        "Lunes",
-        "Martes",
-        "Miércoles",
-        "Jueves",
-        "Viernes",
-        "Sábado",
-        "Domingo"
-      ]
-    },
-    "capacidad_maxima": 190,
-    "activo": true,
-    "created_at": "2025-10-31T15:15:05.837148",
-    "updated_at": "2025-10-31T15:15:05.837149"
-  },
-  {
-    "PK": "LOCAL#157625f7-6dbb-438d-8737-d0e804c3fd1e",
-    "SK": "LOCAL#157625f7-6dbb-438d-8737-d0e804c3fd1e",
-    "local_id": "157625f7-6dbb-438d-8737-d0e804c3fd1e",
-    "nombre": "China Wok San Bartolo",
-    "direccion": {
-      "calle": "Av. Progreso",
-      "numero": "7384",
-      "distrito": "San Bartolo",
-      "ciudad": "Lima",
-      "codigo_postal": "15038"
-    },
-    "telefono": "+51-910827303",
-    "email": "local31@chinawok.pe",
-    "horario": {
-      "apertura": "08:00",
-      "cierre": "22:00",
-      "dias_atencion": [
-        "Lunes",
-        "Martes",
-        "Miércoles",
-        "Jueves",
-        "Viernes",
-        "Sábado",
-        "Domingo"
-      ]
-    },
-    "capacidad_maxima": 117,
-    "activo": true,
-    "created_at": "2025-10-31T15:15:05.837159",
-    "updated_at": "2025-10-31T15:15:05.837160"
-  },
-  {
-    "PK": "LOCAL#b2286620-5914-4903-9ad9-8b5617e85385",
-    "SK": "LOCAL#b2286620-5914-4903-9ad9-8b5617e85385",
-    "local_id": "b2286620-5914-4903-9ad9-8b5617e85385",
-    "nombre": "China Wok Punta Hermosa",
-    "direccion": {
-      "calle": "Calle Alcanfores",
-      "numero": "7820",
-      "distrito": "Punta Hermosa",
-      "ciudad": "Lima",
-      "codigo_postal": "15025"
-    },
-    "telefono": "+51-983913718",
-    "email": "local32@chinawok.pe",
-    "horario": {
-      "apertura": "08:00",
-      "cierre": "22:00",
-      "dias_atencion": [
-        "Lunes",
-        "Martes",
-        "Miércoles",
-        "Jueves",
-        "Viernes",
-        "Sábado",
-        "Domingo"
-      ]
-    },
-    "capacidad_maxima": 191,
-    "activo": true,
-    "created_at": "2025-10-31T15:15:05.837169",
-    "updated_at": "2025-10-31T15:15:05.837170"
-  },
-  {
-    "PK": "LOCAL#669e6259-1a58-460a-89c3-9c5afb8d2a77",
-    "SK": "LOCAL#669e6259-1a58-460a-89c3-9c5afb8d2a77",
-    "local_id": "669e6259-1a58-460a-89c3-9c5afb8d2a77",
-    "nombre": "China Wok La Molina",
-    "direccion": {
-      "calle": "Jr. Huánuco",
-      "numero": "9866",
-      "distrito": "La Molina",
-      "ciudad": "Lima",
-      "codigo_postal": "15031"
-    },
-    "telefono": "+51-944478566",
-    "email": "local33@chinawok.pe",
-    "horario": {
-      "apertura": "08:00",
-      "cierre": "22:00",
-      "dias_atencion": [
-        "Lunes",
-        "Martes",
-        "Miércoles",
-        "Jueves",
-        "Viernes",
-        "Sábado",
-        "Domingo"
-      ]
-    },
-    "capacidad_maxima": 103,
-    "activo": true,
-    "created_at": "2025-10-31T15:15:05.837183",
-    "updated_at": "2025-10-31T15:15:05.837184"
-  },
-  {
-    "PK": "LOCAL#a64f4ca9-75bc-4f27-97d7-af655c2a3a3b",
-    "SK": "LOCAL#a64f4ca9-75bc-4f27-97d7-af655c2a3a3b",
-    "local_id": "a64f4ca9-75bc-4f27-97d7-af655c2a3a3b",
-    "nombre": "China Wok Carmen de la Legua",
-    "direccion": {
-      "calle": "Calle Las Magnolias",
-      "numero": "4615",
-      "distrito": "Carmen de la Legua",
-      "ciudad": "Lima",
-      "codigo_postal": "15038"
-    },
-    "telefono": "+51-930614403",
-    "email": "local34@chinawok.pe",
-    "horario": {
-      "apertura": "08:00",
-      "cierre": "22:00",
-      "dias_atencion": [
-        "Lunes",
-        "Martes",
-        "Miércoles",
-        "Jueves",
-        "Viernes",
-        "Sábado",
-        "Domingo"
-      ]
-    },
-    "capacidad_maxima": 118,
-    "activo": true,
-    "created_at": "2025-10-31T15:15:05.837196",
-    "updated_at": "2025-10-31T15:15:05.837197"
-  },
-  {
-    "PK": "LOCAL#bfaeb8dd-63a5-4157-88cf-38a828df34f7",
-    "SK": "LOCAL#bfaeb8dd-63a5-4157-88cf-38a828df34f7",
-    "local_id": "bfaeb8dd-63a5-4157-88cf-38a828df34f7",
-    "nombre": "China Wok La Perla",
-    "direccion": {
-      "calle": "Av. Arequipa",
-      "numero": "9314",
-      "distrito": "La Perla",
-      "ciudad": "Lima",
-      "codigo_postal": "15031"
-    },
-    "telefono": "+51-915221388",
-    "email": "local35@chinawok.pe",
-    "horario": {
-      "apertura": "08:00",
-      "cierre": "22:00",
-      "dias_atencion": [
-        "Lunes",
-        "Martes",
-        "Miércoles",
-        "Jueves",
-        "Viernes",
-        "Sábado",
-        "Domingo"
-      ]
-    },
-    "capacidad_maxima": 140,
-    "activo": true,
-    "created_at": "2025-10-31T15:15:05.837206",
-    "updated_at": "2025-10-31T15:15:05.837208"
-  },
-  {
-    "PK": "LOCAL#38e5117c-b340-4f68-bd39-6c2cfa597842",
-    "SK": "LOCAL#38e5117c-b340-4f68-bd39-6c2cfa597842",
-    "local_id": "38e5117c-b340-4f68-bd39-6c2cfa597842",
-    "nombre": "China Wok Pucusana",
-    "direccion": {
-      "calle": "Av. Raúl Ferrero",
-      "numero": "7047",
-      "distrito": "Pucusana",
-      "ciudad": "Lima",
-      "codigo_postal": "15030"
-    },
-    "telefono": "+51-947966618",
-    "email": "local36@chinawok.pe",
-    "horario": {
-      "apertura": "08:00",
-      "cierre": "22:00",
-      "dias_atencion": [
-        "Lunes",
-        "Martes",
-        "Miércoles",
-        "Jueves",
-        "Viernes",
-        "Sábado",
-        "Domingo"
-      ]
-    },
-    "capacidad_maxima": 62,
-    "activo": true,
-    "created_at": "2025-10-31T15:15:05.837217",
-    "updated_at": "2025-10-31T15:15:05.837218"
-  },
-  {
-    "PK": "LOCAL#17f82737-b06d-403b-9546-730fbbc2cbca",
-    "SK": "LOCAL#17f82737-b06d-403b-9546-730fbbc2cbca",
-    "local_id": "17f82737-b06d-403b-9546-730fbbc2cbca",
-    "nombre": "China Wok Ventanilla",
-    "direccion": {
-      "calle": "Calle Las Begonias",
-      "numero": "8710",
-      "distrito": "Ventanilla",
-      "ciudad": "Lima",
-      "codigo_postal": "15087"
-    },
-    "telefono": "+51-941755658",
-    "email": "local37@chinawok.pe",
-    "horario": {
-      "apertura": "08:00",
-      "cierre": "22:00",
-      "dias_atencion": [
-        "Lunes",
-        "Martes",
-        "Miércoles",
-        "Jueves",
-        "Viernes",
-        "Sábado",
-        "Domingo"
-      ]
-    },
-    "capacidad_maxima": 176,
-    "activo": true,
-    "created_at": "2025-10-31T15:15:05.837230",
-    "updated_at": "2025-10-31T15:15:05.837231"
-  },
-  {
-    "PK": "LOCAL#347e7cdd-be0d-487f-9117-e9bde7fe9f14",
-    "SK": "LOCAL#347e7cdd-be0d-487f-9117-e9bde7fe9f14",
-    "local_id": "347e7cdd-be0d-487f-9117-e9bde7fe9f14",
-    "nombre": "China Wok Lince",
-    "direccion": {
-      "calle": "Calle Talara",
-      "numero": "9785",
-      "distrito": "Lince",
-      "ciudad": "Lima",
-      "codigo_postal": "15022"
-    },
-    "telefono": "+51-920468527",
-    "email": "local38@chinawok.pe",
-    "horario": {
-      "apertura": "08:00",
-      "cierre": "22:00",
-      "dias_atencion": [
-        "Lunes",
-        "Martes",
-        "Miércoles",
-        "Jueves",
-        "Viernes",
-        "Sábado",
-        "Domingo"
-      ]
-    },
-    "capacidad_maxima": 107,
-    "activo": true,
-    "created_at": "2025-10-31T15:15:05.837241",
-    "updated_at": "2025-10-31T15:15:05.837242"
-  },
-  {
-    "PK": "LOCAL#b6e9ee0a-daab-4971-a05d-9d459a0109a4",
-    "SK": "LOCAL#b6e9ee0a-daab-4971-a05d-9d459a0109a4",
-    "local_id": "b6e9ee0a-daab-4971-a05d-9d459a0109a4",
-    "nombre": "China Wok San Miguel",
-    "direccion": {
-      "calle": "Av. Túpac Amaru",
-      "numero": "3775",
-      "distrito": "San Miguel",
+      "calle": "Calle Los Cedros",
+      "numero": "3479",
+      "distrito": "Puente Piedra",
       "ciudad": "Lima",
       "codigo_postal": "15064"
     },
-    "telefono": "+51-947056977",
-    "email": "local39@chinawok.pe",
-    "horario": {
-      "apertura": "08:00",
-      "cierre": "22:00",
-      "dias_atencion": [
-        "Lunes",
-        "Martes",
-        "Miércoles",
-        "Jueves",
-        "Viernes",
-        "Sábado",
-        "Domingo"
-      ]
-    },
-    "capacidad_maxima": 131,
-    "activo": true,
-    "created_at": "2025-10-31T15:15:05.837252",
-    "updated_at": "2025-10-31T15:15:05.837253"
-  },
-  {
-    "PK": "LOCAL#e7b7c948-be0f-4169-933b-fb9cd5fb18cd",
-    "SK": "LOCAL#e7b7c948-be0f-4169-933b-fb9cd5fb18cd",
-    "local_id": "e7b7c948-be0f-4169-933b-fb9cd5fb18cd",
-    "nombre": "China Wok San Isidro",
-    "direccion": {
-      "calle": "Av. Petit Thouars",
-      "numero": "1375",
-      "distrito": "San Isidro",
-      "ciudad": "Lima",
-      "codigo_postal": "15034"
-    },
-    "telefono": "+51-997405002",
-    "email": "local40@chinawok.pe",
-    "horario": {
-      "apertura": "08:00",
-      "cierre": "22:00",
-      "dias_atencion": [
-        "Lunes",
-        "Martes",
-        "Miércoles",
-        "Jueves",
-        "Viernes",
-        "Sábado",
-        "Domingo"
-      ]
-    },
-    "capacidad_maxima": 185,
-    "activo": true,
-    "created_at": "2025-10-31T15:15:05.837262",
-    "updated_at": "2025-10-31T15:15:05.837263"
-  },
-  {
-    "PK": "LOCAL#fe25e233-4e6c-4759-b483-60ceedb8958f",
-    "SK": "LOCAL#fe25e233-4e6c-4759-b483-60ceedb8958f",
-    "local_id": "fe25e233-4e6c-4759-b483-60ceedb8958f",
-    "nombre": "China Wok Punta Hermosa",
-    "direccion": {
-      "calle": "Av. Separadora Industrial",
-      "numero": "3548",
-      "distrito": "Punta Hermosa",
-      "ciudad": "Lima",
-      "codigo_postal": "15089"
-    },
-    "telefono": "+51-947154473",
-    "email": "local41@chinawok.pe",
-    "horario": {
-      "apertura": "08:00",
-      "cierre": "22:00",
-      "dias_atencion": [
-        "Lunes",
-        "Martes",
-        "Miércoles",
-        "Jueves",
-        "Viernes",
-        "Sábado",
-        "Domingo"
-      ]
-    },
-    "capacidad_maxima": 131,
-    "activo": true,
-    "created_at": "2025-10-31T15:15:05.837273",
-    "updated_at": "2025-10-31T15:15:05.837274"
-  },
-  {
-    "PK": "LOCAL#676c0dad-aa88-4625-bb2d-135366c65c39",
-    "SK": "LOCAL#676c0dad-aa88-4625-bb2d-135366c65c39",
-    "local_id": "676c0dad-aa88-4625-bb2d-135366c65c39",
-    "nombre": "China Wok Punta Negra",
-    "direccion": {
-      "calle": "Av. Prolongación Iquitos",
-      "numero": "3778",
-      "distrito": "Punta Negra",
-      "ciudad": "Lima",
-      "codigo_postal": "15015"
-    },
-    "telefono": "+51-988124135",
-    "email": "local42@chinawok.pe",
-    "horario": {
-      "apertura": "08:00",
-      "cierre": "22:00",
-      "dias_atencion": [
-        "Lunes",
-        "Martes",
-        "Miércoles",
-        "Jueves",
-        "Viernes",
-        "Sábado",
-        "Domingo"
-      ]
-    },
-    "capacidad_maxima": 149,
-    "activo": true,
-    "created_at": "2025-10-31T15:15:05.837287",
-    "updated_at": "2025-10-31T15:15:05.837288"
-  },
-  {
-    "PK": "LOCAL#99353dd7-d57f-408e-b6e7-c477d2960a88",
-    "SK": "LOCAL#99353dd7-d57f-408e-b6e7-c477d2960a88",
-    "local_id": "99353dd7-d57f-408e-b6e7-c477d2960a88",
-    "nombre": "China Wok Puente Piedra",
-    "direccion": {
-      "calle": "Av. Nicolás de Piérola",
-      "numero": "4848",
-      "distrito": "Puente Piedra",
-      "ciudad": "Lima",
-      "codigo_postal": "15017"
-    },
-    "telefono": "+51-917279591",
-    "email": "local43@chinawok.pe",
-    "horario": {
-      "apertura": "08:00",
-      "cierre": "22:00",
-      "dias_atencion": [
-        "Lunes",
-        "Martes",
-        "Miércoles",
-        "Jueves",
-        "Viernes",
-        "Sábado",
-        "Domingo"
-      ]
-    },
-    "capacidad_maxima": 102,
-    "activo": true,
-    "created_at": "2025-10-31T15:15:05.837300",
-    "updated_at": "2025-10-31T15:15:05.837301"
-  },
-  {
-    "PK": "LOCAL#e173b2df-2a43-4d27-9791-9d4bc31c5ad0",
-    "SK": "LOCAL#e173b2df-2a43-4d27-9791-9d4bc31c5ad0",
-    "local_id": "e173b2df-2a43-4d27-9791-9d4bc31c5ad0",
-    "nombre": "China Wok San Isidro",
-    "direccion": {
-      "calle": "Av. Los Héroes",
-      "numero": "3279",
-      "distrito": "San Isidro",
-      "ciudad": "Lima",
-      "codigo_postal": "15081"
-    },
-    "telefono": "+51-986587480",
-    "email": "local44@chinawok.pe",
-    "horario": {
-      "apertura": "08:00",
-      "cierre": "22:00",
-      "dias_atencion": [
-        "Lunes",
-        "Martes",
-        "Miércoles",
-        "Jueves",
-        "Viernes",
-        "Sábado",
-        "Domingo"
-      ]
-    },
-    "capacidad_maxima": 113,
-    "activo": true,
-    "created_at": "2025-10-31T15:15:05.837312",
-    "updated_at": "2025-10-31T15:15:05.837314"
-  },
-  {
-    "PK": "LOCAL#0ad3ecb0-1eae-450c-bc1b-f339ea60b802",
-    "SK": "LOCAL#0ad3ecb0-1eae-450c-bc1b-f339ea60b802",
-    "local_id": "0ad3ecb0-1eae-450c-bc1b-f339ea60b802",
-    "nombre": "China Wok Pucusana",
-    "direccion": {
-      "calle": "Av. Separadora Industrial",
-      "numero": "4530",
-      "distrito": "Pucusana",
-      "ciudad": "Lima",
-      "codigo_postal": "15016"
-    },
-    "telefono": "+51-938941566",
-    "email": "local45@chinawok.pe",
-    "horario": {
-      "apertura": "08:00",
-      "cierre": "22:00",
-      "dias_atencion": [
-        "Lunes",
-        "Martes",
-        "Miércoles",
-        "Jueves",
-        "Viernes",
-        "Sábado",
-        "Domingo"
-      ]
-    },
-    "capacidad_maxima": 199,
-    "activo": true,
-    "created_at": "2025-10-31T15:15:05.837324",
-    "updated_at": "2025-10-31T15:15:05.837325"
-  },
-  {
-    "PK": "LOCAL#5dc79574-3eb6-4fd4-b697-ca2e1ce88790",
-    "SK": "LOCAL#5dc79574-3eb6-4fd4-b697-ca2e1ce88790",
-    "local_id": "5dc79574-3eb6-4fd4-b697-ca2e1ce88790",
-    "nombre": "China Wok Callao",
-    "direccion": {
-      "calle": "Av. Prolongación Iquitos",
-      "numero": "7428",
-      "distrito": "Callao",
-      "ciudad": "Lima",
-      "codigo_postal": "15070"
-    },
-    "telefono": "+51-986947435",
-    "email": "local46@chinawok.pe",
-    "horario": {
-      "apertura": "08:00",
-      "cierre": "22:00",
-      "dias_atencion": [
-        "Lunes",
-        "Martes",
-        "Miércoles",
-        "Jueves",
-        "Viernes",
-        "Sábado",
-        "Domingo"
-      ]
-    },
-    "capacidad_maxima": 88,
-    "activo": true,
-    "created_at": "2025-10-31T15:15:05.837334",
-    "updated_at": "2025-10-31T15:15:05.837336"
-  },
-  {
-    "PK": "LOCAL#c0730b24-a826-4e5c-80cb-2b3135b80da9",
-    "SK": "LOCAL#c0730b24-a826-4e5c-80cb-2b3135b80da9",
-    "local_id": "c0730b24-a826-4e5c-80cb-2b3135b80da9",
-    "nombre": "China Wok Ancón",
-    "direccion": {
-      "calle": "Av. Venezuela",
-      "numero": "5351",
-      "distrito": "Ancón",
-      "ciudad": "Lima",
-      "codigo_postal": "15025"
-    },
-    "telefono": "+51-943993992",
-    "email": "local47@chinawok.pe",
-    "horario": {
-      "apertura": "08:00",
-      "cierre": "22:00",
-      "dias_atencion": [
-        "Lunes",
-        "Martes",
-        "Miércoles",
-        "Jueves",
-        "Viernes",
-        "Sábado",
-        "Domingo"
-      ]
-    },
-    "capacidad_maxima": 174,
-    "activo": true,
-    "created_at": "2025-10-31T15:15:05.837345",
-    "updated_at": "2025-10-31T15:15:05.837346"
-  },
-  {
-    "PK": "LOCAL#cdc4ec1b-640e-4c86-8127-f78d1e2d1a2a",
-    "SK": "LOCAL#cdc4ec1b-640e-4c86-8127-f78d1e2d1a2a",
-    "local_id": "cdc4ec1b-640e-4c86-8127-f78d1e2d1a2a",
-    "nombre": "China Wok San Juan de Miraflores",
-    "direccion": {
-      "calle": "Jr. Ayacucho",
-      "numero": "4070",
-      "distrito": "San Juan de Miraflores",
-      "ciudad": "Lima",
-      "codigo_postal": "15056"
-    },
-    "telefono": "+51-958288771",
-    "email": "local48@chinawok.pe",
-    "horario": {
-      "apertura": "08:00",
-      "cierre": "22:00",
-      "dias_atencion": [
-        "Lunes",
-        "Martes",
-        "Miércoles",
-        "Jueves",
-        "Viernes",
-        "Sábado",
-        "Domingo"
-      ]
-    },
-    "capacidad_maxima": 169,
-    "activo": true,
-    "created_at": "2025-10-31T15:15:05.837356",
-    "updated_at": "2025-10-31T15:15:05.837357"
-  },
-  {
-    "PK": "LOCAL#153f1f4d-fae7-485e-8b05-d93707f133fe",
-    "SK": "LOCAL#153f1f4d-fae7-485e-8b05-d93707f133fe",
-    "local_id": "153f1f4d-fae7-485e-8b05-d93707f133fe",
-    "nombre": "China Wok San Bartolo",
-    "direccion": {
-      "calle": "Av. Grau",
-      "numero": "7604",
-      "distrito": "San Bartolo",
-      "ciudad": "Lima",
-      "codigo_postal": "15048"
-    },
-    "telefono": "+51-947115470",
-    "email": "local49@chinawok.pe",
-    "horario": {
-      "apertura": "08:00",
-      "cierre": "22:00",
-      "dias_atencion": [
-        "Lunes",
-        "Martes",
-        "Miércoles",
-        "Jueves",
-        "Viernes",
-        "Sábado",
-        "Domingo"
-      ]
-    },
-    "capacidad_maxima": 149,
-    "activo": true,
-    "created_at": "2025-10-31T15:15:05.837367",
-    "updated_at": "2025-10-31T15:15:05.837368"
-  },
-  {
-    "PK": "LOCAL#56a8c283-6d42-42d9-82a8-532e374ae360",
-    "SK": "LOCAL#56a8c283-6d42-42d9-82a8-532e374ae360",
-    "local_id": "56a8c283-6d42-42d9-82a8-532e374ae360",
-    "nombre": "China Wok Chaclacayo",
-    "direccion": {
-      "calle": "Calle Cusco",
-      "numero": "3710",
-      "distrito": "Chaclacayo",
-      "ciudad": "Lima",
-      "codigo_postal": "15065"
-    },
-    "telefono": "+51-950094116",
-    "email": "local50@chinawok.pe",
-    "horario": {
-      "apertura": "08:00",
-      "cierre": "22:00",
-      "dias_atencion": [
-        "Lunes",
-        "Martes",
-        "Miércoles",
-        "Jueves",
-        "Viernes",
-        "Sábado",
-        "Domingo"
-      ]
-    },
-    "capacidad_maxima": 138,
-    "activo": true,
-    "created_at": "2025-10-31T15:15:05.837379",
-    "updated_at": "2025-10-31T15:15:05.837381"
-  },
-  {
-    "PK": "LOCAL#f2df12ba-0277-4f94-a495-61cd76c1b429",
-    "SK": "LOCAL#f2df12ba-0277-4f94-a495-61cd76c1b429",
-    "local_id": "f2df12ba-0277-4f94-a495-61cd76c1b429",
-    "nombre": "China Wok Cieneguilla",
-    "direccion": {
-      "calle": "Jr. Cuzco",
-      "numero": "728",
-      "distrito": "Cieneguilla",
-      "ciudad": "Lima",
-      "codigo_postal": "15082"
-    },
-    "telefono": "+51-987237088",
-    "email": "local51@chinawok.pe",
-    "horario": {
-      "apertura": "08:00",
-      "cierre": "22:00",
-      "dias_atencion": [
-        "Lunes",
-        "Martes",
-        "Miércoles",
-        "Jueves",
-        "Viernes",
-        "Sábado",
-        "Domingo"
-      ]
-    },
-    "capacidad_maxima": 138,
-    "activo": true,
-    "created_at": "2025-10-31T15:15:05.837390",
-    "updated_at": "2025-10-31T15:15:05.837391"
-  },
-  {
-    "PK": "LOCAL#9a5e6503-d0e6-496a-a6a8-7dec5591a5bc",
-    "SK": "LOCAL#9a5e6503-d0e6-496a-a6a8-7dec5591a5bc",
-    "local_id": "9a5e6503-d0e6-496a-a6a8-7dec5591a5bc",
-    "nombre": "China Wok La Punta",
-    "direccion": {
-      "calle": "Av. Larco",
-      "numero": "3503",
-      "distrito": "La Punta",
-      "ciudad": "Lima",
-      "codigo_postal": "15066"
-    },
-    "telefono": "+51-983119448",
-    "email": "local52@chinawok.pe",
-    "horario": {
-      "apertura": "08:00",
-      "cierre": "22:00",
-      "dias_atencion": [
-        "Lunes",
-        "Martes",
-        "Miércoles",
-        "Jueves",
-        "Viernes",
-        "Sábado",
-        "Domingo"
-      ]
-    },
-    "capacidad_maxima": 116,
-    "activo": true,
-    "created_at": "2025-10-31T15:15:05.837401",
-    "updated_at": "2025-10-31T15:15:05.837402"
-  },
-  {
-    "PK": "LOCAL#25e4513b-10a3-4266-bc90-d1fa2b49d99d",
-    "SK": "LOCAL#25e4513b-10a3-4266-bc90-d1fa2b49d99d",
-    "local_id": "25e4513b-10a3-4266-bc90-d1fa2b49d99d",
-    "nombre": "China Wok Miraflores",
-    "direccion": {
-      "calle": "Av. Túpac Amaru",
-      "numero": "7393",
-      "distrito": "Miraflores",
-      "ciudad": "Lima",
-      "codigo_postal": "15095"
-    },
-    "telefono": "+51-976978885",
-    "email": "local53@chinawok.pe",
-    "horario": {
-      "apertura": "08:00",
-      "cierre": "22:00",
-      "dias_atencion": [
-        "Lunes",
-        "Martes",
-        "Miércoles",
-        "Jueves",
-        "Viernes",
-        "Sábado",
-        "Domingo"
-      ]
-    },
-    "capacidad_maxima": 156,
-    "activo": true,
-    "created_at": "2025-10-31T15:15:05.837416",
-    "updated_at": "2025-10-31T15:15:05.837418"
-  },
-  {
-    "PK": "LOCAL#07f94437-1225-41e3-9e7a-fb6e0f816642",
-    "SK": "LOCAL#07f94437-1225-41e3-9e7a-fb6e0f816642",
-    "local_id": "07f94437-1225-41e3-9e7a-fb6e0f816642",
-    "nombre": "China Wok Cieneguilla",
-    "direccion": {
-      "calle": "Av. Óscar R. Benavides",
-      "numero": "924",
-      "distrito": "Cieneguilla",
-      "ciudad": "Lima",
-      "codigo_postal": "15083"
-    },
-    "telefono": "+51-981673985",
-    "email": "local54@chinawok.pe",
-    "horario": {
-      "apertura": "08:00",
-      "cierre": "22:00",
-      "dias_atencion": [
-        "Lunes",
-        "Martes",
-        "Miércoles",
-        "Jueves",
-        "Viernes",
-        "Sábado",
-        "Domingo"
-      ]
-    },
-    "capacidad_maxima": 64,
-    "activo": true,
-    "created_at": "2025-10-31T15:15:05.837430",
-    "updated_at": "2025-10-31T15:15:05.837432"
-  },
-  {
-    "PK": "LOCAL#0024c242-f440-4405-a240-f004fa5df9a6",
-    "SK": "LOCAL#0024c242-f440-4405-a240-f004fa5df9a6",
-    "local_id": "0024c242-f440-4405-a240-f004fa5df9a6",
-    "nombre": "China Wok Pachacámac",
-    "direccion": {
-      "calle": "Av. Aviación",
-      "numero": "4231",
-      "distrito": "Pachacámac",
-      "ciudad": "Lima",
-      "codigo_postal": "15093"
-    },
-    "telefono": "+51-923187768",
-    "email": "local55@chinawok.pe",
-    "horario": {
-      "apertura": "08:00",
-      "cierre": "22:00",
-      "dias_atencion": [
-        "Lunes",
-        "Martes",
-        "Miércoles",
-        "Jueves",
-        "Viernes",
-        "Sábado",
-        "Domingo"
-      ]
-    },
-    "capacidad_maxima": 160,
-    "activo": true,
-    "created_at": "2025-10-31T15:15:05.837442",
-    "updated_at": "2025-10-31T15:15:05.837443"
-  },
-  {
-    "PK": "LOCAL#48f4d797-7bd3-4e58-abcd-e7904102187f",
-    "SK": "LOCAL#48f4d797-7bd3-4e58-abcd-e7904102187f",
-    "local_id": "48f4d797-7bd3-4e58-abcd-e7904102187f",
-    "nombre": "China Wok San Miguel",
-    "direccion": {
-      "calle": "Av. Dos de Mayo",
-      "numero": "1324",
-      "distrito": "San Miguel",
-      "ciudad": "Lima",
-      "codigo_postal": "15018"
-    },
-    "telefono": "+51-927042832",
-    "email": "local56@chinawok.pe",
+    "telefono": "+51-943162624",
+    "email": "local4@chinawok.pe",
     "horario": {
       "apertura": "08:00",
       "cierre": "22:00",
@@ -1788,599 +124,23 @@
     },
     "capacidad_maxima": 109,
     "activo": true,
-    "created_at": "2025-10-31T15:15:05.837455",
-    "updated_at": "2025-10-31T15:15:05.837456"
+    "created_at": "2025-10-31T15:40:51.534226",
+    "updated_at": "2025-10-31T15:40:51.534229"
   },
   {
-    "PK": "LOCAL#a05820f2-72a2-494d-b439-a0c05e451b5c",
-    "SK": "LOCAL#a05820f2-72a2-494d-b439-a0c05e451b5c",
-    "local_id": "a05820f2-72a2-494d-b439-a0c05e451b5c",
-    "nombre": "China Wok Ventanilla",
+    "PK": "LOCAL#bb71590c-039c-4126-9c04-769b1341cafa",
+    "SK": "LOCAL#bb71590c-039c-4126-9c04-769b1341cafa",
+    "local_id": "bb71590c-039c-4126-9c04-769b1341cafa",
+    "nombre": "China Wok Pucusana",
     "direccion": {
-      "calle": "Calle Los Cedros",
-      "numero": "6444",
-      "distrito": "Ventanilla",
-      "ciudad": "Lima",
-      "codigo_postal": "15082"
-    },
-    "telefono": "+51-900385408",
-    "email": "local57@chinawok.pe",
-    "horario": {
-      "apertura": "08:00",
-      "cierre": "22:00",
-      "dias_atencion": [
-        "Lunes",
-        "Martes",
-        "Miércoles",
-        "Jueves",
-        "Viernes",
-        "Sábado",
-        "Domingo"
-      ]
-    },
-    "capacidad_maxima": 66,
-    "activo": true,
-    "created_at": "2025-10-31T15:15:05.837465",
-    "updated_at": "2025-10-31T15:15:05.837466"
-  },
-  {
-    "PK": "LOCAL#7096c422-188b-4c76-acc1-8b20d06dd5ec",
-    "SK": "LOCAL#7096c422-188b-4c76-acc1-8b20d06dd5ec",
-    "local_id": "7096c422-188b-4c76-acc1-8b20d06dd5ec",
-    "nombre": "China Wok Cieneguilla",
-    "direccion": {
-      "calle": "Jr. Callao",
-      "numero": "7539",
-      "distrito": "Cieneguilla",
-      "ciudad": "Lima",
-      "codigo_postal": "15036"
-    },
-    "telefono": "+51-984029916",
-    "email": "local58@chinawok.pe",
-    "horario": {
-      "apertura": "08:00",
-      "cierre": "22:00",
-      "dias_atencion": [
-        "Lunes",
-        "Martes",
-        "Miércoles",
-        "Jueves",
-        "Viernes",
-        "Sábado",
-        "Domingo"
-      ]
-    },
-    "capacidad_maxima": 142,
-    "activo": true,
-    "created_at": "2025-10-31T15:15:05.837494",
-    "updated_at": "2025-10-31T15:15:05.837496"
-  },
-  {
-    "PK": "LOCAL#b34baf68-c89b-4d38-a6f9-591127f14d8e",
-    "SK": "LOCAL#b34baf68-c89b-4d38-a6f9-591127f14d8e",
-    "local_id": "b34baf68-c89b-4d38-a6f9-591127f14d8e",
-    "nombre": "China Wok Puente Piedra",
-    "direccion": {
-      "calle": "Calle Comercio",
-      "numero": "803",
-      "distrito": "Puente Piedra",
-      "ciudad": "Lima",
-      "codigo_postal": "15066"
-    },
-    "telefono": "+51-913252323",
-    "email": "local59@chinawok.pe",
-    "horario": {
-      "apertura": "08:00",
-      "cierre": "22:00",
-      "dias_atencion": [
-        "Lunes",
-        "Martes",
-        "Miércoles",
-        "Jueves",
-        "Viernes",
-        "Sábado",
-        "Domingo"
-      ]
-    },
-    "capacidad_maxima": 52,
-    "activo": true,
-    "created_at": "2025-10-31T15:15:05.837509",
-    "updated_at": "2025-10-31T15:15:05.837510"
-  },
-  {
-    "PK": "LOCAL#63174994-0b69-4aac-b4a6-e9594bee5f74",
-    "SK": "LOCAL#63174994-0b69-4aac-b4a6-e9594bee5f74",
-    "local_id": "63174994-0b69-4aac-b4a6-e9594bee5f74",
-    "nombre": "China Wok Surquillo",
-    "direccion": {
-      "calle": "Av. Progreso",
-      "numero": "3679",
-      "distrito": "Surquillo",
-      "ciudad": "Lima",
-      "codigo_postal": "15031"
-    },
-    "telefono": "+51-933845364",
-    "email": "local60@chinawok.pe",
-    "horario": {
-      "apertura": "08:00",
-      "cierre": "22:00",
-      "dias_atencion": [
-        "Lunes",
-        "Martes",
-        "Miércoles",
-        "Jueves",
-        "Viernes",
-        "Sábado",
-        "Domingo"
-      ]
-    },
-    "capacidad_maxima": 172,
-    "activo": true,
-    "created_at": "2025-10-31T15:15:05.837520",
-    "updated_at": "2025-10-31T15:15:05.837521"
-  },
-  {
-    "PK": "LOCAL#e4333b2f-e043-4242-be2f-f7e07381f656",
-    "SK": "LOCAL#e4333b2f-e043-4242-be2f-f7e07381f656",
-    "local_id": "e4333b2f-e043-4242-be2f-f7e07381f656",
-    "nombre": "China Wok Rímac",
-    "direccion": {
-      "calle": "Av. José Pardo",
-      "numero": "4780",
-      "distrito": "Rímac",
-      "ciudad": "Lima",
-      "codigo_postal": "15024"
-    },
-    "telefono": "+51-997411231",
-    "email": "local61@chinawok.pe",
-    "horario": {
-      "apertura": "08:00",
-      "cierre": "22:00",
-      "dias_atencion": [
-        "Lunes",
-        "Martes",
-        "Miércoles",
-        "Jueves",
-        "Viernes",
-        "Sábado",
-        "Domingo"
-      ]
-    },
-    "capacidad_maxima": 189,
-    "activo": true,
-    "created_at": "2025-10-31T15:15:05.837531",
-    "updated_at": "2025-10-31T15:15:05.837532"
-  },
-  {
-    "PK": "LOCAL#c7744076-9487-4ded-a450-c348eaad76a3",
-    "SK": "LOCAL#c7744076-9487-4ded-a450-c348eaad76a3",
-    "local_id": "c7744076-9487-4ded-a450-c348eaad76a3",
-    "nombre": "China Wok Barranco",
-    "direccion": {
-      "calle": "Av. Del Parque",
-      "numero": "4237",
-      "distrito": "Barranco",
-      "ciudad": "Lima",
-      "codigo_postal": "15036"
-    },
-    "telefono": "+51-975085627",
-    "email": "local62@chinawok.pe",
-    "horario": {
-      "apertura": "08:00",
-      "cierre": "22:00",
-      "dias_atencion": [
-        "Lunes",
-        "Martes",
-        "Miércoles",
-        "Jueves",
-        "Viernes",
-        "Sábado",
-        "Domingo"
-      ]
-    },
-    "capacidad_maxima": 196,
-    "activo": true,
-    "created_at": "2025-10-31T15:15:05.837542",
-    "updated_at": "2025-10-31T15:15:05.837543"
-  },
-  {
-    "PK": "LOCAL#5a030adc-8540-4750-a542-5369a93be236",
-    "SK": "LOCAL#5a030adc-8540-4750-a542-5369a93be236",
-    "local_id": "5a030adc-8540-4750-a542-5369a93be236",
-    "nombre": "China Wok Los Olivos",
-    "direccion": {
-      "calle": "Jr. Huánuco",
-      "numero": "502",
-      "distrito": "Los Olivos",
-      "ciudad": "Lima",
-      "codigo_postal": "15024"
-    },
-    "telefono": "+51-932347352",
-    "email": "local63@chinawok.pe",
-    "horario": {
-      "apertura": "08:00",
-      "cierre": "22:00",
-      "dias_atencion": [
-        "Lunes",
-        "Martes",
-        "Miércoles",
-        "Jueves",
-        "Viernes",
-        "Sábado",
-        "Domingo"
-      ]
-    },
-    "capacidad_maxima": 168,
-    "activo": true,
-    "created_at": "2025-10-31T15:15:05.837552",
-    "updated_at": "2025-10-31T15:15:05.837553"
-  },
-  {
-    "PK": "LOCAL#cbd08069-9c64-4e51-a625-680f1064dbac",
-    "SK": "LOCAL#cbd08069-9c64-4e51-a625-680f1064dbac",
-    "local_id": "cbd08069-9c64-4e51-a625-680f1064dbac",
-    "nombre": "China Wok Villa El Salvador",
-    "direccion": {
-      "calle": "Av. Arequipa",
-      "numero": "4460",
-      "distrito": "Villa El Salvador",
-      "ciudad": "Lima",
-      "codigo_postal": "15081"
-    },
-    "telefono": "+51-945583424",
-    "email": "local64@chinawok.pe",
-    "horario": {
-      "apertura": "08:00",
-      "cierre": "22:00",
-      "dias_atencion": [
-        "Lunes",
-        "Martes",
-        "Miércoles",
-        "Jueves",
-        "Viernes",
-        "Sábado",
-        "Domingo"
-      ]
-    },
-    "capacidad_maxima": 147,
-    "activo": true,
-    "created_at": "2025-10-31T15:15:05.837567",
-    "updated_at": "2025-10-31T15:15:05.837568"
-  },
-  {
-    "PK": "LOCAL#eed9b871-c963-4bca-9937-cac6467c56fd",
-    "SK": "LOCAL#eed9b871-c963-4bca-9937-cac6467c56fd",
-    "local_id": "eed9b871-c963-4bca-9937-cac6467c56fd",
-    "nombre": "China Wok Ventanilla",
-    "direccion": {
-      "calle": "Calle Arequipa",
-      "numero": "9861",
-      "distrito": "Ventanilla",
-      "ciudad": "Lima",
-      "codigo_postal": "15059"
-    },
-    "telefono": "+51-930450628",
-    "email": "local65@chinawok.pe",
-    "horario": {
-      "apertura": "08:00",
-      "cierre": "22:00",
-      "dias_atencion": [
-        "Lunes",
-        "Martes",
-        "Miércoles",
-        "Jueves",
-        "Viernes",
-        "Sábado",
-        "Domingo"
-      ]
-    },
-    "capacidad_maxima": 175,
-    "activo": true,
-    "created_at": "2025-10-31T15:15:05.837578",
-    "updated_at": "2025-10-31T15:15:05.837579"
-  },
-  {
-    "PK": "LOCAL#715e2e84-f27c-4eae-b6c9-258db368c554",
-    "SK": "LOCAL#715e2e84-f27c-4eae-b6c9-258db368c554",
-    "local_id": "715e2e84-f27c-4eae-b6c9-258db368c554",
-    "nombre": "China Wok La Perla",
-    "direccion": {
-      "calle": "Av. Caminos del Inca",
-      "numero": "2138",
-      "distrito": "La Perla",
+      "calle": "Av. Defensores del Morro",
+      "numero": "5633",
+      "distrito": "Pucusana",
       "ciudad": "Lima",
       "codigo_postal": "15063"
     },
-    "telefono": "+51-909579488",
-    "email": "local66@chinawok.pe",
-    "horario": {
-      "apertura": "08:00",
-      "cierre": "22:00",
-      "dias_atencion": [
-        "Lunes",
-        "Martes",
-        "Miércoles",
-        "Jueves",
-        "Viernes",
-        "Sábado",
-        "Domingo"
-      ]
-    },
-    "capacidad_maxima": 199,
-    "activo": true,
-    "created_at": "2025-10-31T15:15:05.837589",
-    "updated_at": "2025-10-31T15:15:05.837590"
-  },
-  {
-    "PK": "LOCAL#371ceb62-e379-496b-a941-486270f1aff3",
-    "SK": "LOCAL#371ceb62-e379-496b-a941-486270f1aff3",
-    "local_id": "371ceb62-e379-496b-a941-486270f1aff3",
-    "nombre": "China Wok San Juan de Lurigancho",
-    "direccion": {
-      "calle": "Av. Petit Thouars",
-      "numero": "5348",
-      "distrito": "San Juan de Lurigancho",
-      "ciudad": "Lima",
-      "codigo_postal": "15022"
-    },
-    "telefono": "+51-918260266",
-    "email": "local67@chinawok.pe",
-    "horario": {
-      "apertura": "08:00",
-      "cierre": "22:00",
-      "dias_atencion": [
-        "Lunes",
-        "Martes",
-        "Miércoles",
-        "Jueves",
-        "Viernes",
-        "Sábado",
-        "Domingo"
-      ]
-    },
-    "capacidad_maxima": 103,
-    "activo": true,
-    "created_at": "2025-10-31T15:15:05.837602",
-    "updated_at": "2025-10-31T15:15:05.837603"
-  },
-  {
-    "PK": "LOCAL#35cc087f-b031-40c7-80df-2e1ed381935e",
-    "SK": "LOCAL#35cc087f-b031-40c7-80df-2e1ed381935e",
-    "local_id": "35cc087f-b031-40c7-80df-2e1ed381935e",
-    "nombre": "China Wok Surquillo",
-    "direccion": {
-      "calle": "Calle Los Pinos",
-      "numero": "9642",
-      "distrito": "Surquillo",
-      "ciudad": "Lima",
-      "codigo_postal": "15031"
-    },
-    "telefono": "+51-915740748",
-    "email": "local68@chinawok.pe",
-    "horario": {
-      "apertura": "08:00",
-      "cierre": "22:00",
-      "dias_atencion": [
-        "Lunes",
-        "Martes",
-        "Miércoles",
-        "Jueves",
-        "Viernes",
-        "Sábado",
-        "Domingo"
-      ]
-    },
-    "capacidad_maxima": 143,
-    "activo": true,
-    "created_at": "2025-10-31T15:15:05.837613",
-    "updated_at": "2025-10-31T15:15:05.837614"
-  },
-  {
-    "PK": "LOCAL#78fde53c-ed66-4d90-bb94-23ef82e03217",
-    "SK": "LOCAL#78fde53c-ed66-4d90-bb94-23ef82e03217",
-    "local_id": "78fde53c-ed66-4d90-bb94-23ef82e03217",
-    "nombre": "China Wok Magdalena",
-    "direccion": {
-      "calle": "Calle Talara",
-      "numero": "1845",
-      "distrito": "Magdalena",
-      "ciudad": "Lima",
-      "codigo_postal": "15047"
-    },
-    "telefono": "+51-969698164",
-    "email": "local69@chinawok.pe",
-    "horario": {
-      "apertura": "08:00",
-      "cierre": "22:00",
-      "dias_atencion": [
-        "Lunes",
-        "Martes",
-        "Miércoles",
-        "Jueves",
-        "Viernes",
-        "Sábado",
-        "Domingo"
-      ]
-    },
-    "capacidad_maxima": 189,
-    "activo": true,
-    "created_at": "2025-10-31T15:15:05.837625",
-    "updated_at": "2025-10-31T15:15:05.837626"
-  },
-  {
-    "PK": "LOCAL#3188f11b-d1c6-4cb8-9a68-d9503e1a5efe",
-    "SK": "LOCAL#3188f11b-d1c6-4cb8-9a68-d9503e1a5efe",
-    "local_id": "3188f11b-d1c6-4cb8-9a68-d9503e1a5efe",
-    "nombre": "China Wok San Borja",
-    "direccion": {
-      "calle": "Av. Tomás Marsano",
-      "numero": "8389",
-      "distrito": "San Borja",
-      "ciudad": "Lima",
-      "codigo_postal": "15078"
-    },
-    "telefono": "+51-984835847",
-    "email": "local70@chinawok.pe",
-    "horario": {
-      "apertura": "08:00",
-      "cierre": "22:00",
-      "dias_atencion": [
-        "Lunes",
-        "Martes",
-        "Miércoles",
-        "Jueves",
-        "Viernes",
-        "Sábado",
-        "Domingo"
-      ]
-    },
-    "capacidad_maxima": 86,
-    "activo": true,
-    "created_at": "2025-10-31T15:15:05.837636",
-    "updated_at": "2025-10-31T15:15:05.837637"
-  },
-  {
-    "PK": "LOCAL#f1b4e0ea-c829-4a3a-8126-feac37b3541b",
-    "SK": "LOCAL#f1b4e0ea-c829-4a3a-8126-feac37b3541b",
-    "local_id": "f1b4e0ea-c829-4a3a-8126-feac37b3541b",
-    "nombre": "China Wok Callao",
-    "direccion": {
-      "calle": "Av. Naranjal",
-      "numero": "1077",
-      "distrito": "Callao",
-      "ciudad": "Lima",
-      "codigo_postal": "15092"
-    },
-    "telefono": "+51-925414202",
-    "email": "local71@chinawok.pe",
-    "horario": {
-      "apertura": "08:00",
-      "cierre": "22:00",
-      "dias_atencion": [
-        "Lunes",
-        "Martes",
-        "Miércoles",
-        "Jueves",
-        "Viernes",
-        "Sábado",
-        "Domingo"
-      ]
-    },
-    "capacidad_maxima": 164,
-    "activo": true,
-    "created_at": "2025-10-31T15:15:05.837650",
-    "updated_at": "2025-10-31T15:15:05.837651"
-  },
-  {
-    "PK": "LOCAL#05fd7df2-09ac-4b64-8772-3a64ded00f92",
-    "SK": "LOCAL#05fd7df2-09ac-4b64-8772-3a64ded00f92",
-    "local_id": "05fd7df2-09ac-4b64-8772-3a64ded00f92",
-    "nombre": "China Wok San Bartolo",
-    "direccion": {
-      "calle": "Calle Martir Olaya",
-      "numero": "8135",
-      "distrito": "San Bartolo",
-      "ciudad": "Lima",
-      "codigo_postal": "15012"
-    },
-    "telefono": "+51-936285463",
-    "email": "local72@chinawok.pe",
-    "horario": {
-      "apertura": "08:00",
-      "cierre": "22:00",
-      "dias_atencion": [
-        "Lunes",
-        "Martes",
-        "Miércoles",
-        "Jueves",
-        "Viernes",
-        "Sábado",
-        "Domingo"
-      ]
-    },
-    "capacidad_maxima": 53,
-    "activo": true,
-    "created_at": "2025-10-31T15:15:05.837664",
-    "updated_at": "2025-10-31T15:15:05.837665"
-  },
-  {
-    "PK": "LOCAL#a76cc0c4-f587-4d20-980d-437098f95738",
-    "SK": "LOCAL#a76cc0c4-f587-4d20-980d-437098f95738",
-    "local_id": "a76cc0c4-f587-4d20-980d-437098f95738",
-    "nombre": "China Wok San Isidro",
-    "direccion": {
-      "calle": "Av. Próceres de la Independencia",
-      "numero": "4364",
-      "distrito": "San Isidro",
-      "ciudad": "Lima",
-      "codigo_postal": "15061"
-    },
-    "telefono": "+51-906190744",
-    "email": "local73@chinawok.pe",
-    "horario": {
-      "apertura": "08:00",
-      "cierre": "22:00",
-      "dias_atencion": [
-        "Lunes",
-        "Martes",
-        "Miércoles",
-        "Jueves",
-        "Viernes",
-        "Sábado",
-        "Domingo"
-      ]
-    },
-    "capacidad_maxima": 183,
-    "activo": true,
-    "created_at": "2025-10-31T15:15:05.837675",
-    "updated_at": "2025-10-31T15:15:05.837676"
-  },
-  {
-    "PK": "LOCAL#52e7b9b7-6797-43fd-9ca5-59346bc96a0e",
-    "SK": "LOCAL#52e7b9b7-6797-43fd-9ca5-59346bc96a0e",
-    "local_id": "52e7b9b7-6797-43fd-9ca5-59346bc96a0e",
-    "nombre": "China Wok La Punta",
-    "direccion": {
-      "calle": "Calle Los Cedros",
-      "numero": "7324",
-      "distrito": "La Punta",
-      "ciudad": "Lima",
-      "codigo_postal": "15057"
-    },
-    "telefono": "+51-984904170",
-    "email": "local74@chinawok.pe",
-    "horario": {
-      "apertura": "08:00",
-      "cierre": "22:00",
-      "dias_atencion": [
-        "Lunes",
-        "Martes",
-        "Miércoles",
-        "Jueves",
-        "Viernes",
-        "Sábado",
-        "Domingo"
-      ]
-    },
-    "capacidad_maxima": 153,
-    "activo": true,
-    "created_at": "2025-10-31T15:15:05.837688",
-    "updated_at": "2025-10-31T15:15:05.837690"
-  },
-  {
-    "PK": "LOCAL#4dd637e4-0082-499c-a159-1647af61e77a",
-    "SK": "LOCAL#4dd637e4-0082-499c-a159-1647af61e77a",
-    "local_id": "4dd637e4-0082-499c-a159-1647af61e77a",
-    "nombre": "China Wok La Punta",
-    "direccion": {
-      "calle": "Av. La Molina",
-      "numero": "7436",
-      "distrito": "La Punta",
-      "ciudad": "Lima",
-      "codigo_postal": "15015"
-    },
-    "telefono": "+51-903620101",
-    "email": "local75@chinawok.pe",
+    "telefono": "+51-952541262",
+    "email": "local5@chinawok.pe",
     "horario": {
       "apertura": "08:00",
       "cierre": "22:00",
@@ -2396,23 +156,23 @@
     },
     "capacidad_maxima": 193,
     "activo": true,
-    "created_at": "2025-10-31T15:15:05.837701",
-    "updated_at": "2025-10-31T15:15:05.837702"
+    "created_at": "2025-10-31T15:40:51.534249",
+    "updated_at": "2025-10-31T15:40:51.534251"
   },
   {
-    "PK": "LOCAL#d5c2e236-9a79-4fa5-b771-cf678835d47b",
-    "SK": "LOCAL#d5c2e236-9a79-4fa5-b771-cf678835d47b",
-    "local_id": "d5c2e236-9a79-4fa5-b771-cf678835d47b",
-    "nombre": "China Wok Cieneguilla",
+    "PK": "LOCAL#4233dd96-4e45-4f1f-ba61-2a6012d566d4",
+    "SK": "LOCAL#4233dd96-4e45-4f1f-ba61-2a6012d566d4",
+    "local_id": "4233dd96-4e45-4f1f-ba61-2a6012d566d4",
+    "nombre": "China Wok Breña",
     "direccion": {
-      "calle": "Av. Santa Rosa",
-      "numero": "1039",
-      "distrito": "Cieneguilla",
+      "calle": "Calle Las Flores",
+      "numero": "7993",
+      "distrito": "Breña",
       "ciudad": "Lima",
-      "codigo_postal": "15047"
+      "codigo_postal": "15048"
     },
-    "telefono": "+51-996844929",
-    "email": "local76@chinawok.pe",
+    "telefono": "+51-926880339",
+    "email": "local6@chinawok.pe",
     "horario": {
       "apertura": "08:00",
       "cierre": "22:00",
@@ -2426,57 +186,25 @@
         "Domingo"
       ]
     },
-    "capacidad_maxima": 82,
+    "capacidad_maxima": 184,
     "activo": true,
-    "created_at": "2025-10-31T15:15:05.837712",
-    "updated_at": "2025-10-31T15:15:05.837713"
+    "created_at": "2025-10-31T15:40:51.534273",
+    "updated_at": "2025-10-31T15:40:51.534276"
   },
   {
-    "PK": "LOCAL#dfafbde5-23fd-4ff5-bfee-5a3b16ce75e4",
-    "SK": "LOCAL#dfafbde5-23fd-4ff5-bfee-5a3b16ce75e4",
-    "local_id": "dfafbde5-23fd-4ff5-bfee-5a3b16ce75e4",
-    "nombre": "China Wok Lima Cercado",
+    "PK": "LOCAL#60a5d2f1-dd47-467f-87c0-bd7d62b0035a",
+    "SK": "LOCAL#60a5d2f1-dd47-467f-87c0-bd7d62b0035a",
+    "local_id": "60a5d2f1-dd47-467f-87c0-bd7d62b0035a",
+    "nombre": "China Wok Carabayllo",
     "direccion": {
-      "calle": "Calle San Martín",
-      "numero": "3199",
-      "distrito": "Lima Cercado",
-      "ciudad": "Lima",
-      "codigo_postal": "15037"
-    },
-    "telefono": "+51-921412036",
-    "email": "local77@chinawok.pe",
-    "horario": {
-      "apertura": "08:00",
-      "cierre": "22:00",
-      "dias_atencion": [
-        "Lunes",
-        "Martes",
-        "Miércoles",
-        "Jueves",
-        "Viernes",
-        "Sábado",
-        "Domingo"
-      ]
-    },
-    "capacidad_maxima": 89,
-    "activo": true,
-    "created_at": "2025-10-31T15:15:05.837723",
-    "updated_at": "2025-10-31T15:15:05.837724"
-  },
-  {
-    "PK": "LOCAL#14f4b005-5c26-4aee-a268-3c246d36e3e1",
-    "SK": "LOCAL#14f4b005-5c26-4aee-a268-3c246d36e3e1",
-    "local_id": "14f4b005-5c26-4aee-a268-3c246d36e3e1",
-    "nombre": "China Wok Ancón",
-    "direccion": {
-      "calle": "Av. Paseo de la República",
-      "numero": "9526",
-      "distrito": "Ancón",
+      "calle": "Av. Colonial",
+      "numero": "6499",
+      "distrito": "Carabayllo",
       "ciudad": "Lima",
       "codigo_postal": "15039"
     },
-    "telefono": "+51-981842650",
-    "email": "local78@chinawok.pe",
+    "telefono": "+51-992043892",
+    "email": "local7@chinawok.pe",
     "horario": {
       "apertura": "08:00",
       "cierre": "22:00",
@@ -2490,537 +218,121 @@
         "Domingo"
       ]
     },
-    "capacidad_maxima": 74,
+    "capacidad_maxima": 182,
     "activo": true,
-    "created_at": "2025-10-31T15:15:05.837734",
-    "updated_at": "2025-10-31T15:15:05.837735"
+    "created_at": "2025-10-31T15:40:51.534290",
+    "updated_at": "2025-10-31T15:40:51.534291"
   },
   {
-    "PK": "LOCAL#2e05fdfb-6e08-46ad-bb6f-80130a821364",
-    "SK": "LOCAL#2e05fdfb-6e08-46ad-bb6f-80130a821364",
-    "local_id": "2e05fdfb-6e08-46ad-bb6f-80130a821364",
-    "nombre": "China Wok Breña",
-    "direccion": {
-      "calle": "Av. Primavera",
-      "numero": "7268",
-      "distrito": "Breña",
-      "ciudad": "Lima",
-      "codigo_postal": "15042"
-    },
-    "telefono": "+51-960272746",
-    "email": "local79@chinawok.pe",
-    "horario": {
-      "apertura": "08:00",
-      "cierre": "22:00",
-      "dias_atencion": [
-        "Lunes",
-        "Martes",
-        "Miércoles",
-        "Jueves",
-        "Viernes",
-        "Sábado",
-        "Domingo"
-      ]
-    },
-    "capacidad_maxima": 183,
-    "activo": true,
-    "created_at": "2025-10-31T15:15:05.837745",
-    "updated_at": "2025-10-31T15:15:05.837746"
-  },
-  {
-    "PK": "LOCAL#0c850e5b-1b2c-4e1a-a11e-32447f4a9578",
-    "SK": "LOCAL#0c850e5b-1b2c-4e1a-a11e-32447f4a9578",
-    "local_id": "0c850e5b-1b2c-4e1a-a11e-32447f4a9578",
-    "nombre": "China Wok San Isidro",
-    "direccion": {
-      "calle": "Av. Caminos del Inca",
-      "numero": "1499",
-      "distrito": "San Isidro",
-      "ciudad": "Lima",
-      "codigo_postal": "15090"
-    },
-    "telefono": "+51-953691612",
-    "email": "local80@chinawok.pe",
-    "horario": {
-      "apertura": "08:00",
-      "cierre": "22:00",
-      "dias_atencion": [
-        "Lunes",
-        "Martes",
-        "Miércoles",
-        "Jueves",
-        "Viernes",
-        "Sábado",
-        "Domingo"
-      ]
-    },
-    "capacidad_maxima": 146,
-    "activo": true,
-    "created_at": "2025-10-31T15:15:05.837755",
-    "updated_at": "2025-10-31T15:15:05.837756"
-  },
-  {
-    "PK": "LOCAL#a5889bee-883c-48d1-a801-203febacdea4",
-    "SK": "LOCAL#a5889bee-883c-48d1-a801-203febacdea4",
-    "local_id": "a5889bee-883c-48d1-a801-203febacdea4",
-    "nombre": "China Wok Ventanilla",
-    "direccion": {
-      "calle": "Av. Carlos Izaguirre",
-      "numero": "8114",
-      "distrito": "Ventanilla",
-      "ciudad": "Lima",
-      "codigo_postal": "15058"
-    },
-    "telefono": "+51-988991733",
-    "email": "local81@chinawok.pe",
-    "horario": {
-      "apertura": "08:00",
-      "cierre": "22:00",
-      "dias_atencion": [
-        "Lunes",
-        "Martes",
-        "Miércoles",
-        "Jueves",
-        "Viernes",
-        "Sábado",
-        "Domingo"
-      ]
-    },
-    "capacidad_maxima": 145,
-    "activo": true,
-    "created_at": "2025-10-31T15:15:05.837766",
-    "updated_at": "2025-10-31T15:15:05.837767"
-  },
-  {
-    "PK": "LOCAL#a79b8d3d-8a70-4deb-b59e-8e31cb18d7bc",
-    "SK": "LOCAL#a79b8d3d-8a70-4deb-b59e-8e31cb18d7bc",
-    "local_id": "a79b8d3d-8a70-4deb-b59e-8e31cb18d7bc",
-    "nombre": "China Wok Callao",
-    "direccion": {
-      "calle": "Av. Dos de Mayo",
-      "numero": "8026",
-      "distrito": "Callao",
-      "ciudad": "Lima",
-      "codigo_postal": "15031"
-    },
-    "telefono": "+51-972167090",
-    "email": "local82@chinawok.pe",
-    "horario": {
-      "apertura": "08:00",
-      "cierre": "22:00",
-      "dias_atencion": [
-        "Lunes",
-        "Martes",
-        "Miércoles",
-        "Jueves",
-        "Viernes",
-        "Sábado",
-        "Domingo"
-      ]
-    },
-    "capacidad_maxima": 101,
-    "activo": true,
-    "created_at": "2025-10-31T15:15:05.837777",
-    "updated_at": "2025-10-31T15:15:05.837778"
-  },
-  {
-    "PK": "LOCAL#9876fffd-be12-4dcf-84a7-99763a1d8775",
-    "SK": "LOCAL#9876fffd-be12-4dcf-84a7-99763a1d8775",
-    "local_id": "9876fffd-be12-4dcf-84a7-99763a1d8775",
-    "nombre": "China Wok Callao",
-    "direccion": {
-      "calle": "Av. Caminos del Inca",
-      "numero": "8707",
-      "distrito": "Callao",
-      "ciudad": "Lima",
-      "codigo_postal": "15073"
-    },
-    "telefono": "+51-950232169",
-    "email": "local83@chinawok.pe",
-    "horario": {
-      "apertura": "08:00",
-      "cierre": "22:00",
-      "dias_atencion": [
-        "Lunes",
-        "Martes",
-        "Miércoles",
-        "Jueves",
-        "Viernes",
-        "Sábado",
-        "Domingo"
-      ]
-    },
-    "capacidad_maxima": 67,
-    "activo": true,
-    "created_at": "2025-10-31T15:15:05.837790",
-    "updated_at": "2025-10-31T15:15:05.837791"
-  },
-  {
-    "PK": "LOCAL#ccae3142-b398-47c6-a2c8-6d52662cc486",
-    "SK": "LOCAL#ccae3142-b398-47c6-a2c8-6d52662cc486",
-    "local_id": "ccae3142-b398-47c6-a2c8-6d52662cc486",
-    "nombre": "China Wok Comas",
-    "direccion": {
-      "calle": "Av. Nicolás de Piérola",
-      "numero": "4838",
-      "distrito": "Comas",
-      "ciudad": "Lima",
-      "codigo_postal": "15076"
-    },
-    "telefono": "+51-984603937",
-    "email": "local84@chinawok.pe",
-    "horario": {
-      "apertura": "08:00",
-      "cierre": "22:00",
-      "dias_atencion": [
-        "Lunes",
-        "Martes",
-        "Miércoles",
-        "Jueves",
-        "Viernes",
-        "Sábado",
-        "Domingo"
-      ]
-    },
-    "capacidad_maxima": 73,
-    "activo": true,
-    "created_at": "2025-10-31T15:15:05.837803",
-    "updated_at": "2025-10-31T15:15:05.837804"
-  },
-  {
-    "PK": "LOCAL#c7581307-ea07-42b4-893e-cec4ecc5cd42",
-    "SK": "LOCAL#c7581307-ea07-42b4-893e-cec4ecc5cd42",
-    "local_id": "c7581307-ea07-42b4-893e-cec4ecc5cd42",
-    "nombre": "China Wok Barranco",
-    "direccion": {
-      "calle": "Jr. Puno",
-      "numero": "8400",
-      "distrito": "Barranco",
-      "ciudad": "Lima",
-      "codigo_postal": "15068"
-    },
-    "telefono": "+51-911829626",
-    "email": "local85@chinawok.pe",
-    "horario": {
-      "apertura": "08:00",
-      "cierre": "22:00",
-      "dias_atencion": [
-        "Lunes",
-        "Martes",
-        "Miércoles",
-        "Jueves",
-        "Viernes",
-        "Sábado",
-        "Domingo"
-      ]
-    },
-    "capacidad_maxima": 196,
-    "activo": true,
-    "created_at": "2025-10-31T15:15:05.837817",
-    "updated_at": "2025-10-31T15:15:05.837822"
-  },
-  {
-    "PK": "LOCAL#8f93ecd7-602b-4df7-a231-46e8b6abd31a",
-    "SK": "LOCAL#8f93ecd7-602b-4df7-a231-46e8b6abd31a",
-    "local_id": "8f93ecd7-602b-4df7-a231-46e8b6abd31a",
-    "nombre": "China Wok Barranco",
-    "direccion": {
-      "calle": "Calle Talara",
-      "numero": "3387",
-      "distrito": "Barranco",
-      "ciudad": "Lima",
-      "codigo_postal": "15023"
-    },
-    "telefono": "+51-954970633",
-    "email": "local86@chinawok.pe",
-    "horario": {
-      "apertura": "08:00",
-      "cierre": "22:00",
-      "dias_atencion": [
-        "Lunes",
-        "Martes",
-        "Miércoles",
-        "Jueves",
-        "Viernes",
-        "Sábado",
-        "Domingo"
-      ]
-    },
-    "capacidad_maxima": 191,
-    "activo": true,
-    "created_at": "2025-10-31T15:15:05.837832",
-    "updated_at": "2025-10-31T15:15:05.837833"
-  },
-  {
-    "PK": "LOCAL#cc22cc10-7a2c-44bc-8851-de149241d65b",
-    "SK": "LOCAL#cc22cc10-7a2c-44bc-8851-de149241d65b",
-    "local_id": "cc22cc10-7a2c-44bc-8851-de149241d65b",
-    "nombre": "China Wok Bellavista",
-    "direccion": {
-      "calle": "Calle Las Palmeras",
-      "numero": "3155",
-      "distrito": "Bellavista",
-      "ciudad": "Lima",
-      "codigo_postal": "15019"
-    },
-    "telefono": "+51-916289032",
-    "email": "local87@chinawok.pe",
-    "horario": {
-      "apertura": "08:00",
-      "cierre": "22:00",
-      "dias_atencion": [
-        "Lunes",
-        "Martes",
-        "Miércoles",
-        "Jueves",
-        "Viernes",
-        "Sábado",
-        "Domingo"
-      ]
-    },
-    "capacidad_maxima": 90,
-    "activo": true,
-    "created_at": "2025-10-31T15:15:05.837842",
-    "updated_at": "2025-10-31T15:15:05.837843"
-  },
-  {
-    "PK": "LOCAL#1ba568d5-ba6e-4c8d-a5bd-d57db039cdc2",
-    "SK": "LOCAL#1ba568d5-ba6e-4c8d-a5bd-d57db039cdc2",
-    "local_id": "1ba568d5-ba6e-4c8d-a5bd-d57db039cdc2",
-    "nombre": "China Wok Pachacámac",
-    "direccion": {
-      "calle": "Jr. Ayacucho",
-      "numero": "5724",
-      "distrito": "Pachacámac",
-      "ciudad": "Lima",
-      "codigo_postal": "15054"
-    },
-    "telefono": "+51-972657631",
-    "email": "local88@chinawok.pe",
-    "horario": {
-      "apertura": "08:00",
-      "cierre": "22:00",
-      "dias_atencion": [
-        "Lunes",
-        "Martes",
-        "Miércoles",
-        "Jueves",
-        "Viernes",
-        "Sábado",
-        "Domingo"
-      ]
-    },
-    "capacidad_maxima": 88,
-    "activo": true,
-    "created_at": "2025-10-31T15:15:05.837855",
-    "updated_at": "2025-10-31T15:15:05.837856"
-  },
-  {
-    "PK": "LOCAL#1087d662-c7a2-4cdf-8044-b6e33f03709b",
-    "SK": "LOCAL#1087d662-c7a2-4cdf-8044-b6e33f03709b",
-    "local_id": "1087d662-c7a2-4cdf-8044-b6e33f03709b",
-    "nombre": "China Wok San Juan de Lurigancho",
-    "direccion": {
-      "calle": "Av. Primavera",
-      "numero": "7392",
-      "distrito": "San Juan de Lurigancho",
-      "ciudad": "Lima",
-      "codigo_postal": "15025"
-    },
-    "telefono": "+51-911463683",
-    "email": "local89@chinawok.pe",
-    "horario": {
-      "apertura": "08:00",
-      "cierre": "22:00",
-      "dias_atencion": [
-        "Lunes",
-        "Martes",
-        "Miércoles",
-        "Jueves",
-        "Viernes",
-        "Sábado",
-        "Domingo"
-      ]
-    },
-    "capacidad_maxima": 55,
-    "activo": true,
-    "created_at": "2025-10-31T15:15:05.837866",
-    "updated_at": "2025-10-31T15:15:05.837867"
-  },
-  {
-    "PK": "LOCAL#a5979c8c-9e58-49ec-9828-0671063cfb92",
-    "SK": "LOCAL#a5979c8c-9e58-49ec-9828-0671063cfb92",
-    "local_id": "a5979c8c-9e58-49ec-9828-0671063cfb92",
-    "nombre": "China Wok Pucusana",
-    "direccion": {
-      "calle": "Av. Tomás Marsano",
-      "numero": "8625",
-      "distrito": "Pucusana",
-      "ciudad": "Lima",
-      "codigo_postal": "15050"
-    },
-    "telefono": "+51-925137129",
-    "email": "local90@chinawok.pe",
-    "horario": {
-      "apertura": "08:00",
-      "cierre": "22:00",
-      "dias_atencion": [
-        "Lunes",
-        "Martes",
-        "Miércoles",
-        "Jueves",
-        "Viernes",
-        "Sábado",
-        "Domingo"
-      ]
-    },
-    "capacidad_maxima": 144,
-    "activo": true,
-    "created_at": "2025-10-31T15:15:05.837876",
-    "updated_at": "2025-10-31T15:15:05.837877"
-  },
-  {
-    "PK": "LOCAL#3d164e63-f941-42fb-ae30-c7972656ae00",
-    "SK": "LOCAL#3d164e63-f941-42fb-ae30-c7972656ae00",
-    "local_id": "3d164e63-f941-42fb-ae30-c7972656ae00",
-    "nombre": "China Wok Surco",
-    "direccion": {
-      "calle": "Av. Javier Prado",
-      "numero": "7677",
-      "distrito": "Surco",
-      "ciudad": "Lima",
-      "codigo_postal": "15063"
-    },
-    "telefono": "+51-923021934",
-    "email": "local91@chinawok.pe",
-    "horario": {
-      "apertura": "08:00",
-      "cierre": "22:00",
-      "dias_atencion": [
-        "Lunes",
-        "Martes",
-        "Miércoles",
-        "Jueves",
-        "Viernes",
-        "Sábado",
-        "Domingo"
-      ]
-    },
-    "capacidad_maxima": 83,
-    "activo": true,
-    "created_at": "2025-10-31T15:15:05.837889",
-    "updated_at": "2025-10-31T15:15:05.837890"
-  },
-  {
-    "PK": "LOCAL#a1601a1a-728a-4e5f-88e0-68c3da300bff",
-    "SK": "LOCAL#a1601a1a-728a-4e5f-88e0-68c3da300bff",
-    "local_id": "a1601a1a-728a-4e5f-88e0-68c3da300bff",
-    "nombre": "China Wok Lima Cercado",
-    "direccion": {
-      "calle": "Av. Arequipa",
-      "numero": "8309",
-      "distrito": "Lima Cercado",
-      "ciudad": "Lima",
-      "codigo_postal": "15043"
-    },
-    "telefono": "+51-953242661",
-    "email": "local92@chinawok.pe",
-    "horario": {
-      "apertura": "08:00",
-      "cierre": "22:00",
-      "dias_atencion": [
-        "Lunes",
-        "Martes",
-        "Miércoles",
-        "Jueves",
-        "Viernes",
-        "Sábado",
-        "Domingo"
-      ]
-    },
-    "capacidad_maxima": 194,
-    "activo": true,
-    "created_at": "2025-10-31T15:15:05.837899",
-    "updated_at": "2025-10-31T15:15:05.837901"
-  },
-  {
-    "PK": "LOCAL#7dfb8d1f-21a8-48f1-b970-c4dc852ca1bb",
-    "SK": "LOCAL#7dfb8d1f-21a8-48f1-b970-c4dc852ca1bb",
-    "local_id": "7dfb8d1f-21a8-48f1-b970-c4dc852ca1bb",
-    "nombre": "China Wok Breña",
-    "direccion": {
-      "calle": "Av. Canadá",
-      "numero": "4960",
-      "distrito": "Breña",
-      "ciudad": "Lima",
-      "codigo_postal": "15052"
-    },
-    "telefono": "+51-938945218",
-    "email": "local93@chinawok.pe",
-    "horario": {
-      "apertura": "08:00",
-      "cierre": "22:00",
-      "dias_atencion": [
-        "Lunes",
-        "Martes",
-        "Miércoles",
-        "Jueves",
-        "Viernes",
-        "Sábado",
-        "Domingo"
-      ]
-    },
-    "capacidad_maxima": 152,
-    "activo": true,
-    "created_at": "2025-10-31T15:15:05.837910",
-    "updated_at": "2025-10-31T15:15:05.837911"
-  },
-  {
-    "PK": "LOCAL#da1c5125-90f5-4f12-ade2-1c3cbbb89530",
-    "SK": "LOCAL#da1c5125-90f5-4f12-ade2-1c3cbbb89530",
-    "local_id": "da1c5125-90f5-4f12-ade2-1c3cbbb89530",
-    "nombre": "China Wok Comas",
-    "direccion": {
-      "calle": "Jr. Moquegua",
-      "numero": "3732",
-      "distrito": "Comas",
-      "ciudad": "Lima",
-      "codigo_postal": "15017"
-    },
-    "telefono": "+51-977695520",
-    "email": "local94@chinawok.pe",
-    "horario": {
-      "apertura": "08:00",
-      "cierre": "22:00",
-      "dias_atencion": [
-        "Lunes",
-        "Martes",
-        "Miércoles",
-        "Jueves",
-        "Viernes",
-        "Sábado",
-        "Domingo"
-      ]
-    },
-    "capacidad_maxima": 52,
-    "activo": true,
-    "created_at": "2025-10-31T15:15:05.837923",
-    "updated_at": "2025-10-31T15:15:05.837924"
-  },
-  {
-    "PK": "LOCAL#d5c2454d-636b-409e-80d1-22559ac2b2e5",
-    "SK": "LOCAL#d5c2454d-636b-409e-80d1-22559ac2b2e5",
-    "local_id": "d5c2454d-636b-409e-80d1-22559ac2b2e5",
+    "PK": "LOCAL#98ef5017-36a5-4eec-84ab-2f07e4e02257",
+    "SK": "LOCAL#98ef5017-36a5-4eec-84ab-2f07e4e02257",
+    "local_id": "98ef5017-36a5-4eec-84ab-2f07e4e02257",
     "nombre": "China Wok Pueblo Libre",
     "direccion": {
-      "calle": "Av. Carlos Izaguirre",
-      "numero": "6271",
+      "calle": "Av. Santa Rosa",
+      "numero": "3417",
       "distrito": "Pueblo Libre",
       "ciudad": "Lima",
-      "codigo_postal": "15068"
+      "codigo_postal": "15070"
     },
-    "telefono": "+51-983209552",
-    "email": "local95@chinawok.pe",
+    "telefono": "+51-948103397",
+    "email": "local8@chinawok.pe",
+    "horario": {
+      "apertura": "08:00",
+      "cierre": "22:00",
+      "dias_atencion": [
+        "Lunes",
+        "Martes",
+        "Miércoles",
+        "Jueves",
+        "Viernes",
+        "Sábado",
+        "Domingo"
+      ]
+    },
+    "capacidad_maxima": 193,
+    "activo": true,
+    "created_at": "2025-10-31T15:40:51.534302",
+    "updated_at": "2025-10-31T15:40:51.534304"
+  },
+  {
+    "PK": "LOCAL#ad6a84df-2fa5-45f0-8b68-5fa0f7312e07",
+    "SK": "LOCAL#ad6a84df-2fa5-45f0-8b68-5fa0f7312e07",
+    "local_id": "ad6a84df-2fa5-45f0-8b68-5fa0f7312e07",
+    "nombre": "China Wok San Isidro",
+    "direccion": {
+      "calle": "Jr. Junín",
+      "numero": "6955",
+      "distrito": "San Isidro",
+      "ciudad": "Lima",
+      "codigo_postal": "15091"
+    },
+    "telefono": "+51-992698308",
+    "email": "local9@chinawok.pe",
+    "horario": {
+      "apertura": "08:00",
+      "cierre": "22:00",
+      "dias_atencion": [
+        "Lunes",
+        "Martes",
+        "Miércoles",
+        "Jueves",
+        "Viernes",
+        "Sábado",
+        "Domingo"
+      ]
+    },
+    "capacidad_maxima": 197,
+    "activo": true,
+    "created_at": "2025-10-31T15:40:51.534314",
+    "updated_at": "2025-10-31T15:40:51.534315"
+  },
+  {
+    "PK": "LOCAL#d7698018-c996-445c-9cb9-b4e20eb83d55",
+    "SK": "LOCAL#d7698018-c996-445c-9cb9-b4e20eb83d55",
+    "local_id": "d7698018-c996-445c-9cb9-b4e20eb83d55",
+    "nombre": "China Wok Mi Perú",
+    "direccion": {
+      "calle": "Calle Martir Olaya",
+      "numero": "1202",
+      "distrito": "Mi Perú",
+      "ciudad": "Lima",
+      "codigo_postal": "15072"
+    },
+    "telefono": "+51-911327557",
+    "email": "local10@chinawok.pe",
+    "horario": {
+      "apertura": "08:00",
+      "cierre": "22:00",
+      "dias_atencion": [
+        "Lunes",
+        "Martes",
+        "Miércoles",
+        "Jueves",
+        "Viernes",
+        "Sábado",
+        "Domingo"
+      ]
+    },
+    "capacidad_maxima": 64,
+    "activo": true,
+    "created_at": "2025-10-31T15:40:51.534326",
+    "updated_at": "2025-10-31T15:40:51.534327"
+  },
+  {
+    "PK": "LOCAL#1ed51e69-4963-4eab-bf12-96f5f5016d3f",
+    "SK": "LOCAL#1ed51e69-4963-4eab-bf12-96f5f5016d3f",
+    "local_id": "1ed51e69-4963-4eab-bf12-96f5f5016d3f",
+    "nombre": "China Wok San Juan de Miraflores",
+    "direccion": {
+      "calle": "Av. Naranjal",
+      "numero": "5720",
+      "distrito": "San Juan de Miraflores",
+      "ciudad": "Lima",
+      "codigo_postal": "15094"
+    },
+    "telefono": "+51-983194829",
+    "email": "local11@chinawok.pe",
     "horario": {
       "apertura": "08:00",
       "cierre": "22:00",
@@ -3036,22 +348,2710 @@
     },
     "capacidad_maxima": 54,
     "activo": true,
-    "created_at": "2025-10-31T15:15:05.837933",
-    "updated_at": "2025-10-31T15:15:05.837935"
+    "created_at": "2025-10-31T15:40:51.534337",
+    "updated_at": "2025-10-31T15:40:51.534338"
   },
   {
-    "PK": "LOCAL#608128ad-b661-4bb3-a65c-8882ab4b505e",
-    "SK": "LOCAL#608128ad-b661-4bb3-a65c-8882ab4b505e",
-    "local_id": "608128ad-b661-4bb3-a65c-8882ab4b505e",
+    "PK": "LOCAL#62a8e146-9bf2-41ce-8a1e-3a3938e15ae1",
+    "SK": "LOCAL#62a8e146-9bf2-41ce-8a1e-3a3938e15ae1",
+    "local_id": "62a8e146-9bf2-41ce-8a1e-3a3938e15ae1",
+    "nombre": "China Wok Jesús María",
+    "direccion": {
+      "calle": "Av. Primavera",
+      "numero": "2582",
+      "distrito": "Jesús María",
+      "ciudad": "Lima",
+      "codigo_postal": "15013"
+    },
+    "telefono": "+51-926974892",
+    "email": "local12@chinawok.pe",
+    "horario": {
+      "apertura": "08:00",
+      "cierre": "22:00",
+      "dias_atencion": [
+        "Lunes",
+        "Martes",
+        "Miércoles",
+        "Jueves",
+        "Viernes",
+        "Sábado",
+        "Domingo"
+      ]
+    },
+    "capacidad_maxima": 53,
+    "activo": true,
+    "created_at": "2025-10-31T15:40:51.534348",
+    "updated_at": "2025-10-31T15:40:51.534349"
+  },
+  {
+    "PK": "LOCAL#88c0194d-a462-4cfa-abf5-2300b76e4a04",
+    "SK": "LOCAL#88c0194d-a462-4cfa-abf5-2300b76e4a04",
+    "local_id": "88c0194d-a462-4cfa-abf5-2300b76e4a04",
+    "nombre": "China Wok Comas",
+    "direccion": {
+      "calle": "Av. Venezuela",
+      "numero": "6455",
+      "distrito": "Comas",
+      "ciudad": "Lima",
+      "codigo_postal": "15073"
+    },
+    "telefono": "+51-972858132",
+    "email": "local13@chinawok.pe",
+    "horario": {
+      "apertura": "08:00",
+      "cierre": "22:00",
+      "dias_atencion": [
+        "Lunes",
+        "Martes",
+        "Miércoles",
+        "Jueves",
+        "Viernes",
+        "Sábado",
+        "Domingo"
+      ]
+    },
+    "capacidad_maxima": 58,
+    "activo": true,
+    "created_at": "2025-10-31T15:40:51.534359",
+    "updated_at": "2025-10-31T15:40:51.534361"
+  },
+  {
+    "PK": "LOCAL#ea471cf4-240c-457c-95a3-60443c09032c",
+    "SK": "LOCAL#ea471cf4-240c-457c-95a3-60443c09032c",
+    "local_id": "ea471cf4-240c-457c-95a3-60443c09032c",
+    "nombre": "China Wok Carmen de la Legua",
+    "direccion": {
+      "calle": "Calle Los Rosales",
+      "numero": "3620",
+      "distrito": "Carmen de la Legua",
+      "ciudad": "Lima",
+      "codigo_postal": "15051"
+    },
+    "telefono": "+51-948004702",
+    "email": "local14@chinawok.pe",
+    "horario": {
+      "apertura": "08:00",
+      "cierre": "22:00",
+      "dias_atencion": [
+        "Lunes",
+        "Martes",
+        "Miércoles",
+        "Jueves",
+        "Viernes",
+        "Sábado",
+        "Domingo"
+      ]
+    },
+    "capacidad_maxima": 190,
+    "activo": true,
+    "created_at": "2025-10-31T15:40:51.534376",
+    "updated_at": "2025-10-31T15:40:51.534377"
+  },
+  {
+    "PK": "LOCAL#1b3c89be-5e7f-4a7c-bca2-90cbe0ad1cdd",
+    "SK": "LOCAL#1b3c89be-5e7f-4a7c-bca2-90cbe0ad1cdd",
+    "local_id": "1b3c89be-5e7f-4a7c-bca2-90cbe0ad1cdd",
+    "nombre": "China Wok Surquillo",
+    "direccion": {
+      "calle": "Av. Los Héroes",
+      "numero": "4919",
+      "distrito": "Surquillo",
+      "ciudad": "Lima",
+      "codigo_postal": "15097"
+    },
+    "telefono": "+51-956731290",
+    "email": "local15@chinawok.pe",
+    "horario": {
+      "apertura": "08:00",
+      "cierre": "22:00",
+      "dias_atencion": [
+        "Lunes",
+        "Martes",
+        "Miércoles",
+        "Jueves",
+        "Viernes",
+        "Sábado",
+        "Domingo"
+      ]
+    },
+    "capacidad_maxima": 156,
+    "activo": true,
+    "created_at": "2025-10-31T15:40:51.534387",
+    "updated_at": "2025-10-31T15:40:51.534388"
+  },
+  {
+    "PK": "LOCAL#07879ab0-be20-4c40-aa19-9f4e25db6d5f",
+    "SK": "LOCAL#07879ab0-be20-4c40-aa19-9f4e25db6d5f",
+    "local_id": "07879ab0-be20-4c40-aa19-9f4e25db6d5f",
+    "nombre": "China Wok Jesús María",
+    "direccion": {
+      "calle": "Calle Los Cedros",
+      "numero": "9858",
+      "distrito": "Jesús María",
+      "ciudad": "Lima",
+      "codigo_postal": "15071"
+    },
+    "telefono": "+51-942406420",
+    "email": "local16@chinawok.pe",
+    "horario": {
+      "apertura": "08:00",
+      "cierre": "22:00",
+      "dias_atencion": [
+        "Lunes",
+        "Martes",
+        "Miércoles",
+        "Jueves",
+        "Viernes",
+        "Sábado",
+        "Domingo"
+      ]
+    },
+    "capacidad_maxima": 102,
+    "activo": true,
+    "created_at": "2025-10-31T15:40:51.534398",
+    "updated_at": "2025-10-31T15:40:51.534399"
+  },
+  {
+    "PK": "LOCAL#0f37c63c-2f1e-4e10-8abe-f0519f074785",
+    "SK": "LOCAL#0f37c63c-2f1e-4e10-8abe-f0519f074785",
+    "local_id": "0f37c63c-2f1e-4e10-8abe-f0519f074785",
+    "nombre": "China Wok Lima Cercado",
+    "direccion": {
+      "calle": "Calle Las Orquídeas",
+      "numero": "9211",
+      "distrito": "Lima Cercado",
+      "ciudad": "Lima",
+      "codigo_postal": "15025"
+    },
+    "telefono": "+51-964861798",
+    "email": "local17@chinawok.pe",
+    "horario": {
+      "apertura": "08:00",
+      "cierre": "22:00",
+      "dias_atencion": [
+        "Lunes",
+        "Martes",
+        "Miércoles",
+        "Jueves",
+        "Viernes",
+        "Sábado",
+        "Domingo"
+      ]
+    },
+    "capacidad_maxima": 176,
+    "activo": true,
+    "created_at": "2025-10-31T15:40:51.534409",
+    "updated_at": "2025-10-31T15:40:51.534410"
+  },
+  {
+    "PK": "LOCAL#aeedf528-8821-4583-b065-890b68aa78f1",
+    "SK": "LOCAL#aeedf528-8821-4583-b065-890b68aa78f1",
+    "local_id": "aeedf528-8821-4583-b065-890b68aa78f1",
+    "nombre": "China Wok La Victoria",
+    "direccion": {
+      "calle": "Av. Wilson",
+      "numero": "8299",
+      "distrito": "La Victoria",
+      "ciudad": "Lima",
+      "codigo_postal": "15066"
+    },
+    "telefono": "+51-991810853",
+    "email": "local18@chinawok.pe",
+    "horario": {
+      "apertura": "08:00",
+      "cierre": "22:00",
+      "dias_atencion": [
+        "Lunes",
+        "Martes",
+        "Miércoles",
+        "Jueves",
+        "Viernes",
+        "Sábado",
+        "Domingo"
+      ]
+    },
+    "capacidad_maxima": 104,
+    "activo": true,
+    "created_at": "2025-10-31T15:40:51.534422",
+    "updated_at": "2025-10-31T15:40:51.534423"
+  },
+  {
+    "PK": "LOCAL#56f29c77-c2c7-4c55-acac-4205c630865b",
+    "SK": "LOCAL#56f29c77-c2c7-4c55-acac-4205c630865b",
+    "local_id": "56f29c77-c2c7-4c55-acac-4205c630865b",
+    "nombre": "China Wok Miraflores",
+    "direccion": {
+      "calle": "Av. 28 de Julio",
+      "numero": "6536",
+      "distrito": "Miraflores",
+      "ciudad": "Lima",
+      "codigo_postal": "15018"
+    },
+    "telefono": "+51-944041542",
+    "email": "local19@chinawok.pe",
+    "horario": {
+      "apertura": "08:00",
+      "cierre": "22:00",
+      "dias_atencion": [
+        "Lunes",
+        "Martes",
+        "Miércoles",
+        "Jueves",
+        "Viernes",
+        "Sábado",
+        "Domingo"
+      ]
+    },
+    "capacidad_maxima": 141,
+    "activo": true,
+    "created_at": "2025-10-31T15:40:51.534433",
+    "updated_at": "2025-10-31T15:40:51.534434"
+  },
+  {
+    "PK": "LOCAL#798507e9-d259-4c66-a24e-b3e91056e0c3",
+    "SK": "LOCAL#798507e9-d259-4c66-a24e-b3e91056e0c3",
+    "local_id": "798507e9-d259-4c66-a24e-b3e91056e0c3",
+    "nombre": "China Wok Santa María del Mar",
+    "direccion": {
+      "calle": "Av. Raúl Ferrero",
+      "numero": "4815",
+      "distrito": "Santa María del Mar",
+      "ciudad": "Lima",
+      "codigo_postal": "15072"
+    },
+    "telefono": "+51-996667870",
+    "email": "local20@chinawok.pe",
+    "horario": {
+      "apertura": "08:00",
+      "cierre": "22:00",
+      "dias_atencion": [
+        "Lunes",
+        "Martes",
+        "Miércoles",
+        "Jueves",
+        "Viernes",
+        "Sábado",
+        "Domingo"
+      ]
+    },
+    "capacidad_maxima": 68,
+    "activo": true,
+    "created_at": "2025-10-31T15:40:51.534443",
+    "updated_at": "2025-10-31T15:40:51.534445"
+  },
+  {
+    "PK": "LOCAL#56bda05e-5c56-415a-995f-ea42547259b0",
+    "SK": "LOCAL#56bda05e-5c56-415a-995f-ea42547259b0",
+    "local_id": "56bda05e-5c56-415a-995f-ea42547259b0",
+    "nombre": "China Wok Punta Negra",
+    "direccion": {
+      "calle": "Av. Angamos",
+      "numero": "6650",
+      "distrito": "Punta Negra",
+      "ciudad": "Lima",
+      "codigo_postal": "15082"
+    },
+    "telefono": "+51-938428603",
+    "email": "local21@chinawok.pe",
+    "horario": {
+      "apertura": "08:00",
+      "cierre": "22:00",
+      "dias_atencion": [
+        "Lunes",
+        "Martes",
+        "Miércoles",
+        "Jueves",
+        "Viernes",
+        "Sábado",
+        "Domingo"
+      ]
+    },
+    "capacidad_maxima": 139,
+    "activo": true,
+    "created_at": "2025-10-31T15:40:51.534456",
+    "updated_at": "2025-10-31T15:40:51.534458"
+  },
+  {
+    "PK": "LOCAL#0ebdb6d7-e6e6-4d38-aa09-f6ab4bd7445e",
+    "SK": "LOCAL#0ebdb6d7-e6e6-4d38-aa09-f6ab4bd7445e",
+    "local_id": "0ebdb6d7-e6e6-4d38-aa09-f6ab4bd7445e",
+    "nombre": "China Wok Lurigancho",
+    "direccion": {
+      "calle": "Calle Los Rosales",
+      "numero": "2355",
+      "distrito": "Lurigancho",
+      "ciudad": "Lima",
+      "codigo_postal": "15070"
+    },
+    "telefono": "+51-904322391",
+    "email": "local22@chinawok.pe",
+    "horario": {
+      "apertura": "08:00",
+      "cierre": "22:00",
+      "dias_atencion": [
+        "Lunes",
+        "Martes",
+        "Miércoles",
+        "Jueves",
+        "Viernes",
+        "Sábado",
+        "Domingo"
+      ]
+    },
+    "capacidad_maxima": 89,
+    "activo": true,
+    "created_at": "2025-10-31T15:40:51.534467",
+    "updated_at": "2025-10-31T15:40:51.534469"
+  },
+  {
+    "PK": "LOCAL#1a827bee-e76b-42f8-bd13-44ed6a03c041",
+    "SK": "LOCAL#1a827bee-e76b-42f8-bd13-44ed6a03c041",
+    "local_id": "1a827bee-e76b-42f8-bd13-44ed6a03c041",
+    "nombre": "China Wok Lurín",
+    "direccion": {
+      "calle": "Av. Honorio Delgado",
+      "numero": "8715",
+      "distrito": "Lurín",
+      "ciudad": "Lima",
+      "codigo_postal": "15024"
+    },
+    "telefono": "+51-994015120",
+    "email": "local23@chinawok.pe",
+    "horario": {
+      "apertura": "08:00",
+      "cierre": "22:00",
+      "dias_atencion": [
+        "Lunes",
+        "Martes",
+        "Miércoles",
+        "Jueves",
+        "Viernes",
+        "Sábado",
+        "Domingo"
+      ]
+    },
+    "capacidad_maxima": 57,
+    "activo": true,
+    "created_at": "2025-10-31T15:40:51.534498",
+    "updated_at": "2025-10-31T15:40:51.534499"
+  },
+  {
+    "PK": "LOCAL#c8311d67-b9f1-426b-b3bc-4d97663bf346",
+    "SK": "LOCAL#c8311d67-b9f1-426b-b3bc-4d97663bf346",
+    "local_id": "c8311d67-b9f1-426b-b3bc-4d97663bf346",
+    "nombre": "China Wok San Miguel",
+    "direccion": {
+      "calle": "Jr. Junín",
+      "numero": "9220",
+      "distrito": "San Miguel",
+      "ciudad": "Lima",
+      "codigo_postal": "15092"
+    },
+    "telefono": "+51-913021815",
+    "email": "local24@chinawok.pe",
+    "horario": {
+      "apertura": "08:00",
+      "cierre": "22:00",
+      "dias_atencion": [
+        "Lunes",
+        "Martes",
+        "Miércoles",
+        "Jueves",
+        "Viernes",
+        "Sábado",
+        "Domingo"
+      ]
+    },
+    "capacidad_maxima": 131,
+    "activo": true,
+    "created_at": "2025-10-31T15:40:51.534512",
+    "updated_at": "2025-10-31T15:40:51.534513"
+  },
+  {
+    "PK": "LOCAL#b14b8aef-ba3e-4265-9e7d-4cbfb1e25e04",
+    "SK": "LOCAL#b14b8aef-ba3e-4265-9e7d-4cbfb1e25e04",
+    "local_id": "b14b8aef-ba3e-4265-9e7d-4cbfb1e25e04",
+    "nombre": "China Wok Santa María del Mar",
+    "direccion": {
+      "calle": "Calle Los Rosales",
+      "numero": "769",
+      "distrito": "Santa María del Mar",
+      "ciudad": "Lima",
+      "codigo_postal": "15047"
+    },
+    "telefono": "+51-920264490",
+    "email": "local25@chinawok.pe",
+    "horario": {
+      "apertura": "08:00",
+      "cierre": "22:00",
+      "dias_atencion": [
+        "Lunes",
+        "Martes",
+        "Miércoles",
+        "Jueves",
+        "Viernes",
+        "Sábado",
+        "Domingo"
+      ]
+    },
+    "capacidad_maxima": 53,
+    "activo": true,
+    "created_at": "2025-10-31T15:40:51.534523",
+    "updated_at": "2025-10-31T15:40:51.534524"
+  },
+  {
+    "PK": "LOCAL#f88b61de-0673-44dd-b9ab-ac31a7a53db5",
+    "SK": "LOCAL#f88b61de-0673-44dd-b9ab-ac31a7a53db5",
+    "local_id": "f88b61de-0673-44dd-b9ab-ac31a7a53db5",
+    "nombre": "China Wok Los Olivos",
+    "direccion": {
+      "calle": "Av. Carlos Izaguirre",
+      "numero": "8492",
+      "distrito": "Los Olivos",
+      "ciudad": "Lima",
+      "codigo_postal": "15083"
+    },
+    "telefono": "+51-912317960",
+    "email": "local26@chinawok.pe",
+    "horario": {
+      "apertura": "08:00",
+      "cierre": "22:00",
+      "dias_atencion": [
+        "Lunes",
+        "Martes",
+        "Miércoles",
+        "Jueves",
+        "Viernes",
+        "Sábado",
+        "Domingo"
+      ]
+    },
+    "capacidad_maxima": 60,
+    "activo": true,
+    "created_at": "2025-10-31T15:40:51.534534",
+    "updated_at": "2025-10-31T15:40:51.534535"
+  },
+  {
+    "PK": "LOCAL#7c378485-32b0-4788-9900-55e797d8e6d9",
+    "SK": "LOCAL#7c378485-32b0-4788-9900-55e797d8e6d9",
+    "local_id": "7c378485-32b0-4788-9900-55e797d8e6d9",
     "nombre": "China Wok Cieneguilla",
     "direccion": {
       "calle": "Calle Los Álamos",
-      "numero": "3053",
+      "numero": "2933",
       "distrito": "Cieneguilla",
+      "ciudad": "Lima",
+      "codigo_postal": "15015"
+    },
+    "telefono": "+51-936810448",
+    "email": "local27@chinawok.pe",
+    "horario": {
+      "apertura": "08:00",
+      "cierre": "22:00",
+      "dias_atencion": [
+        "Lunes",
+        "Martes",
+        "Miércoles",
+        "Jueves",
+        "Viernes",
+        "Sábado",
+        "Domingo"
+      ]
+    },
+    "capacidad_maxima": 159,
+    "activo": true,
+    "created_at": "2025-10-31T15:40:51.534545",
+    "updated_at": "2025-10-31T15:40:51.534547"
+  },
+  {
+    "PK": "LOCAL#a827163f-7fc5-4dfc-8820-204b7100653e",
+    "SK": "LOCAL#a827163f-7fc5-4dfc-8820-204b7100653e",
+    "local_id": "a827163f-7fc5-4dfc-8820-204b7100653e",
+    "nombre": "China Wok Villa El Salvador",
+    "direccion": {
+      "calle": "Calle Los Cedros",
+      "numero": "2597",
+      "distrito": "Villa El Salvador",
+      "ciudad": "Lima",
+      "codigo_postal": "15060"
+    },
+    "telefono": "+51-916369261",
+    "email": "local28@chinawok.pe",
+    "horario": {
+      "apertura": "08:00",
+      "cierre": "22:00",
+      "dias_atencion": [
+        "Lunes",
+        "Martes",
+        "Miércoles",
+        "Jueves",
+        "Viernes",
+        "Sábado",
+        "Domingo"
+      ]
+    },
+    "capacidad_maxima": 149,
+    "activo": true,
+    "created_at": "2025-10-31T15:40:51.534556",
+    "updated_at": "2025-10-31T15:40:51.534558"
+  },
+  {
+    "PK": "LOCAL#a2520b62-19d6-4239-8fd9-67663d211cfb",
+    "SK": "LOCAL#a2520b62-19d6-4239-8fd9-67663d211cfb",
+    "local_id": "a2520b62-19d6-4239-8fd9-67663d211cfb",
+    "nombre": "China Wok Punta Negra",
+    "direccion": {
+      "calle": "Calle Arequipa",
+      "numero": "9268",
+      "distrito": "Punta Negra",
+      "ciudad": "Lima",
+      "codigo_postal": "15059"
+    },
+    "telefono": "+51-934083909",
+    "email": "local29@chinawok.pe",
+    "horario": {
+      "apertura": "08:00",
+      "cierre": "22:00",
+      "dias_atencion": [
+        "Lunes",
+        "Martes",
+        "Miércoles",
+        "Jueves",
+        "Viernes",
+        "Sábado",
+        "Domingo"
+      ]
+    },
+    "capacidad_maxima": 108,
+    "activo": true,
+    "created_at": "2025-10-31T15:40:51.534567",
+    "updated_at": "2025-10-31T15:40:51.534568"
+  },
+  {
+    "PK": "LOCAL#592a1ae9-d968-4320-88fd-60ad3dbdacbe",
+    "SK": "LOCAL#592a1ae9-d968-4320-88fd-60ad3dbdacbe",
+    "local_id": "592a1ae9-d968-4320-88fd-60ad3dbdacbe",
+    "nombre": "China Wok Bellavista",
+    "direccion": {
+      "calle": "Calle Schell",
+      "numero": "5318",
+      "distrito": "Bellavista",
+      "ciudad": "Lima",
+      "codigo_postal": "15031"
+    },
+    "telefono": "+51-999776969",
+    "email": "local30@chinawok.pe",
+    "horario": {
+      "apertura": "08:00",
+      "cierre": "22:00",
+      "dias_atencion": [
+        "Lunes",
+        "Martes",
+        "Miércoles",
+        "Jueves",
+        "Viernes",
+        "Sábado",
+        "Domingo"
+      ]
+    },
+    "capacidad_maxima": 88,
+    "activo": true,
+    "created_at": "2025-10-31T15:40:51.534578",
+    "updated_at": "2025-10-31T15:40:51.534579"
+  },
+  {
+    "PK": "LOCAL#c3d16182-ab1c-4671-b80d-bc89996353d6",
+    "SK": "LOCAL#c3d16182-ab1c-4671-b80d-bc89996353d6",
+    "local_id": "c3d16182-ab1c-4671-b80d-bc89996353d6",
+    "nombre": "China Wok Jesús María",
+    "direccion": {
+      "calle": "Calle Las Begonias",
+      "numero": "2673",
+      "distrito": "Jesús María",
+      "ciudad": "Lima",
+      "codigo_postal": "15037"
+    },
+    "telefono": "+51-918298532",
+    "email": "local31@chinawok.pe",
+    "horario": {
+      "apertura": "08:00",
+      "cierre": "22:00",
+      "dias_atencion": [
+        "Lunes",
+        "Martes",
+        "Miércoles",
+        "Jueves",
+        "Viernes",
+        "Sábado",
+        "Domingo"
+      ]
+    },
+    "capacidad_maxima": 57,
+    "activo": true,
+    "created_at": "2025-10-31T15:40:51.534591",
+    "updated_at": "2025-10-31T15:40:51.534593"
+  },
+  {
+    "PK": "LOCAL#2774ec3b-9ce7-4007-ba0d-1e7406538647",
+    "SK": "LOCAL#2774ec3b-9ce7-4007-ba0d-1e7406538647",
+    "local_id": "2774ec3b-9ce7-4007-ba0d-1e7406538647",
+    "nombre": "China Wok Breña",
+    "direccion": {
+      "calle": "Jr. de la Unión",
+      "numero": "5523",
+      "distrito": "Breña",
+      "ciudad": "Lima",
+      "codigo_postal": "15064"
+    },
+    "telefono": "+51-906457801",
+    "email": "local32@chinawok.pe",
+    "horario": {
+      "apertura": "08:00",
+      "cierre": "22:00",
+      "dias_atencion": [
+        "Lunes",
+        "Martes",
+        "Miércoles",
+        "Jueves",
+        "Viernes",
+        "Sábado",
+        "Domingo"
+      ]
+    },
+    "capacidad_maxima": 134,
+    "activo": true,
+    "created_at": "2025-10-31T15:40:51.534602",
+    "updated_at": "2025-10-31T15:40:51.534604"
+  },
+  {
+    "PK": "LOCAL#deef49d3-79a0-40dc-9ca6-4f65b89239e3",
+    "SK": "LOCAL#deef49d3-79a0-40dc-9ca6-4f65b89239e3",
+    "local_id": "deef49d3-79a0-40dc-9ca6-4f65b89239e3",
+    "nombre": "China Wok Ate",
+    "direccion": {
+      "calle": "Av. El Ejército",
+      "numero": "9486",
+      "distrito": "Ate",
+      "ciudad": "Lima",
+      "codigo_postal": "15052"
+    },
+    "telefono": "+51-909835603",
+    "email": "local33@chinawok.pe",
+    "horario": {
+      "apertura": "08:00",
+      "cierre": "22:00",
+      "dias_atencion": [
+        "Lunes",
+        "Martes",
+        "Miércoles",
+        "Jueves",
+        "Viernes",
+        "Sábado",
+        "Domingo"
+      ]
+    },
+    "capacidad_maxima": 189,
+    "activo": true,
+    "created_at": "2025-10-31T15:40:51.534613",
+    "updated_at": "2025-10-31T15:40:51.534614"
+  },
+  {
+    "PK": "LOCAL#61bc27bc-0227-429c-a0c1-9387037752e7",
+    "SK": "LOCAL#61bc27bc-0227-429c-a0c1-9387037752e7",
+    "local_id": "61bc27bc-0227-429c-a0c1-9387037752e7",
+    "nombre": "China Wok Santa Rosa",
+    "direccion": {
+      "calle": "Av. Del Parque",
+      "numero": "9013",
+      "distrito": "Santa Rosa",
       "ciudad": "Lima",
       "codigo_postal": "15035"
     },
-    "telefono": "+51-970771371",
+    "telefono": "+51-909586146",
+    "email": "local34@chinawok.pe",
+    "horario": {
+      "apertura": "08:00",
+      "cierre": "22:00",
+      "dias_atencion": [
+        "Lunes",
+        "Martes",
+        "Miércoles",
+        "Jueves",
+        "Viernes",
+        "Sábado",
+        "Domingo"
+      ]
+    },
+    "capacidad_maxima": 196,
+    "activo": true,
+    "created_at": "2025-10-31T15:40:51.534627",
+    "updated_at": "2025-10-31T15:40:51.534628"
+  },
+  {
+    "PK": "LOCAL#e44159e5-f3f0-4704-a8d4-745f0723069c",
+    "SK": "LOCAL#e44159e5-f3f0-4704-a8d4-745f0723069c",
+    "local_id": "e44159e5-f3f0-4704-a8d4-745f0723069c",
+    "nombre": "China Wok Surco",
+    "direccion": {
+      "calle": "Av. José Pardo",
+      "numero": "6331",
+      "distrito": "Surco",
+      "ciudad": "Lima",
+      "codigo_postal": "15051"
+    },
+    "telefono": "+51-952673337",
+    "email": "local35@chinawok.pe",
+    "horario": {
+      "apertura": "08:00",
+      "cierre": "22:00",
+      "dias_atencion": [
+        "Lunes",
+        "Martes",
+        "Miércoles",
+        "Jueves",
+        "Viernes",
+        "Sábado",
+        "Domingo"
+      ]
+    },
+    "capacidad_maxima": 187,
+    "activo": true,
+    "created_at": "2025-10-31T15:40:51.534637",
+    "updated_at": "2025-10-31T15:40:51.534638"
+  },
+  {
+    "PK": "LOCAL#818699ec-f3f1-4b72-bf1c-67a3e6a5746b",
+    "SK": "LOCAL#818699ec-f3f1-4b72-bf1c-67a3e6a5746b",
+    "local_id": "818699ec-f3f1-4b72-bf1c-67a3e6a5746b",
+    "nombre": "China Wok Lurigancho",
+    "direccion": {
+      "calle": "Jr. Huallaga",
+      "numero": "1363",
+      "distrito": "Lurigancho",
+      "ciudad": "Lima",
+      "codigo_postal": "15081"
+    },
+    "telefono": "+51-947447576",
+    "email": "local36@chinawok.pe",
+    "horario": {
+      "apertura": "08:00",
+      "cierre": "22:00",
+      "dias_atencion": [
+        "Lunes",
+        "Martes",
+        "Miércoles",
+        "Jueves",
+        "Viernes",
+        "Sábado",
+        "Domingo"
+      ]
+    },
+    "capacidad_maxima": 141,
+    "activo": true,
+    "created_at": "2025-10-31T15:40:51.534648",
+    "updated_at": "2025-10-31T15:40:51.534649"
+  },
+  {
+    "PK": "LOCAL#8c2a7d32-a756-4ccb-b385-bcf23962f706",
+    "SK": "LOCAL#8c2a7d32-a756-4ccb-b385-bcf23962f706",
+    "local_id": "8c2a7d32-a756-4ccb-b385-bcf23962f706",
+    "nombre": "China Wok Callao",
+    "direccion": {
+      "calle": "Av. Alfonso Ugarte",
+      "numero": "4514",
+      "distrito": "Callao",
+      "ciudad": "Lima",
+      "codigo_postal": "15060"
+    },
+    "telefono": "+51-927755339",
+    "email": "local37@chinawok.pe",
+    "horario": {
+      "apertura": "08:00",
+      "cierre": "22:00",
+      "dias_atencion": [
+        "Lunes",
+        "Martes",
+        "Miércoles",
+        "Jueves",
+        "Viernes",
+        "Sábado",
+        "Domingo"
+      ]
+    },
+    "capacidad_maxima": 61,
+    "activo": true,
+    "created_at": "2025-10-31T15:40:51.534659",
+    "updated_at": "2025-10-31T15:40:51.534660"
+  },
+  {
+    "PK": "LOCAL#0f5546d1-9b3b-475c-9afe-77f5357513b3",
+    "SK": "LOCAL#0f5546d1-9b3b-475c-9afe-77f5357513b3",
+    "local_id": "0f5546d1-9b3b-475c-9afe-77f5357513b3",
+    "nombre": "China Wok Punta Negra",
+    "direccion": {
+      "calle": "Av. Las Torres",
+      "numero": "528",
+      "distrito": "Punta Negra",
+      "ciudad": "Lima",
+      "codigo_postal": "15086"
+    },
+    "telefono": "+51-978455514",
+    "email": "local38@chinawok.pe",
+    "horario": {
+      "apertura": "08:00",
+      "cierre": "22:00",
+      "dias_atencion": [
+        "Lunes",
+        "Martes",
+        "Miércoles",
+        "Jueves",
+        "Viernes",
+        "Sábado",
+        "Domingo"
+      ]
+    },
+    "capacidad_maxima": 186,
+    "activo": true,
+    "created_at": "2025-10-31T15:40:51.534672",
+    "updated_at": "2025-10-31T15:40:51.534673"
+  },
+  {
+    "PK": "LOCAL#b0cd4ee9-b862-4908-9e3c-7c9a3e55105b",
+    "SK": "LOCAL#b0cd4ee9-b862-4908-9e3c-7c9a3e55105b",
+    "local_id": "b0cd4ee9-b862-4908-9e3c-7c9a3e55105b",
+    "nombre": "China Wok Breña",
+    "direccion": {
+      "calle": "Jr. Miró Quesada",
+      "numero": "4362",
+      "distrito": "Breña",
+      "ciudad": "Lima",
+      "codigo_postal": "15084"
+    },
+    "telefono": "+51-901593694",
+    "email": "local39@chinawok.pe",
+    "horario": {
+      "apertura": "08:00",
+      "cierre": "22:00",
+      "dias_atencion": [
+        "Lunes",
+        "Martes",
+        "Miércoles",
+        "Jueves",
+        "Viernes",
+        "Sábado",
+        "Domingo"
+      ]
+    },
+    "capacidad_maxima": 87,
+    "activo": true,
+    "created_at": "2025-10-31T15:40:51.534682",
+    "updated_at": "2025-10-31T15:40:51.534683"
+  },
+  {
+    "PK": "LOCAL#1bb67742-7c07-4780-9b3c-47e5eee693ae",
+    "SK": "LOCAL#1bb67742-7c07-4780-9b3c-47e5eee693ae",
+    "local_id": "1bb67742-7c07-4780-9b3c-47e5eee693ae",
+    "nombre": "China Wok Punta Hermosa",
+    "direccion": {
+      "calle": "Av. Defensores del Morro",
+      "numero": "3789",
+      "distrito": "Punta Hermosa",
+      "ciudad": "Lima",
+      "codigo_postal": "15038"
+    },
+    "telefono": "+51-976463344",
+    "email": "local40@chinawok.pe",
+    "horario": {
+      "apertura": "08:00",
+      "cierre": "22:00",
+      "dias_atencion": [
+        "Lunes",
+        "Martes",
+        "Miércoles",
+        "Jueves",
+        "Viernes",
+        "Sábado",
+        "Domingo"
+      ]
+    },
+    "capacidad_maxima": 99,
+    "activo": true,
+    "created_at": "2025-10-31T15:40:51.534693",
+    "updated_at": "2025-10-31T15:40:51.534694"
+  },
+  {
+    "PK": "LOCAL#76c48c89-1001-4326-b9cd-c86ce9591cfb",
+    "SK": "LOCAL#76c48c89-1001-4326-b9cd-c86ce9591cfb",
+    "local_id": "76c48c89-1001-4326-b9cd-c86ce9591cfb",
+    "nombre": "China Wok Callao",
+    "direccion": {
+      "calle": "Av. La Paz",
+      "numero": "7411",
+      "distrito": "Callao",
+      "ciudad": "Lima",
+      "codigo_postal": "15099"
+    },
+    "telefono": "+51-971429714",
+    "email": "local41@chinawok.pe",
+    "horario": {
+      "apertura": "08:00",
+      "cierre": "22:00",
+      "dias_atencion": [
+        "Lunes",
+        "Martes",
+        "Miércoles",
+        "Jueves",
+        "Viernes",
+        "Sábado",
+        "Domingo"
+      ]
+    },
+    "capacidad_maxima": 62,
+    "activo": true,
+    "created_at": "2025-10-31T15:40:51.534706",
+    "updated_at": "2025-10-31T15:40:51.534707"
+  },
+  {
+    "PK": "LOCAL#15cb4e5f-f75b-4ec6-abc9-dee598174e94",
+    "SK": "LOCAL#15cb4e5f-f75b-4ec6-abc9-dee598174e94",
+    "local_id": "15cb4e5f-f75b-4ec6-abc9-dee598174e94",
+    "nombre": "China Wok Los Olivos",
+    "direccion": {
+      "calle": "Calle Los Álamos",
+      "numero": "622",
+      "distrito": "Los Olivos",
+      "ciudad": "Lima",
+      "codigo_postal": "15090"
+    },
+    "telefono": "+51-956224786",
+    "email": "local42@chinawok.pe",
+    "horario": {
+      "apertura": "08:00",
+      "cierre": "22:00",
+      "dias_atencion": [
+        "Lunes",
+        "Martes",
+        "Miércoles",
+        "Jueves",
+        "Viernes",
+        "Sábado",
+        "Domingo"
+      ]
+    },
+    "capacidad_maxima": 77,
+    "activo": true,
+    "created_at": "2025-10-31T15:40:51.534719",
+    "updated_at": "2025-10-31T15:40:51.534720"
+  },
+  {
+    "PK": "LOCAL#48061fbf-ccbb-475c-a97b-343f50888455",
+    "SK": "LOCAL#48061fbf-ccbb-475c-a97b-343f50888455",
+    "local_id": "48061fbf-ccbb-475c-a97b-343f50888455",
+    "nombre": "China Wok Independencia",
+    "direccion": {
+      "calle": "Calle Berlín",
+      "numero": "1137",
+      "distrito": "Independencia",
+      "ciudad": "Lima",
+      "codigo_postal": "15055"
+    },
+    "telefono": "+51-973226325",
+    "email": "local43@chinawok.pe",
+    "horario": {
+      "apertura": "08:00",
+      "cierre": "22:00",
+      "dias_atencion": [
+        "Lunes",
+        "Martes",
+        "Miércoles",
+        "Jueves",
+        "Viernes",
+        "Sábado",
+        "Domingo"
+      ]
+    },
+    "capacidad_maxima": 189,
+    "activo": true,
+    "created_at": "2025-10-31T15:40:51.534730",
+    "updated_at": "2025-10-31T15:40:51.534731"
+  },
+  {
+    "PK": "LOCAL#4e97b398-77f0-4305-ab8a-6a13d4fc9d5c",
+    "SK": "LOCAL#4e97b398-77f0-4305-ab8a-6a13d4fc9d5c",
+    "local_id": "4e97b398-77f0-4305-ab8a-6a13d4fc9d5c",
+    "nombre": "China Wok Mi Perú",
+    "direccion": {
+      "calle": "Av. Petit Thouars",
+      "numero": "8110",
+      "distrito": "Mi Perú",
+      "ciudad": "Lima",
+      "codigo_postal": "15072"
+    },
+    "telefono": "+51-961280651",
+    "email": "local44@chinawok.pe",
+    "horario": {
+      "apertura": "08:00",
+      "cierre": "22:00",
+      "dias_atencion": [
+        "Lunes",
+        "Martes",
+        "Miércoles",
+        "Jueves",
+        "Viernes",
+        "Sábado",
+        "Domingo"
+      ]
+    },
+    "capacidad_maxima": 155,
+    "activo": true,
+    "created_at": "2025-10-31T15:40:51.534743",
+    "updated_at": "2025-10-31T15:40:51.534744"
+  },
+  {
+    "PK": "LOCAL#fccad951-4989-4747-9679-fac16fc72319",
+    "SK": "LOCAL#fccad951-4989-4747-9679-fac16fc72319",
+    "local_id": "fccad951-4989-4747-9679-fac16fc72319",
+    "nombre": "China Wok Surco",
+    "direccion": {
+      "calle": "Av. Tacna",
+      "numero": "3144",
+      "distrito": "Surco",
+      "ciudad": "Lima",
+      "codigo_postal": "15086"
+    },
+    "telefono": "+51-983310029",
+    "email": "local45@chinawok.pe",
+    "horario": {
+      "apertura": "08:00",
+      "cierre": "22:00",
+      "dias_atencion": [
+        "Lunes",
+        "Martes",
+        "Miércoles",
+        "Jueves",
+        "Viernes",
+        "Sábado",
+        "Domingo"
+      ]
+    },
+    "capacidad_maxima": 109,
+    "activo": true,
+    "created_at": "2025-10-31T15:40:51.534753",
+    "updated_at": "2025-10-31T15:40:51.534755"
+  },
+  {
+    "PK": "LOCAL#859cda4d-d831-4450-b3cb-435dc2c885c5",
+    "SK": "LOCAL#859cda4d-d831-4450-b3cb-435dc2c885c5",
+    "local_id": "859cda4d-d831-4450-b3cb-435dc2c885c5",
+    "nombre": "China Wok San Bartolo",
+    "direccion": {
+      "calle": "Jr. de la Unión",
+      "numero": "6868",
+      "distrito": "San Bartolo",
+      "ciudad": "Lima",
+      "codigo_postal": "15085"
+    },
+    "telefono": "+51-990678039",
+    "email": "local46@chinawok.pe",
+    "horario": {
+      "apertura": "08:00",
+      "cierre": "22:00",
+      "dias_atencion": [
+        "Lunes",
+        "Martes",
+        "Miércoles",
+        "Jueves",
+        "Viernes",
+        "Sábado",
+        "Domingo"
+      ]
+    },
+    "capacidad_maxima": 173,
+    "activo": true,
+    "created_at": "2025-10-31T15:40:51.534764",
+    "updated_at": "2025-10-31T15:40:51.534765"
+  },
+  {
+    "PK": "LOCAL#a4b52edc-4ae5-4182-b3f9-217c1ea9cbdc",
+    "SK": "LOCAL#a4b52edc-4ae5-4182-b3f9-217c1ea9cbdc",
+    "local_id": "a4b52edc-4ae5-4182-b3f9-217c1ea9cbdc",
+    "nombre": "China Wok Carabayllo",
+    "direccion": {
+      "calle": "Av. Arequipa",
+      "numero": "8646",
+      "distrito": "Carabayllo",
+      "ciudad": "Lima",
+      "codigo_postal": "15048"
+    },
+    "telefono": "+51-938984729",
+    "email": "local47@chinawok.pe",
+    "horario": {
+      "apertura": "08:00",
+      "cierre": "22:00",
+      "dias_atencion": [
+        "Lunes",
+        "Martes",
+        "Miércoles",
+        "Jueves",
+        "Viernes",
+        "Sábado",
+        "Domingo"
+      ]
+    },
+    "capacidad_maxima": 180,
+    "activo": true,
+    "created_at": "2025-10-31T15:40:51.534774",
+    "updated_at": "2025-10-31T15:40:51.534775"
+  },
+  {
+    "PK": "LOCAL#8cf679c9-a80e-48c1-a574-b9df79e47767",
+    "SK": "LOCAL#8cf679c9-a80e-48c1-a574-b9df79e47767",
+    "local_id": "8cf679c9-a80e-48c1-a574-b9df79e47767",
+    "nombre": "China Wok Barranco",
+    "direccion": {
+      "calle": "Calle Lima",
+      "numero": "6273",
+      "distrito": "Barranco",
+      "ciudad": "Lima",
+      "codigo_postal": "15079"
+    },
+    "telefono": "+51-908288168",
+    "email": "local48@chinawok.pe",
+    "horario": {
+      "apertura": "08:00",
+      "cierre": "22:00",
+      "dias_atencion": [
+        "Lunes",
+        "Martes",
+        "Miércoles",
+        "Jueves",
+        "Viernes",
+        "Sábado",
+        "Domingo"
+      ]
+    },
+    "capacidad_maxima": 128,
+    "activo": true,
+    "created_at": "2025-10-31T15:40:51.534785",
+    "updated_at": "2025-10-31T15:40:51.534786"
+  },
+  {
+    "PK": "LOCAL#01ec08f8-2ef2-45e6-92a2-406fa4fcc235",
+    "SK": "LOCAL#01ec08f8-2ef2-45e6-92a2-406fa4fcc235",
+    "local_id": "01ec08f8-2ef2-45e6-92a2-406fa4fcc235",
+    "nombre": "China Wok Carabayllo",
+    "direccion": {
+      "calle": "Calle Los Rosales",
+      "numero": "5262",
+      "distrito": "Carabayllo",
+      "ciudad": "Lima",
+      "codigo_postal": "15073"
+    },
+    "telefono": "+51-992756617",
+    "email": "local49@chinawok.pe",
+    "horario": {
+      "apertura": "08:00",
+      "cierre": "22:00",
+      "dias_atencion": [
+        "Lunes",
+        "Martes",
+        "Miércoles",
+        "Jueves",
+        "Viernes",
+        "Sábado",
+        "Domingo"
+      ]
+    },
+    "capacidad_maxima": 135,
+    "activo": true,
+    "created_at": "2025-10-31T15:40:51.534798",
+    "updated_at": "2025-10-31T15:40:51.534799"
+  },
+  {
+    "PK": "LOCAL#af508977-f48f-412f-b290-303447396414",
+    "SK": "LOCAL#af508977-f48f-412f-b290-303447396414",
+    "local_id": "af508977-f48f-412f-b290-303447396414",
+    "nombre": "China Wok Ate",
+    "direccion": {
+      "calle": "Av. Salaverry",
+      "numero": "1417",
+      "distrito": "Ate",
+      "ciudad": "Lima",
+      "codigo_postal": "15018"
+    },
+    "telefono": "+51-970738994",
+    "email": "local50@chinawok.pe",
+    "horario": {
+      "apertura": "08:00",
+      "cierre": "22:00",
+      "dias_atencion": [
+        "Lunes",
+        "Martes",
+        "Miércoles",
+        "Jueves",
+        "Viernes",
+        "Sábado",
+        "Domingo"
+      ]
+    },
+    "capacidad_maxima": 186,
+    "activo": true,
+    "created_at": "2025-10-31T15:40:51.534809",
+    "updated_at": "2025-10-31T15:40:51.534810"
+  },
+  {
+    "PK": "LOCAL#5367d64d-480d-4e58-aa65-c26ee6af3039",
+    "SK": "LOCAL#5367d64d-480d-4e58-aa65-c26ee6af3039",
+    "local_id": "5367d64d-480d-4e58-aa65-c26ee6af3039",
+    "nombre": "China Wok Comas",
+    "direccion": {
+      "calle": "Av. Flora Tristán",
+      "numero": "5638",
+      "distrito": "Comas",
+      "ciudad": "Lima",
+      "codigo_postal": "15055"
+    },
+    "telefono": "+51-931610782",
+    "email": "local51@chinawok.pe",
+    "horario": {
+      "apertura": "08:00",
+      "cierre": "22:00",
+      "dias_atencion": [
+        "Lunes",
+        "Martes",
+        "Miércoles",
+        "Jueves",
+        "Viernes",
+        "Sábado",
+        "Domingo"
+      ]
+    },
+    "capacidad_maxima": 163,
+    "activo": true,
+    "created_at": "2025-10-31T15:40:51.534819",
+    "updated_at": "2025-10-31T15:40:51.534820"
+  },
+  {
+    "PK": "LOCAL#a73441bd-2903-4a5d-b0de-a2499b386b0d",
+    "SK": "LOCAL#a73441bd-2903-4a5d-b0de-a2499b386b0d",
+    "local_id": "a73441bd-2903-4a5d-b0de-a2499b386b0d",
+    "nombre": "China Wok Pucusana",
+    "direccion": {
+      "calle": "Av. Wilson",
+      "numero": "321",
+      "distrito": "Pucusana",
+      "ciudad": "Lima",
+      "codigo_postal": "15043"
+    },
+    "telefono": "+51-903202858",
+    "email": "local52@chinawok.pe",
+    "horario": {
+      "apertura": "08:00",
+      "cierre": "22:00",
+      "dias_atencion": [
+        "Lunes",
+        "Martes",
+        "Miércoles",
+        "Jueves",
+        "Viernes",
+        "Sábado",
+        "Domingo"
+      ]
+    },
+    "capacidad_maxima": 126,
+    "activo": true,
+    "created_at": "2025-10-31T15:40:51.534830",
+    "updated_at": "2025-10-31T15:40:51.534831"
+  },
+  {
+    "PK": "LOCAL#faee8ce2-89d7-4f43-9b1f-973a86badb9f",
+    "SK": "LOCAL#faee8ce2-89d7-4f43-9b1f-973a86badb9f",
+    "local_id": "faee8ce2-89d7-4f43-9b1f-973a86badb9f",
+    "nombre": "China Wok Chorrillos",
+    "direccion": {
+      "calle": "Av. El Ejército",
+      "numero": "9603",
+      "distrito": "Chorrillos",
+      "ciudad": "Lima",
+      "codigo_postal": "15065"
+    },
+    "telefono": "+51-976005680",
+    "email": "local53@chinawok.pe",
+    "horario": {
+      "apertura": "08:00",
+      "cierre": "22:00",
+      "dias_atencion": [
+        "Lunes",
+        "Martes",
+        "Miércoles",
+        "Jueves",
+        "Viernes",
+        "Sábado",
+        "Domingo"
+      ]
+    },
+    "capacidad_maxima": 155,
+    "activo": true,
+    "created_at": "2025-10-31T15:40:51.534841",
+    "updated_at": "2025-10-31T15:40:51.534842"
+  },
+  {
+    "PK": "LOCAL#8a57487a-3f0c-4a4e-a244-3739ba85a766",
+    "SK": "LOCAL#8a57487a-3f0c-4a4e-a244-3739ba85a766",
+    "local_id": "8a57487a-3f0c-4a4e-a244-3739ba85a766",
+    "nombre": "China Wok Villa El Salvador",
+    "direccion": {
+      "calle": "Av. Arequipa",
+      "numero": "1639",
+      "distrito": "Villa El Salvador",
+      "ciudad": "Lima",
+      "codigo_postal": "15083"
+    },
+    "telefono": "+51-921080461",
+    "email": "local54@chinawok.pe",
+    "horario": {
+      "apertura": "08:00",
+      "cierre": "22:00",
+      "dias_atencion": [
+        "Lunes",
+        "Martes",
+        "Miércoles",
+        "Jueves",
+        "Viernes",
+        "Sábado",
+        "Domingo"
+      ]
+    },
+    "capacidad_maxima": 122,
+    "activo": true,
+    "created_at": "2025-10-31T15:40:51.534858",
+    "updated_at": "2025-10-31T15:40:51.534859"
+  },
+  {
+    "PK": "LOCAL#9ea75b82-5203-47c9-88d4-452d28c8141a",
+    "SK": "LOCAL#9ea75b82-5203-47c9-88d4-452d28c8141a",
+    "local_id": "9ea75b82-5203-47c9-88d4-452d28c8141a",
+    "nombre": "China Wok San Martín de Porres",
+    "direccion": {
+      "calle": "Calle Madrid",
+      "numero": "435",
+      "distrito": "San Martín de Porres",
+      "ciudad": "Lima",
+      "codigo_postal": "15019"
+    },
+    "telefono": "+51-971581496",
+    "email": "local55@chinawok.pe",
+    "horario": {
+      "apertura": "08:00",
+      "cierre": "22:00",
+      "dias_atencion": [
+        "Lunes",
+        "Martes",
+        "Miércoles",
+        "Jueves",
+        "Viernes",
+        "Sábado",
+        "Domingo"
+      ]
+    },
+    "capacidad_maxima": 141,
+    "activo": true,
+    "created_at": "2025-10-31T15:40:51.534871",
+    "updated_at": "2025-10-31T15:40:51.534872"
+  },
+  {
+    "PK": "LOCAL#ade64c92-0345-4c3f-b9d9-0dbb1a92914f",
+    "SK": "LOCAL#ade64c92-0345-4c3f-b9d9-0dbb1a92914f",
+    "local_id": "ade64c92-0345-4c3f-b9d9-0dbb1a92914f",
+    "nombre": "China Wok San Juan de Lurigancho",
+    "direccion": {
+      "calle": "Av. Emancipación",
+      "numero": "4784",
+      "distrito": "San Juan de Lurigancho",
+      "ciudad": "Lima",
+      "codigo_postal": "15077"
+    },
+    "telefono": "+51-952366322",
+    "email": "local56@chinawok.pe",
+    "horario": {
+      "apertura": "08:00",
+      "cierre": "22:00",
+      "dias_atencion": [
+        "Lunes",
+        "Martes",
+        "Miércoles",
+        "Jueves",
+        "Viernes",
+        "Sábado",
+        "Domingo"
+      ]
+    },
+    "capacidad_maxima": 115,
+    "activo": true,
+    "created_at": "2025-10-31T15:40:51.534882",
+    "updated_at": "2025-10-31T15:40:51.534883"
+  },
+  {
+    "PK": "LOCAL#c175a1e3-d6b0-49bf-a82e-f11177c72662",
+    "SK": "LOCAL#c175a1e3-d6b0-49bf-a82e-f11177c72662",
+    "local_id": "c175a1e3-d6b0-49bf-a82e-f11177c72662",
+    "nombre": "China Wok Puente Piedra",
+    "direccion": {
+      "calle": "Av. San Luis",
+      "numero": "6816",
+      "distrito": "Puente Piedra",
+      "ciudad": "Lima",
+      "codigo_postal": "15061"
+    },
+    "telefono": "+51-980467554",
+    "email": "local57@chinawok.pe",
+    "horario": {
+      "apertura": "08:00",
+      "cierre": "22:00",
+      "dias_atencion": [
+        "Lunes",
+        "Martes",
+        "Miércoles",
+        "Jueves",
+        "Viernes",
+        "Sábado",
+        "Domingo"
+      ]
+    },
+    "capacidad_maxima": 109,
+    "activo": true,
+    "created_at": "2025-10-31T15:40:51.534895",
+    "updated_at": "2025-10-31T15:40:51.534896"
+  },
+  {
+    "PK": "LOCAL#c03a7d32-79c1-4a0a-8ab2-c95a81a252b9",
+    "SK": "LOCAL#c03a7d32-79c1-4a0a-8ab2-c95a81a252b9",
+    "local_id": "c03a7d32-79c1-4a0a-8ab2-c95a81a252b9",
+    "nombre": "China Wok Rímac",
+    "direccion": {
+      "calle": "Calle Los Eucaliptos",
+      "numero": "2823",
+      "distrito": "Rímac",
+      "ciudad": "Lima",
+      "codigo_postal": "15020"
+    },
+    "telefono": "+51-957566590",
+    "email": "local58@chinawok.pe",
+    "horario": {
+      "apertura": "08:00",
+      "cierre": "22:00",
+      "dias_atencion": [
+        "Lunes",
+        "Martes",
+        "Miércoles",
+        "Jueves",
+        "Viernes",
+        "Sábado",
+        "Domingo"
+      ]
+    },
+    "capacidad_maxima": 73,
+    "activo": true,
+    "created_at": "2025-10-31T15:40:51.534906",
+    "updated_at": "2025-10-31T15:40:51.534907"
+  },
+  {
+    "PK": "LOCAL#6929008e-0b05-4c59-b678-45a34b78ecd3",
+    "SK": "LOCAL#6929008e-0b05-4c59-b678-45a34b78ecd3",
+    "local_id": "6929008e-0b05-4c59-b678-45a34b78ecd3",
+    "nombre": "China Wok San Luis",
+    "direccion": {
+      "calle": "Av. Defensores del Morro",
+      "numero": "356",
+      "distrito": "San Luis",
+      "ciudad": "Lima",
+      "codigo_postal": "15024"
+    },
+    "telefono": "+51-980131874",
+    "email": "local59@chinawok.pe",
+    "horario": {
+      "apertura": "08:00",
+      "cierre": "22:00",
+      "dias_atencion": [
+        "Lunes",
+        "Martes",
+        "Miércoles",
+        "Jueves",
+        "Viernes",
+        "Sábado",
+        "Domingo"
+      ]
+    },
+    "capacidad_maxima": 106,
+    "activo": true,
+    "created_at": "2025-10-31T15:40:51.534917",
+    "updated_at": "2025-10-31T15:40:51.534918"
+  },
+  {
+    "PK": "LOCAL#36017eb3-cb2d-4450-bb85-eab98066feca",
+    "SK": "LOCAL#36017eb3-cb2d-4450-bb85-eab98066feca",
+    "local_id": "36017eb3-cb2d-4450-bb85-eab98066feca",
+    "nombre": "China Wok Lurín",
+    "direccion": {
+      "calle": "Av. Arenales",
+      "numero": "3204",
+      "distrito": "Lurín",
+      "ciudad": "Lima",
+      "codigo_postal": "15044"
+    },
+    "telefono": "+51-917106541",
+    "email": "local60@chinawok.pe",
+    "horario": {
+      "apertura": "08:00",
+      "cierre": "22:00",
+      "dias_atencion": [
+        "Lunes",
+        "Martes",
+        "Miércoles",
+        "Jueves",
+        "Viernes",
+        "Sábado",
+        "Domingo"
+      ]
+    },
+    "capacidad_maxima": 81,
+    "activo": true,
+    "created_at": "2025-10-31T15:40:51.534927",
+    "updated_at": "2025-10-31T15:40:51.534928"
+  },
+  {
+    "PK": "LOCAL#511a6e07-9236-4b5d-9ec0-ec6b76b626b8",
+    "SK": "LOCAL#511a6e07-9236-4b5d-9ec0-ec6b76b626b8",
+    "local_id": "511a6e07-9236-4b5d-9ec0-ec6b76b626b8",
+    "nombre": "China Wok Santa Rosa",
+    "direccion": {
+      "calle": "Calle Los Pinos",
+      "numero": "186",
+      "distrito": "Santa Rosa",
+      "ciudad": "Lima",
+      "codigo_postal": "15012"
+    },
+    "telefono": "+51-973311373",
+    "email": "local61@chinawok.pe",
+    "horario": {
+      "apertura": "08:00",
+      "cierre": "22:00",
+      "dias_atencion": [
+        "Lunes",
+        "Martes",
+        "Miércoles",
+        "Jueves",
+        "Viernes",
+        "Sábado",
+        "Domingo"
+      ]
+    },
+    "capacidad_maxima": 163,
+    "activo": true,
+    "created_at": "2025-10-31T15:40:51.534941",
+    "updated_at": "2025-10-31T15:40:51.534942"
+  },
+  {
+    "PK": "LOCAL#0c2358d2-a8c6-472e-8877-c639cf3adea3",
+    "SK": "LOCAL#0c2358d2-a8c6-472e-8877-c639cf3adea3",
+    "local_id": "0c2358d2-a8c6-472e-8877-c639cf3adea3",
+    "nombre": "China Wok Pueblo Libre",
+    "direccion": {
+      "calle": "Av. El Ejército",
+      "numero": "9106",
+      "distrito": "Pueblo Libre",
+      "ciudad": "Lima",
+      "codigo_postal": "15073"
+    },
+    "telefono": "+51-979164690",
+    "email": "local62@chinawok.pe",
+    "horario": {
+      "apertura": "08:00",
+      "cierre": "22:00",
+      "dias_atencion": [
+        "Lunes",
+        "Martes",
+        "Miércoles",
+        "Jueves",
+        "Viernes",
+        "Sábado",
+        "Domingo"
+      ]
+    },
+    "capacidad_maxima": 76,
+    "activo": true,
+    "created_at": "2025-10-31T15:40:51.534954",
+    "updated_at": "2025-10-31T15:40:51.534955"
+  },
+  {
+    "PK": "LOCAL#8d173a7e-882a-402d-8073-3f1c0d38ad3e",
+    "SK": "LOCAL#8d173a7e-882a-402d-8073-3f1c0d38ad3e",
+    "local_id": "8d173a7e-882a-402d-8073-3f1c0d38ad3e",
+    "nombre": "China Wok Los Olivos",
+    "direccion": {
+      "calle": "Calle Los Álamos",
+      "numero": "9938",
+      "distrito": "Los Olivos",
+      "ciudad": "Lima",
+      "codigo_postal": "15062"
+    },
+    "telefono": "+51-935060219",
+    "email": "local63@chinawok.pe",
+    "horario": {
+      "apertura": "08:00",
+      "cierre": "22:00",
+      "dias_atencion": [
+        "Lunes",
+        "Martes",
+        "Miércoles",
+        "Jueves",
+        "Viernes",
+        "Sábado",
+        "Domingo"
+      ]
+    },
+    "capacidad_maxima": 137,
+    "activo": true,
+    "created_at": "2025-10-31T15:40:51.534967",
+    "updated_at": "2025-10-31T15:40:51.534968"
+  },
+  {
+    "PK": "LOCAL#b9312ce2-29bb-4942-928a-7dc807fa29e7",
+    "SK": "LOCAL#b9312ce2-29bb-4942-928a-7dc807fa29e7",
+    "local_id": "b9312ce2-29bb-4942-928a-7dc807fa29e7",
+    "nombre": "China Wok Miraflores",
+    "direccion": {
+      "calle": "Av. Wilson",
+      "numero": "8829",
+      "distrito": "Miraflores",
+      "ciudad": "Lima",
+      "codigo_postal": "15042"
+    },
+    "telefono": "+51-948631614",
+    "email": "local64@chinawok.pe",
+    "horario": {
+      "apertura": "08:00",
+      "cierre": "22:00",
+      "dias_atencion": [
+        "Lunes",
+        "Martes",
+        "Miércoles",
+        "Jueves",
+        "Viernes",
+        "Sábado",
+        "Domingo"
+      ]
+    },
+    "capacidad_maxima": 178,
+    "activo": true,
+    "created_at": "2025-10-31T15:40:51.534980",
+    "updated_at": "2025-10-31T15:40:51.534981"
+  },
+  {
+    "PK": "LOCAL#db8bbb04-9252-4a98-8ae3-ee6650047eed",
+    "SK": "LOCAL#db8bbb04-9252-4a98-8ae3-ee6650047eed",
+    "local_id": "db8bbb04-9252-4a98-8ae3-ee6650047eed",
+    "nombre": "China Wok San Borja",
+    "direccion": {
+      "calle": "Jr. Moquegua",
+      "numero": "9164",
+      "distrito": "San Borja",
+      "ciudad": "Lima",
+      "codigo_postal": "15052"
+    },
+    "telefono": "+51-917156966",
+    "email": "local65@chinawok.pe",
+    "horario": {
+      "apertura": "08:00",
+      "cierre": "22:00",
+      "dias_atencion": [
+        "Lunes",
+        "Martes",
+        "Miércoles",
+        "Jueves",
+        "Viernes",
+        "Sábado",
+        "Domingo"
+      ]
+    },
+    "capacidad_maxima": 173,
+    "activo": true,
+    "created_at": "2025-10-31T15:40:51.534993",
+    "updated_at": "2025-10-31T15:40:51.534994"
+  },
+  {
+    "PK": "LOCAL#d96a29e4-9dd2-4b80-9e71-21bc14bfac72",
+    "SK": "LOCAL#d96a29e4-9dd2-4b80-9e71-21bc14bfac72",
+    "local_id": "d96a29e4-9dd2-4b80-9e71-21bc14bfac72",
+    "nombre": "China Wok Chaclacayo",
+    "direccion": {
+      "calle": "Av. Oscar R. Benavides",
+      "numero": "7077",
+      "distrito": "Chaclacayo",
+      "ciudad": "Lima",
+      "codigo_postal": "15074"
+    },
+    "telefono": "+51-993586814",
+    "email": "local66@chinawok.pe",
+    "horario": {
+      "apertura": "08:00",
+      "cierre": "22:00",
+      "dias_atencion": [
+        "Lunes",
+        "Martes",
+        "Miércoles",
+        "Jueves",
+        "Viernes",
+        "Sábado",
+        "Domingo"
+      ]
+    },
+    "capacidad_maxima": 197,
+    "activo": true,
+    "created_at": "2025-10-31T15:40:51.535004",
+    "updated_at": "2025-10-31T15:40:51.535006"
+  },
+  {
+    "PK": "LOCAL#dba42d7a-b389-4bf2-af1e-d3f6d670ed4c",
+    "SK": "LOCAL#dba42d7a-b389-4bf2-af1e-d3f6d670ed4c",
+    "local_id": "dba42d7a-b389-4bf2-af1e-d3f6d670ed4c",
+    "nombre": "China Wok Ate",
+    "direccion": {
+      "calle": "Av. Emancipación",
+      "numero": "8474",
+      "distrito": "Ate",
+      "ciudad": "Lima",
+      "codigo_postal": "15041"
+    },
+    "telefono": "+51-935932361",
+    "email": "local67@chinawok.pe",
+    "horario": {
+      "apertura": "08:00",
+      "cierre": "22:00",
+      "dias_atencion": [
+        "Lunes",
+        "Martes",
+        "Miércoles",
+        "Jueves",
+        "Viernes",
+        "Sábado",
+        "Domingo"
+      ]
+    },
+    "capacidad_maxima": 148,
+    "activo": true,
+    "created_at": "2025-10-31T15:40:51.535015",
+    "updated_at": "2025-10-31T15:40:51.535016"
+  },
+  {
+    "PK": "LOCAL#661320e0-f255-4a33-9381-9fdfebfaf39d",
+    "SK": "LOCAL#661320e0-f255-4a33-9381-9fdfebfaf39d",
+    "local_id": "661320e0-f255-4a33-9381-9fdfebfaf39d",
+    "nombre": "China Wok La Molina",
+    "direccion": {
+      "calle": "Jr. Huallaga",
+      "numero": "5969",
+      "distrito": "La Molina",
+      "ciudad": "Lima",
+      "codigo_postal": "15082"
+    },
+    "telefono": "+51-952561450",
+    "email": "local68@chinawok.pe",
+    "horario": {
+      "apertura": "08:00",
+      "cierre": "22:00",
+      "dias_atencion": [
+        "Lunes",
+        "Martes",
+        "Miércoles",
+        "Jueves",
+        "Viernes",
+        "Sábado",
+        "Domingo"
+      ]
+    },
+    "capacidad_maxima": 112,
+    "activo": true,
+    "created_at": "2025-10-31T15:40:51.535026",
+    "updated_at": "2025-10-31T15:40:51.535027"
+  },
+  {
+    "PK": "LOCAL#141bf418-5fad-4404-8f21-2b7a203159bb",
+    "SK": "LOCAL#141bf418-5fad-4404-8f21-2b7a203159bb",
+    "local_id": "141bf418-5fad-4404-8f21-2b7a203159bb",
+    "nombre": "China Wok Santa Rosa",
+    "direccion": {
+      "calle": "Calle Comercio",
+      "numero": "6316",
+      "distrito": "Santa Rosa",
+      "ciudad": "Lima",
+      "codigo_postal": "15024"
+    },
+    "telefono": "+51-958752156",
+    "email": "local69@chinawok.pe",
+    "horario": {
+      "apertura": "08:00",
+      "cierre": "22:00",
+      "dias_atencion": [
+        "Lunes",
+        "Martes",
+        "Miércoles",
+        "Jueves",
+        "Viernes",
+        "Sábado",
+        "Domingo"
+      ]
+    },
+    "capacidad_maxima": 124,
+    "activo": true,
+    "created_at": "2025-10-31T15:40:51.535036",
+    "updated_at": "2025-10-31T15:40:51.535037"
+  },
+  {
+    "PK": "LOCAL#151b044e-2a4c-49bc-a899-0ad314bbe512",
+    "SK": "LOCAL#151b044e-2a4c-49bc-a899-0ad314bbe512",
+    "local_id": "151b044e-2a4c-49bc-a899-0ad314bbe512",
+    "nombre": "China Wok Puente Piedra",
+    "direccion": {
+      "calle": "Av. Nicolás de Piérola",
+      "numero": "4063",
+      "distrito": "Puente Piedra",
+      "ciudad": "Lima",
+      "codigo_postal": "15065"
+    },
+    "telefono": "+51-993485457",
+    "email": "local70@chinawok.pe",
+    "horario": {
+      "apertura": "08:00",
+      "cierre": "22:00",
+      "dias_atencion": [
+        "Lunes",
+        "Martes",
+        "Miércoles",
+        "Jueves",
+        "Viernes",
+        "Sábado",
+        "Domingo"
+      ]
+    },
+    "capacidad_maxima": 79,
+    "activo": true,
+    "created_at": "2025-10-31T15:40:51.535049",
+    "updated_at": "2025-10-31T15:40:51.535050"
+  },
+  {
+    "PK": "LOCAL#73bec5c1-e3f7-4748-a1b6-6ed771848971",
+    "SK": "LOCAL#73bec5c1-e3f7-4748-a1b6-6ed771848971",
+    "local_id": "73bec5c1-e3f7-4748-a1b6-6ed771848971",
+    "nombre": "China Wok San Isidro",
+    "direccion": {
+      "calle": "Calle Los Rosales",
+      "numero": "2004",
+      "distrito": "San Isidro",
+      "ciudad": "Lima",
+      "codigo_postal": "15017"
+    },
+    "telefono": "+51-958474316",
+    "email": "local71@chinawok.pe",
+    "horario": {
+      "apertura": "08:00",
+      "cierre": "22:00",
+      "dias_atencion": [
+        "Lunes",
+        "Martes",
+        "Miércoles",
+        "Jueves",
+        "Viernes",
+        "Sábado",
+        "Domingo"
+      ]
+    },
+    "capacidad_maxima": 117,
+    "activo": true,
+    "created_at": "2025-10-31T15:40:51.535061",
+    "updated_at": "2025-10-31T15:40:51.535062"
+  },
+  {
+    "PK": "LOCAL#88760efe-3f8a-42ab-a480-4c3b921e5bf2",
+    "SK": "LOCAL#88760efe-3f8a-42ab-a480-4c3b921e5bf2",
+    "local_id": "88760efe-3f8a-42ab-a480-4c3b921e5bf2",
+    "nombre": "China Wok Surco",
+    "direccion": {
+      "calle": "Av. Paseo de la República",
+      "numero": "5211",
+      "distrito": "Surco",
+      "ciudad": "Lima",
+      "codigo_postal": "15036"
+    },
+    "telefono": "+51-919911592",
+    "email": "local72@chinawok.pe",
+    "horario": {
+      "apertura": "08:00",
+      "cierre": "22:00",
+      "dias_atencion": [
+        "Lunes",
+        "Martes",
+        "Miércoles",
+        "Jueves",
+        "Viernes",
+        "Sábado",
+        "Domingo"
+      ]
+    },
+    "capacidad_maxima": 51,
+    "activo": true,
+    "created_at": "2025-10-31T15:40:51.535073",
+    "updated_at": "2025-10-31T15:40:51.535074"
+  },
+  {
+    "PK": "LOCAL#8f33fb54-5a25-4dde-9ca5-4bf7fa621a34",
+    "SK": "LOCAL#8f33fb54-5a25-4dde-9ca5-4bf7fa621a34",
+    "local_id": "8f33fb54-5a25-4dde-9ca5-4bf7fa621a34",
+    "nombre": "China Wok Los Olivos",
+    "direccion": {
+      "calle": "Calle Schell",
+      "numero": "3829",
+      "distrito": "Los Olivos",
+      "ciudad": "Lima",
+      "codigo_postal": "15016"
+    },
+    "telefono": "+51-913921564",
+    "email": "local73@chinawok.pe",
+    "horario": {
+      "apertura": "08:00",
+      "cierre": "22:00",
+      "dias_atencion": [
+        "Lunes",
+        "Martes",
+        "Miércoles",
+        "Jueves",
+        "Viernes",
+        "Sábado",
+        "Domingo"
+      ]
+    },
+    "capacidad_maxima": 179,
+    "activo": true,
+    "created_at": "2025-10-31T15:40:51.535085",
+    "updated_at": "2025-10-31T15:40:51.535086"
+  },
+  {
+    "PK": "LOCAL#adee3431-4d65-40ea-be84-9111386e981b",
+    "SK": "LOCAL#adee3431-4d65-40ea-be84-9111386e981b",
+    "local_id": "adee3431-4d65-40ea-be84-9111386e981b",
+    "nombre": "China Wok Rímac",
+    "direccion": {
+      "calle": "Calle Schell",
+      "numero": "6382",
+      "distrito": "Rímac",
+      "ciudad": "Lima",
+      "codigo_postal": "15052"
+    },
+    "telefono": "+51-935046232",
+    "email": "local74@chinawok.pe",
+    "horario": {
+      "apertura": "08:00",
+      "cierre": "22:00",
+      "dias_atencion": [
+        "Lunes",
+        "Martes",
+        "Miércoles",
+        "Jueves",
+        "Viernes",
+        "Sábado",
+        "Domingo"
+      ]
+    },
+    "capacidad_maxima": 190,
+    "activo": true,
+    "created_at": "2025-10-31T15:40:51.535098",
+    "updated_at": "2025-10-31T15:40:51.535099"
+  },
+  {
+    "PK": "LOCAL#ca9e73d1-620d-4663-8c11-65043cd27e7c",
+    "SK": "LOCAL#ca9e73d1-620d-4663-8c11-65043cd27e7c",
+    "local_id": "ca9e73d1-620d-4663-8c11-65043cd27e7c",
+    "nombre": "China Wok Santa Anita",
+    "direccion": {
+      "calle": "Calle Conquistadores",
+      "numero": "2878",
+      "distrito": "Santa Anita",
+      "ciudad": "Lima",
+      "codigo_postal": "15039"
+    },
+    "telefono": "+51-964654949",
+    "email": "local75@chinawok.pe",
+    "horario": {
+      "apertura": "08:00",
+      "cierre": "22:00",
+      "dias_atencion": [
+        "Lunes",
+        "Martes",
+        "Miércoles",
+        "Jueves",
+        "Viernes",
+        "Sábado",
+        "Domingo"
+      ]
+    },
+    "capacidad_maxima": 187,
+    "activo": true,
+    "created_at": "2025-10-31T15:40:51.535108",
+    "updated_at": "2025-10-31T15:40:51.535109"
+  },
+  {
+    "PK": "LOCAL#f5ddedfd-efc3-4c6d-bfda-80e5cc4a3958",
+    "SK": "LOCAL#f5ddedfd-efc3-4c6d-bfda-80e5cc4a3958",
+    "local_id": "f5ddedfd-efc3-4c6d-bfda-80e5cc4a3958",
+    "nombre": "China Wok Chorrillos",
+    "direccion": {
+      "calle": "Av. Primavera",
+      "numero": "7782",
+      "distrito": "Chorrillos",
+      "ciudad": "Lima",
+      "codigo_postal": "15059"
+    },
+    "telefono": "+51-958147826",
+    "email": "local76@chinawok.pe",
+    "horario": {
+      "apertura": "08:00",
+      "cierre": "22:00",
+      "dias_atencion": [
+        "Lunes",
+        "Martes",
+        "Miércoles",
+        "Jueves",
+        "Viernes",
+        "Sábado",
+        "Domingo"
+      ]
+    },
+    "capacidad_maxima": 193,
+    "activo": true,
+    "created_at": "2025-10-31T15:40:51.535119",
+    "updated_at": "2025-10-31T15:40:51.535120"
+  },
+  {
+    "PK": "LOCAL#38a7a5b1-5f07-4578-b31f-2c7a41cbeb4a",
+    "SK": "LOCAL#38a7a5b1-5f07-4578-b31f-2c7a41cbeb4a",
+    "local_id": "38a7a5b1-5f07-4578-b31f-2c7a41cbeb4a",
+    "nombre": "China Wok Ventanilla",
+    "direccion": {
+      "calle": "Av. Grau",
+      "numero": "2100",
+      "distrito": "Ventanilla",
+      "ciudad": "Lima",
+      "codigo_postal": "15064"
+    },
+    "telefono": "+51-932232299",
+    "email": "local77@chinawok.pe",
+    "horario": {
+      "apertura": "08:00",
+      "cierre": "22:00",
+      "dias_atencion": [
+        "Lunes",
+        "Martes",
+        "Miércoles",
+        "Jueves",
+        "Viernes",
+        "Sábado",
+        "Domingo"
+      ]
+    },
+    "capacidad_maxima": 196,
+    "activo": true,
+    "created_at": "2025-10-31T15:40:51.535130",
+    "updated_at": "2025-10-31T15:40:51.535131"
+  },
+  {
+    "PK": "LOCAL#31a64120-e9e5-49d5-b827-ce5895f46295",
+    "SK": "LOCAL#31a64120-e9e5-49d5-b827-ce5895f46295",
+    "local_id": "31a64120-e9e5-49d5-b827-ce5895f46295",
+    "nombre": "China Wok Villa María del Triunfo",
+    "direccion": {
+      "calle": "Calle Conquistadores",
+      "numero": "1911",
+      "distrito": "Villa María del Triunfo",
+      "ciudad": "Lima",
+      "codigo_postal": "15014"
+    },
+    "telefono": "+51-984604083",
+    "email": "local78@chinawok.pe",
+    "horario": {
+      "apertura": "08:00",
+      "cierre": "22:00",
+      "dias_atencion": [
+        "Lunes",
+        "Martes",
+        "Miércoles",
+        "Jueves",
+        "Viernes",
+        "Sábado",
+        "Domingo"
+      ]
+    },
+    "capacidad_maxima": 69,
+    "activo": true,
+    "created_at": "2025-10-31T15:40:51.535140",
+    "updated_at": "2025-10-31T15:40:51.535142"
+  },
+  {
+    "PK": "LOCAL#65642f9e-4fa8-47ea-9ed6-667c46643ad9",
+    "SK": "LOCAL#65642f9e-4fa8-47ea-9ed6-667c46643ad9",
+    "local_id": "65642f9e-4fa8-47ea-9ed6-667c46643ad9",
+    "nombre": "China Wok Ventanilla",
+    "direccion": {
+      "calle": "Calle Lima",
+      "numero": "2863",
+      "distrito": "Ventanilla",
+      "ciudad": "Lima",
+      "codigo_postal": "15090"
+    },
+    "telefono": "+51-908549489",
+    "email": "local79@chinawok.pe",
+    "horario": {
+      "apertura": "08:00",
+      "cierre": "22:00",
+      "dias_atencion": [
+        "Lunes",
+        "Martes",
+        "Miércoles",
+        "Jueves",
+        "Viernes",
+        "Sábado",
+        "Domingo"
+      ]
+    },
+    "capacidad_maxima": 138,
+    "activo": true,
+    "created_at": "2025-10-31T15:40:51.535151",
+    "updated_at": "2025-10-31T15:40:51.535152"
+  },
+  {
+    "PK": "LOCAL#e275fd5c-59ba-41ed-bbbd-e337e97f790d",
+    "SK": "LOCAL#e275fd5c-59ba-41ed-bbbd-e337e97f790d",
+    "local_id": "e275fd5c-59ba-41ed-bbbd-e337e97f790d",
+    "nombre": "China Wok Jesús María",
+    "direccion": {
+      "calle": "Av. Salaverry",
+      "numero": "219",
+      "distrito": "Jesús María",
+      "ciudad": "Lima",
+      "codigo_postal": "15068"
+    },
+    "telefono": "+51-937881990",
+    "email": "local80@chinawok.pe",
+    "horario": {
+      "apertura": "08:00",
+      "cierre": "22:00",
+      "dias_atencion": [
+        "Lunes",
+        "Martes",
+        "Miércoles",
+        "Jueves",
+        "Viernes",
+        "Sábado",
+        "Domingo"
+      ]
+    },
+    "capacidad_maxima": 86,
+    "activo": true,
+    "created_at": "2025-10-31T15:40:51.535161",
+    "updated_at": "2025-10-31T15:40:51.535163"
+  },
+  {
+    "PK": "LOCAL#6967c3d3-01da-4fc8-a9e5-ae5f67e7b15d",
+    "SK": "LOCAL#6967c3d3-01da-4fc8-a9e5-ae5f67e7b15d",
+    "local_id": "6967c3d3-01da-4fc8-a9e5-ae5f67e7b15d",
+    "nombre": "China Wok San Juan de Miraflores",
+    "direccion": {
+      "calle": "Jr. Junín",
+      "numero": "2942",
+      "distrito": "San Juan de Miraflores",
+      "ciudad": "Lima",
+      "codigo_postal": "15014"
+    },
+    "telefono": "+51-991060701",
+    "email": "local81@chinawok.pe",
+    "horario": {
+      "apertura": "08:00",
+      "cierre": "22:00",
+      "dias_atencion": [
+        "Lunes",
+        "Martes",
+        "Miércoles",
+        "Jueves",
+        "Viernes",
+        "Sábado",
+        "Domingo"
+      ]
+    },
+    "capacidad_maxima": 84,
+    "activo": true,
+    "created_at": "2025-10-31T15:40:51.535172",
+    "updated_at": "2025-10-31T15:40:51.535173"
+  },
+  {
+    "PK": "LOCAL#bb6ca352-3f2e-46b8-b7f2-c4443d096e2e",
+    "SK": "LOCAL#bb6ca352-3f2e-46b8-b7f2-c4443d096e2e",
+    "local_id": "bb6ca352-3f2e-46b8-b7f2-c4443d096e2e",
+    "nombre": "China Wok Lurigancho",
+    "direccion": {
+      "calle": "Av. Las Torres",
+      "numero": "3268",
+      "distrito": "Lurigancho",
+      "ciudad": "Lima",
+      "codigo_postal": "15097"
+    },
+    "telefono": "+51-974368670",
+    "email": "local82@chinawok.pe",
+    "horario": {
+      "apertura": "08:00",
+      "cierre": "22:00",
+      "dias_atencion": [
+        "Lunes",
+        "Martes",
+        "Miércoles",
+        "Jueves",
+        "Viernes",
+        "Sábado",
+        "Domingo"
+      ]
+    },
+    "capacidad_maxima": 53,
+    "activo": true,
+    "created_at": "2025-10-31T15:40:51.535185",
+    "updated_at": "2025-10-31T15:40:51.535186"
+  },
+  {
+    "PK": "LOCAL#d2436565-4267-4dfb-bf1b-b0b6a26003d4",
+    "SK": "LOCAL#d2436565-4267-4dfb-bf1b-b0b6a26003d4",
+    "local_id": "d2436565-4267-4dfb-bf1b-b0b6a26003d4",
+    "nombre": "China Wok Carmen de la Legua",
+    "direccion": {
+      "calle": "Av. Benavides",
+      "numero": "1508",
+      "distrito": "Carmen de la Legua",
+      "ciudad": "Lima",
+      "codigo_postal": "15072"
+    },
+    "telefono": "+51-968939071",
+    "email": "local83@chinawok.pe",
+    "horario": {
+      "apertura": "08:00",
+      "cierre": "22:00",
+      "dias_atencion": [
+        "Lunes",
+        "Martes",
+        "Miércoles",
+        "Jueves",
+        "Viernes",
+        "Sábado",
+        "Domingo"
+      ]
+    },
+    "capacidad_maxima": 147,
+    "activo": true,
+    "created_at": "2025-10-31T15:40:51.535208",
+    "updated_at": "2025-10-31T15:40:51.535211"
+  },
+  {
+    "PK": "LOCAL#09e9618b-110f-4234-bd9a-3cf72a4606de",
+    "SK": "LOCAL#09e9618b-110f-4234-bd9a-3cf72a4606de",
+    "local_id": "09e9618b-110f-4234-bd9a-3cf72a4606de",
+    "nombre": "China Wok Lima Cercado",
+    "direccion": {
+      "calle": "Jr. Junín",
+      "numero": "3687",
+      "distrito": "Lima Cercado",
+      "ciudad": "Lima",
+      "codigo_postal": "15045"
+    },
+    "telefono": "+51-909513206",
+    "email": "local84@chinawok.pe",
+    "horario": {
+      "apertura": "08:00",
+      "cierre": "22:00",
+      "dias_atencion": [
+        "Lunes",
+        "Martes",
+        "Miércoles",
+        "Jueves",
+        "Viernes",
+        "Sábado",
+        "Domingo"
+      ]
+    },
+    "capacidad_maxima": 187,
+    "activo": true,
+    "created_at": "2025-10-31T15:40:51.535233",
+    "updated_at": "2025-10-31T15:40:51.535235"
+  },
+  {
+    "PK": "LOCAL#a5da7e40-7272-4ac4-88f3-9136942d9d58",
+    "SK": "LOCAL#a5da7e40-7272-4ac4-88f3-9136942d9d58",
+    "local_id": "a5da7e40-7272-4ac4-88f3-9136942d9d58",
+    "nombre": "China Wok Lince",
+    "direccion": {
+      "calle": "Calle Grau",
+      "numero": "1690",
+      "distrito": "Lince",
+      "ciudad": "Lima",
+      "codigo_postal": "15097"
+    },
+    "telefono": "+51-907212934",
+    "email": "local85@chinawok.pe",
+    "horario": {
+      "apertura": "08:00",
+      "cierre": "22:00",
+      "dias_atencion": [
+        "Lunes",
+        "Martes",
+        "Miércoles",
+        "Jueves",
+        "Viernes",
+        "Sábado",
+        "Domingo"
+      ]
+    },
+    "capacidad_maxima": 171,
+    "activo": true,
+    "created_at": "2025-10-31T15:40:51.535245",
+    "updated_at": "2025-10-31T15:40:51.535246"
+  },
+  {
+    "PK": "LOCAL#d81d9970-8281-405b-9469-da886c95a1c8",
+    "SK": "LOCAL#d81d9970-8281-405b-9469-da886c95a1c8",
+    "local_id": "d81d9970-8281-405b-9469-da886c95a1c8",
+    "nombre": "China Wok Miraflores",
+    "direccion": {
+      "calle": "Jr. Cuzco",
+      "numero": "7078",
+      "distrito": "Miraflores",
+      "ciudad": "Lima",
+      "codigo_postal": "15034"
+    },
+    "telefono": "+51-937240435",
+    "email": "local86@chinawok.pe",
+    "horario": {
+      "apertura": "08:00",
+      "cierre": "22:00",
+      "dias_atencion": [
+        "Lunes",
+        "Martes",
+        "Miércoles",
+        "Jueves",
+        "Viernes",
+        "Sábado",
+        "Domingo"
+      ]
+    },
+    "capacidad_maxima": 139,
+    "activo": true,
+    "created_at": "2025-10-31T15:40:51.535259",
+    "updated_at": "2025-10-31T15:40:51.535261"
+  },
+  {
+    "PK": "LOCAL#ff92dc04-a8f6-4f72-b7bc-494f62a12af1",
+    "SK": "LOCAL#ff92dc04-a8f6-4f72-b7bc-494f62a12af1",
+    "local_id": "ff92dc04-a8f6-4f72-b7bc-494f62a12af1",
+    "nombre": "China Wok San Borja",
+    "direccion": {
+      "calle": "Av. Benavides",
+      "numero": "999",
+      "distrito": "San Borja",
+      "ciudad": "Lima",
+      "codigo_postal": "15071"
+    },
+    "telefono": "+51-949176708",
+    "email": "local87@chinawok.pe",
+    "horario": {
+      "apertura": "08:00",
+      "cierre": "22:00",
+      "dias_atencion": [
+        "Lunes",
+        "Martes",
+        "Miércoles",
+        "Jueves",
+        "Viernes",
+        "Sábado",
+        "Domingo"
+      ]
+    },
+    "capacidad_maxima": 102,
+    "activo": true,
+    "created_at": "2025-10-31T15:40:51.535275",
+    "updated_at": "2025-10-31T15:40:51.535276"
+  },
+  {
+    "PK": "LOCAL#dd805e07-ee0c-417b-b7ac-ce9f91e6af3a",
+    "SK": "LOCAL#dd805e07-ee0c-417b-b7ac-ce9f91e6af3a",
+    "local_id": "dd805e07-ee0c-417b-b7ac-ce9f91e6af3a",
+    "nombre": "China Wok Santa Rosa",
+    "direccion": {
+      "calle": "Av. Raúl Ferrero",
+      "numero": "5980",
+      "distrito": "Santa Rosa",
+      "ciudad": "Lima",
+      "codigo_postal": "15076"
+    },
+    "telefono": "+51-983958097",
+    "email": "local88@chinawok.pe",
+    "horario": {
+      "apertura": "08:00",
+      "cierre": "22:00",
+      "dias_atencion": [
+        "Lunes",
+        "Martes",
+        "Miércoles",
+        "Jueves",
+        "Viernes",
+        "Sábado",
+        "Domingo"
+      ]
+    },
+    "capacidad_maxima": 171,
+    "activo": true,
+    "created_at": "2025-10-31T15:40:51.535286",
+    "updated_at": "2025-10-31T15:40:51.535287"
+  },
+  {
+    "PK": "LOCAL#643d8369-e834-4c6d-a4cf-56e9ad1de70c",
+    "SK": "LOCAL#643d8369-e834-4c6d-a4cf-56e9ad1de70c",
+    "local_id": "643d8369-e834-4c6d-a4cf-56e9ad1de70c",
+    "nombre": "China Wok San Luis",
+    "direccion": {
+      "calle": "Av. La Marina",
+      "numero": "4735",
+      "distrito": "San Luis",
+      "ciudad": "Lima",
+      "codigo_postal": "15076"
+    },
+    "telefono": "+51-903477214",
+    "email": "local89@chinawok.pe",
+    "horario": {
+      "apertura": "08:00",
+      "cierre": "22:00",
+      "dias_atencion": [
+        "Lunes",
+        "Martes",
+        "Miércoles",
+        "Jueves",
+        "Viernes",
+        "Sábado",
+        "Domingo"
+      ]
+    },
+    "capacidad_maxima": 180,
+    "activo": true,
+    "created_at": "2025-10-31T15:40:51.535296",
+    "updated_at": "2025-10-31T15:40:51.535297"
+  },
+  {
+    "PK": "LOCAL#a1033a19-d22d-42c5-bbdf-a12537b3edf9",
+    "SK": "LOCAL#a1033a19-d22d-42c5-bbdf-a12537b3edf9",
+    "local_id": "a1033a19-d22d-42c5-bbdf-a12537b3edf9",
+    "nombre": "China Wok Ancón",
+    "direccion": {
+      "calle": "Av. Oscar R. Benavides",
+      "numero": "8937",
+      "distrito": "Ancón",
+      "ciudad": "Lima",
+      "codigo_postal": "15013"
+    },
+    "telefono": "+51-920376765",
+    "email": "local90@chinawok.pe",
+    "horario": {
+      "apertura": "08:00",
+      "cierre": "22:00",
+      "dias_atencion": [
+        "Lunes",
+        "Martes",
+        "Miércoles",
+        "Jueves",
+        "Viernes",
+        "Sábado",
+        "Domingo"
+      ]
+    },
+    "capacidad_maxima": 94,
+    "activo": true,
+    "created_at": "2025-10-31T15:40:51.535309",
+    "updated_at": "2025-10-31T15:40:51.535310"
+  },
+  {
+    "PK": "LOCAL#41df24dd-1533-4c20-a582-d5ef2073c469",
+    "SK": "LOCAL#41df24dd-1533-4c20-a582-d5ef2073c469",
+    "local_id": "41df24dd-1533-4c20-a582-d5ef2073c469",
+    "nombre": "China Wok La Perla",
+    "direccion": {
+      "calle": "Calle Los Sauces",
+      "numero": "2595",
+      "distrito": "La Perla",
+      "ciudad": "Lima",
+      "codigo_postal": "15076"
+    },
+    "telefono": "+51-945257536",
+    "email": "local91@chinawok.pe",
+    "horario": {
+      "apertura": "08:00",
+      "cierre": "22:00",
+      "dias_atencion": [
+        "Lunes",
+        "Martes",
+        "Miércoles",
+        "Jueves",
+        "Viernes",
+        "Sábado",
+        "Domingo"
+      ]
+    },
+    "capacidad_maxima": 135,
+    "activo": true,
+    "created_at": "2025-10-31T15:40:51.535320",
+    "updated_at": "2025-10-31T15:40:51.535321"
+  },
+  {
+    "PK": "LOCAL#aeabc85b-825c-4c69-9417-2dd105b140fb",
+    "SK": "LOCAL#aeabc85b-825c-4c69-9417-2dd105b140fb",
+    "local_id": "aeabc85b-825c-4c69-9417-2dd105b140fb",
+    "nombre": "China Wok San Juan de Miraflores",
+    "direccion": {
+      "calle": "Jr. Huánuco",
+      "numero": "4187",
+      "distrito": "San Juan de Miraflores",
+      "ciudad": "Lima",
+      "codigo_postal": "15091"
+    },
+    "telefono": "+51-910623189",
+    "email": "local92@chinawok.pe",
+    "horario": {
+      "apertura": "08:00",
+      "cierre": "22:00",
+      "dias_atencion": [
+        "Lunes",
+        "Martes",
+        "Miércoles",
+        "Jueves",
+        "Viernes",
+        "Sábado",
+        "Domingo"
+      ]
+    },
+    "capacidad_maxima": 158,
+    "activo": true,
+    "created_at": "2025-10-31T15:40:51.535330",
+    "updated_at": "2025-10-31T15:40:51.535331"
+  },
+  {
+    "PK": "LOCAL#4ab1fab8-fce0-47bf-a5fa-0a6d9d25372d",
+    "SK": "LOCAL#4ab1fab8-fce0-47bf-a5fa-0a6d9d25372d",
+    "local_id": "4ab1fab8-fce0-47bf-a5fa-0a6d9d25372d",
+    "nombre": "China Wok Santa Anita",
+    "direccion": {
+      "calle": "Calle Las Acacias",
+      "numero": "1197",
+      "distrito": "Santa Anita",
+      "ciudad": "Lima",
+      "codigo_postal": "15017"
+    },
+    "telefono": "+51-967031470",
+    "email": "local93@chinawok.pe",
+    "horario": {
+      "apertura": "08:00",
+      "cierre": "22:00",
+      "dias_atencion": [
+        "Lunes",
+        "Martes",
+        "Miércoles",
+        "Jueves",
+        "Viernes",
+        "Sábado",
+        "Domingo"
+      ]
+    },
+    "capacidad_maxima": 185,
+    "activo": true,
+    "created_at": "2025-10-31T15:40:51.535341",
+    "updated_at": "2025-10-31T15:40:51.535342"
+  },
+  {
+    "PK": "LOCAL#44f94f4d-db0f-44f1-895d-9eb5042ae669",
+    "SK": "LOCAL#44f94f4d-db0f-44f1-895d-9eb5042ae669",
+    "local_id": "44f94f4d-db0f-44f1-895d-9eb5042ae669",
+    "nombre": "China Wok San Martín de Porres",
+    "direccion": {
+      "calle": "Av. Tacna",
+      "numero": "6916",
+      "distrito": "San Martín de Porres",
+      "ciudad": "Lima",
+      "codigo_postal": "15083"
+    },
+    "telefono": "+51-912360614",
+    "email": "local94@chinawok.pe",
+    "horario": {
+      "apertura": "08:00",
+      "cierre": "22:00",
+      "dias_atencion": [
+        "Lunes",
+        "Martes",
+        "Miércoles",
+        "Jueves",
+        "Viernes",
+        "Sábado",
+        "Domingo"
+      ]
+    },
+    "capacidad_maxima": 50,
+    "activo": true,
+    "created_at": "2025-10-31T15:40:51.535354",
+    "updated_at": "2025-10-31T15:40:51.535355"
+  },
+  {
+    "PK": "LOCAL#3de268b0-9176-46ce-a1c4-d8ce50a1f6ce",
+    "SK": "LOCAL#3de268b0-9176-46ce-a1c4-d8ce50a1f6ce",
+    "local_id": "3de268b0-9176-46ce-a1c4-d8ce50a1f6ce",
+    "nombre": "China Wok La Perla",
+    "direccion": {
+      "calle": "Jr. Moquegua",
+      "numero": "5984",
+      "distrito": "La Perla",
+      "ciudad": "Lima",
+      "codigo_postal": "15064"
+    },
+    "telefono": "+51-960925547",
+    "email": "local95@chinawok.pe",
+    "horario": {
+      "apertura": "08:00",
+      "cierre": "22:00",
+      "dias_atencion": [
+        "Lunes",
+        "Martes",
+        "Miércoles",
+        "Jueves",
+        "Viernes",
+        "Sábado",
+        "Domingo"
+      ]
+    },
+    "capacidad_maxima": 146,
+    "activo": true,
+    "created_at": "2025-10-31T15:40:51.535364",
+    "updated_at": "2025-10-31T15:40:51.535366"
+  },
+  {
+    "PK": "LOCAL#2f6638d0-3c34-4dee-994c-e509b77ab13f",
+    "SK": "LOCAL#2f6638d0-3c34-4dee-994c-e509b77ab13f",
+    "local_id": "2f6638d0-3c34-4dee-994c-e509b77ab13f",
+    "nombre": "China Wok Bellavista",
+    "direccion": {
+      "calle": "Av. 28 de Julio",
+      "numero": "6560",
+      "distrito": "Bellavista",
+      "ciudad": "Lima",
+      "codigo_postal": "15020"
+    },
+    "telefono": "+51-931988489",
     "email": "local96@chinawok.pe",
     "horario": {
       "apertura": "08:00",
@@ -3066,24 +3066,24 @@
         "Domingo"
       ]
     },
-    "capacidad_maxima": 164,
+    "capacidad_maxima": 80,
     "activo": true,
-    "created_at": "2025-10-31T15:15:05.837944",
-    "updated_at": "2025-10-31T15:15:05.837945"
+    "created_at": "2025-10-31T15:40:51.535375",
+    "updated_at": "2025-10-31T15:40:51.535376"
   },
   {
-    "PK": "LOCAL#80f5ec69-9809-4dd5-91fb-c88db8a788f2",
-    "SK": "LOCAL#80f5ec69-9809-4dd5-91fb-c88db8a788f2",
-    "local_id": "80f5ec69-9809-4dd5-91fb-c88db8a788f2",
-    "nombre": "China Wok Chorrillos",
+    "PK": "LOCAL#8c4d5b3a-37d4-4fe1-ae87-bbd511ec5120",
+    "SK": "LOCAL#8c4d5b3a-37d4-4fe1-ae87-bbd511ec5120",
+    "local_id": "8c4d5b3a-37d4-4fe1-ae87-bbd511ec5120",
+    "nombre": "China Wok Miraflores",
     "direccion": {
-      "calle": "Av. Los Alisos",
-      "numero": "1266",
-      "distrito": "Chorrillos",
+      "calle": "Av. Prolongación Iquitos",
+      "numero": "8817",
+      "distrito": "Miraflores",
       "ciudad": "Lima",
-      "codigo_postal": "15024"
+      "codigo_postal": "15071"
     },
-    "telefono": "+51-930406498",
+    "telefono": "+51-908351871",
     "email": "local97@chinawok.pe",
     "horario": {
       "apertura": "08:00",
@@ -3098,24 +3098,24 @@
         "Domingo"
       ]
     },
-    "capacidad_maxima": 56,
+    "capacidad_maxima": 88,
     "activo": true,
-    "created_at": "2025-10-31T15:15:05.837954",
-    "updated_at": "2025-10-31T15:15:05.837955"
+    "created_at": "2025-10-31T15:40:51.535385",
+    "updated_at": "2025-10-31T15:40:51.535387"
   },
   {
-    "PK": "LOCAL#d559741c-cba3-4039-94d7-c4fc037435f0",
-    "SK": "LOCAL#d559741c-cba3-4039-94d7-c4fc037435f0",
-    "local_id": "d559741c-cba3-4039-94d7-c4fc037435f0",
-    "nombre": "China Wok Chorrillos",
+    "PK": "LOCAL#2b01c93b-0825-4b20-b1b2-59aa576c0cf8",
+    "SK": "LOCAL#2b01c93b-0825-4b20-b1b2-59aa576c0cf8",
+    "local_id": "2b01c93b-0825-4b20-b1b2-59aa576c0cf8",
+    "nombre": "China Wok Villa El Salvador",
     "direccion": {
-      "calle": "Av. Benavides",
-      "numero": "1499",
-      "distrito": "Chorrillos",
+      "calle": "Calle Las Palmeras",
+      "numero": "9556",
+      "distrito": "Villa El Salvador",
       "ciudad": "Lima",
-      "codigo_postal": "15027"
+      "codigo_postal": "15071"
     },
-    "telefono": "+51-967708287",
+    "telefono": "+51-998652162",
     "email": "local98@chinawok.pe",
     "horario": {
       "apertura": "08:00",
@@ -3130,24 +3130,24 @@
         "Domingo"
       ]
     },
-    "capacidad_maxima": 90,
+    "capacidad_maxima": 168,
     "activo": true,
-    "created_at": "2025-10-31T15:15:05.837965",
-    "updated_at": "2025-10-31T15:15:05.837966"
+    "created_at": "2025-10-31T15:40:51.535398",
+    "updated_at": "2025-10-31T15:40:51.535400"
   },
   {
-    "PK": "LOCAL#a631a78f-9bd5-4dab-9d48-baa3b3c5d5b6",
-    "SK": "LOCAL#a631a78f-9bd5-4dab-9d48-baa3b3c5d5b6",
-    "local_id": "a631a78f-9bd5-4dab-9d48-baa3b3c5d5b6",
-    "nombre": "China Wok Pucusana",
+    "PK": "LOCAL#1fe95d99-36dc-43dc-9b99-6e786d51761e",
+    "SK": "LOCAL#1fe95d99-36dc-43dc-9b99-6e786d51761e",
+    "local_id": "1fe95d99-36dc-43dc-9b99-6e786d51761e",
+    "nombre": "China Wok Lince",
     "direccion": {
-      "calle": "Calle Las Acacias",
-      "numero": "9538",
-      "distrito": "Pucusana",
+      "calle": "Calle Arequipa",
+      "numero": "5906",
+      "distrito": "Lince",
       "ciudad": "Lima",
-      "codigo_postal": "15022"
+      "codigo_postal": "15057"
     },
-    "telefono": "+51-939819495",
+    "telefono": "+51-960632898",
     "email": "local99@chinawok.pe",
     "horario": {
       "apertura": "08:00",
@@ -3162,24 +3162,24 @@
         "Domingo"
       ]
     },
-    "capacidad_maxima": 92,
+    "capacidad_maxima": 55,
     "activo": true,
-    "created_at": "2025-10-31T15:15:05.837977",
-    "updated_at": "2025-10-31T15:15:05.837979"
+    "created_at": "2025-10-31T15:40:51.535409",
+    "updated_at": "2025-10-31T15:40:51.535410"
   },
   {
-    "PK": "LOCAL#7a807f55-e996-4928-b960-22bc65ac1623",
-    "SK": "LOCAL#7a807f55-e996-4928-b960-22bc65ac1623",
-    "local_id": "7a807f55-e996-4928-b960-22bc65ac1623",
-    "nombre": "China Wok La Molina",
+    "PK": "LOCAL#a9e85175-247f-41c3-ab7c-661a5d11ed26",
+    "SK": "LOCAL#a9e85175-247f-41c3-ab7c-661a5d11ed26",
+    "local_id": "a9e85175-247f-41c3-ab7c-661a5d11ed26",
+    "nombre": "China Wok Mi Perú",
     "direccion": {
-      "calle": "Av. Del Parque",
-      "numero": "944",
-      "distrito": "La Molina",
+      "calle": "Av. Los Héroes",
+      "numero": "7737",
+      "distrito": "Mi Perú",
       "ciudad": "Lima",
-      "codigo_postal": "15033"
+      "codigo_postal": "15019"
     },
-    "telefono": "+51-958431512",
+    "telefono": "+51-938739853",
     "email": "local100@chinawok.pe",
     "horario": {
       "apertura": "08:00",
@@ -3194,9 +3194,9 @@
         "Domingo"
       ]
     },
-    "capacidad_maxima": 150,
+    "capacidad_maxima": 192,
     "activo": true,
-    "created_at": "2025-10-31T15:15:05.837988",
-    "updated_at": "2025-10-31T15:15:05.837989"
+    "created_at": "2025-10-31T15:40:51.535420",
+    "updated_at": "2025-10-31T15:40:51.535421"
   }
 ]

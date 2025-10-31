@@ -289,28 +289,33 @@ def batch_write_items(table, items, table_name):
     return success_count, error_count
 
 
-def ask_user_action(table_name):
+def ask_user_action_global():
     """
-    Pregunta al usuario qué hacer con los datos existentes
+    Pregunta al usuario qué hacer con los datos existentes (aplica a todas las tablas)
     """
-    print(f"\n❓ La tabla '{table_name}' contiene datos.")
-    print("   ¿Qué deseas hacer?")
-    print("   1) Agregar datos nuevos (mantener los actuales)")
-    print("   2) Eliminar datos existentes y reemplazar")
+    print("\n" + "=" * 60)
+    print("❓ ACCIÓN GLOBAL PARA DATOS EXISTENTES")
+    print("=" * 60)
+    print("\nAlgunas tablas pueden contener datos existentes.")
+    print("¿Qué deseas hacer con los datos en TODAS las tablas?")
+    print("\n   1) Agregar datos nuevos (mantener los datos actuales)")
+    print("   2) Eliminar datos existentes y reemplazar con nuevos datos")
     
     while True:
-        choice = input("   Selecciona una opción (1/2): ").strip()
+        choice = input("\n   Selecciona una opción (1/2): ").strip()
         if choice == "1":
+            print("\n   ✅ Se agregarán datos nuevos manteniendo los existentes")
             return "append"
         elif choice == "2":
+            print("\n   ✅ Se eliminarán todos los datos existentes antes de insertar")
             return "replace"
         else:
             print("   ⚠️  Opción inválida. Por favor selecciona 1 o 2")
 
 
-def populate_table(dynamodb, filename, table_name):
+def populate_table(dynamodb, filename, table_name, global_action=None):
     """Puebla una tabla de DynamoDB con datos de un archivo JSON"""
-    filepath = filename  # Ya no agregar "dynamodb_data" aquí
+    filepath = filename
     
     print(f"\n📤 Poblando tabla: {table_name}")
     print(f"   Archivo: {filename}")
@@ -320,27 +325,28 @@ def populate_table(dynamodb, filename, table_name):
         if not create_table(table_name):
             print(f"   ❌ No se pudo crear la tabla '{table_name}'. Saltando...")
             return False
-        # Esperar un momento adicional para asegurar que la tabla esté lista
         time.sleep(2)
     else:
         print(f"   ✅ Tabla '{table_name}' existe")
         
-        # Verificar si la tabla tiene datos
-        try:
-            table = dynamodb.Table(table_name)
-            response = table.scan(Limit=1)
-            
-            if response.get('Count', 0) > 0:
-                action = ask_user_action(table_name)
+        # Si hay una acción global definida y es "replace", limpiar la tabla
+        if global_action == "replace":
+            # Verificar si la tabla tiene datos antes de limpiar
+            try:
+                table = dynamodb.Table(table_name)
+                response = table.scan(Limit=1)
                 
-                if action == "replace":
+                if response.get('Count', 0) > 0:
+                    print(f"   🗑️  Limpiando datos existentes de '{table_name}'...")
                     if not delete_all_items_from_table(table_name):
                         print(f"   ❌ Error al limpiar la tabla. Saltando...")
                         return False
                 else:
-                    print(f"   ℹ️  Agregando datos a la tabla existente")
-        except Exception as e:
-            print(f"   ⚠️  No se pudo verificar contenido de la tabla: {e}")
+                    print(f"   ℹ️  La tabla '{table_name}' está vacía")
+            except Exception as e:
+                print(f"   ⚠️  No se pudo verificar contenido de la tabla: {e}")
+        elif global_action == "append":
+            print(f"   ℹ️  Agregando datos a la tabla existente")
     
     # Cargar datos del archivo
     items = load_json_file(filepath)
@@ -359,10 +365,7 @@ def populate_table(dynamodb, filename, table_name):
     print(f"   📊 Total de items a insertar: {len(items)}")
     
     try:
-        # Obtener referencia a la tabla
         table = dynamodb.Table(table_name)
-        
-        # Insertar items en lotes
         success_count, error_count = batch_write_items(table, items, table_name)
         
         print(f"   ✅ Insertados exitosamente: {success_count} items")
@@ -454,6 +457,9 @@ def main():
 
     print("✅ Conexión establecida exitosamente")
 
+    # Preguntar acción global una sola vez
+    global_action = ask_user_action_global()
+
     # Poblar cada tabla
     print("\n" + "=" * 60)
     print("📊 INICIANDO POBLACIÓN DE TABLAS")
@@ -462,7 +468,7 @@ def main():
     results = {}
     for filename, table_name in TABLE_MAPPING.items():
         if table_name:  # Solo procesar si hay nombre de tabla configurado
-            success = populate_table(dynamodb, filename, table_name)
+            success = populate_table(dynamodb, filename, table_name, global_action)
             results[filename] = success
 
     # Resumen final
