@@ -9,8 +9,8 @@
   "properties": {
     "local_id": { "type": "string" },
     "pedido_id": { "type": "string" },
-    "usuario_id": { "type": "string" },
-    "productos_ids": {
+    "usuario_correo": { "type": "string", "format": "email" },
+    "productos_nombres": {
       "type": "array",
       "items": { "type": "string" },
       "minItems": 1
@@ -26,6 +26,6 @@
       "enum": ["eligiendo", "cocinando", "empacando", "enviando", "recibido"]
     }
   },
-  "required": ["local_id", "pedido_id", "usuario_id", "cocinero_dni", "despachador_dni", "repartidor_dni", "productos_ids", "costo", "status"],
+  "required": ["local_id", "pedido_id", "usuario_correo", "cocinero_dni", "despachador_dni", "repartidor_dni", "productos_nombres", "costo", "status"],
   "additionalProperties": false
 }

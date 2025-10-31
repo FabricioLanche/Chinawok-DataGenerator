@@ -10,13 +10,13 @@
     "local_id": { "type": "string" },
     "combo_id": { "type": "string" },
     "nombre": { "type": "string" },
-    "productos_ids": {
+    "productos_nombres": {
       "type": "array",
       "items": { "type": "string" },
       "minItems": 1
     },
     "descripcion": { "type": "string" }
   },
-  "required": ["local_id", "combo_id", "nombre", "productos_ids"],
+  "required": ["local_id", "combo_id", "nombre", "productos_nombres"],
   "additionalProperties": false
 }
