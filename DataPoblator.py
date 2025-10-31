@@ -7,6 +7,7 @@ import time
 from decimal import Decimal
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from threading import Lock
+import random as random_module
 
 # Cargar variables de entorno desde .env (si existe)
 load_dotenv()
@@ -249,7 +250,7 @@ def delete_all_items_from_table(table_name):
 
 
 def batch_write_items(table, items, table_name):
-    """Escribe items en lotes a DynamoDB con procesamiento paralelo"""
+    """Escribe items en lotes a DynamoDB con procesamiento paralelo y retry"""
     success_count = 0
     error_count = 0
     total_items = len(items)
@@ -263,48 +264,47 @@ def batch_write_items(table, items, table_name):
     # Dividir items en lotes
     batches = [items[i:i + batch_size] for i in range(0, total_items, batch_size)]
     
-    def process_batch(batch):
-        """Procesa un lote de items"""
+    def process_batch_with_retry(batch, max_retries=5):
+        """Procesa un lote de items con retry y backoff exponencial"""
         local_success = 0
         local_errors = 0
         
-        try:
-            with table.batch_writer() as batch_writer:
-                for item in batch:
-                    try:
-                        batch_writer.put_item(Item=item)
-                        local_success += 1
-                    except Exception as e:
-                        local_errors += 1
-                        if local_errors <= 2:  # Limitar mensajes de error por batch
-                            print(f"      ⚠️  Error al insertar item: {str(e)[:80]}")
-        except ClientError as e:
-            local_errors += len(batch)
-            error_code = e.response['Error']['Code']
-            if error_code != 'ResourceNotFoundException':
-                print(f"      ⚠️  Error de AWS en batch: {error_code}")
-        
-        return local_success, local_errors
-    
-    try:
-        print(f"      🚀 Procesando {len(batches)} lotes en paralelo...")
-        
-        # Usar ThreadPoolExecutor para procesar múltiples lotes simultáneamente
-        # Ajustar max_workers según necesidad (10-20 es un buen balance)
-        max_workers = min(20, len(batches))
-        
-        with ThreadPoolExecutor(max_workers=max_workers) as executor:
-            # Enviar todos los batches
-            future_to_batch = {executor.submit(process_batch, batch): i 
-                             for i, batch in enumerate(batches)}
-            
-            # Procesar resultados conforme se completan
-            for future in as_completed(future_to_batch):
-                batch_success, batch_errors = future.result()
+        for attempt in range(max_retries):
+            try:
+                with table.batch_writer() as batch_writer:
+                    for item in batch:
+                        try:
+                            batch_writer.put_item(Item=item)
+                            local_success += 1
+                        except ClientError as e:
+                            if e.response['Error']['Code'] == 'ProvisionedThroughputExceededException':
+                                # No contar como error aún, se reintentará
+                                raise
+                            else:
+                                local_errors += 1
+                                if local_errors <= 2:
+                                    print(f"      ⚠️  Error al insertar item: {str(e)[:80]}")
+                        except Exception as e:
+                            local_errors += 1
+                            if local_errors <= 2:
+                                print(f"      ⚠️  Error al insertar item: {str(e)[:80]}")
                 
-                with count_lock:
-                    success_count += batch_success
-                    error_count += batch_errors
+                # Si llegamos aquí, el batch fue exitoso
+                return local_success, local_errors
+                
+            except ClientError as e:
+                error_code = e.response['Error']['Code']
+                
+                if error_code == 'ProvisionedThroughputExceededException':
+                    if attempt < max_retries - 1:
+                        # Backoff exponencial con jitter
+                        wait_time = (2 ** attempt) + random_module.uniform(0, 1)
+                        time.sleep(wait_time)
+                        # Resetear contadores para reintentar
+                        local_success = 0
+                        local_errors = 0
+                        continue
+                   
                 
                 # Mostrar progreso cada 5% o cada 500 items
                 if (success_count % 500 == 0) or (success_count + error_count >= total_items):
