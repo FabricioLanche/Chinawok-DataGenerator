@@ -198,21 +198,83 @@ def load_json_file(filename):
         return None
 
 
+def delete_all_items_from_table(table_name):
+    """Elimina todos los items de una tabla de DynamoDB"""
+    try:
+        table = dynamodb.Table(table_name)
+        
+        print(f"   🗑️  Escaneando items en '{table_name}'...")
+        
+        # Escanear todos los items
+        response = table.scan()
+        items = response.get('Items', [])
+        
+        # Manejar paginación
+        while 'LastEvaluatedKey' in response:
+            response = table.scan(ExclusiveStartKey=response['LastEvaluatedKey'])
+            items.extend(response.get('Items', []))
+        
+        if not items:
+            print(f"   ℹ️  La tabla '{table_name}' ya está vacía")
+            return True
+        
+        print(f"   🗑️  Eliminando {len(items)} items de '{table_name}'...")
+        
+        # Eliminar en lotes
+        with table.batch_writer() as batch:
+            for item in items:
+                batch.delete_item(
+                    Key={
+                        'PK': item['PK'],
+                        'SK': item['SK']
+                    }
+                )
+        
+        print(f"   ✅ {len(items)} items eliminados de '{table_name}'")
+        return True
+        
+    except ClientError as e:
+        error_code = e.response['Error']['Code']
+        if error_code == 'ResourceNotFoundException':
+            print(f"   ⚠️  La tabla '{table_name}' no existe, se creará al poblar")
+            return True
+        else:
+            print(f"   ❌ Error al limpiar tabla: {e.response['Error']['Message']}")
+            return False
+    except Exception as e:
+        print(f"   ❌ Error inesperado al limpiar tabla: {str(e)}")
+        return False
+
+
 def batch_write_items(table, items, table_name):
-    """Escribe items en lotes a DynamoDB"""
+    """Escribe items en lotes a DynamoDB con barra de progreso"""
     success_count = 0
     error_count = 0
+    total_items = len(items)
+    
+    # Tamaño del lote (máximo 25 en DynamoDB)
+    batch_size = 25
     
     try:
-        with table.batch_writer() as batch_writer:
-            for item in items:
-                try:
-                    batch_writer.put_item(Item=item)
-                    success_count += 1
-                except Exception as e:
-                    error_count += 1
-                    print(f"      ⚠️  Error al insertar item: {str(e)[:100]}")
-                    
+        # Procesar en lotes de 25
+        for i in range(0, total_items, batch_size):
+            batch = items[i:i + batch_size]
+            
+            with table.batch_writer() as batch_writer:
+                for item in batch:
+                    try:
+                        batch_writer.put_item(Item=item)
+                        success_count += 1
+                    except Exception as e:
+                        error_count += 1
+                        if error_count <= 5:  # Mostrar solo los primeros 5 errores
+                            print(f"      ⚠️  Error al insertar item: {str(e)[:100]}")
+            
+            # Mostrar progreso cada 100 items o al final
+            if (success_count % 100 == 0) or (success_count == total_items):
+                porcentaje = (success_count / total_items) * 100
+                print(f"      📊 Progreso: {success_count}/{total_items} ({porcentaje:.1f}%) - Errores: {error_count}")
+        
     except ClientError as e:
         error_code = e.response['Error']['Code']
         error_msg = e.response['Error']['Message']

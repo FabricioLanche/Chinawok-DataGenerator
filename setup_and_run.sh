@@ -117,6 +117,11 @@ fi
 # 4. Poblar DynamoDB
 log "🗄️  Paso 4/4: Poblando DynamoDB..."
 log "============================================================"
+log ""
+log "⚠️  IMPORTANTE: El script te preguntará qué hacer con los datos existentes:"
+log "   - Opción 1: Agregar datos nuevos (mantener los actuales)"
+log "   - Opción 2: Eliminar datos existentes y reemplazar"
+log ""
 
 python3 DataPoblator.py
 
