@@ -229,7 +229,7 @@ def batch_write_items(table, items, table_name):
 
 def populate_table(dynamodb, filename, table_name):
     """Puebla una tabla de DynamoDB con datos de un archivo JSON"""
-    filepath = os.path.join("dynamodb_data", filename)
+    filepath = filename  # Ya no agregar "dynamodb_data" aquí
     
     print(f"\n📤 Poblando tabla: {table_name}")
     print(f"   Archivo: {filename}")
