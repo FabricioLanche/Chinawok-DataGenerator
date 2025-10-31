@@ -292,12 +292,37 @@ def batch_write_items(table, items, table_name):
                         local_success = 0
                         local_errors = 0
                         continue
-                   
+                else:
+                    # Otro tipo de error
+                    local_errors += len(batch)
+                    return 0, local_errors
+        
+        # Si se agotaron los reintentos
+        return local_success, local_errors
+    
+    try:
+        # Usar ThreadPoolExecutor para procesamiento paralelo
+        num_threads = min(10, len(batches))
+        
+        with ThreadPoolExecutor(max_workers=num_threads) as executor:
+            futures = {executor.submit(process_batch_with_retry, batch): batch for batch in batches}
+            
+            for future in as_completed(futures):
+                try:
+                    local_success, local_errors = future.result()
+                    with count_lock:
+                        success_count += local_success
+                        error_count += local_errors
+                        
+                        # Mostrar progreso cada 5% o cada 500 items
+                        if (success_count % 500 == 0) or (success_count + error_count >= total_items):
+                            porcentaje = ((success_count + error_count) / total_items) * 100
+                            print(f"      📊 Progreso: {success_count}/{total_items} ({porcentaje:.1f}%) - Errores: {error_count}")
                 
-                # Mostrar progreso cada 5% o cada 500 items
-                if (success_count % 500 == 0) or (success_count + error_count >= total_items):
-                    porcentaje = ((success_count + error_count) / total_items) * 100
-                    print(f"      📊 Progreso: {success_count}/{total_items} ({porcentaje:.1f}%) - Errores: {error_count}")
+                except Exception as e:
+                    with count_lock:
+                        error_count += len(futures[future])
+                    print(f"      ⚠️  Error en lote: {str(e)[:80]}")
         
     except Exception as e:
         print(f"   ❌ Error en procesamiento paralelo: {str(e)}")
