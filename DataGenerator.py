@@ -500,8 +500,10 @@ else:
         costo += round(random.uniform(3.0, 8.0), 2)
         costo = round(costo, 2)
 
-        # Crear pedido según schema exacto
+        # Crear pedido según schema exacto + PK/SK para DynamoDB
         pedido = {
+            "PK": f"LOCAL#{local_id}",
+            "SK": f"PEDIDO#{pedido_id}",
             "local_id": local_id,
             "pedido_id": pedido_id,
             "usuario_id": usuario_id,
@@ -537,6 +539,8 @@ else:
 
 with open(f"{output_dir}/pedidos.json", "w", encoding="utf-8") as f:
     json.dump(pedidos, f, indent=2, ensure_ascii=False)
+
+print(f"  ✅ {len(pedidos)} pedidos generados con PK/SK")
 
 # 7. Generar Ofertas
 print("🎉 Generando Ofertas...")
