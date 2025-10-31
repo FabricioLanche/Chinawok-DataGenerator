@@ -5,6 +5,8 @@ from dotenv import load_dotenv
 from botocore.exceptions import ClientError
 import time
 from decimal import Decimal
+from concurrent.futures import ThreadPoolExecutor, as_completed
+from threading import Lock
 
 # Cargar variables de entorno desde .env (si existe)
 load_dotenv()
@@ -247,7 +249,7 @@ def delete_all_items_from_table(table_name):
 
 
 def batch_write_items(table, items, table_name):
-    """Escribe items en lotes a DynamoDB con barra de progreso"""
+    """Escribe items en lotes a DynamoDB con procesamiento paralelo"""
     success_count = 0
     error_count = 0
     total_items = len(items)
@@ -255,36 +257,63 @@ def batch_write_items(table, items, table_name):
     # Tamaño del lote (máximo 25 en DynamoDB)
     batch_size = 25
     
-    try:
-        # Procesar en lotes de 25
-        for i in range(0, total_items, batch_size):
-            batch = items[i:i + batch_size]
-            
+    # Lock para actualizar contadores de forma segura entre threads
+    count_lock = Lock()
+    
+    # Dividir items en lotes
+    batches = [items[i:i + batch_size] for i in range(0, total_items, batch_size)]
+    
+    def process_batch(batch):
+        """Procesa un lote de items"""
+        local_success = 0
+        local_errors = 0
+        
+        try:
             with table.batch_writer() as batch_writer:
                 for item in batch:
                     try:
                         batch_writer.put_item(Item=item)
-                        success_count += 1
+                        local_success += 1
                     except Exception as e:
-                        error_count += 1
-                        if error_count <= 5:  # Mostrar solo los primeros 5 errores
-                            print(f"      ⚠️  Error al insertar item: {str(e)[:100]}")
+                        local_errors += 1
+                        if local_errors <= 2:  # Limitar mensajes de error por batch
+                            print(f"      ⚠️  Error al insertar item: {str(e)[:80]}")
+        except ClientError as e:
+            local_errors += len(batch)
+            error_code = e.response['Error']['Code']
+            if error_code != 'ResourceNotFoundException':
+                print(f"      ⚠️  Error de AWS en batch: {error_code}")
+        
+        return local_success, local_errors
+    
+    try:
+        print(f"      🚀 Procesando {len(batches)} lotes en paralelo...")
+        
+        # Usar ThreadPoolExecutor para procesar múltiples lotes simultáneamente
+        # Ajustar max_workers según necesidad (10-20 es un buen balance)
+        max_workers = min(20, len(batches))
+        
+        with ThreadPoolExecutor(max_workers=max_workers) as executor:
+            # Enviar todos los batches
+            future_to_batch = {executor.submit(process_batch, batch): i 
+                             for i, batch in enumerate(batches)}
             
-            # Mostrar progreso cada 100 items o al final
-            if (success_count % 100 == 0) or (success_count == total_items):
-                porcentaje = (success_count / total_items) * 100
-                print(f"      📊 Progreso: {success_count}/{total_items} ({porcentaje:.1f}%) - Errores: {error_count}")
+            # Procesar resultados conforme se completan
+            for future in as_completed(future_to_batch):
+                batch_success, batch_errors = future.result()
+                
+                with count_lock:
+                    success_count += batch_success
+                    error_count += batch_errors
+                
+                # Mostrar progreso cada 5% o cada 500 items
+                if (success_count % 500 == 0) or (success_count + error_count >= total_items):
+                    porcentaje = ((success_count + error_count) / total_items) * 100
+                    print(f"      📊 Progreso: {success_count}/{total_items} ({porcentaje:.1f}%) - Errores: {error_count}")
         
-    except ClientError as e:
-        error_code = e.response['Error']['Code']
-        error_msg = e.response['Error']['Message']
-        
-        if error_code == 'ResourceNotFoundException':
-            print(f"   ❌ La tabla '{table_name}' no existe")
-            return 0, len(items)
-        else:
-            print(f"   ❌ Error de AWS: {error_code} - {error_msg}")
-            return success_count, len(items) - success_count
+    except Exception as e:
+        print(f"   ❌ Error en procesamiento paralelo: {str(e)}")
+        return success_count, total_items - success_count
     
     return success_count, error_count
 
