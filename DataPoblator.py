@@ -9,10 +9,10 @@ from decimal import Decimal
 load_dotenv()
 
 # Configuración de AWS
-AWS_ACCESS_KEY_ID = os.getenv('AWS_ACCESS_KEY_ID')
-AWS_SECRET_ACCESS_KEY = os.getenv('AWS_SECRET_ACCESS_KEY')
-AWS_SESSION_TOKEN = os.getenv('AWS_SESSION_TOKEN')
-AWS_REGION = os.getenv('AWS_REGION', 'us-east-1')
+# Las credenciales se obtienen automáticamente de ~/.aws/credentials
+# La región se puede configurar en .env o en ~/.aws/config (por defecto: us-east-1)
+
+ = os.getenv('AWS_REGION', 'us-east-1')
 
 # Nombres de las tablas DynamoDB
 TABLE_LOCALES = os.getenv('TABLE_LOCALES')
@@ -56,22 +56,30 @@ def convert_float_to_decimal(obj):
 
 def get_dynamodb_client():
     """
-    Crea y retorna un cliente de DynamoDB con las credenciales del .env
+    Crea y retorna un cliente de DynamoDB usando credenciales de ~/.aws/credentials
     """
     try:
-        session_params = {
-            'aws_access_key_id': AWS_ACCESS_KEY_ID,
-            'aws_secret_access_key': AWS_SECRET_ACCESS_KEY,
-            'region_name': AWS_REGION
-        }
-
-        if AWS_SESSION_TOKEN:
-            session_params['aws_session_token'] = AWS_SESSION_TOKEN
-
-        dynamodb = boto3.resource('dynamodb', **session_params)
+        # boto3 automáticamente busca credenciales en:
+        # 1. Variables de entorno
+        # 2. ~/.aws/credentials
+        # 3. ~/.aws/config
+        dynamodb = boto3.resource('dynamodb', region_name=AWS_REGION)
+        
+        # Verificar conexión intentando listar tablas
+        client = boto3.client('dynamodb', region_name=AWS_REGION)
+        client.list_tables(Limit=1)
+        
         return dynamodb
+    except ClientError as e:
+        error_code = e.response['Error']['Code']
+        if error_code == 'UnrecognizedClientException':
+            print(f"❌ Error de credenciales: Verifica tu archivo ~/.aws/credentials")
+        else:
+            print(f"❌ Error al conectar con DynamoDB: {e.response['Error']['Message']}")
+        return None
     except Exception as e:
         print(f"❌ Error al conectar con DynamoDB: {e}")
+        print(f"💡 Verifica que el archivo ~/.aws/credentials esté configurado correctamente")
         return None
 
 
@@ -170,13 +178,26 @@ def populate_table(dynamodb, filename, table_name):
 
 def verify_credentials():
     """
-    Verifica que las credenciales de AWS estén configuradas
+    Verifica que las credenciales de AWS estén disponibles
     """
-    if not AWS_ACCESS_KEY_ID or not AWS_SECRET_ACCESS_KEY:
-        print("❌ ERROR: Credenciales de AWS no configuradas en .env")
-        print("   Asegúrate de tener AWS_ACCESS_KEY_ID y AWS_SECRET_ACCESS_KEY")
+    try:
+        # Intentar obtener credenciales de la sesión de boto3
+        session = boto3.Session()
+        credentials = session.get_credentials()
+        
+        if credentials is None:
+            print("❌ ERROR: No se encontraron credenciales de AWS")
+            print("   Configura el archivo ~/.aws/credentials con el formato:")
+            print("   [default]")
+            print("   aws_access_key_id=YOUR_ACCESS_KEY_ID")
+            print("   aws_secret_access_key=YOUR_SECRET_ACCESS_KEY")
+            print("   aws_session_token=YOUR_SESSION_TOKEN (opcional)")
+            return False
+        
+        return True
+    except Exception as e:
+        print(f"❌ ERROR al verificar credenciales: {e}")
         return False
-    return True
 
 
 def verify_table_names():
