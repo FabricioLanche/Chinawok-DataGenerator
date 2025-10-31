@@ -33,16 +33,48 @@ TABLE_RESENAS = os.getenv('TABLE_RESENAS')
 # Carpeta con los datos JSON
 DATA_DIR = "dynamodb_data"
 
-# Mapeo de archivos JSON a tablas DynamoDB
+# Mapeo de archivos JSON a tablas y sus claves
 TABLE_MAPPING = {
-    "locales.json": TABLE_LOCALES,
-    "usuarios.json": TABLE_USUARIOS,
-    "productos.json": TABLE_PRODUCTOS,
-    "empleados.json": TABLE_EMPLEADOS,
-    "combos.json": TABLE_COMBOS,
-    "pedidos.json": TABLE_PEDIDOS,
-    "ofertas.json": TABLE_OFERTAS,
-    "resenas.json": TABLE_RESENAS
+    "locales.json": {
+        "table_name": TABLE_LOCALES,
+        "pk": "local_id",
+        "sk": None
+    },
+    "usuarios.json": {
+        "table_name": TABLE_USUARIOS,
+        "pk": "correo",
+        "sk": None
+    },
+    "productos.json": {
+        "table_name": TABLE_PRODUCTOS,
+        "pk": "local_id",
+        "sk": "nombre"
+    },
+    "empleados.json": {
+        "table_name": TABLE_EMPLEADOS,
+        "pk": "local_id",
+        "sk": "dni"
+    },
+    "combos.json": {
+        "table_name": TABLE_COMBOS,
+        "pk": "local_id",
+        "sk": "combo_id"
+    },
+    "pedidos.json": {
+        "table_name": TABLE_PEDIDOS,
+        "pk": "local_id",
+        "sk": "pedido_id"
+    },
+    "ofertas.json": {
+        "table_name": TABLE_OFERTAS,
+        "pk": "local_id",
+        "sk": "oferta_id"
+    },
+    "resenas.json": {
+        "table_name": TABLE_RESENAS,
+        "pk": "local_id",
+        "sk": "resena_id"
+    }
 }
 
 
@@ -58,6 +90,14 @@ def convert_float_to_decimal(obj):
         return Decimal(str(obj))
     else:
         return obj
+
+
+def get_table_keys(filename):
+    """Obtiene las claves PK y SK para una tabla específica"""
+    config = TABLE_MAPPING.get(filename)
+    if config:
+        return config["pk"], config["sk"]
+    return None, None
 
 
 def get_dynamodb_client():
@@ -85,7 +125,6 @@ def get_dynamodb_client():
         return None
     except Exception as e:
         print(f"❌ Error al conectar con DynamoDB: {e}")
-        print(f"💡 Verifica que el archivo ~/.aws/credentials esté configurado correctamente")
         return None
 
 
@@ -101,56 +140,17 @@ def table_exists(table_name):
             raise
 
 
-def create_table(table_name):
-    """Crea una tabla en DynamoDB con configuración básica"""
+def create_table(table_name, pk_name, sk_name=None):
+    """Crea una tabla en DynamoDB con las claves especificadas"""
     print(f"   📋 Tabla '{table_name}' no existe. Creándola...")
     
-    # Configuración de claves según el tipo de tabla
-    key_schema = [
-        {'AttributeName': 'PK', 'KeyType': 'HASH'},   # Partition key
-        {'AttributeName': 'SK', 'KeyType': 'RANGE'}   # Sort key
-    ]
+    # Configuración de claves
+    key_schema = [{'AttributeName': pk_name, 'KeyType': 'HASH'}]
+    attribute_definitions = [{'AttributeName': pk_name, 'AttributeType': 'S'}]
     
-    attribute_definitions = [
-        {'AttributeName': 'PK', 'AttributeType': 'S'},
-        {'AttributeName': 'SK', 'AttributeType': 'S'}
-    ]
-    
-    # Configuración para tabla de pedidos (necesita índices adicionales)
-    global_secondary_indexes = []
-    
-    if 'Pedidos' in table_name:
-        attribute_definitions.extend([
-            {'AttributeName': 'usuario_id', 'AttributeType': 'S'},
-            {'AttributeName': 'status', 'AttributeType': 'S'}
-        ])
-        
-        global_secondary_indexes = [
-            {
-                'IndexName': 'UsuarioIndex',
-                'KeySchema': [
-                    {'AttributeName': 'usuario_id', 'KeyType': 'HASH'},
-                    {'AttributeName': 'SK', 'KeyType': 'RANGE'}
-                ],
-                'Projection': {'ProjectionType': 'ALL'},
-                'ProvisionedThroughput': {
-                    'ReadCapacityUnits': 5,
-                    'WriteCapacityUnits': 5
-                }
-            },
-            {
-                'IndexName': 'StatusIndex',
-                'KeySchema': [
-                    {'AttributeName': 'status', 'KeyType': 'HASH'},
-                    {'AttributeName': 'SK', 'KeyType': 'RANGE'}
-                ],
-                'Projection': {'ProjectionType': 'ALL'},
-                'ProvisionedThroughput': {
-                    'ReadCapacityUnits': 5,
-                    'WriteCapacityUnits': 5
-                }
-            }
-        ]
+    if sk_name:
+        key_schema.append({'AttributeName': sk_name, 'KeyType': 'RANGE'})
+        attribute_definitions.append({'AttributeName': sk_name, 'AttributeType': 'S'})
     
     try:
         table_config = {
@@ -159,16 +159,6 @@ def create_table(table_name):
             'AttributeDefinitions': attribute_definitions,
             'BillingMode': 'PAY_PER_REQUEST'  # On-demand pricing (sin necesidad de configurar capacidad)
         }
-        
-        # Agregar índices secundarios si existen
-        if global_secondary_indexes:
-            table_config['GlobalSecondaryIndexes'] = global_secondary_indexes
-            # Con GSI necesitamos usar provisioned throughput
-            table_config['BillingMode'] = 'PROVISIONED'
-            table_config['ProvisionedThroughput'] = {
-                'ReadCapacityUnits': 5,
-                'WriteCapacityUnits': 5
-            }
         
         table = dynamodb.create_table(**table_config)
         
@@ -201,7 +191,7 @@ def load_json_file(filename):
         return None
 
 
-def delete_all_items_from_table(table_name):
+def delete_all_items_from_table(table_name, pk_name, sk_name=None):
     """Elimina todos los items de una tabla de DynamoDB"""
     try:
         table = dynamodb.Table(table_name)
@@ -226,12 +216,10 @@ def delete_all_items_from_table(table_name):
         # Eliminar en lotes
         with table.batch_writer() as batch:
             for item in items:
-                batch.delete_item(
-                    Key={
-                        'PK': item['PK'],
-                        'SK': item['SK']
-                    }
-                )
+                key = {pk_name: item[pk_name]}
+                if sk_name:
+                    key[sk_name] = item[sk_name]
+                batch.delete_item(Key=key)
         
         print(f"   ✅ {len(items)} items eliminados de '{table_name}'")
         return True
@@ -342,16 +330,19 @@ def ask_user_action_global():
             print("   ⚠️  Opción inválida. Por favor selecciona 1 o 2")
 
 
-def populate_table(dynamodb, filename, table_name, global_action=None):
+def populate_table(dynamodb, filename, table_config, global_action=None):
     """Puebla una tabla de DynamoDB con datos de un archivo JSON"""
-    filepath = filename
+    table_name = table_config["table_name"]
+    pk_name = table_config["pk"]
+    sk_name = table_config["sk"]
     
     print(f"\n📤 Poblando tabla: {table_name}")
     print(f"   Archivo: {filename}")
+    print(f"   Claves: PK={pk_name}" + (f", SK={sk_name}" if sk_name else ""))
     
     # Verificar si la tabla existe, si no, crearla
     if not table_exists(table_name):
-        if not create_table(table_name):
+        if not create_table(table_name, pk_name, sk_name):
             print(f"   ❌ No se pudo crear la tabla '{table_name}'. Saltando...")
             return False
         time.sleep(2)
@@ -367,7 +358,7 @@ def populate_table(dynamodb, filename, table_name, global_action=None):
                 
                 if response.get('Count', 0) > 0:
                     print(f"   🗑️  Limpiando datos existentes de '{table_name}'...")
-                    if not delete_all_items_from_table(table_name):
+                    if not delete_all_items_from_table(table_name, pk_name, sk_name):
                         print(f"   ❌ Error al limpiar la tabla. Saltando...")
                         return False
                 else:
@@ -378,7 +369,7 @@ def populate_table(dynamodb, filename, table_name, global_action=None):
             print(f"   ℹ️  Agregando datos a la tabla existente")
     
     # Cargar datos del archivo
-    items = load_json_file(filepath)
+    items = load_json_file(filename)
     
     if items is None:
         return False
@@ -442,8 +433,8 @@ def verify_table_names():
     Verifica que los nombres de las tablas estén configurados
     """
     missing_tables = []
-    for filename, table_name in TABLE_MAPPING.items():
-        if not table_name:
+    for filename, config in TABLE_MAPPING.items():
+        if not config["table_name"]:
             missing_tables.append(filename)
 
     if missing_tables:
@@ -495,9 +486,9 @@ def main():
     print("=" * 60)
 
     results = {}
-    for filename, table_name in TABLE_MAPPING.items():
-        if table_name:  # Solo procesar si hay nombre de tabla configurado
-            success = populate_table(dynamodb, filename, table_name, global_action)
+    for filename, config in TABLE_MAPPING.items():
+        if config["table_name"]:
+            success = populate_table(dynamodb, filename, config, global_action)
             results[filename] = success
 
     # Resumen final
