@@ -464,23 +464,28 @@ pedidos = []
 pedidos_ids = []
 status_opciones = ["eligiendo", "cocinando", "empacando", "enviando", "recibido"]
 
-# Filtrar usuarios que tienen información bancaria
+# Filtrar usuarios que tienen información bancaria Y son clientes
 usuarios_con_pago = [
-    u["usuario_id"] for u in usuarios 
+    u for u in usuarios 
     if "informacion_bancaria" in u and u.get("role") == "cliente"
 ]
+
+print(f"  ℹ️  Usuarios con información bancaria disponibles: {len(usuarios_con_pago)}")
 
 if not usuarios_con_pago:
     print("  ⚠️  No hay usuarios con información bancaria. No se pueden generar pedidos.")
 else:
+    # Crear un mapeo de usuario_id para acceso rápido
+    usuarios_validos_ids = [u["usuario_id"] for u in usuarios_con_pago]
+    
     for i in range(NUM_PEDIDOS):
         pedido_id = generar_uuid()
         pedidos_ids.append(pedido_id)
         local_id = random.choice(locales_ids)
-        usuario_id = random.choice(usuarios_con_pago)
+        usuario_id = random.choice(usuarios_validos_ids)  # Solo usuarios válidos
         status = random.choice(status_opciones)
 
-        # Seleccionar productos (según schema: productos_ids array)
+        # Seleccionar productos
         productos_ids_pedido = []
         if productos_por_local[local_id]:
             num_productos = random.randint(1, 4)
@@ -500,7 +505,7 @@ else:
         costo += round(random.uniform(3.0, 8.0), 2)
         costo = round(costo, 2)
 
-        # Crear pedido según schema exacto + PK/SK para DynamoDB
+        # Crear pedido según schema exacto
         pedido = {
             "PK": f"LOCAL#{local_id}",
             "SK": f"PEDIDO#{pedido_id}",
@@ -530,17 +535,21 @@ else:
             if empleados_por_local[local_id]["repartidor"]:
                 pedido["repartidor_dni"] = random.choice(empleados_por_local[local_id]["repartidor"])
             
-            pedido["direccion"] = f"Av. Ejemplo {random.randint(100, 999)}, {random.choice(['Miraflores', 'San Isidro', 'Surco'])}, Lima"
+            pedido["direccion"] = f"{random.choice(calles)} {random.randint(100, 999)}, {random.choice(distritos_lima)}, Lima"
             
             fecha_entrega = datetime.now() + timedelta(minutes=random.randint(30, 90))
             pedido["fecha_entrega"] = fecha_entrega.isoformat()
 
         pedidos.append(pedido)
+        
+        # Mostrar progreso cada 1000 pedidos
+        if (i + 1) % 1000 == 0:
+            print(f"  📊 Progreso: {i + 1}/{NUM_PEDIDOS} pedidos generados")
 
 with open(f"{output_dir}/pedidos.json", "w", encoding="utf-8") as f:
     json.dump(pedidos, f, indent=2, ensure_ascii=False)
 
-print(f"  ✅ {len(pedidos)} pedidos generados con PK/SK")
+print(f"  ✅ {len(pedidos)} pedidos generados exitosamente")
 
 # 7. Generar Ofertas
 print("🎉 Generando Ofertas...")

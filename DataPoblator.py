@@ -289,6 +289,25 @@ def batch_write_items(table, items, table_name):
     return success_count, error_count
 
 
+def ask_user_action(table_name):
+    """
+    Pregunta al usuario qué hacer con los datos existentes
+    """
+    print(f"\n❓ La tabla '{table_name}' contiene datos.")
+    print("   ¿Qué deseas hacer?")
+    print("   1) Agregar datos nuevos (mantener los actuales)")
+    print("   2) Eliminar datos existentes y reemplazar")
+    
+    while True:
+        choice = input("   Selecciona una opción (1/2): ").strip()
+        if choice == "1":
+            return "append"
+        elif choice == "2":
+            return "replace"
+        else:
+            print("   ⚠️  Opción inválida. Por favor selecciona 1 o 2")
+
+
 def populate_table(dynamodb, filename, table_name):
     """Puebla una tabla de DynamoDB con datos de un archivo JSON"""
     filepath = filename  # Ya no agregar "dynamodb_data" aquí
@@ -305,6 +324,23 @@ def populate_table(dynamodb, filename, table_name):
         time.sleep(2)
     else:
         print(f"   ✅ Tabla '{table_name}' existe")
+        
+        # Verificar si la tabla tiene datos
+        try:
+            table = dynamodb.Table(table_name)
+            response = table.scan(Limit=1)
+            
+            if response.get('Count', 0) > 0:
+                action = ask_user_action(table_name)
+                
+                if action == "replace":
+                    if not delete_all_items_from_table(table_name):
+                        print(f"   ❌ Error al limpiar la tabla. Saltando...")
+                        return False
+                else:
+                    print(f"   ℹ️  Agregando datos a la tabla existente")
+        except Exception as e:
+            print(f"   ⚠️  No se pudo verificar contenido de la tabla: {e}")
     
     # Cargar datos del archivo
     items = load_json_file(filepath)
