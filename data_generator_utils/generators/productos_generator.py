@@ -55,3 +55,84 @@ class ProductosGenerator:
                 productos_por_local[local_id].append(producto_id)
         
         return productos, productos_por_local
+
+        """
+Generador de Productos
+"""
+import random
+from ..config import Config
+
+class ProductosGenerator:
+    """Generador de datos para la tabla Productos"""
+    
+    PRODUCTOS_BASE = {
+        "Arroces": [
+            "Arroz Chaufa de Pollo", "Arroz Chaufa de Carne", "Arroz Chaufa Mixto",
+            "Arroz Chaufa de Mariscos", "Arroz Chaufa Especial"
+        ],
+        "Tallarines": [
+            "Tallarín Saltado de Pollo", "Tallarín Saltado de Carne",
+            "Tallarín Saltado Mixto", "Tallarín con Mariscos"
+        ],
+        "Pollo al wok": [
+            "Pollo con Tamarindo", "Pollo Chi Jau Kay", "Pollo Tipakay",
+            "Pollo con Verduras"
+        ],
+        "Carne de res": [
+            "Carne Mongoliana", "Lomo Saltado", "Carne con Ostión",
+            "Carne con Verduras al Wok"
+        ],
+        "Cerdo": [
+            "Cerdo Agridulce", "Chancho con Tamarindo", "Cerdo al Sillao"
+        ],
+        "Mariscos": [
+            "Chicharrón de Calamar", "Camarones al Tamarindo",
+            "Arroz con Mariscos", "Chijaukai de Mariscos"
+        ],
+        "Entradas": [
+            "Wantán Frito", "Empanaditas Chinas", "Siu Mai",
+            "Rollitos Primavera"
+        ],
+        "Guarniciones": [
+            "Arroz Blanco", "Wantanes Fritos", "Chapsui de Verduras"
+        ],
+        "Sopas": [
+            "Sopa Wantán", "Sopa de Gallina China", "Sopa Min"
+        ],
+        "Bebidas": [
+            "Chicha Morada 1L", "Inca Kola 1.5L", "Agua Mineral 625ml",
+            "Té Helado 500ml"
+        ],
+        "Postres": [
+            "Helado de Lúcuma", "Picarones", "Mazamorra Morada"
+        ]
+    }
+    
+    @classmethod
+    def generar_productos(cls, locales_ids):
+        """Genera productos para todos los locales"""
+        productos = []
+        productos_por_local = {}
+        
+        for local_id in locales_ids:
+            productos_local = []
+            
+            for categoria, items in cls.PRODUCTOS_BASE.items():
+                for nombre in items:
+                    producto = {
+                        "local_id": local_id,
+                        "nombre": nombre,
+                        "precio": round(random.uniform(
+                            Config.PRECIO_MIN_PRODUCTO,
+                            Config.PRECIO_MAX_PRODUCTO
+                        ), 2),
+                        "descripcion": f"{nombre} preparado al estilo China Wok",
+                        "categoria": categoria,
+                        "stock": random.randint(10, 100)
+                    }
+                    productos.append(producto)
+                    productos_local.append(nombre)
+            
+            productos_por_local[local_id] = productos_local
+        
+        return productos, productos_por_local

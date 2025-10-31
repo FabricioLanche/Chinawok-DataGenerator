@@ -1,57 +1,76 @@
 """
-Generador de ofertas
+Generador de Ofertas
 """
 import random
 from datetime import datetime, timedelta
-from ..helpers import Helpers
 from ..config import Config
 
 
 class OfertasGenerator:
-    """Generador de ofertas por local"""
+    """Generador de datos para la tabla Ofertas"""
     
-    @staticmethod
-    def generar_ofertas(locales_ids, productos_por_local, combos_por_local):
-        """Genera ofertas para cada local"""
+    @classmethod
+    def generar_ofertas(cls, locales_ids, productos_por_local, combos_por_local):
+        """Genera ofertas para productos y combos"""
         ofertas = []
+        oferta_counter = 1
         
         for local_id in locales_ids:
-            num_ofertas = Config.NUM_OFERTAS_POR_LOCAL + random.randint(-1, 1)
+            productos = productos_por_local.get(local_id, [])
+            combos = combos_por_local.get(local_id, [])
             
-            for i in range(num_ofertas):
-                oferta_id = Helpers.generar_uuid()
-                tipo_oferta = random.choice(["producto", "combo", "descuento_general"])
-                
-                fecha_inicio = datetime.now() - timedelta(days=random.randint(0, 30))
-                fecha_fin = fecha_inicio + timedelta(days=random.randint(7, 60))
-                
-                oferta = {
-                    "PK": f"LOCAL#{local_id}",
-                    "SK": f"OFERTA#{oferta_id}",
-                    "oferta_id": oferta_id,
-                    "local_id": local_id,
-                    "nombre": f"Oferta Especial {i+1}",
-                    "descripcion": "Aprovecha esta increíble oferta por tiempo limitado",
-                    "tipo": tipo_oferta,
-                    "descuento_porcentaje": random.randint(10, 50),
-                    "descuento_monto": None,
-                    "fecha_inicio": fecha_inicio.isoformat(),
-                    "fecha_fin": fecha_fin.isoformat(),
-                    "activo": True,
-                    "dias_aplicables": random.sample(Config.DIAS_SEMANA, k=random.randint(3, 7)),
-                    "horario_inicio": "00:00",
-                    "horario_fin": "23:59",
-                    "cantidad_maxima_usos": random.randint(50, 200),
-                    "cantidad_usos_actuales": random.randint(0, 50),
-                    "created_at": Helpers.generar_timestamp(),
-                    "updated_at": Helpers.generar_timestamp()
-                }
-                
-                if tipo_oferta == "producto" and productos_por_local[local_id]:
-                    oferta["producto_id"] = random.choice(productos_por_local[local_id])
-                elif tipo_oferta == "combo" and combos_por_local[local_id]:
-                    oferta["combo_id"] = random.choice(combos_por_local[local_id])
-                
-                ofertas.append(oferta)
+            # Ofertas para productos (70%)
+            num_ofertas_productos = int(Config.NUM_OFERTAS_POR_LOCAL * 0.7)
+            for _ in range(num_ofertas_productos):
+                if productos:
+                    oferta = cls._crear_oferta_producto(
+                        oferta_counter,
+                        local_id,
+                        random.choice(productos)
+                    )
+                    ofertas.append(oferta)
+                    oferta_counter += 1
+            
+            # Ofertas para combos (30%)
+            num_ofertas_combos = Config.NUM_OFERTAS_POR_LOCAL - num_ofertas_productos
+            for _ in range(num_ofertas_combos):
+                if combos:
+                    oferta = cls._crear_oferta_combo(
+                        oferta_counter,
+                        local_id,
+                        random.choice(combos)
+                    )
+                    ofertas.append(oferta)
+                    oferta_counter += 1
         
         return ofertas
+    
+    @classmethod
+    def _crear_oferta_producto(cls, counter, local_id, producto_nombre):
+        """Crea una oferta para un producto"""
+        fecha_inicio = datetime.now()
+        fecha_limite = fecha_inicio + timedelta(days=random.randint(7, 30))
+        
+        return {
+            "local_id": local_id,
+            "oferta_id": f"OFE-{counter:05d}",
+            "producto_nombre": producto_nombre,
+            "fecha_inicio": fecha_inicio.isoformat(),
+            "fecha_limite": fecha_limite.isoformat(),
+            "porcentaje_descuento": random.choice([10, 15, 20, 25, 30])
+        }
+    
+    @classmethod
+    def _crear_oferta_combo(cls, counter, local_id, combo_id):
+        """Crea una oferta para un combo"""
+        fecha_inicio = datetime.now()
+        fecha_limite = fecha_inicio + timedelta(days=random.randint(7, 30))
+        
+        return {
+            "local_id": local_id,
+            "oferta_id": f"OFE-{counter:05d}",
+            "combo_id": combo_id,
+            "fecha_inicio": fecha_inicio.isoformat(),
+            "fecha_limite": fecha_limite.isoformat(),
+            "porcentaje_descuento": random.choice([15, 20, 25, 30])
+        }

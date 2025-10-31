@@ -1,79 +1,64 @@
 """
-Generador de usuarios
+Generador de Usuarios
 """
 import random
-from ..helpers import Helpers
-from ..sample_data import SampleData
 from ..config import Config
-
+from ..sample_data import SampleData
+from ..utils import generar_email, generar_password, generar_tarjeta
 
 class UsuariosGenerator:
-    """Generador de usuarios (admin y clientes)"""
+    """Generador de datos para la tabla Usuarios"""
     
-    @staticmethod
-    def generar_usuarios():
-        """Genera usuarios con admin y clientes"""
+    @classmethod
+    def generar_usuarios(cls):
+        """Genera la lista de usuarios y retorna (usuarios, correos)"""
         usuarios = []
-        usuarios_ids = []
+        correos_generados = set()
         
-        # ADMIN
-        admin_id = Helpers.generar_uuid()
-        usuarios_ids.append(admin_id)
+        # 1. Crear usuario administrador
+        admin = cls._crear_admin()
+        usuarios.append(admin)
+        correos_generados.add(admin["correo"])
         
+        # 2. Crear usuarios clientes
+        for i in range(Config.NUM_USUARIOS):
+            usuario = cls._crear_cliente(correos_generados)
+            usuarios.append(usuario)
+            correos_generados.add(usuario["correo"])
+        
+        return usuarios, list(correos_generados)
+    
+    @classmethod
+    def _crear_admin(cls):
+        """Crea el usuario administrador desde variables de entorno"""
         admin = {
-            "PK": f"USER#{admin_id}",
-            "SK": f"USER#{admin_id}",
-            "usuario_id": admin_id,
-            "nombre": Config.ADMIN_NOMBRE,
-            "apellido": Config.ADMIN_APELLIDO,
-            "email": Config.ADMIN_EMAIL,
-            "telefono": Config.ADMIN_TELEFONO,
-            "password_hash": f"hashed_{Config.ADMIN_PASSWORD}",
-            "role": "admin",
-            "activo": True,
-            "created_at": Helpers.generar_timestamp(),
-            "updated_at": Helpers.generar_timestamp()
+            "nombre": f"{Config.ADMIN_NOMBRE} {Config.ADMIN_APELLIDO}",
+            "correo": Config.ADMIN_EMAIL,
+            "contrasena": Config.ADMIN_PASSWORD,
+            "role": "Admin"
+        }
+        return admin
+    
+    @classmethod
+    def _crear_cliente(cls, correos_existentes):
+        """Crea un usuario cliente"""
+        nombre = random.choice(SampleData.NOMBRES)
+        apellido = random.choice(SampleData.APELLIDOS)
+        
+        # Generar correo único
+        correo = generar_email(nombre, apellido)
+        while correo in correos_existentes:
+            correo = generar_email(nombre, apellido)
+        
+        usuario = {
+            "nombre": f"{nombre} {apellido}",
+            "correo": correo,
+            "contrasena": generar_password(),
+            "role": "Cliente"
         }
         
-        usuarios.append(admin)
+        # Agregar información bancaria (70% de los usuarios)
+        if random.random() < Config.PORCENTAJE_USUARIOS_CON_TARJETA:
+            usuario["informacion_bancaria"] = generar_tarjeta()
         
-        # CLIENTES
-        for i in range(Config.NUM_USUARIOS):
-            nombre = random.choice(SampleData.NOMBRES)
-            apellido = random.choice(SampleData.APELLIDOS)
-            usuario_id = Helpers.generar_uuid()
-            usuarios_ids.append(usuario_id)
-            
-            usuario = {
-                "PK": f"USER#{usuario_id}",
-                "SK": f"USER#{usuario_id}",
-                "usuario_id": usuario_id,
-                "nombre": nombre,
-                "apellido": apellido,
-                "email": Helpers.generar_email(nombre, apellido, str(i)),
-                "telefono": Helpers.generar_telefono(),
-                "password_hash": f"hashed_password_{random.randint(1000, 9999)}",
-                "role": "cliente",
-                "activo": True,
-                "created_at": Helpers.generar_timestamp(),
-                "updated_at": Helpers.generar_timestamp()
-            }
-            
-            # 70% tienen información bancaria
-            if random.random() < Config.PORCENTAJE_USUARIOS_CON_TARJETA:
-                usuario["informacion_bancaria"] = {
-                    "numero_tarjeta_encriptado": Helpers.generar_tarjeta(),
-                    "cvv_encriptado": Helpers.generar_cvv(),
-                    "fecha_vencimiento": Helpers.generar_fecha_vencimiento(),
-                    "nombre_titular": f"{nombre} {apellido}",
-                    "tipo_tarjeta": random.choice(Config.TIPOS_TARJETA)
-                }
-            
-            usuario["direccion_facturacion"] = Helpers.generar_direccion(
-                SampleData.CALLES,
-                SampleData.DISTRITOS_LIMA
-            )
-            
-            usuarios.append(usuario)
-        
-        return usuarios, usuarios_ids
+        return usuario

@@ -1,59 +1,51 @@
 """
-Generador de combos
+Generador de Combos
 """
 import random
-from datetime import datetime, timedelta
-from ..helpers import Helpers
 from ..config import Config
 
 
 class CombosGenerator:
-    """Generador de combos por local"""
+    """Generador de datos para la tabla Combos"""
     
-    @staticmethod
-    def generar_combos(locales_ids, productos_por_local, productos):
+    COMBOS_BASE = [
+        {"nombre": "Combo Personal", "descripcion": "Plato principal + bebida", "num_productos": 2},
+        {"nombre": "Combo Pareja", "descripcion": "2 platos principales + 2 bebidas", "num_productos": 4},
+        {"nombre": "Combo Familiar", "descripcion": "3 platos + entrada + 3 bebidas", "num_productos": 7},
+        {"nombre": "Combo Ejecutivo", "descripcion": "Plato principal + sopa + bebida", "num_productos": 3},
+        {"nombre": "Combo Premium", "descripcion": "2 platos especiales + entrada + 2 bebidas + postre", "num_productos": 6}
+    ]
+    
+    @classmethod
+    def generar_combos(cls, locales_ids, productos_por_local, productos):
         """Genera combos para cada local"""
         combos = []
-        combos_por_local = {local_id: [] for local_id in locales_ids}
+        combos_por_local = {}
+        combo_counter = 1
         
         for local_id in locales_ids:
-            num_combos = Config.NUM_COMBOS_POR_LOCAL + random.randint(-1, 2)
+            combos_local = []
+            productos_local = productos_por_local.get(local_id, [])
             
-            for i in range(num_combos):
-                combo_id = Helpers.generar_uuid()
-                
-                if not productos_por_local[local_id]:
-                    continue
-                
-                num_productos = min(random.randint(2, 4), len(productos_por_local[local_id]))
-                productos_combo = random.sample(productos_por_local[local_id], num_productos)
-                
-                precio_total = sum([
-                    p["precio"] for p in productos 
-                    if p["producto_id"] in productos_combo
-                ])
-                precio_combo = round(precio_total * random.uniform(0.7, 0.85), 2)
+            if not productos_local:
+                continue
+            
+            for combo_base in cls.COMBOS_BASE:
+                num_productos = min(combo_base["num_productos"], len(productos_local))
+                productos_seleccionados = random.sample(productos_local, num_productos)
                 
                 combo = {
-                    "PK": f"LOCAL#{local_id}",
-                    "SK": f"COMBO#{combo_id}",
-                    "combo_id": combo_id,
                     "local_id": local_id,
-                    "nombre": f"Combo Especial {i + 1}",
-                    "descripcion": f"Combo incluye {len(productos_combo)} productos deliciosos",
-                    "productos_ids": productos_combo,
-                    "precio": precio_combo,
-                    "precio_original": precio_total,
-                    "descuento_porcentaje": round(((precio_total - precio_combo) / precio_total) * 100, 0),
-                    "disponible": True,
-                    "imagen_url": f"https://chinawok.pe/images/combos/{combo_id}.jpg",
-                    "valido_desde": Helpers.generar_timestamp(),
-                    "valido_hasta": (datetime.now() + timedelta(days=random.randint(30, 90))).isoformat(),
-                    "created_at": Helpers.generar_timestamp(),
-                    "updated_at": Helpers.generar_timestamp()
+                    "combo_id": f"COMBO-{combo_counter:05d}",
+                    "nombre": combo_base["nombre"],
+                    "productos_nombres": productos_seleccionados,
+                    "descripcion": combo_base["descripcion"]
                 }
                 
                 combos.append(combo)
-                combos_por_local[local_id].append(combo_id)
+                combos_local.append(combo["combo_id"])
+                combo_counter += 1
+            
+            combos_por_local[local_id] = combos_local
         
         return combos, combos_por_local

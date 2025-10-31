@@ -70,10 +70,7 @@ class Config:
     
     # Roles de usuarios (DEBEN coincidir con schema: Primera letra mayúscula)
     ROLES_USUARIO = ["Cliente", "Admin"]
-    
 
-
-    
     @classmethod
     def crear_directorio_salida(cls):
         """Crea el directorio de salida si no existe"""

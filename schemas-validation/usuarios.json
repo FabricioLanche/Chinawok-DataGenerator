@@ -23,10 +23,5 @@
     }
   },
   "required": ["nombre", "correo", "contrasena", "role"],
-  "additionalProperties": false,
-  "dependencies": {
-    "informacion_bancaria": {
-      "description": "Si el usuario tiene información bancaria, esta debe cumplir con los campos requeridos y validarse antes de procesar pedidos."
-    }
-  }
+  "additionalProperties": false
 }

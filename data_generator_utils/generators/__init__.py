@@ -1,5 +1,5 @@
 """
-Generadores de entidades para DynamoDB
+Módulo de generadores de datos
 """
 
 from .locales_generator import LocalesGenerator
