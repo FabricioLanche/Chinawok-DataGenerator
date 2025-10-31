@@ -1,18 +1,18 @@
 import json
-import os
 import boto3
-from botocore.exceptions import ClientError
+import os
 from dotenv import load_dotenv
 from decimal import Decimal
 
-# Cargar variables de entorno
+# Cargar variables de entorno desde .env (si existe)
 load_dotenv()
 
-# Configuración de AWS
-# Las credenciales se obtienen automáticamente de ~/.aws/credentials
-# La región se puede configurar en .env o en ~/.aws/config (por defecto: us-east-1)
+# Configuración de AWS DynamoDB
+# Las credenciales se toman de ~/.aws/credentials automáticamente
+# Solo necesitamos especificar la región
+AWS_REGION = os.getenv('AWS_REGION', 'us-east-1')
 
- = os.getenv('AWS_REGION', 'us-east-1')
+dynamodb = boto3.resource('dynamodb', region_name=AWS_REGION)
 
 # Nombres de las tablas DynamoDB
 TABLE_LOCALES = os.getenv('TABLE_LOCALES')
