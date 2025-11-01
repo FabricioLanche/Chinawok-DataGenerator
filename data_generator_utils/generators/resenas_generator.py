@@ -19,15 +19,27 @@ class ResenasGenerator:
         pedidos_a_resenar = random.sample(pedidos_completados, num_resenas)
         
         for pedido in pedidos_a_resenar:
-            resena = cls._crear_resena(resena_counter, pedido)
-            resenas.append(resena)
-            resena_counter += 1
+            # Generar reseñas para cada empleado que participó en el pedido
+            empleados_en_pedido = []
+            
+            if pedido.get("cocinero_dni"):
+                empleados_en_pedido.append(pedido["cocinero_dni"])
+            if pedido.get("despachador_dni"):
+                empleados_en_pedido.append(pedido["despachador_dni"])
+            if pedido.get("repartidor_dni"):
+                empleados_en_pedido.append(pedido["repartidor_dni"])
+            
+            # Crear una reseña por cada empleado
+            for empleado_dni in empleados_en_pedido:
+                resena = cls._crear_resena(resena_counter, pedido, empleado_dni)
+                resenas.append(resena)
+                resena_counter += 1
         
         return resenas
     
     @classmethod
-    def _crear_resena(cls, counter, pedido):
-        """Crea una reseña individual"""
+    def _crear_resena(cls, counter, pedido, empleado_dni):
+        """Crea una reseña individual para un empleado específico"""
         calificacion = random.uniform(1, 5)
         
         if calificacion >= 4:
@@ -37,20 +49,17 @@ class ResenasGenerator:
         else:
             resena_texto = random.choice(SampleData.RESENAS_NEGATIVAS)
         
-        empleados_disponibles = [
-            pedido["cocinero_dni"],
-            pedido["despachador_dni"],
-            pedido["repartidor_dni"]
-        ]
+        local_id = pedido["local_id"]
         
-        num_empleados = random.randint(0, 3)
-        empleados_dni = random.sample(empleados_disponibles, num_empleados) if num_empleados > 0 else []
+        # Crear partition key compuesta: LOCAL#<local_id>#EMP#<empleado_dni>
+        pk = f"LOCAL#{local_id}#EMP#{empleado_dni}"
         
         return {
-            "local_id": pedido["local_id"],
+            "pk": pk,
+            "local_id": local_id,
+            "empleado_dni": empleado_dni,
             "resena_id": f"RES-{counter:05d}",
             "pedido_id": pedido["pedido_id"],
             "resena": resena_texto,
-            "calificacion": round(calificacion, 2),
-            "empleados_dni": empleados_dni
+            "calificacion": round(calificacion, 2)
         }

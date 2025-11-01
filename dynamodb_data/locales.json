@@ -1,701 +1,701 @@
 [
   {
     "local_id": "LOCAL-0001",
-    "direccion": "Av. Javier Prado Este 456, San Isidro",
-    "telefono": "+51-929964392",
+    "direccion": "Av. Benavides 345, Miraflores",
+    "telefono": "+51-936985197",
     "hora_apertura": "10:00",
     "hora_finalizacion": "22:00"
   },
   {
     "local_id": "LOCAL-0002",
-    "direccion": "Av. Angamos 678, Surquillo",
-    "telefono": "+51-926568982",
+    "direccion": "Av. Benavides 345, Miraflores",
+    "telefono": "+51-981232558",
     "hora_apertura": "10:00",
     "hora_finalizacion": "22:00"
   },
   {
     "local_id": "LOCAL-0003",
-    "direccion": "Av. Javier Prado Este 456, San Isidro",
-    "telefono": "+51-900587322",
+    "direccion": "Av. Angamos 678, Surquillo",
+    "telefono": "+51-991988468",
     "hora_apertura": "10:00",
     "hora_finalizacion": "22:00"
   },
   {
     "local_id": "LOCAL-0004",
-    "direccion": "Av. República de Panamá 456, Surquillo",
-    "telefono": "+51-951954585",
+    "direccion": "Av. Benavides 345, Miraflores",
+    "telefono": "+51-959375235",
     "hora_apertura": "10:00",
     "hora_finalizacion": "22:00"
   },
   {
     "local_id": "LOCAL-0005",
-    "direccion": "Av. República de Panamá 456, Surquillo",
-    "telefono": "+51-924042083",
+    "direccion": "Av. Arequipa 1234, Miraflores",
+    "telefono": "+51-990584570",
     "hora_apertura": "10:00",
     "hora_finalizacion": "22:00"
   },
   {
     "local_id": "LOCAL-0006",
-    "direccion": "Calle Shell 123, Miraflores",
-    "telefono": "+51-924744985",
+    "direccion": "Av. República de Panamá 456, Surquillo",
+    "telefono": "+51-904448047",
     "hora_apertura": "10:00",
     "hora_finalizacion": "22:00"
   },
   {
     "local_id": "LOCAL-0007",
-    "direccion": "Calle Las Begonias 234, San Isidro",
-    "telefono": "+51-900847185",
+    "direccion": "Calle Shell 123, Miraflores",
+    "telefono": "+51-968389099",
     "hora_apertura": "10:00",
     "hora_finalizacion": "22:00"
   },
   {
     "local_id": "LOCAL-0008",
-    "direccion": "Calle Las Begonias 234, San Isidro",
-    "telefono": "+51-938939179",
+    "direccion": "Av. Conquistadores 890, San Isidro",
+    "telefono": "+51-917181165",
     "hora_apertura": "10:00",
     "hora_finalizacion": "22:00"
   },
   {
     "local_id": "LOCAL-0009",
-    "direccion": "Av. Conquistadores 890, San Isidro",
-    "telefono": "+51-931039772",
+    "direccion": "Av. República de Panamá 456, Surquillo",
+    "telefono": "+51-977993531",
     "hora_apertura": "10:00",
     "hora_finalizacion": "22:00"
   },
   {
     "local_id": "LOCAL-0010",
-    "direccion": "Av. Benavides 345, Miraflores",
-    "telefono": "+51-953517919",
+    "direccion": "Av. Angamos 678, Surquillo",
+    "telefono": "+51-954546966",
     "hora_apertura": "10:00",
     "hora_finalizacion": "22:00"
   },
   {
     "local_id": "LOCAL-0011",
-    "direccion": "Av. Conquistadores 890, San Isidro",
-    "telefono": "+51-900204160",
+    "direccion": "Av. Angamos 678, Surquillo",
+    "telefono": "+51-933985183",
     "hora_apertura": "10:00",
     "hora_finalizacion": "22:00"
   },
   {
     "local_id": "LOCAL-0012",
-    "direccion": "Av. Javier Prado Este 456, San Isidro",
-    "telefono": "+51-974538068",
+    "direccion": "Av. Larco 567, Miraflores",
+    "telefono": "+51-949291706",
     "hora_apertura": "10:00",
     "hora_finalizacion": "22:00"
   },
   {
     "local_id": "LOCAL-0013",
-    "direccion": "Av. Angamos 678, Surquillo",
-    "telefono": "+51-983254627",
+    "direccion": "Calle Shell 123, Miraflores",
+    "telefono": "+51-960081653",
     "hora_apertura": "10:00",
     "hora_finalizacion": "22:00"
   },
   {
     "local_id": "LOCAL-0014",
-    "direccion": "Calle Los Olivos 789, San Borja",
-    "telefono": "+51-953414687",
+    "direccion": "Av. República de Panamá 456, Surquillo",
+    "telefono": "+51-988646625",
     "hora_apertura": "10:00",
     "hora_finalizacion": "22:00"
   },
   {
     "local_id": "LOCAL-0015",
     "direccion": "Av. Larco 567, Miraflores",
-    "telefono": "+51-932149924",
+    "telefono": "+51-975614192",
     "hora_apertura": "10:00",
     "hora_finalizacion": "22:00"
   },
   {
     "local_id": "LOCAL-0016",
-    "direccion": "Av. Larco 567, Miraflores",
-    "telefono": "+51-986198950",
+    "direccion": "Calle Los Olivos 789, San Borja",
+    "telefono": "+51-905928505",
     "hora_apertura": "10:00",
     "hora_finalizacion": "22:00"
   },
   {
     "local_id": "LOCAL-0017",
-    "direccion": "Av. Larco 567, Miraflores",
-    "telefono": "+51-921063393",
+    "direccion": "Av. Benavides 345, Miraflores",
+    "telefono": "+51-994770852",
     "hora_apertura": "10:00",
     "hora_finalizacion": "22:00"
   },
   {
     "local_id": "LOCAL-0018",
-    "direccion": "Av. Benavides 345, Miraflores",
-    "telefono": "+51-996884523",
+    "direccion": "Av. Arequipa 1234, Miraflores",
+    "telefono": "+51-979432185",
     "hora_apertura": "10:00",
     "hora_finalizacion": "22:00"
   },
   {
     "local_id": "LOCAL-0019",
-    "direccion": "Av. Conquistadores 890, San Isidro",
-    "telefono": "+51-945013716",
+    "direccion": "Av. República de Panamá 456, Surquillo",
+    "telefono": "+51-962799505",
     "hora_apertura": "10:00",
     "hora_finalizacion": "22:00"
   },
   {
     "local_id": "LOCAL-0020",
-    "direccion": "Av. República de Panamá 456, Surquillo",
-    "telefono": "+51-997496979",
+    "direccion": "Av. Benavides 345, Miraflores",
+    "telefono": "+51-974384900",
     "hora_apertura": "10:00",
     "hora_finalizacion": "22:00"
   },
   {
     "local_id": "LOCAL-0021",
-    "direccion": "Calle Las Begonias 234, San Isidro",
-    "telefono": "+51-967901760",
+    "direccion": "Av. Arequipa 1234, Miraflores",
+    "telefono": "+51-924047578",
     "hora_apertura": "10:00",
     "hora_finalizacion": "22:00"
   },
   {
     "local_id": "LOCAL-0022",
-    "direccion": "Calle Las Begonias 234, San Isidro",
-    "telefono": "+51-945254977",
+    "direccion": "Av. Larco 567, Miraflores",
+    "telefono": "+51-929291231",
     "hora_apertura": "10:00",
     "hora_finalizacion": "22:00"
   },
   {
     "local_id": "LOCAL-0023",
     "direccion": "Av. Angamos 678, Surquillo",
-    "telefono": "+51-950225400",
+    "telefono": "+51-956277001",
     "hora_apertura": "10:00",
     "hora_finalizacion": "22:00"
   },
   {
     "local_id": "LOCAL-0024",
-    "direccion": "Calle Los Olivos 789, San Borja",
-    "telefono": "+51-950488157",
+    "direccion": "Av. Javier Prado Este 456, San Isidro",
+    "telefono": "+51-916783678",
     "hora_apertura": "10:00",
     "hora_finalizacion": "22:00"
   },
   {
     "local_id": "LOCAL-0025",
-    "direccion": "Av. Angamos 678, Surquillo",
-    "telefono": "+51-926009835",
+    "direccion": "Av. Arequipa 1234, Miraflores",
+    "telefono": "+51-977809075",
     "hora_apertura": "10:00",
     "hora_finalizacion": "22:00"
   },
   {
     "local_id": "LOCAL-0026",
-    "direccion": "Av. Arequipa 1234, Miraflores",
-    "telefono": "+51-993282528",
+    "direccion": "Av. Javier Prado Este 456, San Isidro",
+    "telefono": "+51-904227437",
     "hora_apertura": "10:00",
     "hora_finalizacion": "22:00"
   },
   {
     "local_id": "LOCAL-0027",
-    "direccion": "Av. Benavides 345, Miraflores",
-    "telefono": "+51-953484796",
+    "direccion": "Av. Larco 567, Miraflores",
+    "telefono": "+51-945425643",
     "hora_apertura": "10:00",
     "hora_finalizacion": "22:00"
   },
   {
     "local_id": "LOCAL-0028",
-    "direccion": "Av. Conquistadores 890, San Isidro",
-    "telefono": "+51-916658048",
+    "direccion": "Calle Las Begonias 234, San Isidro",
+    "telefono": "+51-939660252",
     "hora_apertura": "10:00",
     "hora_finalizacion": "22:00"
   },
   {
     "local_id": "LOCAL-0029",
-    "direccion": "Calle Shell 123, Miraflores",
-    "telefono": "+51-910057037",
+    "direccion": "Av. República de Panamá 456, Surquillo",
+    "telefono": "+51-933024023",
     "hora_apertura": "10:00",
     "hora_finalizacion": "22:00"
   },
   {
     "local_id": "LOCAL-0030",
-    "direccion": "Calle Shell 123, Miraflores",
-    "telefono": "+51-923937373",
+    "direccion": "Av. República de Panamá 456, Surquillo",
+    "telefono": "+51-986765805",
     "hora_apertura": "10:00",
     "hora_finalizacion": "22:00"
   },
   {
     "local_id": "LOCAL-0031",
-    "direccion": "Av. Javier Prado Este 456, San Isidro",
-    "telefono": "+51-911027858",
+    "direccion": "Av. Angamos 678, Surquillo",
+    "telefono": "+51-952337079",
     "hora_apertura": "10:00",
     "hora_finalizacion": "22:00"
   },
   {
     "local_id": "LOCAL-0032",
-    "direccion": "Av. Larco 567, Miraflores",
-    "telefono": "+51-951607512",
+    "direccion": "Av. Benavides 345, Miraflores",
+    "telefono": "+51-918932694",
     "hora_apertura": "10:00",
     "hora_finalizacion": "22:00"
   },
   {
     "local_id": "LOCAL-0033",
-    "direccion": "Av. Conquistadores 890, San Isidro",
-    "telefono": "+51-967688192",
+    "direccion": "Av. Larco 567, Miraflores",
+    "telefono": "+51-970972616",
     "hora_apertura": "10:00",
     "hora_finalizacion": "22:00"
   },
   {
     "local_id": "LOCAL-0034",
     "direccion": "Av. Conquistadores 890, San Isidro",
-    "telefono": "+51-936965831",
+    "telefono": "+51-972036722",
     "hora_apertura": "10:00",
     "hora_finalizacion": "22:00"
   },
   {
     "local_id": "LOCAL-0035",
-    "direccion": "Calle Los Olivos 789, San Borja",
-    "telefono": "+51-952559192",
+    "direccion": "Calle Shell 123, Miraflores",
+    "telefono": "+51-991440374",
     "hora_apertura": "10:00",
     "hora_finalizacion": "22:00"
   },
   {
     "local_id": "LOCAL-0036",
-    "direccion": "Calle Las Begonias 234, San Isidro",
-    "telefono": "+51-982336080",
+    "direccion": "Av. Javier Prado Este 456, San Isidro",
+    "telefono": "+51-900650192",
     "hora_apertura": "10:00",
     "hora_finalizacion": "22:00"
   },
   {
     "local_id": "LOCAL-0037",
-    "direccion": "Av. Angamos 678, Surquillo",
-    "telefono": "+51-946667303",
+    "direccion": "Av. Benavides 345, Miraflores",
+    "telefono": "+51-936406681",
     "hora_apertura": "10:00",
     "hora_finalizacion": "22:00"
   },
   {
     "local_id": "LOCAL-0038",
-    "direccion": "Av. Javier Prado Este 456, San Isidro",
-    "telefono": "+51-954145468",
+    "direccion": "Av. Angamos 678, Surquillo",
+    "telefono": "+51-930308720",
     "hora_apertura": "10:00",
     "hora_finalizacion": "22:00"
   },
   {
     "local_id": "LOCAL-0039",
-    "direccion": "Av. República de Panamá 456, Surquillo",
-    "telefono": "+51-909540331",
+    "direccion": "Av. Arequipa 1234, Miraflores",
+    "telefono": "+51-958782837",
     "hora_apertura": "10:00",
     "hora_finalizacion": "22:00"
   },
   {
     "local_id": "LOCAL-0040",
-    "direccion": "Av. Javier Prado Este 456, San Isidro",
-    "telefono": "+51-929533570",
+    "direccion": "Av. Arequipa 1234, Miraflores",
+    "telefono": "+51-987105540",
     "hora_apertura": "10:00",
     "hora_finalizacion": "22:00"
   },
   {
     "local_id": "LOCAL-0041",
-    "direccion": "Av. Larco 567, Miraflores",
-    "telefono": "+51-977290873",
+    "direccion": "Av. Conquistadores 890, San Isidro",
+    "telefono": "+51-959019282",
     "hora_apertura": "10:00",
     "hora_finalizacion": "22:00"
   },
   {
     "local_id": "LOCAL-0042",
-    "direccion": "Av. Conquistadores 890, San Isidro",
-    "telefono": "+51-961067052",
+    "direccion": "Av. Javier Prado Este 456, San Isidro",
+    "telefono": "+51-980293507",
     "hora_apertura": "10:00",
     "hora_finalizacion": "22:00"
   },
   {
     "local_id": "LOCAL-0043",
-    "direccion": "Calle Los Olivos 789, San Borja",
-    "telefono": "+51-997807955",
+    "direccion": "Av. Arequipa 1234, Miraflores",
+    "telefono": "+51-976204564",
     "hora_apertura": "10:00",
     "hora_finalizacion": "22:00"
   },
   {
     "local_id": "LOCAL-0044",
-    "direccion": "Av. Arequipa 1234, Miraflores",
-    "telefono": "+51-925357060",
+    "direccion": "Av. Larco 567, Miraflores",
+    "telefono": "+51-943853107",
     "hora_apertura": "10:00",
     "hora_finalizacion": "22:00"
   },
   {
     "local_id": "LOCAL-0045",
-    "direccion": "Av. Larco 567, Miraflores",
-    "telefono": "+51-924131020",
+    "direccion": "Calle Shell 123, Miraflores",
+    "telefono": "+51-985491095",
     "hora_apertura": "10:00",
     "hora_finalizacion": "22:00"
   },
   {
     "local_id": "LOCAL-0046",
     "direccion": "Av. Angamos 678, Surquillo",
-    "telefono": "+51-966748543",
+    "telefono": "+51-952907389",
     "hora_apertura": "10:00",
     "hora_finalizacion": "22:00"
   },
   {
     "local_id": "LOCAL-0047",
-    "direccion": "Av. Angamos 678, Surquillo",
-    "telefono": "+51-965432386",
+    "direccion": "Av. Javier Prado Este 456, San Isidro",
+    "telefono": "+51-988642296",
     "hora_apertura": "10:00",
     "hora_finalizacion": "22:00"
   },
   {
     "local_id": "LOCAL-0048",
-    "direccion": "Av. Javier Prado Este 456, San Isidro",
-    "telefono": "+51-904738885",
+    "direccion": "Av. República de Panamá 456, Surquillo",
+    "telefono": "+51-917022123",
     "hora_apertura": "10:00",
     "hora_finalizacion": "22:00"
   },
   {
     "local_id": "LOCAL-0049",
-    "direccion": "Av. Larco 567, Miraflores",
-    "telefono": "+51-907331917",
+    "direccion": "Av. República de Panamá 456, Surquillo",
+    "telefono": "+51-924111711",
     "hora_apertura": "10:00",
     "hora_finalizacion": "22:00"
   },
   {
     "local_id": "LOCAL-0050",
-    "direccion": "Av. Arequipa 1234, Miraflores",
-    "telefono": "+51-974548141",
+    "direccion": "Av. Benavides 345, Miraflores",
+    "telefono": "+51-910186599",
     "hora_apertura": "10:00",
     "hora_finalizacion": "22:00"
   },
   {
     "local_id": "LOCAL-0051",
-    "direccion": "Av. Conquistadores 890, San Isidro",
-    "telefono": "+51-933816295",
+    "direccion": "Calle Los Olivos 789, San Borja",
+    "telefono": "+51-916997136",
     "hora_apertura": "10:00",
     "hora_finalizacion": "22:00"
   },
   {
     "local_id": "LOCAL-0052",
-    "direccion": "Av. Conquistadores 890, San Isidro",
-    "telefono": "+51-992536478",
+    "direccion": "Av. Javier Prado Este 456, San Isidro",
+    "telefono": "+51-989481407",
     "hora_apertura": "10:00",
     "hora_finalizacion": "22:00"
   },
   {
     "local_id": "LOCAL-0053",
-    "direccion": "Av. Conquistadores 890, San Isidro",
-    "telefono": "+51-989509314",
+    "direccion": "Av. Benavides 345, Miraflores",
+    "telefono": "+51-997137575",
     "hora_apertura": "10:00",
     "hora_finalizacion": "22:00"
   },
   {
     "local_id": "LOCAL-0054",
-    "direccion": "Av. República de Panamá 456, Surquillo",
-    "telefono": "+51-947180189",
+    "direccion": "Calle Los Olivos 789, San Borja",
+    "telefono": "+51-983038974",
     "hora_apertura": "10:00",
     "hora_finalizacion": "22:00"
   },
   {
     "local_id": "LOCAL-0055",
-    "direccion": "Av. Arequipa 1234, Miraflores",
-    "telefono": "+51-950120511",
+    "direccion": "Calle Shell 123, Miraflores",
+    "telefono": "+51-950291548",
     "hora_apertura": "10:00",
     "hora_finalizacion": "22:00"
   },
   {
     "local_id": "LOCAL-0056",
-    "direccion": "Calle Los Olivos 789, San Borja",
-    "telefono": "+51-921128035",
+    "direccion": "Av. Angamos 678, Surquillo",
+    "telefono": "+51-945512143",
     "hora_apertura": "10:00",
     "hora_finalizacion": "22:00"
   },
   {
     "local_id": "LOCAL-0057",
-    "direccion": "Av. Javier Prado Este 456, San Isidro",
-    "telefono": "+51-927991218",
+    "direccion": "Av. Angamos 678, Surquillo",
+    "telefono": "+51-981497550",
     "hora_apertura": "10:00",
     "hora_finalizacion": "22:00"
   },
   {
     "local_id": "LOCAL-0058",
-    "direccion": "Av. República de Panamá 456, Surquillo",
-    "telefono": "+51-999130042",
+    "direccion": "Av. Benavides 345, Miraflores",
+    "telefono": "+51-924533197",
     "hora_apertura": "10:00",
     "hora_finalizacion": "22:00"
   },
   {
     "local_id": "LOCAL-0059",
-    "direccion": "Av. Javier Prado Este 456, San Isidro",
-    "telefono": "+51-926928604",
+    "direccion": "Av. Conquistadores 890, San Isidro",
+    "telefono": "+51-972159445",
     "hora_apertura": "10:00",
     "hora_finalizacion": "22:00"
   },
   {
     "local_id": "LOCAL-0060",
-    "direccion": "Av. República de Panamá 456, Surquillo",
-    "telefono": "+51-947741491",
+    "direccion": "Av. Arequipa 1234, Miraflores",
+    "telefono": "+51-932028729",
     "hora_apertura": "10:00",
     "hora_finalizacion": "22:00"
   },
   {
     "local_id": "LOCAL-0061",
-    "direccion": "Av. Javier Prado Este 456, San Isidro",
-    "telefono": "+51-949581862",
+    "direccion": "Av. Larco 567, Miraflores",
+    "telefono": "+51-987176059",
     "hora_apertura": "10:00",
     "hora_finalizacion": "22:00"
   },
   {
     "local_id": "LOCAL-0062",
-    "direccion": "Av. Javier Prado Este 456, San Isidro",
-    "telefono": "+51-968392943",
+    "direccion": "Calle Shell 123, Miraflores",
+    "telefono": "+51-945279925",
     "hora_apertura": "10:00",
     "hora_finalizacion": "22:00"
   },
   {
     "local_id": "LOCAL-0063",
-    "direccion": "Av. Angamos 678, Surquillo",
-    "telefono": "+51-923298809",
+    "direccion": "Calle Shell 123, Miraflores",
+    "telefono": "+51-904884434",
     "hora_apertura": "10:00",
     "hora_finalizacion": "22:00"
   },
   {
     "local_id": "LOCAL-0064",
     "direccion": "Av. Conquistadores 890, San Isidro",
-    "telefono": "+51-946855797",
+    "telefono": "+51-962445270",
     "hora_apertura": "10:00",
     "hora_finalizacion": "22:00"
   },
   {
     "local_id": "LOCAL-0065",
     "direccion": "Av. Arequipa 1234, Miraflores",
-    "telefono": "+51-972029806",
+    "telefono": "+51-988579168",
     "hora_apertura": "10:00",
     "hora_finalizacion": "22:00"
   },
   {
     "local_id": "LOCAL-0066",
-    "direccion": "Calle Shell 123, Miraflores",
-    "telefono": "+51-924805223",
+    "direccion": "Av. Angamos 678, Surquillo",
+    "telefono": "+51-978677892",
     "hora_apertura": "10:00",
     "hora_finalizacion": "22:00"
   },
   {
     "local_id": "LOCAL-0067",
-    "direccion": "Av. Arequipa 1234, Miraflores",
-    "telefono": "+51-903189679",
+    "direccion": "Av. Larco 567, Miraflores",
+    "telefono": "+51-954403048",
     "hora_apertura": "10:00",
     "hora_finalizacion": "22:00"
   },
   {
     "local_id": "LOCAL-0068",
-    "direccion": "Av. Arequipa 1234, Miraflores",
-    "telefono": "+51-912241507",
+    "direccion": "Av. Javier Prado Este 456, San Isidro",
+    "telefono": "+51-926908842",
     "hora_apertura": "10:00",
     "hora_finalizacion": "22:00"
   },
   {
     "local_id": "LOCAL-0069",
-    "direccion": "Av. Benavides 345, Miraflores",
-    "telefono": "+51-938750635",
+    "direccion": "Av. Conquistadores 890, San Isidro",
+    "telefono": "+51-968244134",
     "hora_apertura": "10:00",
     "hora_finalizacion": "22:00"
   },
   {
     "local_id": "LOCAL-0070",
-    "direccion": "Av. Angamos 678, Surquillo",
-    "telefono": "+51-915128670",
+    "direccion": "Av. Larco 567, Miraflores",
+    "telefono": "+51-989652010",
     "hora_apertura": "10:00",
     "hora_finalizacion": "22:00"
   },
   {
     "local_id": "LOCAL-0071",
-    "direccion": "Av. Javier Prado Este 456, San Isidro",
-    "telefono": "+51-915092481",
+    "direccion": "Av. Angamos 678, Surquillo",
+    "telefono": "+51-973520178",
     "hora_apertura": "10:00",
     "hora_finalizacion": "22:00"
   },
   {
     "local_id": "LOCAL-0072",
-    "direccion": "Av. Angamos 678, Surquillo",
-    "telefono": "+51-957920580",
+    "direccion": "Calle Shell 123, Miraflores",
+    "telefono": "+51-983841495",
     "hora_apertura": "10:00",
     "hora_finalizacion": "22:00"
   },
   {
     "local_id": "LOCAL-0073",
-    "direccion": "Calle Shell 123, Miraflores",
-    "telefono": "+51-976382726",
+    "direccion": "Av. Arequipa 1234, Miraflores",
+    "telefono": "+51-944761581",
     "hora_apertura": "10:00",
     "hora_finalizacion": "22:00"
   },
   {
     "local_id": "LOCAL-0074",
     "direccion": "Calle Shell 123, Miraflores",
-    "telefono": "+51-962305132",
+    "telefono": "+51-940280797",
     "hora_apertura": "10:00",
     "hora_finalizacion": "22:00"
   },
   {
     "local_id": "LOCAL-0075",
-    "direccion": "Av. República de Panamá 456, Surquillo",
-    "telefono": "+51-986357088",
+    "direccion": "Av. Conquistadores 890, San Isidro",
+    "telefono": "+51-920968076",
     "hora_apertura": "10:00",
     "hora_finalizacion": "22:00"
   },
   {
     "local_id": "LOCAL-0076",
-    "direccion": "Calle Los Olivos 789, San Borja",
-    "telefono": "+51-944962887",
+    "direccion": "Av. Angamos 678, Surquillo",
+    "telefono": "+51-984380657",
     "hora_apertura": "10:00",
     "hora_finalizacion": "22:00"
   },
   {
     "local_id": "LOCAL-0077",
-    "direccion": "Av. Conquistadores 890, San Isidro",
-    "telefono": "+51-946182205",
+    "direccion": "Av. Arequipa 1234, Miraflores",
+    "telefono": "+51-951429736",
     "hora_apertura": "10:00",
     "hora_finalizacion": "22:00"
   },
   {
     "local_id": "LOCAL-0078",
-    "direccion": "Av. Arequipa 1234, Miraflores",
-    "telefono": "+51-950729100",
+    "direccion": "Calle Shell 123, Miraflores",
+    "telefono": "+51-906314609",
     "hora_apertura": "10:00",
     "hora_finalizacion": "22:00"
   },
   {
     "local_id": "LOCAL-0079",
-    "direccion": "Av. Javier Prado Este 456, San Isidro",
-    "telefono": "+51-900841553",
+    "direccion": "Av. Benavides 345, Miraflores",
+    "telefono": "+51-982774540",
     "hora_apertura": "10:00",
     "hora_finalizacion": "22:00"
   },
   {
     "local_id": "LOCAL-0080",
-    "direccion": "Calle Shell 123, Miraflores",
-    "telefono": "+51-904861141",
+    "direccion": "Calle Los Olivos 789, San Borja",
+    "telefono": "+51-994098743",
     "hora_apertura": "10:00",
     "hora_finalizacion": "22:00"
   },
   {
     "local_id": "LOCAL-0081",
     "direccion": "Av. República de Panamá 456, Surquillo",
-    "telefono": "+51-961525204",
+    "telefono": "+51-966277686",
     "hora_apertura": "10:00",
     "hora_finalizacion": "22:00"
   },
   {
     "local_id": "LOCAL-0082",
     "direccion": "Calle Shell 123, Miraflores",
-    "telefono": "+51-931950589",
+    "telefono": "+51-902620142",
     "hora_apertura": "10:00",
     "hora_finalizacion": "22:00"
   },
   {
     "local_id": "LOCAL-0083",
-    "direccion": "Av. República de Panamá 456, Surquillo",
-    "telefono": "+51-979470865",
+    "direccion": "Av. Larco 567, Miraflores",
+    "telefono": "+51-903664465",
     "hora_apertura": "10:00",
     "hora_finalizacion": "22:00"
   },
   {
     "local_id": "LOCAL-0084",
-    "direccion": "Av. Arequipa 1234, Miraflores",
-    "telefono": "+51-906244663",
+    "direccion": "Av. Benavides 345, Miraflores",
+    "telefono": "+51-934643137",
     "hora_apertura": "10:00",
     "hora_finalizacion": "22:00"
   },
   {
     "local_id": "LOCAL-0085",
-    "direccion": "Av. Larco 567, Miraflores",
-    "telefono": "+51-909372462",
+    "direccion": "Calle Las Begonias 234, San Isidro",
+    "telefono": "+51-946185057",
     "hora_apertura": "10:00",
     "hora_finalizacion": "22:00"
   },
   {
     "local_id": "LOCAL-0086",
-    "direccion": "Av. Conquistadores 890, San Isidro",
-    "telefono": "+51-924581615",
+    "direccion": "Av. Javier Prado Este 456, San Isidro",
+    "telefono": "+51-942850051",
     "hora_apertura": "10:00",
     "hora_finalizacion": "22:00"
   },
   {
     "local_id": "LOCAL-0087",
     "direccion": "Calle Shell 123, Miraflores",
-    "telefono": "+51-966858896",
+    "telefono": "+51-966052538",
     "hora_apertura": "10:00",
     "hora_finalizacion": "22:00"
   },
   {
     "local_id": "LOCAL-0088",
-    "direccion": "Calle Los Olivos 789, San Borja",
-    "telefono": "+51-997948772",
+    "direccion": "Av. Arequipa 1234, Miraflores",
+    "telefono": "+51-931569872",
     "hora_apertura": "10:00",
     "hora_finalizacion": "22:00"
   },
   {
     "local_id": "LOCAL-0089",
-    "direccion": "Av. Javier Prado Este 456, San Isidro",
-    "telefono": "+51-901521410",
+    "direccion": "Av. República de Panamá 456, Surquillo",
+    "telefono": "+51-908078128",
     "hora_apertura": "10:00",
     "hora_finalizacion": "22:00"
   },
   {
     "local_id": "LOCAL-0090",
-    "direccion": "Av. Benavides 345, Miraflores",
-    "telefono": "+51-906978504",
+    "direccion": "Av. Javier Prado Este 456, San Isidro",
+    "telefono": "+51-959322310",
     "hora_apertura": "10:00",
     "hora_finalizacion": "22:00"
   },
   {
     "local_id": "LOCAL-0091",
-    "direccion": "Av. Conquistadores 890, San Isidro",
-    "telefono": "+51-903322397",
+    "direccion": "Av. Javier Prado Este 456, San Isidro",
+    "telefono": "+51-991392348",
     "hora_apertura": "10:00",
     "hora_finalizacion": "22:00"
   },
   {
     "local_id": "LOCAL-0092",
-    "direccion": "Av. Arequipa 1234, Miraflores",
-    "telefono": "+51-950802860",
+    "direccion": "Calle Shell 123, Miraflores",
+    "telefono": "+51-919463481",
     "hora_apertura": "10:00",
     "hora_finalizacion": "22:00"
   },
   {
     "local_id": "LOCAL-0093",
-    "direccion": "Av. Larco 567, Miraflores",
-    "telefono": "+51-951821462",
+    "direccion": "Av. Conquistadores 890, San Isidro",
+    "telefono": "+51-918141985",
     "hora_apertura": "10:00",
     "hora_finalizacion": "22:00"
   },
   {
     "local_id": "LOCAL-0094",
-    "direccion": "Av. Benavides 345, Miraflores",
-    "telefono": "+51-986697378",
+    "direccion": "Calle Las Begonias 234, San Isidro",
+    "telefono": "+51-981559926",
     "hora_apertura": "10:00",
     "hora_finalizacion": "22:00"
   },
   {
     "local_id": "LOCAL-0095",
-    "direccion": "Av. Angamos 678, Surquillo",
-    "telefono": "+51-956438375",
+    "direccion": "Av. Arequipa 1234, Miraflores",
+    "telefono": "+51-963102275",
     "hora_apertura": "10:00",
     "hora_finalizacion": "22:00"
   },
   {
     "local_id": "LOCAL-0096",
-    "direccion": "Av. Conquistadores 890, San Isidro",
-    "telefono": "+51-950822878",
+    "direccion": "Calle Las Begonias 234, San Isidro",
+    "telefono": "+51-960128983",
     "hora_apertura": "10:00",
     "hora_finalizacion": "22:00"
   },
   {
     "local_id": "LOCAL-0097",
-    "direccion": "Calle Shell 123, Miraflores",
-    "telefono": "+51-936683965",
+    "direccion": "Av. República de Panamá 456, Surquillo",
+    "telefono": "+51-987239471",
     "hora_apertura": "10:00",
     "hora_finalizacion": "22:00"
   },
   {
     "local_id": "LOCAL-0098",
-    "direccion": "Calle Las Begonias 234, San Isidro",
-    "telefono": "+51-957821775",
+    "direccion": "Av. Arequipa 1234, Miraflores",
+    "telefono": "+51-984729490",
     "hora_apertura": "10:00",
     "hora_finalizacion": "22:00"
   },
   {
     "local_id": "LOCAL-0099",
-    "direccion": "Av. Conquistadores 890, San Isidro",
-    "telefono": "+51-931098181",
+    "direccion": "Av. Benavides 345, Miraflores",
+    "telefono": "+51-901653091",
     "hora_apertura": "10:00",
     "hora_finalizacion": "22:00"
   },
   {
     "local_id": "LOCAL-0100",
-    "direccion": "Calle Los Olivos 789, San Borja",
-    "telefono": "+51-985953128",
+    "direccion": "Av. Larco 567, Miraflores",
+    "telefono": "+51-971142760",
     "hora_apertura": "10:00",
     "hora_finalizacion": "22:00"
   }

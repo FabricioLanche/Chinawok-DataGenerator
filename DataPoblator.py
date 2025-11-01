@@ -72,7 +72,7 @@ TABLE_MAPPING = {
     },
     "resenas.json": {
         "table_name": TABLE_RESENAS,
-        "pk": "local_id",
+        "pk": "pk",  # Partition key compuesta: LOCAL#<local_id>#EMP#<empleado_dni>
         "sk": "resena_id"
     }
 }
