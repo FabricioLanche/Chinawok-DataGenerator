@@ -67,7 +67,7 @@ class UsuariosGenerator:
                 "numero_tarjeta": ''.join([str(random.randint(0, 9)) for _ in range(16)]),
                 "cvv": ''.join([str(random.randint(0, 9)) for _ in range(3)]),
                 "fecha_vencimiento": f"{random.randint(1, 12):02d}/{random.randint(25, 30):02d}",
-                "direccion_facturacion": random.choice(SampleData.DIRECCIONES_LIMA)
+                "direccion_delivery": random.choice(SampleData.DIRECCIONES_LIMA)
             }
         
         return usuario

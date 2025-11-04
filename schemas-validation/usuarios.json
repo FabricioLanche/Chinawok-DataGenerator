@@ -16,9 +16,9 @@
         "numero_tarjeta": { "type": "string", "pattern": "^[0-9]{13,19}$" },
         "cvv": { "type": "string", "pattern": "^[0-9]{3,4}$" },
         "fecha_vencimiento": { "type": "string", "pattern": "^(0[1-9]|1[0-2])/[0-9]{2}$" },
-        "direccion_facturacion": { "type": "string" }
+        "direccion_delivery": { "type": "string" }
       },
-      "required": ["numero_tarjeta", "cvv", "fecha_vencimiento", "direccion_facturacion"],
+      "required": ["numero_tarjeta", "cvv", "fecha_vencimiento", "direccion_delivery"],
       "additionalProperties": false
     }
   },

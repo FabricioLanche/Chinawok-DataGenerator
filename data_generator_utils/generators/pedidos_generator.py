@@ -93,8 +93,8 @@ class PedidosGenerator:
         )
         
         # IMPORTANTE: Direccion SIEMPRE presente (requerida por schema)
-        # Usar direccion_facturacion del usuario o una aleatoria
-        direccion_pedido = usuario.get("informacion_bancaria", {}).get("direccion_facturacion")
+        # Usar direccion_delivery del usuario o una aleatoria
+        direccion_pedido = usuario.get("informacion_bancaria", {}).get("direccion_delivery")
         if not direccion_pedido:
             direccion_pedido = random.choice(SampleData.DIRECCIONES_LIMA)
         
