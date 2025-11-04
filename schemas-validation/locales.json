@@ -19,8 +19,17 @@
     "hora_finalizacion": {
       "type": "string",
       "pattern": "^(?:[01]\\d|2[0-3]):[0-5]\\d$"
+    },
+    "administrador": {
+      "type": "object",
+      "properties": {
+        "nombre": { "type": "string" },
+        "correo": { "type": "string", "format": "email" },
+        "contrasena": { "type": "string", "minLength": 6 }
+      },
+      "required": ["nombre", "correo", "contrasena"]
     }
   },
-  "required": ["local_id", "direccion", "hora_apertura", "hora_finalizacion"],
+  "required": ["local_id", "direccion", "hora_apertura", "hora_finalizacion", "administrador"],
   "additionalProperties": false
 }

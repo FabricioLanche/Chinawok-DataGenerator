@@ -15,17 +15,82 @@
       "items": { "type": "string" },
       "minItems": 1
     },
-    "cocinero_dni": { "type": "string" },
-    "despachador_dni": { "type": "string" },
-    "repartidor_dni": { "type": "string" },
     "costo": { "type": "number", "minimum": 0 },
-    "fecha_entrega": { "type": "string", "format": "date-time" },
     "direccion": { "type": "string" },
+    "fecha_entrega_aproximada": { 
+      "type": ["string", "null"], 
+      "format": "date-time" 
+    },
     "status": {
       "type": "string",
-      "enum": ["eligiendo", "cocinando", "empacando", "enviando", "recibido"]
+      "enum": ["procesando", "cocinando", "empacando", "enviando", "recibido"]
+    },
+    "procesando": {
+      "type": "object",
+      "properties": {
+        "activo": { "type": "boolean" },
+        "hora_inicio": { "type": "string", "format": "date-time" },
+        "hora_fin": { "type": "string", "format": "date-time" }
+      },
+      "required": ["activo", "hora_inicio", "hora_fin"]
+    },
+    "cocinando": {
+      "type": ["object", "null"],
+      "properties": {
+        "activo": { "type": "boolean" },
+        "cocinero_dni": { "type": "string" },
+        "cocinero_nombre": { "type": "string" },
+        "cocinero_apellido": { "type": "string" },
+        "cocinero_calificacion_prom": { "type": "number", "minimum": 0, "maximum": 5 },
+        "hora_inicio": { "type": "string", "format": "date-time" },
+        "hora_fin": { "type": "string", "format": "date-time" }
+      },
+      "required": ["activo", "cocinero_dni", "cocinero_nombre", "cocinero_apellido", "cocinero_calificacion_prom", "hora_inicio", "hora_fin"]
+    },
+    "empacando": {
+      "type": ["object", "null"],
+      "properties": {
+        "activo": { "type": "boolean" },
+        "despachador_dni": { "type": "string" },
+        "despachador_nombre": { "type": "string" },
+        "despachador_apellido": { "type": "string" },
+        "despachador_calificacion_prom": { "type": "number", "minimum": 0, "maximum": 5 },
+        "hora_inicio": { "type": "string", "format": "date-time" },
+        "hora_fin": { "type": "string", "format": "date-time" }
+      },
+      "required": ["activo", "despachador_dni", "despachador_nombre", "despachador_apellido", "despachador_calificacion_prom", "hora_inicio", "hora_fin"]
+    },
+    "enviando": {
+      "type": ["object", "null"],
+      "properties": {
+        "activo": { "type": "boolean" },
+        "repartidor_dni": { "type": "string" },
+        "repartidor_nombre": { "type": "string" },
+        "repartidor_apellido": { "type": "string" },
+        "repartidor_calificacion_prom": { "type": "number", "minimum": 0, "maximum": 5 },
+        "hora_inicio": { "type": "string", "format": "date-time" },
+        "hora_fin": { "type": "string", "format": "date-time" }
+      },
+      "required": ["activo", "repartidor_dni", "repartidor_nombre", "repartidor_apellido", "repartidor_calificacion_prom", "hora_inicio", "hora_fin"]
+    },
+    "recibido": {
+      "type": ["object", "null"],
+      "properties": {
+        "activo": { "type": "boolean" },
+        "hora_inicio": { "type": "string", "format": "date-time" },
+        "hora_fin": { "type": "string", "format": "date-time" }
+      },
+      "required": ["activo", "hora_inicio", "hora_fin"]
     }
   },
-  "required": ["local_id", "pedido_id", "usuario_correo", "cocinero_dni", "despachador_dni", "repartidor_dni", "productos_nombres", "costo", "status"],
+  "required": [
+    "local_id", 
+    "pedido_id", 
+    "usuario_correo", 
+    "productos_nombres", 
+    "costo", 
+    "status",
+    "procesando"
+  ],
   "additionalProperties": false
 }

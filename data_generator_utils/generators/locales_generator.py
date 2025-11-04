@@ -10,26 +10,37 @@ class LocalesGenerator:
     
     @classmethod
     def generar_locales(cls):
-        """Genera la lista de locales"""
+        """Genera locales con administradores únicos"""
         locales = []
         locales_ids = []
         
         for i in range(Config.NUM_LOCALES):
-            local_id = f"LOCAL-{i+1:04d}"
-            local = {
-                "local_id": local_id,
-                "direccion": random.choice(SampleData.DIRECCIONES_LIMA),
-                "telefono": cls._generar_telefono(),
-                "hora_apertura": "10:00",
-                "hora_finalizacion": "22:00"
-            }
-            
+            local = cls._crear_local(i)
             locales.append(local)
-            locales_ids.append(local_id)
+            locales_ids.append(local["local_id"])
         
+        print(f"  ✅ {Config.NUM_LOCALES} locales generados (cada uno con su administrador)")
         return locales, locales_ids
     
-    @staticmethod
-    def _generar_telefono():
-        """Genera un teléfono peruano válido"""
-        return f"+51-{random.randint(900000000, 999999999)}"
+    @classmethod
+    def _crear_local(cls, index):
+        """Crea un local individual con su administrador"""
+        local_id = f"LOC-{index + 1:03d}"
+        direccion = random.choice(SampleData.DIRECCIONES_LIMA)
+        
+        # Generar administrador único para este local
+        nombre_admin = random.choice(SampleData.NOMBRES)
+        apellido_admin = random.choice(SampleData.APELLIDOS)
+        
+        return {
+            "local_id": local_id,
+            "direccion": direccion,
+            "telefono": f"+51{random.randint(900000000, 999999999)}",
+            "hora_apertura": "08:00",
+            "hora_finalizacion": "22:00",
+            "administrador": {
+                "nombre": f"{nombre_admin} {apellido_admin}",
+                "correo": f"admin.{local_id.lower()}@chinawok.pe",
+                "contrasena": f"Admin{local_id}!123"
+            }
+        }

@@ -19,15 +19,15 @@ class ResenasGenerator:
         pedidos_a_resenar = random.sample(pedidos_completados, num_resenas)
         
         for pedido in pedidos_a_resenar:
-            # Generar reseñas para cada empleado que participó en el pedido
+            # Extraer DNIs de empleados de los estados del pedido
             empleados_en_pedido = []
             
-            if pedido.get("cocinero_dni"):
-                empleados_en_pedido.append(pedido["cocinero_dni"])
-            if pedido.get("despachador_dni"):
-                empleados_en_pedido.append(pedido["despachador_dni"])
-            if pedido.get("repartidor_dni"):
-                empleados_en_pedido.append(pedido["repartidor_dni"])
+            if pedido.get("cocinando", {}).get("cocinero_dni"):
+                empleados_en_pedido.append(pedido["cocinando"]["cocinero_dni"])
+            if pedido.get("empacando", {}).get("despachador_dni"):
+                empleados_en_pedido.append(pedido["empacando"]["despachador_dni"])
+            if pedido.get("enviando", {}).get("repartidor_dni"):
+                empleados_en_pedido.append(pedido["enviando"]["repartidor_dni"])
             
             # Crear una reseña por cada empleado
             for empleado_dni in empleados_en_pedido:
@@ -35,6 +35,7 @@ class ResenasGenerator:
                 resenas.append(resena)
                 resena_counter += 1
         
+        print(f"  ✅ {len(resenas)} reseñas generadas")
         return resenas
     
     @classmethod
@@ -50,8 +51,6 @@ class ResenasGenerator:
             resena_texto = random.choice(SampleData.RESENAS_NEGATIVAS)
         
         local_id = pedido["local_id"]
-        
-        # Crear partition key compuesta: LOCAL#<local_id>#EMP#<empleado_dni>
         pk = f"LOCAL#{local_id}#EMP#{empleado_dni}"
         
         return {

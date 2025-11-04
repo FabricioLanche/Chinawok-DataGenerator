@@ -1,702 +1,1202 @@
 [
   {
-    "local_id": "LOCAL-0001",
-    "direccion": "Av. Benavides 345, Miraflores",
-    "telefono": "+51-936985197",
-    "hora_apertura": "10:00",
-    "hora_finalizacion": "22:00"
-  },
-  {
-    "local_id": "LOCAL-0002",
-    "direccion": "Av. Benavides 345, Miraflores",
-    "telefono": "+51-981232558",
-    "hora_apertura": "10:00",
-    "hora_finalizacion": "22:00"
-  },
-  {
-    "local_id": "LOCAL-0003",
-    "direccion": "Av. Angamos 678, Surquillo",
-    "telefono": "+51-991988468",
-    "hora_apertura": "10:00",
-    "hora_finalizacion": "22:00"
-  },
-  {
-    "local_id": "LOCAL-0004",
-    "direccion": "Av. Benavides 345, Miraflores",
-    "telefono": "+51-959375235",
-    "hora_apertura": "10:00",
-    "hora_finalizacion": "22:00"
-  },
-  {
-    "local_id": "LOCAL-0005",
-    "direccion": "Av. Arequipa 1234, Miraflores",
-    "telefono": "+51-990584570",
-    "hora_apertura": "10:00",
-    "hora_finalizacion": "22:00"
-  },
-  {
-    "local_id": "LOCAL-0006",
-    "direccion": "Av. República de Panamá 456, Surquillo",
-    "telefono": "+51-904448047",
-    "hora_apertura": "10:00",
-    "hora_finalizacion": "22:00"
-  },
-  {
-    "local_id": "LOCAL-0007",
-    "direccion": "Calle Shell 123, Miraflores",
-    "telefono": "+51-968389099",
-    "hora_apertura": "10:00",
-    "hora_finalizacion": "22:00"
-  },
-  {
-    "local_id": "LOCAL-0008",
-    "direccion": "Av. Conquistadores 890, San Isidro",
-    "telefono": "+51-917181165",
-    "hora_apertura": "10:00",
-    "hora_finalizacion": "22:00"
-  },
-  {
-    "local_id": "LOCAL-0009",
-    "direccion": "Av. República de Panamá 456, Surquillo",
-    "telefono": "+51-977993531",
-    "hora_apertura": "10:00",
-    "hora_finalizacion": "22:00"
-  },
-  {
-    "local_id": "LOCAL-0010",
-    "direccion": "Av. Angamos 678, Surquillo",
-    "telefono": "+51-954546966",
-    "hora_apertura": "10:00",
-    "hora_finalizacion": "22:00"
-  },
-  {
-    "local_id": "LOCAL-0011",
-    "direccion": "Av. Angamos 678, Surquillo",
-    "telefono": "+51-933985183",
-    "hora_apertura": "10:00",
-    "hora_finalizacion": "22:00"
-  },
-  {
-    "local_id": "LOCAL-0012",
-    "direccion": "Av. Larco 567, Miraflores",
-    "telefono": "+51-949291706",
-    "hora_apertura": "10:00",
-    "hora_finalizacion": "22:00"
-  },
-  {
-    "local_id": "LOCAL-0013",
-    "direccion": "Calle Shell 123, Miraflores",
-    "telefono": "+51-960081653",
-    "hora_apertura": "10:00",
-    "hora_finalizacion": "22:00"
-  },
-  {
-    "local_id": "LOCAL-0014",
-    "direccion": "Av. República de Panamá 456, Surquillo",
-    "telefono": "+51-988646625",
-    "hora_apertura": "10:00",
-    "hora_finalizacion": "22:00"
-  },
-  {
-    "local_id": "LOCAL-0015",
-    "direccion": "Av. Larco 567, Miraflores",
-    "telefono": "+51-975614192",
-    "hora_apertura": "10:00",
-    "hora_finalizacion": "22:00"
-  },
-  {
-    "local_id": "LOCAL-0016",
+    "local_id": "LOC-001",
     "direccion": "Calle Los Olivos 789, San Borja",
-    "telefono": "+51-905928505",
-    "hora_apertura": "10:00",
-    "hora_finalizacion": "22:00"
+    "telefono": "+51926285443",
+    "hora_apertura": "08:00",
+    "hora_finalizacion": "22:00",
+    "administrador": {
+      "nombre": "Jorge Flores",
+      "correo": "admin.loc-001@chinawok.pe",
+      "contrasena": "AdminLOC-001!123"
+    }
   },
   {
-    "local_id": "LOCAL-0017",
-    "direccion": "Av. Benavides 345, Miraflores",
-    "telefono": "+51-994770852",
-    "hora_apertura": "10:00",
-    "hora_finalizacion": "22:00"
-  },
-  {
-    "local_id": "LOCAL-0018",
-    "direccion": "Av. Arequipa 1234, Miraflores",
-    "telefono": "+51-979432185",
-    "hora_apertura": "10:00",
-    "hora_finalizacion": "22:00"
-  },
-  {
-    "local_id": "LOCAL-0019",
-    "direccion": "Av. República de Panamá 456, Surquillo",
-    "telefono": "+51-962799505",
-    "hora_apertura": "10:00",
-    "hora_finalizacion": "22:00"
-  },
-  {
-    "local_id": "LOCAL-0020",
-    "direccion": "Av. Benavides 345, Miraflores",
-    "telefono": "+51-974384900",
-    "hora_apertura": "10:00",
-    "hora_finalizacion": "22:00"
-  },
-  {
-    "local_id": "LOCAL-0021",
-    "direccion": "Av. Arequipa 1234, Miraflores",
-    "telefono": "+51-924047578",
-    "hora_apertura": "10:00",
-    "hora_finalizacion": "22:00"
-  },
-  {
-    "local_id": "LOCAL-0022",
-    "direccion": "Av. Larco 567, Miraflores",
-    "telefono": "+51-929291231",
-    "hora_apertura": "10:00",
-    "hora_finalizacion": "22:00"
-  },
-  {
-    "local_id": "LOCAL-0023",
-    "direccion": "Av. Angamos 678, Surquillo",
-    "telefono": "+51-956277001",
-    "hora_apertura": "10:00",
-    "hora_finalizacion": "22:00"
-  },
-  {
-    "local_id": "LOCAL-0024",
-    "direccion": "Av. Javier Prado Este 456, San Isidro",
-    "telefono": "+51-916783678",
-    "hora_apertura": "10:00",
-    "hora_finalizacion": "22:00"
-  },
-  {
-    "local_id": "LOCAL-0025",
-    "direccion": "Av. Arequipa 1234, Miraflores",
-    "telefono": "+51-977809075",
-    "hora_apertura": "10:00",
-    "hora_finalizacion": "22:00"
-  },
-  {
-    "local_id": "LOCAL-0026",
-    "direccion": "Av. Javier Prado Este 456, San Isidro",
-    "telefono": "+51-904227437",
-    "hora_apertura": "10:00",
-    "hora_finalizacion": "22:00"
-  },
-  {
-    "local_id": "LOCAL-0027",
-    "direccion": "Av. Larco 567, Miraflores",
-    "telefono": "+51-945425643",
-    "hora_apertura": "10:00",
-    "hora_finalizacion": "22:00"
-  },
-  {
-    "local_id": "LOCAL-0028",
-    "direccion": "Calle Las Begonias 234, San Isidro",
-    "telefono": "+51-939660252",
-    "hora_apertura": "10:00",
-    "hora_finalizacion": "22:00"
-  },
-  {
-    "local_id": "LOCAL-0029",
-    "direccion": "Av. República de Panamá 456, Surquillo",
-    "telefono": "+51-933024023",
-    "hora_apertura": "10:00",
-    "hora_finalizacion": "22:00"
-  },
-  {
-    "local_id": "LOCAL-0030",
-    "direccion": "Av. República de Panamá 456, Surquillo",
-    "telefono": "+51-986765805",
-    "hora_apertura": "10:00",
-    "hora_finalizacion": "22:00"
-  },
-  {
-    "local_id": "LOCAL-0031",
-    "direccion": "Av. Angamos 678, Surquillo",
-    "telefono": "+51-952337079",
-    "hora_apertura": "10:00",
-    "hora_finalizacion": "22:00"
-  },
-  {
-    "local_id": "LOCAL-0032",
-    "direccion": "Av. Benavides 345, Miraflores",
-    "telefono": "+51-918932694",
-    "hora_apertura": "10:00",
-    "hora_finalizacion": "22:00"
-  },
-  {
-    "local_id": "LOCAL-0033",
-    "direccion": "Av. Larco 567, Miraflores",
-    "telefono": "+51-970972616",
-    "hora_apertura": "10:00",
-    "hora_finalizacion": "22:00"
-  },
-  {
-    "local_id": "LOCAL-0034",
-    "direccion": "Av. Conquistadores 890, San Isidro",
-    "telefono": "+51-972036722",
-    "hora_apertura": "10:00",
-    "hora_finalizacion": "22:00"
-  },
-  {
-    "local_id": "LOCAL-0035",
-    "direccion": "Calle Shell 123, Miraflores",
-    "telefono": "+51-991440374",
-    "hora_apertura": "10:00",
-    "hora_finalizacion": "22:00"
-  },
-  {
-    "local_id": "LOCAL-0036",
-    "direccion": "Av. Javier Prado Este 456, San Isidro",
-    "telefono": "+51-900650192",
-    "hora_apertura": "10:00",
-    "hora_finalizacion": "22:00"
-  },
-  {
-    "local_id": "LOCAL-0037",
-    "direccion": "Av. Benavides 345, Miraflores",
-    "telefono": "+51-936406681",
-    "hora_apertura": "10:00",
-    "hora_finalizacion": "22:00"
-  },
-  {
-    "local_id": "LOCAL-0038",
-    "direccion": "Av. Angamos 678, Surquillo",
-    "telefono": "+51-930308720",
-    "hora_apertura": "10:00",
-    "hora_finalizacion": "22:00"
-  },
-  {
-    "local_id": "LOCAL-0039",
-    "direccion": "Av. Arequipa 1234, Miraflores",
-    "telefono": "+51-958782837",
-    "hora_apertura": "10:00",
-    "hora_finalizacion": "22:00"
-  },
-  {
-    "local_id": "LOCAL-0040",
-    "direccion": "Av. Arequipa 1234, Miraflores",
-    "telefono": "+51-987105540",
-    "hora_apertura": "10:00",
-    "hora_finalizacion": "22:00"
-  },
-  {
-    "local_id": "LOCAL-0041",
-    "direccion": "Av. Conquistadores 890, San Isidro",
-    "telefono": "+51-959019282",
-    "hora_apertura": "10:00",
-    "hora_finalizacion": "22:00"
-  },
-  {
-    "local_id": "LOCAL-0042",
-    "direccion": "Av. Javier Prado Este 456, San Isidro",
-    "telefono": "+51-980293507",
-    "hora_apertura": "10:00",
-    "hora_finalizacion": "22:00"
-  },
-  {
-    "local_id": "LOCAL-0043",
-    "direccion": "Av. Arequipa 1234, Miraflores",
-    "telefono": "+51-976204564",
-    "hora_apertura": "10:00",
-    "hora_finalizacion": "22:00"
-  },
-  {
-    "local_id": "LOCAL-0044",
-    "direccion": "Av. Larco 567, Miraflores",
-    "telefono": "+51-943853107",
-    "hora_apertura": "10:00",
-    "hora_finalizacion": "22:00"
-  },
-  {
-    "local_id": "LOCAL-0045",
-    "direccion": "Calle Shell 123, Miraflores",
-    "telefono": "+51-985491095",
-    "hora_apertura": "10:00",
-    "hora_finalizacion": "22:00"
-  },
-  {
-    "local_id": "LOCAL-0046",
-    "direccion": "Av. Angamos 678, Surquillo",
-    "telefono": "+51-952907389",
-    "hora_apertura": "10:00",
-    "hora_finalizacion": "22:00"
-  },
-  {
-    "local_id": "LOCAL-0047",
-    "direccion": "Av. Javier Prado Este 456, San Isidro",
-    "telefono": "+51-988642296",
-    "hora_apertura": "10:00",
-    "hora_finalizacion": "22:00"
-  },
-  {
-    "local_id": "LOCAL-0048",
-    "direccion": "Av. República de Panamá 456, Surquillo",
-    "telefono": "+51-917022123",
-    "hora_apertura": "10:00",
-    "hora_finalizacion": "22:00"
-  },
-  {
-    "local_id": "LOCAL-0049",
-    "direccion": "Av. República de Panamá 456, Surquillo",
-    "telefono": "+51-924111711",
-    "hora_apertura": "10:00",
-    "hora_finalizacion": "22:00"
-  },
-  {
-    "local_id": "LOCAL-0050",
-    "direccion": "Av. Benavides 345, Miraflores",
-    "telefono": "+51-910186599",
-    "hora_apertura": "10:00",
-    "hora_finalizacion": "22:00"
-  },
-  {
-    "local_id": "LOCAL-0051",
+    "local_id": "LOC-002",
     "direccion": "Calle Los Olivos 789, San Borja",
-    "telefono": "+51-916997136",
-    "hora_apertura": "10:00",
-    "hora_finalizacion": "22:00"
+    "telefono": "+51917597822",
+    "hora_apertura": "08:00",
+    "hora_finalizacion": "22:00",
+    "administrador": {
+      "nombre": "Luis Gutiérrez",
+      "correo": "admin.loc-002@chinawok.pe",
+      "contrasena": "AdminLOC-002!123"
+    }
   },
   {
-    "local_id": "LOCAL-0052",
-    "direccion": "Av. Javier Prado Este 456, San Isidro",
-    "telefono": "+51-989481407",
-    "hora_apertura": "10:00",
-    "hora_finalizacion": "22:00"
-  },
-  {
-    "local_id": "LOCAL-0053",
-    "direccion": "Av. Benavides 345, Miraflores",
-    "telefono": "+51-997137575",
-    "hora_apertura": "10:00",
-    "hora_finalizacion": "22:00"
-  },
-  {
-    "local_id": "LOCAL-0054",
+    "local_id": "LOC-003",
     "direccion": "Calle Los Olivos 789, San Borja",
-    "telefono": "+51-983038974",
-    "hora_apertura": "10:00",
-    "hora_finalizacion": "22:00"
+    "telefono": "+51985481584",
+    "hora_apertura": "08:00",
+    "hora_finalizacion": "22:00",
+    "administrador": {
+      "nombre": "Rosa Jiménez",
+      "correo": "admin.loc-003@chinawok.pe",
+      "contrasena": "AdminLOC-003!123"
+    }
   },
   {
-    "local_id": "LOCAL-0055",
-    "direccion": "Calle Shell 123, Miraflores",
-    "telefono": "+51-950291548",
-    "hora_apertura": "10:00",
-    "hora_finalizacion": "22:00"
-  },
-  {
-    "local_id": "LOCAL-0056",
+    "local_id": "LOC-004",
     "direccion": "Av. Angamos 678, Surquillo",
-    "telefono": "+51-945512143",
-    "hora_apertura": "10:00",
-    "hora_finalizacion": "22:00"
+    "telefono": "+51961150317",
+    "hora_apertura": "08:00",
+    "hora_finalizacion": "22:00",
+    "administrador": {
+      "nombre": "Patricia Díaz",
+      "correo": "admin.loc-004@chinawok.pe",
+      "contrasena": "AdminLOC-004!123"
+    }
   },
   {
-    "local_id": "LOCAL-0057",
-    "direccion": "Av. Angamos 678, Surquillo",
-    "telefono": "+51-981497550",
-    "hora_apertura": "10:00",
-    "hora_finalizacion": "22:00"
+    "local_id": "LOC-005",
+    "direccion": "Av. Conquistadores 890, San Isidro",
+    "telefono": "+51980392829",
+    "hora_apertura": "08:00",
+    "hora_finalizacion": "22:00",
+    "administrador": {
+      "nombre": "Patricia García",
+      "correo": "admin.loc-005@chinawok.pe",
+      "contrasena": "AdminLOC-005!123"
+    }
   },
   {
-    "local_id": "LOCAL-0058",
+    "local_id": "LOC-006",
+    "direccion": "Calle Las Begonias 234, San Isidro",
+    "telefono": "+51954971720",
+    "hora_apertura": "08:00",
+    "hora_finalizacion": "22:00",
+    "administrador": {
+      "nombre": "María Díaz",
+      "correo": "admin.loc-006@chinawok.pe",
+      "contrasena": "AdminLOC-006!123"
+    }
+  },
+  {
+    "local_id": "LOC-007",
     "direccion": "Av. Benavides 345, Miraflores",
-    "telefono": "+51-924533197",
-    "hora_apertura": "10:00",
-    "hora_finalizacion": "22:00"
+    "telefono": "+51993329198",
+    "hora_apertura": "08:00",
+    "hora_finalizacion": "22:00",
+    "administrador": {
+      "nombre": "Laura Vargas",
+      "correo": "admin.loc-007@chinawok.pe",
+      "contrasena": "AdminLOC-007!123"
+    }
   },
   {
-    "local_id": "LOCAL-0059",
-    "direccion": "Av. Conquistadores 890, San Isidro",
-    "telefono": "+51-972159445",
-    "hora_apertura": "10:00",
-    "hora_finalizacion": "22:00"
-  },
-  {
-    "local_id": "LOCAL-0060",
+    "local_id": "LOC-008",
     "direccion": "Av. Arequipa 1234, Miraflores",
-    "telefono": "+51-932028729",
-    "hora_apertura": "10:00",
-    "hora_finalizacion": "22:00"
+    "telefono": "+51932318323",
+    "hora_apertura": "08:00",
+    "hora_finalizacion": "22:00",
+    "administrador": {
+      "nombre": "Pedro Romero",
+      "correo": "admin.loc-008@chinawok.pe",
+      "contrasena": "AdminLOC-008!123"
+    }
   },
   {
-    "local_id": "LOCAL-0061",
+    "local_id": "LOC-009",
+    "direccion": "Av. Arequipa 1234, Miraflores",
+    "telefono": "+51944179619",
+    "hora_apertura": "08:00",
+    "hora_finalizacion": "22:00",
+    "administrador": {
+      "nombre": "Laura Reyes",
+      "correo": "admin.loc-009@chinawok.pe",
+      "contrasena": "AdminLOC-009!123"
+    }
+  },
+  {
+    "local_id": "LOC-010",
     "direccion": "Av. Larco 567, Miraflores",
-    "telefono": "+51-987176059",
-    "hora_apertura": "10:00",
-    "hora_finalizacion": "22:00"
+    "telefono": "+51955955100",
+    "hora_apertura": "08:00",
+    "hora_finalizacion": "22:00",
+    "administrador": {
+      "nombre": "Daniela López",
+      "correo": "admin.loc-010@chinawok.pe",
+      "contrasena": "AdminLOC-010!123"
+    }
   },
   {
-    "local_id": "LOCAL-0062",
-    "direccion": "Calle Shell 123, Miraflores",
-    "telefono": "+51-945279925",
-    "hora_apertura": "10:00",
-    "hora_finalizacion": "22:00"
-  },
-  {
-    "local_id": "LOCAL-0063",
-    "direccion": "Calle Shell 123, Miraflores",
-    "telefono": "+51-904884434",
-    "hora_apertura": "10:00",
-    "hora_finalizacion": "22:00"
-  },
-  {
-    "local_id": "LOCAL-0064",
-    "direccion": "Av. Conquistadores 890, San Isidro",
-    "telefono": "+51-962445270",
-    "hora_apertura": "10:00",
-    "hora_finalizacion": "22:00"
-  },
-  {
-    "local_id": "LOCAL-0065",
-    "direccion": "Av. Arequipa 1234, Miraflores",
-    "telefono": "+51-988579168",
-    "hora_apertura": "10:00",
-    "hora_finalizacion": "22:00"
-  },
-  {
-    "local_id": "LOCAL-0066",
-    "direccion": "Av. Angamos 678, Surquillo",
-    "telefono": "+51-978677892",
-    "hora_apertura": "10:00",
-    "hora_finalizacion": "22:00"
-  },
-  {
-    "local_id": "LOCAL-0067",
+    "local_id": "LOC-011",
     "direccion": "Av. Larco 567, Miraflores",
-    "telefono": "+51-954403048",
-    "hora_apertura": "10:00",
-    "hora_finalizacion": "22:00"
+    "telefono": "+51921808591",
+    "hora_apertura": "08:00",
+    "hora_finalizacion": "22:00",
+    "administrador": {
+      "nombre": "Jorge Rodríguez",
+      "correo": "admin.loc-011@chinawok.pe",
+      "contrasena": "AdminLOC-011!123"
+    }
   },
   {
-    "local_id": "LOCAL-0068",
-    "direccion": "Av. Javier Prado Este 456, San Isidro",
-    "telefono": "+51-926908842",
-    "hora_apertura": "10:00",
-    "hora_finalizacion": "22:00"
-  },
-  {
-    "local_id": "LOCAL-0069",
-    "direccion": "Av. Conquistadores 890, San Isidro",
-    "telefono": "+51-968244134",
-    "hora_apertura": "10:00",
-    "hora_finalizacion": "22:00"
-  },
-  {
-    "local_id": "LOCAL-0070",
-    "direccion": "Av. Larco 567, Miraflores",
-    "telefono": "+51-989652010",
-    "hora_apertura": "10:00",
-    "hora_finalizacion": "22:00"
-  },
-  {
-    "local_id": "LOCAL-0071",
-    "direccion": "Av. Angamos 678, Surquillo",
-    "telefono": "+51-973520178",
-    "hora_apertura": "10:00",
-    "hora_finalizacion": "22:00"
-  },
-  {
-    "local_id": "LOCAL-0072",
-    "direccion": "Calle Shell 123, Miraflores",
-    "telefono": "+51-983841495",
-    "hora_apertura": "10:00",
-    "hora_finalizacion": "22:00"
-  },
-  {
-    "local_id": "LOCAL-0073",
+    "local_id": "LOC-012",
     "direccion": "Av. Arequipa 1234, Miraflores",
-    "telefono": "+51-944761581",
-    "hora_apertura": "10:00",
-    "hora_finalizacion": "22:00"
+    "telefono": "+51947941841",
+    "hora_apertura": "08:00",
+    "hora_finalizacion": "22:00",
+    "administrador": {
+      "nombre": "Carmen Morales",
+      "correo": "admin.loc-012@chinawok.pe",
+      "contrasena": "AdminLOC-012!123"
+    }
   },
   {
-    "local_id": "LOCAL-0074",
-    "direccion": "Calle Shell 123, Miraflores",
-    "telefono": "+51-940280797",
-    "hora_apertura": "10:00",
-    "hora_finalizacion": "22:00"
-  },
-  {
-    "local_id": "LOCAL-0075",
-    "direccion": "Av. Conquistadores 890, San Isidro",
-    "telefono": "+51-920968076",
-    "hora_apertura": "10:00",
-    "hora_finalizacion": "22:00"
-  },
-  {
-    "local_id": "LOCAL-0076",
-    "direccion": "Av. Angamos 678, Surquillo",
-    "telefono": "+51-984380657",
-    "hora_apertura": "10:00",
-    "hora_finalizacion": "22:00"
-  },
-  {
-    "local_id": "LOCAL-0077",
-    "direccion": "Av. Arequipa 1234, Miraflores",
-    "telefono": "+51-951429736",
-    "hora_apertura": "10:00",
-    "hora_finalizacion": "22:00"
-  },
-  {
-    "local_id": "LOCAL-0078",
-    "direccion": "Calle Shell 123, Miraflores",
-    "telefono": "+51-906314609",
-    "hora_apertura": "10:00",
-    "hora_finalizacion": "22:00"
-  },
-  {
-    "local_id": "LOCAL-0079",
+    "local_id": "LOC-013",
     "direccion": "Av. Benavides 345, Miraflores",
-    "telefono": "+51-982774540",
-    "hora_apertura": "10:00",
-    "hora_finalizacion": "22:00"
+    "telefono": "+51901251959",
+    "hora_apertura": "08:00",
+    "hora_finalizacion": "22:00",
+    "administrador": {
+      "nombre": "Rosa Reyes",
+      "correo": "admin.loc-013@chinawok.pe",
+      "contrasena": "AdminLOC-013!123"
+    }
   },
   {
-    "local_id": "LOCAL-0080",
+    "local_id": "LOC-014",
+    "direccion": "Av. Arequipa 1234, Miraflores",
+    "telefono": "+51914694398",
+    "hora_apertura": "08:00",
+    "hora_finalizacion": "22:00",
+    "administrador": {
+      "nombre": "Elena Jiménez",
+      "correo": "admin.loc-014@chinawok.pe",
+      "contrasena": "AdminLOC-014!123"
+    }
+  },
+  {
+    "local_id": "LOC-015",
+    "direccion": "Av. Benavides 345, Miraflores",
+    "telefono": "+51958864692",
+    "hora_apertura": "08:00",
+    "hora_finalizacion": "22:00",
+    "administrador": {
+      "nombre": "Elena Sánchez",
+      "correo": "admin.loc-015@chinawok.pe",
+      "contrasena": "AdminLOC-015!123"
+    }
+  },
+  {
+    "local_id": "LOC-016",
     "direccion": "Calle Los Olivos 789, San Borja",
-    "telefono": "+51-994098743",
-    "hora_apertura": "10:00",
-    "hora_finalizacion": "22:00"
+    "telefono": "+51978049768",
+    "hora_apertura": "08:00",
+    "hora_finalizacion": "22:00",
+    "administrador": {
+      "nombre": "Carlos Rivera",
+      "correo": "admin.loc-016@chinawok.pe",
+      "contrasena": "AdminLOC-016!123"
+    }
   },
   {
-    "local_id": "LOCAL-0081",
-    "direccion": "Av. República de Panamá 456, Surquillo",
-    "telefono": "+51-966277686",
-    "hora_apertura": "10:00",
-    "hora_finalizacion": "22:00"
+    "local_id": "LOC-017",
+    "direccion": "Av. Javier Prado Este 456, San Isidro",
+    "telefono": "+51978438367",
+    "hora_apertura": "08:00",
+    "hora_finalizacion": "22:00",
+    "administrador": {
+      "nombre": "Carlos Romero",
+      "correo": "admin.loc-017@chinawok.pe",
+      "contrasena": "AdminLOC-017!123"
+    }
   },
   {
-    "local_id": "LOCAL-0082",
-    "direccion": "Calle Shell 123, Miraflores",
-    "telefono": "+51-902620142",
-    "hora_apertura": "10:00",
-    "hora_finalizacion": "22:00"
-  },
-  {
-    "local_id": "LOCAL-0083",
-    "direccion": "Av. Larco 567, Miraflores",
-    "telefono": "+51-903664465",
-    "hora_apertura": "10:00",
-    "hora_finalizacion": "22:00"
-  },
-  {
-    "local_id": "LOCAL-0084",
+    "local_id": "LOC-018",
     "direccion": "Av. Benavides 345, Miraflores",
-    "telefono": "+51-934643137",
-    "hora_apertura": "10:00",
-    "hora_finalizacion": "22:00"
+    "telefono": "+51953623424",
+    "hora_apertura": "08:00",
+    "hora_finalizacion": "22:00",
+    "administrador": {
+      "nombre": "Miguel Morales",
+      "correo": "admin.loc-018@chinawok.pe",
+      "contrasena": "AdminLOC-018!123"
+    }
   },
   {
-    "local_id": "LOCAL-0085",
-    "direccion": "Calle Las Begonias 234, San Isidro",
-    "telefono": "+51-946185057",
-    "hora_apertura": "10:00",
-    "hora_finalizacion": "22:00"
-  },
-  {
-    "local_id": "LOCAL-0086",
-    "direccion": "Av. Javier Prado Este 456, San Isidro",
-    "telefono": "+51-942850051",
-    "hora_apertura": "10:00",
-    "hora_finalizacion": "22:00"
-  },
-  {
-    "local_id": "LOCAL-0087",
-    "direccion": "Calle Shell 123, Miraflores",
-    "telefono": "+51-966052538",
-    "hora_apertura": "10:00",
-    "hora_finalizacion": "22:00"
-  },
-  {
-    "local_id": "LOCAL-0088",
-    "direccion": "Av. Arequipa 1234, Miraflores",
-    "telefono": "+51-931569872",
-    "hora_apertura": "10:00",
-    "hora_finalizacion": "22:00"
-  },
-  {
-    "local_id": "LOCAL-0089",
+    "local_id": "LOC-019",
     "direccion": "Av. República de Panamá 456, Surquillo",
-    "telefono": "+51-908078128",
-    "hora_apertura": "10:00",
-    "hora_finalizacion": "22:00"
+    "telefono": "+51933197871",
+    "hora_apertura": "08:00",
+    "hora_finalizacion": "22:00",
+    "administrador": {
+      "nombre": "Carmen Martínez",
+      "correo": "admin.loc-019@chinawok.pe",
+      "contrasena": "AdminLOC-019!123"
+    }
   },
   {
-    "local_id": "LOCAL-0090",
-    "direccion": "Av. Javier Prado Este 456, San Isidro",
-    "telefono": "+51-959322310",
-    "hora_apertura": "10:00",
-    "hora_finalizacion": "22:00"
+    "local_id": "LOC-020",
+    "direccion": "Av. Larco 567, Miraflores",
+    "telefono": "+51962416440",
+    "hora_apertura": "08:00",
+    "hora_finalizacion": "22:00",
+    "administrador": {
+      "nombre": "Patricia Rodríguez",
+      "correo": "admin.loc-020@chinawok.pe",
+      "contrasena": "AdminLOC-020!123"
+    }
   },
   {
-    "local_id": "LOCAL-0091",
-    "direccion": "Av. Javier Prado Este 456, San Isidro",
-    "telefono": "+51-991392348",
-    "hora_apertura": "10:00",
-    "hora_finalizacion": "22:00"
+    "local_id": "LOC-021",
+    "direccion": "Av. República de Panamá 456, Surquillo",
+    "telefono": "+51922242586",
+    "hora_apertura": "08:00",
+    "hora_finalizacion": "22:00",
+    "administrador": {
+      "nombre": "Andrea Díaz",
+      "correo": "admin.loc-021@chinawok.pe",
+      "contrasena": "AdminLOC-021!123"
+    }
   },
   {
-    "local_id": "LOCAL-0092",
+    "local_id": "LOC-022",
+    "direccion": "Av. Angamos 678, Surquillo",
+    "telefono": "+51995076289",
+    "hora_apertura": "08:00",
+    "hora_finalizacion": "22:00",
+    "administrador": {
+      "nombre": "Miguel Castillo",
+      "correo": "admin.loc-022@chinawok.pe",
+      "contrasena": "AdminLOC-022!123"
+    }
+  },
+  {
+    "local_id": "LOC-023",
+    "direccion": "Calle Las Begonias 234, San Isidro",
+    "telefono": "+51990389400",
+    "hora_apertura": "08:00",
+    "hora_finalizacion": "22:00",
+    "administrador": {
+      "nombre": "Alberto Díaz",
+      "correo": "admin.loc-023@chinawok.pe",
+      "contrasena": "AdminLOC-023!123"
+    }
+  },
+  {
+    "local_id": "LOC-024",
+    "direccion": "Av. Benavides 345, Miraflores",
+    "telefono": "+51926839035",
+    "hora_apertura": "08:00",
+    "hora_finalizacion": "22:00",
+    "administrador": {
+      "nombre": "Pedro Torres",
+      "correo": "admin.loc-024@chinawok.pe",
+      "contrasena": "AdminLOC-024!123"
+    }
+  },
+  {
+    "local_id": "LOC-025",
+    "direccion": "Av. Arequipa 1234, Miraflores",
+    "telefono": "+51959824927",
+    "hora_apertura": "08:00",
+    "hora_finalizacion": "22:00",
+    "administrador": {
+      "nombre": "Jorge Reyes",
+      "correo": "admin.loc-025@chinawok.pe",
+      "contrasena": "AdminLOC-025!123"
+    }
+  },
+  {
+    "local_id": "LOC-026",
+    "direccion": "Calle Los Olivos 789, San Borja",
+    "telefono": "+51973138852",
+    "hora_apertura": "08:00",
+    "hora_finalizacion": "22:00",
+    "administrador": {
+      "nombre": "Ana Torres",
+      "correo": "admin.loc-026@chinawok.pe",
+      "contrasena": "AdminLOC-026!123"
+    }
+  },
+  {
+    "local_id": "LOC-027",
     "direccion": "Calle Shell 123, Miraflores",
-    "telefono": "+51-919463481",
-    "hora_apertura": "10:00",
-    "hora_finalizacion": "22:00"
+    "telefono": "+51904409592",
+    "hora_apertura": "08:00",
+    "hora_finalizacion": "22:00",
+    "administrador": {
+      "nombre": "Andrea García",
+      "correo": "admin.loc-027@chinawok.pe",
+      "contrasena": "AdminLOC-027!123"
+    }
   },
   {
-    "local_id": "LOCAL-0093",
+    "local_id": "LOC-028",
+    "direccion": "Calle Los Olivos 789, San Borja",
+    "telefono": "+51929714149",
+    "hora_apertura": "08:00",
+    "hora_finalizacion": "22:00",
+    "administrador": {
+      "nombre": "Laura López",
+      "correo": "admin.loc-028@chinawok.pe",
+      "contrasena": "AdminLOC-028!123"
+    }
+  },
+  {
+    "local_id": "LOC-029",
+    "direccion": "Av. Larco 567, Miraflores",
+    "telefono": "+51997460444",
+    "hora_apertura": "08:00",
+    "hora_finalizacion": "22:00",
+    "administrador": {
+      "nombre": "Miguel Rivera",
+      "correo": "admin.loc-029@chinawok.pe",
+      "contrasena": "AdminLOC-029!123"
+    }
+  },
+  {
+    "local_id": "LOC-030",
+    "direccion": "Calle Shell 123, Miraflores",
+    "telefono": "+51929965515",
+    "hora_apertura": "08:00",
+    "hora_finalizacion": "22:00",
+    "administrador": {
+      "nombre": "Ana Ortiz",
+      "correo": "admin.loc-030@chinawok.pe",
+      "contrasena": "AdminLOC-030!123"
+    }
+  },
+  {
+    "local_id": "LOC-031",
+    "direccion": "Av. República de Panamá 456, Surquillo",
+    "telefono": "+51960616295",
+    "hora_apertura": "08:00",
+    "hora_finalizacion": "22:00",
+    "administrador": {
+      "nombre": "Juan González",
+      "correo": "admin.loc-031@chinawok.pe",
+      "contrasena": "AdminLOC-031!123"
+    }
+  },
+  {
+    "local_id": "LOC-032",
     "direccion": "Av. Conquistadores 890, San Isidro",
-    "telefono": "+51-918141985",
-    "hora_apertura": "10:00",
-    "hora_finalizacion": "22:00"
+    "telefono": "+51958219987",
+    "hora_apertura": "08:00",
+    "hora_finalizacion": "22:00",
+    "administrador": {
+      "nombre": "Rosa Reyes",
+      "correo": "admin.loc-032@chinawok.pe",
+      "contrasena": "AdminLOC-032!123"
+    }
   },
   {
-    "local_id": "LOCAL-0094",
+    "local_id": "LOC-033",
     "direccion": "Calle Las Begonias 234, San Isidro",
-    "telefono": "+51-981559926",
-    "hora_apertura": "10:00",
-    "hora_finalizacion": "22:00"
+    "telefono": "+51955326964",
+    "hora_apertura": "08:00",
+    "hora_finalizacion": "22:00",
+    "administrador": {
+      "nombre": "Fernando Ramírez",
+      "correo": "admin.loc-033@chinawok.pe",
+      "contrasena": "AdminLOC-033!123"
+    }
   },
   {
-    "local_id": "LOCAL-0095",
-    "direccion": "Av. Arequipa 1234, Miraflores",
-    "telefono": "+51-963102275",
-    "hora_apertura": "10:00",
-    "hora_finalizacion": "22:00"
-  },
-  {
-    "local_id": "LOCAL-0096",
-    "direccion": "Calle Las Begonias 234, San Isidro",
-    "telefono": "+51-960128983",
-    "hora_apertura": "10:00",
-    "hora_finalizacion": "22:00"
-  },
-  {
-    "local_id": "LOCAL-0097",
-    "direccion": "Av. República de Panamá 456, Surquillo",
-    "telefono": "+51-987239471",
-    "hora_apertura": "10:00",
-    "hora_finalizacion": "22:00"
-  },
-  {
-    "local_id": "LOCAL-0098",
-    "direccion": "Av. Arequipa 1234, Miraflores",
-    "telefono": "+51-984729490",
-    "hora_apertura": "10:00",
-    "hora_finalizacion": "22:00"
-  },
-  {
-    "local_id": "LOCAL-0099",
-    "direccion": "Av. Benavides 345, Miraflores",
-    "telefono": "+51-901653091",
-    "hora_apertura": "10:00",
-    "hora_finalizacion": "22:00"
-  },
-  {
-    "local_id": "LOCAL-0100",
+    "local_id": "LOC-034",
     "direccion": "Av. Larco 567, Miraflores",
-    "telefono": "+51-971142760",
-    "hora_apertura": "10:00",
-    "hora_finalizacion": "22:00"
+    "telefono": "+51906825414",
+    "hora_apertura": "08:00",
+    "hora_finalizacion": "22:00",
+    "administrador": {
+      "nombre": "Carlos García",
+      "correo": "admin.loc-034@chinawok.pe",
+      "contrasena": "AdminLOC-034!123"
+    }
+  },
+  {
+    "local_id": "LOC-035",
+    "direccion": "Calle Los Olivos 789, San Borja",
+    "telefono": "+51924189050",
+    "hora_apertura": "08:00",
+    "hora_finalizacion": "22:00",
+    "administrador": {
+      "nombre": "Fernando López",
+      "correo": "admin.loc-035@chinawok.pe",
+      "contrasena": "AdminLOC-035!123"
+    }
+  },
+  {
+    "local_id": "LOC-036",
+    "direccion": "Av. Arequipa 1234, Miraflores",
+    "telefono": "+51956365825",
+    "hora_apertura": "08:00",
+    "hora_finalizacion": "22:00",
+    "administrador": {
+      "nombre": "Andrea Vargas",
+      "correo": "admin.loc-036@chinawok.pe",
+      "contrasena": "AdminLOC-036!123"
+    }
+  },
+  {
+    "local_id": "LOC-037",
+    "direccion": "Calle Los Olivos 789, San Borja",
+    "telefono": "+51969131220",
+    "hora_apertura": "08:00",
+    "hora_finalizacion": "22:00",
+    "administrador": {
+      "nombre": "Alberto Vargas",
+      "correo": "admin.loc-037@chinawok.pe",
+      "contrasena": "AdminLOC-037!123"
+    }
+  },
+  {
+    "local_id": "LOC-038",
+    "direccion": "Av. Conquistadores 890, San Isidro",
+    "telefono": "+51981918037",
+    "hora_apertura": "08:00",
+    "hora_finalizacion": "22:00",
+    "administrador": {
+      "nombre": "Valentina Rivera",
+      "correo": "admin.loc-038@chinawok.pe",
+      "contrasena": "AdminLOC-038!123"
+    }
+  },
+  {
+    "local_id": "LOC-039",
+    "direccion": "Av. Conquistadores 890, San Isidro",
+    "telefono": "+51914017276",
+    "hora_apertura": "08:00",
+    "hora_finalizacion": "22:00",
+    "administrador": {
+      "nombre": "Carmen Martínez",
+      "correo": "admin.loc-039@chinawok.pe",
+      "contrasena": "AdminLOC-039!123"
+    }
+  },
+  {
+    "local_id": "LOC-040",
+    "direccion": "Av. Javier Prado Este 456, San Isidro",
+    "telefono": "+51943937024",
+    "hora_apertura": "08:00",
+    "hora_finalizacion": "22:00",
+    "administrador": {
+      "nombre": "Diego Morales",
+      "correo": "admin.loc-040@chinawok.pe",
+      "contrasena": "AdminLOC-040!123"
+    }
+  },
+  {
+    "local_id": "LOC-041",
+    "direccion": "Av. Angamos 678, Surquillo",
+    "telefono": "+51963331821",
+    "hora_apertura": "08:00",
+    "hora_finalizacion": "22:00",
+    "administrador": {
+      "nombre": "Jorge Pérez",
+      "correo": "admin.loc-041@chinawok.pe",
+      "contrasena": "AdminLOC-041!123"
+    }
+  },
+  {
+    "local_id": "LOC-042",
+    "direccion": "Av. Javier Prado Este 456, San Isidro",
+    "telefono": "+51911666409",
+    "hora_apertura": "08:00",
+    "hora_finalizacion": "22:00",
+    "administrador": {
+      "nombre": "Patricia Morales",
+      "correo": "admin.loc-042@chinawok.pe",
+      "contrasena": "AdminLOC-042!123"
+    }
+  },
+  {
+    "local_id": "LOC-043",
+    "direccion": "Av. Arequipa 1234, Miraflores",
+    "telefono": "+51902944806",
+    "hora_apertura": "08:00",
+    "hora_finalizacion": "22:00",
+    "administrador": {
+      "nombre": "Alberto Jiménez",
+      "correo": "admin.loc-043@chinawok.pe",
+      "contrasena": "AdminLOC-043!123"
+    }
+  },
+  {
+    "local_id": "LOC-044",
+    "direccion": "Av. Javier Prado Este 456, San Isidro",
+    "telefono": "+51910257448",
+    "hora_apertura": "08:00",
+    "hora_finalizacion": "22:00",
+    "administrador": {
+      "nombre": "Jorge Gómez",
+      "correo": "admin.loc-044@chinawok.pe",
+      "contrasena": "AdminLOC-044!123"
+    }
+  },
+  {
+    "local_id": "LOC-045",
+    "direccion": "Av. Larco 567, Miraflores",
+    "telefono": "+51994863920",
+    "hora_apertura": "08:00",
+    "hora_finalizacion": "22:00",
+    "administrador": {
+      "nombre": "Sofía Jiménez",
+      "correo": "admin.loc-045@chinawok.pe",
+      "contrasena": "AdminLOC-045!123"
+    }
+  },
+  {
+    "local_id": "LOC-046",
+    "direccion": "Av. República de Panamá 456, Surquillo",
+    "telefono": "+51992701361",
+    "hora_apertura": "08:00",
+    "hora_finalizacion": "22:00",
+    "administrador": {
+      "nombre": "Juan Romero",
+      "correo": "admin.loc-046@chinawok.pe",
+      "contrasena": "AdminLOC-046!123"
+    }
+  },
+  {
+    "local_id": "LOC-047",
+    "direccion": "Av. República de Panamá 456, Surquillo",
+    "telefono": "+51969616297",
+    "hora_apertura": "08:00",
+    "hora_finalizacion": "22:00",
+    "administrador": {
+      "nombre": "Carlos Romero",
+      "correo": "admin.loc-047@chinawok.pe",
+      "contrasena": "AdminLOC-047!123"
+    }
+  },
+  {
+    "local_id": "LOC-048",
+    "direccion": "Av. Javier Prado Este 456, San Isidro",
+    "telefono": "+51967739240",
+    "hora_apertura": "08:00",
+    "hora_finalizacion": "22:00",
+    "administrador": {
+      "nombre": "Carlos Ortiz",
+      "correo": "admin.loc-048@chinawok.pe",
+      "contrasena": "AdminLOC-048!123"
+    }
+  },
+  {
+    "local_id": "LOC-049",
+    "direccion": "Av. Conquistadores 890, San Isidro",
+    "telefono": "+51995777099",
+    "hora_apertura": "08:00",
+    "hora_finalizacion": "22:00",
+    "administrador": {
+      "nombre": "Javier Reyes",
+      "correo": "admin.loc-049@chinawok.pe",
+      "contrasena": "AdminLOC-049!123"
+    }
+  },
+  {
+    "local_id": "LOC-050",
+    "direccion": "Calle Shell 123, Miraflores",
+    "telefono": "+51906136752",
+    "hora_apertura": "08:00",
+    "hora_finalizacion": "22:00",
+    "administrador": {
+      "nombre": "Ana Gómez",
+      "correo": "admin.loc-050@chinawok.pe",
+      "contrasena": "AdminLOC-050!123"
+    }
+  },
+  {
+    "local_id": "LOC-051",
+    "direccion": "Av. Angamos 678, Surquillo",
+    "telefono": "+51948143037",
+    "hora_apertura": "08:00",
+    "hora_finalizacion": "22:00",
+    "administrador": {
+      "nombre": "Carlos Díaz",
+      "correo": "admin.loc-051@chinawok.pe",
+      "contrasena": "AdminLOC-051!123"
+    }
+  },
+  {
+    "local_id": "LOC-052",
+    "direccion": "Av. Arequipa 1234, Miraflores",
+    "telefono": "+51910315310",
+    "hora_apertura": "08:00",
+    "hora_finalizacion": "22:00",
+    "administrador": {
+      "nombre": "Laura González",
+      "correo": "admin.loc-052@chinawok.pe",
+      "contrasena": "AdminLOC-052!123"
+    }
+  },
+  {
+    "local_id": "LOC-053",
+    "direccion": "Calle Los Olivos 789, San Borja",
+    "telefono": "+51969198855",
+    "hora_apertura": "08:00",
+    "hora_finalizacion": "22:00",
+    "administrador": {
+      "nombre": "Valentina Reyes",
+      "correo": "admin.loc-053@chinawok.pe",
+      "contrasena": "AdminLOC-053!123"
+    }
+  },
+  {
+    "local_id": "LOC-054",
+    "direccion": "Av. Angamos 678, Surquillo",
+    "telefono": "+51941433374",
+    "hora_apertura": "08:00",
+    "hora_finalizacion": "22:00",
+    "administrador": {
+      "nombre": "Elena Rivera",
+      "correo": "admin.loc-054@chinawok.pe",
+      "contrasena": "AdminLOC-054!123"
+    }
+  },
+  {
+    "local_id": "LOC-055",
+    "direccion": "Av. Javier Prado Este 456, San Isidro",
+    "telefono": "+51953516498",
+    "hora_apertura": "08:00",
+    "hora_finalizacion": "22:00",
+    "administrador": {
+      "nombre": "Andrea González",
+      "correo": "admin.loc-055@chinawok.pe",
+      "contrasena": "AdminLOC-055!123"
+    }
+  },
+  {
+    "local_id": "LOC-056",
+    "direccion": "Av. República de Panamá 456, Surquillo",
+    "telefono": "+51975072423",
+    "hora_apertura": "08:00",
+    "hora_finalizacion": "22:00",
+    "administrador": {
+      "nombre": "Camila Ortiz",
+      "correo": "admin.loc-056@chinawok.pe",
+      "contrasena": "AdminLOC-056!123"
+    }
+  },
+  {
+    "local_id": "LOC-057",
+    "direccion": "Calle Las Begonias 234, San Isidro",
+    "telefono": "+51997337461",
+    "hora_apertura": "08:00",
+    "hora_finalizacion": "22:00",
+    "administrador": {
+      "nombre": "Raúl Díaz",
+      "correo": "admin.loc-057@chinawok.pe",
+      "contrasena": "AdminLOC-057!123"
+    }
+  },
+  {
+    "local_id": "LOC-058",
+    "direccion": "Av. Javier Prado Este 456, San Isidro",
+    "telefono": "+51950389453",
+    "hora_apertura": "08:00",
+    "hora_finalizacion": "22:00",
+    "administrador": {
+      "nombre": "Camila Torres",
+      "correo": "admin.loc-058@chinawok.pe",
+      "contrasena": "AdminLOC-058!123"
+    }
+  },
+  {
+    "local_id": "LOC-059",
+    "direccion": "Av. Benavides 345, Miraflores",
+    "telefono": "+51985089492",
+    "hora_apertura": "08:00",
+    "hora_finalizacion": "22:00",
+    "administrador": {
+      "nombre": "Rosa Herrera",
+      "correo": "admin.loc-059@chinawok.pe",
+      "contrasena": "AdminLOC-059!123"
+    }
+  },
+  {
+    "local_id": "LOC-060",
+    "direccion": "Calle Los Olivos 789, San Borja",
+    "telefono": "+51911105455",
+    "hora_apertura": "08:00",
+    "hora_finalizacion": "22:00",
+    "administrador": {
+      "nombre": "Raúl Morales",
+      "correo": "admin.loc-060@chinawok.pe",
+      "contrasena": "AdminLOC-060!123"
+    }
+  },
+  {
+    "local_id": "LOC-061",
+    "direccion": "Calle Los Olivos 789, San Borja",
+    "telefono": "+51949682157",
+    "hora_apertura": "08:00",
+    "hora_finalizacion": "22:00",
+    "administrador": {
+      "nombre": "Carmen García",
+      "correo": "admin.loc-061@chinawok.pe",
+      "contrasena": "AdminLOC-061!123"
+    }
+  },
+  {
+    "local_id": "LOC-062",
+    "direccion": "Calle Las Begonias 234, San Isidro",
+    "telefono": "+51907919907",
+    "hora_apertura": "08:00",
+    "hora_finalizacion": "22:00",
+    "administrador": {
+      "nombre": "Camila López",
+      "correo": "admin.loc-062@chinawok.pe",
+      "contrasena": "AdminLOC-062!123"
+    }
+  },
+  {
+    "local_id": "LOC-063",
+    "direccion": "Av. Angamos 678, Surquillo",
+    "telefono": "+51939901420",
+    "hora_apertura": "08:00",
+    "hora_finalizacion": "22:00",
+    "administrador": {
+      "nombre": "Carmen Ortiz",
+      "correo": "admin.loc-063@chinawok.pe",
+      "contrasena": "AdminLOC-063!123"
+    }
+  },
+  {
+    "local_id": "LOC-064",
+    "direccion": "Calle Shell 123, Miraflores",
+    "telefono": "+51906287454",
+    "hora_apertura": "08:00",
+    "hora_finalizacion": "22:00",
+    "administrador": {
+      "nombre": "Lucía Rivera",
+      "correo": "admin.loc-064@chinawok.pe",
+      "contrasena": "AdminLOC-064!123"
+    }
+  },
+  {
+    "local_id": "LOC-065",
+    "direccion": "Calle Las Begonias 234, San Isidro",
+    "telefono": "+51996139857",
+    "hora_apertura": "08:00",
+    "hora_finalizacion": "22:00",
+    "administrador": {
+      "nombre": "Carlos Ortiz",
+      "correo": "admin.loc-065@chinawok.pe",
+      "contrasena": "AdminLOC-065!123"
+    }
+  },
+  {
+    "local_id": "LOC-066",
+    "direccion": "Calle Shell 123, Miraflores",
+    "telefono": "+51907835337",
+    "hora_apertura": "08:00",
+    "hora_finalizacion": "22:00",
+    "administrador": {
+      "nombre": "Isabel Sánchez",
+      "correo": "admin.loc-066@chinawok.pe",
+      "contrasena": "AdminLOC-066!123"
+    }
+  },
+  {
+    "local_id": "LOC-067",
+    "direccion": "Av. República de Panamá 456, Surquillo",
+    "telefono": "+51966715751",
+    "hora_apertura": "08:00",
+    "hora_finalizacion": "22:00",
+    "administrador": {
+      "nombre": "Carmen López",
+      "correo": "admin.loc-067@chinawok.pe",
+      "contrasena": "AdminLOC-067!123"
+    }
+  },
+  {
+    "local_id": "LOC-068",
+    "direccion": "Av. Larco 567, Miraflores",
+    "telefono": "+51953118765",
+    "hora_apertura": "08:00",
+    "hora_finalizacion": "22:00",
+    "administrador": {
+      "nombre": "Sofía Castillo",
+      "correo": "admin.loc-068@chinawok.pe",
+      "contrasena": "AdminLOC-068!123"
+    }
+  },
+  {
+    "local_id": "LOC-069",
+    "direccion": "Calle Shell 123, Miraflores",
+    "telefono": "+51920335502",
+    "hora_apertura": "08:00",
+    "hora_finalizacion": "22:00",
+    "administrador": {
+      "nombre": "Pedro Gutiérrez",
+      "correo": "admin.loc-069@chinawok.pe",
+      "contrasena": "AdminLOC-069!123"
+    }
+  },
+  {
+    "local_id": "LOC-070",
+    "direccion": "Av. Conquistadores 890, San Isidro",
+    "telefono": "+51934112237",
+    "hora_apertura": "08:00",
+    "hora_finalizacion": "22:00",
+    "administrador": {
+      "nombre": "Ricardo Reyes",
+      "correo": "admin.loc-070@chinawok.pe",
+      "contrasena": "AdminLOC-070!123"
+    }
+  },
+  {
+    "local_id": "LOC-071",
+    "direccion": "Av. Larco 567, Miraflores",
+    "telefono": "+51985538417",
+    "hora_apertura": "08:00",
+    "hora_finalizacion": "22:00",
+    "administrador": {
+      "nombre": "José González",
+      "correo": "admin.loc-071@chinawok.pe",
+      "contrasena": "AdminLOC-071!123"
+    }
+  },
+  {
+    "local_id": "LOC-072",
+    "direccion": "Av. República de Panamá 456, Surquillo",
+    "telefono": "+51958525115",
+    "hora_apertura": "08:00",
+    "hora_finalizacion": "22:00",
+    "administrador": {
+      "nombre": "Camila Cruz",
+      "correo": "admin.loc-072@chinawok.pe",
+      "contrasena": "AdminLOC-072!123"
+    }
+  },
+  {
+    "local_id": "LOC-073",
+    "direccion": "Calle Shell 123, Miraflores",
+    "telefono": "+51943096104",
+    "hora_apertura": "08:00",
+    "hora_finalizacion": "22:00",
+    "administrador": {
+      "nombre": "Patricia Martínez",
+      "correo": "admin.loc-073@chinawok.pe",
+      "contrasena": "AdminLOC-073!123"
+    }
+  },
+  {
+    "local_id": "LOC-074",
+    "direccion": "Av. Javier Prado Este 456, San Isidro",
+    "telefono": "+51976766837",
+    "hora_apertura": "08:00",
+    "hora_finalizacion": "22:00",
+    "administrador": {
+      "nombre": "Lucía Flores",
+      "correo": "admin.loc-074@chinawok.pe",
+      "contrasena": "AdminLOC-074!123"
+    }
+  },
+  {
+    "local_id": "LOC-075",
+    "direccion": "Av. República de Panamá 456, Surquillo",
+    "telefono": "+51900221457",
+    "hora_apertura": "08:00",
+    "hora_finalizacion": "22:00",
+    "administrador": {
+      "nombre": "María Herrera",
+      "correo": "admin.loc-075@chinawok.pe",
+      "contrasena": "AdminLOC-075!123"
+    }
+  },
+  {
+    "local_id": "LOC-076",
+    "direccion": "Av. República de Panamá 456, Surquillo",
+    "telefono": "+51999241500",
+    "hora_apertura": "08:00",
+    "hora_finalizacion": "22:00",
+    "administrador": {
+      "nombre": "Lucía Reyes",
+      "correo": "admin.loc-076@chinawok.pe",
+      "contrasena": "AdminLOC-076!123"
+    }
+  },
+  {
+    "local_id": "LOC-077",
+    "direccion": "Calle Shell 123, Miraflores",
+    "telefono": "+51948561036",
+    "hora_apertura": "08:00",
+    "hora_finalizacion": "22:00",
+    "administrador": {
+      "nombre": "Sofía Mendoza",
+      "correo": "admin.loc-077@chinawok.pe",
+      "contrasena": "AdminLOC-077!123"
+    }
+  },
+  {
+    "local_id": "LOC-078",
+    "direccion": "Av. Benavides 345, Miraflores",
+    "telefono": "+51976159430",
+    "hora_apertura": "08:00",
+    "hora_finalizacion": "22:00",
+    "administrador": {
+      "nombre": "Carmen Torres",
+      "correo": "admin.loc-078@chinawok.pe",
+      "contrasena": "AdminLOC-078!123"
+    }
+  },
+  {
+    "local_id": "LOC-079",
+    "direccion": "Calle Las Begonias 234, San Isidro",
+    "telefono": "+51912198958",
+    "hora_apertura": "08:00",
+    "hora_finalizacion": "22:00",
+    "administrador": {
+      "nombre": "Luis Ortiz",
+      "correo": "admin.loc-079@chinawok.pe",
+      "contrasena": "AdminLOC-079!123"
+    }
+  },
+  {
+    "local_id": "LOC-080",
+    "direccion": "Av. Benavides 345, Miraflores",
+    "telefono": "+51950104058",
+    "hora_apertura": "08:00",
+    "hora_finalizacion": "22:00",
+    "administrador": {
+      "nombre": "Luis Romero",
+      "correo": "admin.loc-080@chinawok.pe",
+      "contrasena": "AdminLOC-080!123"
+    }
+  },
+  {
+    "local_id": "LOC-081",
+    "direccion": "Av. Conquistadores 890, San Isidro",
+    "telefono": "+51965495261",
+    "hora_apertura": "08:00",
+    "hora_finalizacion": "22:00",
+    "administrador": {
+      "nombre": "Jorge Ramírez",
+      "correo": "admin.loc-081@chinawok.pe",
+      "contrasena": "AdminLOC-081!123"
+    }
+  },
+  {
+    "local_id": "LOC-082",
+    "direccion": "Av. Larco 567, Miraflores",
+    "telefono": "+51947256625",
+    "hora_apertura": "08:00",
+    "hora_finalizacion": "22:00",
+    "administrador": {
+      "nombre": "Jorge Jiménez",
+      "correo": "admin.loc-082@chinawok.pe",
+      "contrasena": "AdminLOC-082!123"
+    }
+  },
+  {
+    "local_id": "LOC-083",
+    "direccion": "Calle Las Begonias 234, San Isidro",
+    "telefono": "+51983684526",
+    "hora_apertura": "08:00",
+    "hora_finalizacion": "22:00",
+    "administrador": {
+      "nombre": "Luis Díaz",
+      "correo": "admin.loc-083@chinawok.pe",
+      "contrasena": "AdminLOC-083!123"
+    }
+  },
+  {
+    "local_id": "LOC-084",
+    "direccion": "Av. Larco 567, Miraflores",
+    "telefono": "+51927457810",
+    "hora_apertura": "08:00",
+    "hora_finalizacion": "22:00",
+    "administrador": {
+      "nombre": "Carlos Castillo",
+      "correo": "admin.loc-084@chinawok.pe",
+      "contrasena": "AdminLOC-084!123"
+    }
+  },
+  {
+    "local_id": "LOC-085",
+    "direccion": "Av. Benavides 345, Miraflores",
+    "telefono": "+51911294718",
+    "hora_apertura": "08:00",
+    "hora_finalizacion": "22:00",
+    "administrador": {
+      "nombre": "Roberto Flores",
+      "correo": "admin.loc-085@chinawok.pe",
+      "contrasena": "AdminLOC-085!123"
+    }
+  },
+  {
+    "local_id": "LOC-086",
+    "direccion": "Av. Angamos 678, Surquillo",
+    "telefono": "+51945094958",
+    "hora_apertura": "08:00",
+    "hora_finalizacion": "22:00",
+    "administrador": {
+      "nombre": "Lucía Rodríguez",
+      "correo": "admin.loc-086@chinawok.pe",
+      "contrasena": "AdminLOC-086!123"
+    }
+  },
+  {
+    "local_id": "LOC-087",
+    "direccion": "Av. Larco 567, Miraflores",
+    "telefono": "+51916455718",
+    "hora_apertura": "08:00",
+    "hora_finalizacion": "22:00",
+    "administrador": {
+      "nombre": "Fernando Pérez",
+      "correo": "admin.loc-087@chinawok.pe",
+      "contrasena": "AdminLOC-087!123"
+    }
+  },
+  {
+    "local_id": "LOC-088",
+    "direccion": "Av. República de Panamá 456, Surquillo",
+    "telefono": "+51909137604",
+    "hora_apertura": "08:00",
+    "hora_finalizacion": "22:00",
+    "administrador": {
+      "nombre": "Camila González",
+      "correo": "admin.loc-088@chinawok.pe",
+      "contrasena": "AdminLOC-088!123"
+    }
+  },
+  {
+    "local_id": "LOC-089",
+    "direccion": "Calle Los Olivos 789, San Borja",
+    "telefono": "+51940014202",
+    "hora_apertura": "08:00",
+    "hora_finalizacion": "22:00",
+    "administrador": {
+      "nombre": "Raúl García",
+      "correo": "admin.loc-089@chinawok.pe",
+      "contrasena": "AdminLOC-089!123"
+    }
+  },
+  {
+    "local_id": "LOC-090",
+    "direccion": "Av. Javier Prado Este 456, San Isidro",
+    "telefono": "+51944774059",
+    "hora_apertura": "08:00",
+    "hora_finalizacion": "22:00",
+    "administrador": {
+      "nombre": "Juan Ramírez",
+      "correo": "admin.loc-090@chinawok.pe",
+      "contrasena": "AdminLOC-090!123"
+    }
+  },
+  {
+    "local_id": "LOC-091",
+    "direccion": "Calle Las Begonias 234, San Isidro",
+    "telefono": "+51997396072",
+    "hora_apertura": "08:00",
+    "hora_finalizacion": "22:00",
+    "administrador": {
+      "nombre": "Elena Flores",
+      "correo": "admin.loc-091@chinawok.pe",
+      "contrasena": "AdminLOC-091!123"
+    }
+  },
+  {
+    "local_id": "LOC-092",
+    "direccion": "Av. Larco 567, Miraflores",
+    "telefono": "+51901470391",
+    "hora_apertura": "08:00",
+    "hora_finalizacion": "22:00",
+    "administrador": {
+      "nombre": "Juan Castillo",
+      "correo": "admin.loc-092@chinawok.pe",
+      "contrasena": "AdminLOC-092!123"
+    }
+  },
+  {
+    "local_id": "LOC-093",
+    "direccion": "Av. Benavides 345, Miraflores",
+    "telefono": "+51975704889",
+    "hora_apertura": "08:00",
+    "hora_finalizacion": "22:00",
+    "administrador": {
+      "nombre": "Andrea Cruz",
+      "correo": "admin.loc-093@chinawok.pe",
+      "contrasena": "AdminLOC-093!123"
+    }
+  },
+  {
+    "local_id": "LOC-094",
+    "direccion": "Calle Los Olivos 789, San Borja",
+    "telefono": "+51901380788",
+    "hora_apertura": "08:00",
+    "hora_finalizacion": "22:00",
+    "administrador": {
+      "nombre": "Patricia Pérez",
+      "correo": "admin.loc-094@chinawok.pe",
+      "contrasena": "AdminLOC-094!123"
+    }
+  },
+  {
+    "local_id": "LOC-095",
+    "direccion": "Av. Angamos 678, Surquillo",
+    "telefono": "+51979925241",
+    "hora_apertura": "08:00",
+    "hora_finalizacion": "22:00",
+    "administrador": {
+      "nombre": "Raúl Rodríguez",
+      "correo": "admin.loc-095@chinawok.pe",
+      "contrasena": "AdminLOC-095!123"
+    }
+  },
+  {
+    "local_id": "LOC-096",
+    "direccion": "Calle Los Olivos 789, San Borja",
+    "telefono": "+51913682489",
+    "hora_apertura": "08:00",
+    "hora_finalizacion": "22:00",
+    "administrador": {
+      "nombre": "Carlos López",
+      "correo": "admin.loc-096@chinawok.pe",
+      "contrasena": "AdminLOC-096!123"
+    }
+  },
+  {
+    "local_id": "LOC-097",
+    "direccion": "Av. Larco 567, Miraflores",
+    "telefono": "+51905759336",
+    "hora_apertura": "08:00",
+    "hora_finalizacion": "22:00",
+    "administrador": {
+      "nombre": "Javier Reyes",
+      "correo": "admin.loc-097@chinawok.pe",
+      "contrasena": "AdminLOC-097!123"
+    }
+  },
+  {
+    "local_id": "LOC-098",
+    "direccion": "Av. Angamos 678, Surquillo",
+    "telefono": "+51900710920",
+    "hora_apertura": "08:00",
+    "hora_finalizacion": "22:00",
+    "administrador": {
+      "nombre": "Elena Sánchez",
+      "correo": "admin.loc-098@chinawok.pe",
+      "contrasena": "AdminLOC-098!123"
+    }
+  },
+  {
+    "local_id": "LOC-099",
+    "direccion": "Av. República de Panamá 456, Surquillo",
+    "telefono": "+51983044127",
+    "hora_apertura": "08:00",
+    "hora_finalizacion": "22:00",
+    "administrador": {
+      "nombre": "Camila López",
+      "correo": "admin.loc-099@chinawok.pe",
+      "contrasena": "AdminLOC-099!123"
+    }
+  },
+  {
+    "local_id": "LOC-100",
+    "direccion": "Av. Angamos 678, Surquillo",
+    "telefono": "+51985209368",
+    "hora_apertura": "08:00",
+    "hora_finalizacion": "22:00",
+    "administrador": {
+      "nombre": "Javier Vargas",
+      "correo": "admin.loc-100@chinawok.pe",
+      "contrasena": "AdminLOC-100!123"
+    }
   }
 ]

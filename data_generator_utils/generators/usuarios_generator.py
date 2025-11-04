@@ -4,61 +4,71 @@ Generador de Usuarios
 import random
 from ..config import Config
 from ..sample_data import SampleData
-from ..utils import generar_email, generar_password, generar_tarjeta
 
 class UsuariosGenerator:
     """Generador de datos para la tabla Usuarios"""
     
     @classmethod
     def generar_usuarios(cls):
-        """Genera la lista de usuarios y retorna (usuarios, correos)"""
+        """Genera administradores (proporcionales a locales) + clientes"""
         usuarios = []
-        correos_generados = set()
+        usuarios_ids = []
         
-        # 1. Crear usuario administrador
-        admin = cls._crear_admin()
-        usuarios.append(admin)
-        correos_generados.add(admin["correo"])
+        # Crear administradores (1 por cada 10 clientes aproximadamente)
+        num_admins = max(1, Config.NUM_USUARIOS // 10)
         
-        # 2. Crear usuarios clientes
+        for i in range(num_admins):
+            admin = cls._crear_administrador(i)
+            usuarios.append(admin)
+            usuarios_ids.append(admin["correo"])
+        
+        # Crear clientes
         for i in range(Config.NUM_USUARIOS):
-            usuario = cls._crear_cliente(correos_generados)
+            usuario = cls._crear_cliente(i)
             usuarios.append(usuario)
-            correos_generados.add(usuario["correo"])
+            usuarios_ids.append(usuario["correo"])
         
-        return usuarios, list(correos_generados)
+        print(f"  ✅ {num_admins} administradores + {Config.NUM_USUARIOS} clientes generados")
+        return usuarios, usuarios_ids
     
     @classmethod
-    def _crear_admin(cls):
-        """Crea el usuario administrador desde variables de entorno"""
-        admin = {
-            "nombre": f"{Config.ADMIN_NOMBRE} {Config.ADMIN_APELLIDO}",
-            "correo": Config.ADMIN_EMAIL,
-            "contrasena": Config.ADMIN_PASSWORD,
-            "role": "Admin"
-        }
-        return admin
-    
-    @classmethod
-    def _crear_cliente(cls, correos_existentes):
-        """Crea un usuario cliente"""
+    def _crear_administrador(cls, index):
+        """Crea un usuario administrador"""
         nombre = random.choice(SampleData.NOMBRES)
         apellido = random.choice(SampleData.APELLIDOS)
         
-        # Generar correo único
-        correo = generar_email(nombre, apellido)
-        while correo in correos_existentes:
-            correo = generar_email(nombre, apellido)
+        return {
+            "nombre": nombre,
+            "apellido": apellido,
+            "correo": f"admin{index+1:03d}@chinawok.pe",
+            "telefono": f"+51{random.randint(900000000, 999999999)}",
+            "contrasena": f"Admin{index+1:03d}!",
+            "role": "admin"
+        }
+    
+    @classmethod
+    def _crear_cliente(cls, index):
+        """Crea un cliente individual"""
+        nombre = random.choice(SampleData.NOMBRES)
+        apellido = random.choice(SampleData.APELLIDOS)
         
         usuario = {
-            "nombre": f"{nombre} {apellido}",
-            "correo": correo,
-            "contrasena": generar_password(),
-            "role": "Cliente"
+            "nombre": nombre,
+            "apellido": apellido,
+            "correo": f"{nombre.lower()}.{apellido.lower()}{index}@email.com",
+            "telefono": f"+51{random.randint(900000000, 999999999)}",
+            "contrasena": f"cliente{index:04d}",
+            "role": "cliente"
         }
         
-        # Agregar información bancaria (70% de los usuarios)
-        if random.random() < Config.PORCENTAJE_USUARIOS_CON_TARJETA:
-            usuario["informacion_bancaria"] = generar_tarjeta()
+        # 70% de los clientes tienen información bancaria
+        if random.random() > 0.3:
+            usuario["informacion_bancaria"] = {
+                "numero_tarjeta_encriptado": ''.join([str(random.randint(0, 9)) for _ in range(16)]),
+                "cvv_encriptado": ''.join([str(random.randint(0, 9)) for _ in range(3)]),
+                "fecha_vencimiento": f"{random.randint(1, 12):02d}/{random.randint(25, 30):02d}",
+                "nombre_titular": f"{nombre} {apellido}",
+                "tipo_tarjeta": random.choice(["Visa", "Mastercard", "American Express"])
+            }
         
         return usuario
