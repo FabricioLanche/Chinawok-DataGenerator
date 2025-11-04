@@ -18,34 +18,65 @@ class CombosGenerator:
     
     @classmethod
     def generar_combos(cls, locales_ids, productos_por_local, productos):
-        """Genera combos para cada local"""
+        """Genera combos usando SOLO productos del mismo local (multi-tenancy)"""
         combos = []
-        combos_por_local = {}
+        combos_por_local = {local_id: [] for local_id in locales_ids}
+        
+        # Crear diccionario de productos por nombre para búsqueda rápida
+        productos_dict = {p["nombre"]: p for p in productos}
+        
         combo_counter = 1
         
-        for local_id in locales_ids:
-            combos_local = []
-            productos_local = productos_por_local.get(local_id, [])
+        for _ in range(Config.NUM_COMBOS):
+            local_id = random.choice(locales_ids)
             
-            if not productos_local:
+            # IMPORTANTE: Solo usar productos DEL LOCAL ESPECÍFICO
+            productos_del_local = productos_por_local.get(local_id, [])
+            
+            if len(productos_del_local) < 2:
+                # Si el local no tiene suficientes productos, saltar
                 continue
             
-            for combo_base in cls.COMBOS_BASE:
-                num_productos = min(combo_base["num_productos"], len(productos_local))
-                productos_seleccionados = random.sample(productos_local, num_productos)
-                
-                combo = {
-                    "local_id": local_id,
-                    "combo_id": f"COMBO-{combo_counter:05d}",
-                    "nombre": combo_base["nombre"],
-                    "productos_nombres": productos_seleccionados,
-                    "descripcion": combo_base["descripcion"]
-                }
-                
-                combos.append(combo)
-                combos_local.append(combo["combo_id"])
-                combo_counter += 1
+            combo = cls._crear_combo(
+                combo_counter, 
+                local_id, 
+                productos_del_local,  # Solo productos de este local
+                productos_dict
+            )
             
-            combos_por_local[local_id] = combos_local
+            combos.append(combo)
+            combos_por_local[local_id].append(combo["combo_id"])
+            combo_counter += 1
         
+        print(f"  ✅ {len(combos)} combos generados")
+        print(f"  ℹ️  Distribuidos en {len(locales_ids)} locales")
         return combos, combos_por_local
+    
+    @classmethod
+    def _crear_combo(cls, counter, local_id, productos_disponibles, productos_dict):
+        """Crea un combo usando solo productos del local especificado"""
+        combo_id = f"COMBO-{counter:04d}"
+        
+        # Seleccionar 2-4 productos DEL LOCAL
+        num_productos = random.randint(2, min(4, len(productos_disponibles)))
+        productos_seleccionados = random.sample(productos_disponibles, num_productos)
+        
+        # Calcular precio base sumando precios de productos
+        precio_base = sum([
+            productos_dict[nombre]["precio"] 
+            for nombre in productos_seleccionados 
+            if nombre in productos_dict
+        ])
+        
+        # Aplicar descuento (15-30%)
+        descuento_pct = random.uniform(15, 30)
+        precio_combo = precio_base * (1 - descuento_pct / 100)
+        
+        return {
+            "local_id": local_id,
+            "combo_id": combo_id,
+            "nombre": f"Combo {combo_id}",
+            "productos_nombres": productos_seleccionados,
+            "precio": round(precio_combo, 2),
+            "disponible": random.choice([True, False])
+        }

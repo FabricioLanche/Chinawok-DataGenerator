@@ -8,20 +8,26 @@ load_dotenv()
 
 
 class Config:
-    """Configuración centralizada para el generador de datos"""
-    
-    # Cantidades de registros
-    NUM_LOCALES = 100
-    NUM_USUARIOS = 5000
-    NUM_PRODUCTOS_POR_LOCAL = 50
-    NUM_EMPLEADOS = 500
-    NUM_COMBOS_POR_LOCAL = 5
-    NUM_PEDIDOS = 10000
-    NUM_OFERTAS_POR_LOCAL = 5
-    NUM_RESENAS = 1000
+    """Configuración global del generador de datos"""
     
     # Directorio de salida
     OUTPUT_DIR = "dynamodb_data"
+    
+    # Cantidad de registros a generar
+    NUM_LOCALES = 100
+    NUM_USUARIOS = 5000
+    NUM_EMPLEADOS_POR_LOCAL = 5  # Promedio de empleados por local
+    NUM_COMBOS = 500
+    NUM_PEDIDOS = 10000
+    NUM_OFERTAS = 500
+    NUM_RESENAS = 5000
+    
+    # Cantidades de registros
+    NUM_PRODUCTOS_POR_LOCAL = 50
+    NUM_EMPLEADOS = 500
+    NUM_COMBOS_POR_LOCAL = 5
+    NUM_OFERTAS_POR_LOCAL = 5
+    NUM_RESENAS = 1000
     
     # Porcentajes
     PORCENTAJE_USUARIOS_CON_TARJETA = 0.7
@@ -71,7 +77,12 @@ class Config:
     # Roles de usuarios (DEBEN coincidir con schema: Primera letra mayúscula)
     ROLES_USUARIO = ["Cliente", "Admin"]
 
-    @classmethod
-    def crear_directorio_salida(cls):
+    @staticmethod
+    def crear_directorio_salida():
         """Crea el directorio de salida si no existe"""
-        os.makedirs(cls.OUTPUT_DIR, exist_ok=True)
+        import os
+        if not os.path.exists(Config.OUTPUT_DIR):
+            os.makedirs(Config.OUTPUT_DIR)
+            print(f"📁 Directorio '{Config.OUTPUT_DIR}/' creado")
+        else:
+            print(f"📁 Usando directorio existente: '{Config.OUTPUT_DIR}/'")

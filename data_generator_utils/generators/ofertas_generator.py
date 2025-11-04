@@ -74,3 +74,37 @@ class OfertasGenerator:
             "fecha_limite": fecha_limite.isoformat(),
             "porcentaje_descuento": random.choice([15, 20, 25, 30])
         }
+
+    @classmethod
+    def _crear_oferta(cls, counter, local_id, productos_disponibles, combos_disponibles):
+        """Crea una oferta usando SOLO recursos del local específico"""
+        oferta_id = f"OFERTA-{counter:04d}"
+        
+        # Decidir si es oferta de producto o combo
+        es_combo = random.choice([True, False]) and len(combos_disponibles) > 0
+        
+        if es_combo:
+            # Seleccionar combo DEL LOCAL
+            item_id = random.choice(combos_disponibles)
+            tipo = "combo"
+        else:
+            # Seleccionar producto DEL LOCAL
+            if len(productos_disponibles) == 0:
+                return None  # No hay productos en este local
+            item_id = random.choice(productos_disponibles)
+            tipo = "producto"
+        
+        descuento = random.uniform(10, 40)
+        fecha_inicio = datetime.now() - timedelta(days=random.randint(0, 30))
+        fecha_fin = fecha_inicio + timedelta(days=random.randint(7, 60))
+        
+        return {
+            "local_id": local_id,
+            "oferta_id": oferta_id,
+            "tipo": tipo,
+            "item_id": item_id,
+            "descuento": round(descuento, 2),
+            "fecha_inicio": fecha_inicio.isoformat(),
+            "fecha_fin": fecha_fin.isoformat(),
+            "activa": random.choice([True, False])
+        }

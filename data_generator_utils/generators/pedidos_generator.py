@@ -48,25 +48,28 @@ class PedidosGenerator:
     
     @classmethod
     def _crear_pedido_con_estados(cls, counter, local_id, usuario, productos_dict, productos_por_local, empleados_por_local):
-        """Crea un pedido con transición de estados"""
+        """Crea un pedido usando SOLO recursos del local específico (multi-tenancy)"""
         pedido_id = f"PED-{counter:06d}"
         
-        # Seleccionar productos
+        # IMPORTANTE: Solo productos DEL LOCAL específico
         productos_disponibles = productos_por_local.get(local_id, [])
         
         if not productos_disponibles:
+            # Si no hay productos en este local, usar valores por defecto
             productos_nombres = []
             costo = 0
         else:
+            # Seleccionar productos aleatorios DEL LOCAL
             num_productos = min(random.randint(1, 4), len(productos_disponibles))
             productos_nombres = random.sample(productos_disponibles, num_productos)
             
+            # Calcular costo basado en los productos seleccionados
             costo = sum([
                 productos_dict[nombre]["precio"] 
                 for nombre in productos_nombres 
                 if nombre in productos_dict
             ])
-            costo += random.uniform(3.0, 8.0)
+            costo += random.uniform(3.0, 8.0)  # Delivery fee
         
         estado_actual = random.choices(
             cls.ESTADOS,
@@ -75,10 +78,9 @@ class PedidosGenerator:
         )[0]
         
         fecha_base = datetime.now() - timedelta(hours=random.randint(0, 72))
-        
-        # Calcular fecha de entrega aproximada
         fecha_entrega_aproximada = cls._calcular_fecha_entrega(fecha_base, len(productos_nombres))
         
+        # Generar estados usando SOLO empleados DEL LOCAL
         estados = cls._generar_estados_progresivos(
             estado_actual, fecha_base, local_id, empleados_por_local
         )
@@ -119,7 +121,7 @@ class PedidosGenerator:
     
     @classmethod
     def _generar_estados_progresivos(cls, estado_actual, fecha_base, local_id, empleados_por_local):
-        """Genera los estados con TODOS sus campos completos (hora_fin siempre presente)"""
+        """Genera estados usando SOLO empleados del local específico"""
         estados = {
             "procesando": {},
             "cocinando": None,
@@ -130,6 +132,14 @@ class PedidosGenerator:
         
         tiempo_acumulado = 0
         estado_actual_index = cls.ESTADOS.index(estado_actual)
+        
+        # IMPORTANTE: Obtener empleados DEL LOCAL ESPECÍFICO
+        empleados_del_local = empleados_por_local.get(local_id, {
+            "cocinero": [],
+            "despachador": [],
+            "repartidor": [],
+            "info_empleados": {}
+        })
         
         for idx, estado in enumerate(cls.ESTADOS):
             if idx <= estado_actual_index:
@@ -147,8 +157,14 @@ class PedidosGenerator:
                     }
                 
                 elif estado == "cocinando":
-                    empleado_dni = random.choice(empleados_por_local[local_id]["cocinero"]) if empleados_por_local[local_id]["cocinero"] else ""
-                    empleado_info = empleados_por_local[local_id]["info_empleados"].get(empleado_dni, {})
+                    # Solo cocineros DEL LOCAL
+                    if empleados_del_local["cocinero"]:
+                        empleado_dni = random.choice(empleados_del_local["cocinero"])
+                        empleado_info = empleados_del_local["info_empleados"].get(empleado_dni, {})
+                    else:
+                        # Fallback si no hay cocineros (no debería pasar)
+                        empleado_dni = ""
+                        empleado_info = {}
                     
                     estados[estado] = {
                         "activo": es_estado_actual,
@@ -161,8 +177,13 @@ class PedidosGenerator:
                     }
                 
                 elif estado == "empacando":
-                    empleado_dni = random.choice(empleados_por_local[local_id]["despachador"]) if empleados_por_local[local_id]["despachador"] else ""
-                    empleado_info = empleados_por_local[local_id]["info_empleados"].get(empleado_dni, {})
+                    # Solo despachadores DEL LOCAL
+                    if empleados_del_local["despachador"]:
+                        empleado_dni = random.choice(empleados_del_local["despachador"])
+                        empleado_info = empleados_del_local["info_empleados"].get(empleado_dni, {})
+                    else:
+                        empleado_dni = ""
+                        empleado_info = {}
                     
                     estados[estado] = {
                         "activo": es_estado_actual,
@@ -175,8 +196,13 @@ class PedidosGenerator:
                     }
                 
                 elif estado == "enviando":
-                    empleado_dni = random.choice(empleados_por_local[local_id]["repartidor"]) if empleados_por_local[local_id]["repartidor"] else ""
-                    empleado_info = empleados_por_local[local_id]["info_empleados"].get(empleado_dni, {})
+                    # Solo repartidores DEL LOCAL
+                    if empleados_del_local["repartidor"]:
+                        empleado_dni = random.choice(empleados_del_local["repartidor"])
+                        empleado_info = empleados_del_local["info_empleados"].get(empleado_dni, {})
+                    else:
+                        empleado_dni = ""
+                        empleado_info = {}
                     
                     estados[estado] = {
                         "activo": es_estado_actual,

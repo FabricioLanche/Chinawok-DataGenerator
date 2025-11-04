@@ -10,14 +10,14 @@ class EmpleadosGenerator:
     
     @classmethod
     def generar_empleados(cls, locales_ids):
-        """Genera empleados para todos los locales"""
+        """Genera empleados ÚNICOS para cada local (multi-tenancy)"""
         empleados = []
         empleados_por_local = {
             local_id: {
                 "repartidor": [],
                 "cocinero": [],
                 "despachador": [],
-                "info_empleados": {}  # Nuevo: diccionario con info completa
+                "info_empleados": {}
             }
             for local_id in locales_ids
         }
@@ -25,16 +25,17 @@ class EmpleadosGenerator:
         empleado_counter = 1
         
         for local_id in locales_ids:
+            # Cada local tiene entre 3-7 empleados
             num_empleados_local = random.randint(3, 7)
             
             for _ in range(num_empleados_local):
                 empleado = cls._crear_empleado(empleado_counter, local_id)
                 empleados.append(empleado)
                 
-                # Guardar DNI en lista por rol
+                # Guardar DNI en lista por rol ESPECÍFICO DEL LOCAL
                 empleados_por_local[local_id][empleado["role"].lower()].append(empleado["dni"])
                 
-                # Guardar información completa del empleado
+                # Guardar información completa del empleado ESPECÍFICO DEL LOCAL
                 empleados_por_local[local_id]["info_empleados"][empleado["dni"]] = {
                     "nombre": empleado["nombre"],
                     "apellido": empleado["apellido"],
@@ -43,6 +44,8 @@ class EmpleadosGenerator:
                 
                 empleado_counter += 1
         
+        print(f"  ✅ {len(empleados)} empleados generados")
+        print(f"  ℹ️  Distribuidos en {len(locales_ids)} locales")
         return empleados, empleados_por_local
     
     @classmethod

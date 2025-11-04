@@ -110,29 +110,40 @@ class ProductosGenerator:
     
     @classmethod
     def generar_productos(cls, locales_ids):
-        """Genera productos para todos los locales"""
+        """Genera productos únicos para cada local (multi-tenancy)"""
         productos = []
         productos_por_local = {}
         
         for local_id in locales_ids:
-            productos_local = []
+            # Cada local tiene su propia lista de productos
+            productos_por_local[local_id] = []
             
-            for categoria, items in cls.PRODUCTOS_BASE.items():
-                for nombre in items:
-                    producto = {
-                        "local_id": local_id,
-                        "nombre": nombre,
-                        "precio": round(random.uniform(
-                            Config.PRECIO_MIN_PRODUCTO,
-                            Config.PRECIO_MAX_PRODUCTO
-                        ), 2),
-                        "descripcion": f"{nombre} preparado al estilo China Wok",
-                        "categoria": categoria,
-                        "stock": random.randint(10, 100)
-                    }
-                    productos.append(producto)
-                    productos_local.append(nombre)
+            # Cada local tiene entre 30-50 productos
+            num_productos_local = random.randint(30, 50)
             
-            productos_por_local[local_id] = productos_local
+            for i in range(num_productos_local):
+                producto = cls._crear_producto(local_id)
+                productos.append(producto)
+                # Guardar el NOMBRE del producto para este local
+                productos_por_local[local_id].append(producto["nombre"])
         
+        print(f"  ✅ {len(productos)} productos generados")
+        print(f"  ℹ️  Distribuidos en {len(locales_ids)} locales")
         return productos, productos_por_local
+    
+    @classmethod
+    def _crear_producto(cls, local_id):
+        """Crea un producto individual con datos aleatorios"""
+        nombre_categoria = random.choice(list(cls.PRODUCTOS_BASE.keys()))
+        nombre_producto = random.choice(cls.PRODUCTOS_BASE[nombre_categoria])
+        
+        return {
+            "local_id": local_id,
+            "nombre": nombre_producto,
+            "descripcion": f"{nombre_producto} preparado al estilo China Wok",
+            "categoria": nombre_categoria,
+            "precio": round(random.uniform(Config.PRECIO_MIN_PRODUCTO, Config.PRECIO_MAX_PRODUCTO), 2),
+            "stock": random.randint(10, 100),
+            "created_at": Helpers.generar_timestamp(),
+            "updated_at": Helpers.generar_timestamp()
+        }
