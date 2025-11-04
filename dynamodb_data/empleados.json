@@ -2,4456 +2,4456 @@
   {
     "local_id": "LOC-001",
     "dni": "10000001",
-    "nombre": "Daniela",
-    "apellido": "Ramírez",
-    "calificacion_prom": 4.47,
-    "sueldo": 2255.63,
-    "role": "Repartidor"
+    "nombre": "Juan",
+    "apellido": "Castillo",
+    "calificacion_prom": 4.35,
+    "sueldo": 1359.66,
+    "role": "Despachador"
   },
   {
     "local_id": "LOC-001",
     "dni": "10000002",
-    "nombre": "Jorge",
-    "apellido": "González",
-    "calificacion_prom": 4.01,
-    "sueldo": 2657.47,
-    "role": "Repartidor"
+    "nombre": "Andrea",
+    "apellido": "Mendoza",
+    "calificacion_prom": 3.92,
+    "sueldo": 1288.65,
+    "role": "Cocinero"
   },
   {
     "local_id": "LOC-001",
     "dni": "10000003",
-    "nombre": "Lucía",
-    "apellido": "Gutiérrez",
-    "calificacion_prom": 4.71,
-    "sueldo": 1374.76,
-    "role": "Repartidor"
+    "nombre": "Miguel",
+    "apellido": "Jiménez",
+    "calificacion_prom": 3.52,
+    "sueldo": 1477.21,
+    "role": "Despachador"
   },
   {
     "local_id": "LOC-001",
     "dni": "10000004",
-    "nombre": "Juan",
-    "apellido": "Ortiz",
-    "calificacion_prom": 3.78,
-    "sueldo": 1349.16,
-    "role": "Despachador"
+    "nombre": "Javier",
+    "apellido": "Romero",
+    "calificacion_prom": 4.54,
+    "sueldo": 1993.82,
+    "role": "Cocinero"
   },
   {
     "local_id": "LOC-001",
     "dni": "10000005",
-    "nombre": "Elena",
-    "apellido": "García",
-    "calificacion_prom": 4.53,
-    "sueldo": 1780.82,
+    "nombre": "Daniela",
+    "apellido": "Sánchez",
+    "calificacion_prom": 3.94,
+    "sueldo": 2800.82,
     "role": "Cocinero"
   },
   {
-    "local_id": "LOC-001",
+    "local_id": "LOC-002",
     "dni": "10000006",
-    "nombre": "José",
-    "apellido": "Ortiz",
-    "calificacion_prom": 4.01,
-    "sueldo": 1808.4,
+    "nombre": "Luis",
+    "apellido": "Jiménez",
+    "calificacion_prom": 4.78,
+    "sueldo": 2346.48,
     "role": "Cocinero"
   },
   {
-    "local_id": "LOC-001",
+    "local_id": "LOC-002",
     "dni": "10000007",
-    "nombre": "Carmen",
-    "apellido": "Romero",
-    "calificacion_prom": 3.57,
-    "sueldo": 2982.88,
-    "role": "Cocinero"
+    "nombre": "Roberto",
+    "apellido": "Gutiérrez",
+    "calificacion_prom": 3.81,
+    "sueldo": 1971.69,
+    "role": "Repartidor"
   },
   {
     "local_id": "LOC-002",
     "dni": "10000008",
-    "nombre": "Alberto",
-    "apellido": "Rodríguez",
-    "calificacion_prom": 3.58,
-    "sueldo": 1517.05,
-    "role": "Despachador"
+    "nombre": "María",
+    "apellido": "Flores",
+    "calificacion_prom": 4.35,
+    "sueldo": 1610.48,
+    "role": "Repartidor"
   },
   {
     "local_id": "LOC-002",
     "dni": "10000009",
-    "nombre": "Roberto",
-    "apellido": "Torres",
-    "calificacion_prom": 4.73,
-    "sueldo": 2569.66,
-    "role": "Despachador"
+    "nombre": "Carlos",
+    "apellido": "Martínez",
+    "calificacion_prom": 3.71,
+    "sueldo": 2402.4,
+    "role": "Cocinero"
   },
   {
     "local_id": "LOC-002",
     "dni": "10000010",
-    "nombre": "María",
-    "apellido": "Castillo",
-    "calificacion_prom": 4.19,
-    "sueldo": 2117.08,
-    "role": "Despachador"
-  },
-  {
-    "local_id": "LOC-002",
-    "dni": "10000011",
-    "nombre": "Laura",
-    "apellido": "Cruz",
-    "calificacion_prom": 3.97,
-    "sueldo": 2537.33,
-    "role": "Cocinero"
-  },
-  {
-    "local_id": "LOC-002",
-    "dni": "10000012",
-    "nombre": "Lucía",
-    "apellido": "Martínez",
-    "calificacion_prom": 4.0,
-    "sueldo": 2935.8,
-    "role": "Repartidor"
-  },
-  {
-    "local_id": "LOC-002",
-    "dni": "10000013",
-    "nombre": "Ana",
-    "apellido": "López",
-    "calificacion_prom": 3.91,
-    "sueldo": 2582.1,
-    "role": "Repartidor"
-  },
-  {
-    "local_id": "LOC-002",
-    "dni": "10000014",
-    "nombre": "Roberto",
+    "nombre": "Raúl",
     "apellido": "Vargas",
-    "calificacion_prom": 3.73,
-    "sueldo": 2096.77,
-    "role": "Despachador"
-  },
-  {
-    "local_id": "LOC-003",
-    "dni": "10000015",
-    "nombre": "María",
-    "apellido": "Díaz",
-    "calificacion_prom": 4.56,
-    "sueldo": 1680.37,
+    "calificacion_prom": 3.75,
+    "sueldo": 1525.26,
     "role": "Repartidor"
   },
   {
     "local_id": "LOC-003",
-    "dni": "10000016",
-    "nombre": "Carmen",
-    "apellido": "Rodríguez",
-    "calificacion_prom": 4.1,
-    "sueldo": 1747.8,
+    "dni": "10000011",
+    "nombre": "Elena",
+    "apellido": "Gutiérrez",
+    "calificacion_prom": 4.66,
+    "sueldo": 2060.81,
     "role": "Despachador"
   },
   {
     "local_id": "LOC-003",
-    "dni": "10000017",
-    "nombre": "Ricardo",
-    "apellido": "García",
-    "calificacion_prom": 3.78,
-    "sueldo": 2744.26,
-    "role": "Repartidor"
-  },
-  {
-    "local_id": "LOC-003",
-    "dni": "10000018",
-    "nombre": "Carlos",
-    "apellido": "Romero",
-    "calificacion_prom": 4.52,
-    "sueldo": 2444.85,
+    "dni": "10000012",
+    "nombre": "Pedro",
+    "apellido": "Herrera",
+    "calificacion_prom": 3.86,
+    "sueldo": 2427.87,
     "role": "Cocinero"
+  },
+  {
+    "local_id": "LOC-003",
+    "dni": "10000013",
+    "nombre": "Javier",
+    "apellido": "Díaz",
+    "calificacion_prom": 3.92,
+    "sueldo": 1787.33,
+    "role": "Cocinero"
+  },
+  {
+    "local_id": "LOC-003",
+    "dni": "10000014",
+    "nombre": "Ana",
+    "apellido": "Martínez",
+    "calificacion_prom": 4.28,
+    "sueldo": 1882.4,
+    "role": "Repartidor"
+  },
+  {
+    "local_id": "LOC-004",
+    "dni": "10000015",
+    "nombre": "Ana",
+    "apellido": "Cruz",
+    "calificacion_prom": 4.62,
+    "sueldo": 1273.47,
+    "role": "Repartidor"
+  },
+  {
+    "local_id": "LOC-004",
+    "dni": "10000016",
+    "nombre": "Jorge",
+    "apellido": "Gómez",
+    "calificacion_prom": 4.3,
+    "sueldo": 1241.27,
+    "role": "Repartidor"
+  },
+  {
+    "local_id": "LOC-004",
+    "dni": "10000017",
+    "nombre": "Jorge",
+    "apellido": "Gómez",
+    "calificacion_prom": 4.88,
+    "sueldo": 1839.65,
+    "role": "Repartidor"
+  },
+  {
+    "local_id": "LOC-004",
+    "dni": "10000018",
+    "nombre": "Diego",
+    "apellido": "Flores",
+    "calificacion_prom": 4.56,
+    "sueldo": 2415.73,
+    "role": "Repartidor"
   },
   {
     "local_id": "LOC-004",
     "dni": "10000019",
-    "nombre": "Juan",
-    "apellido": "García",
-    "calificacion_prom": 4.16,
-    "sueldo": 2734.22,
-    "role": "Cocinero"
+    "nombre": "Camila",
+    "apellido": "Flores",
+    "calificacion_prom": 4.56,
+    "sueldo": 2050.89,
+    "role": "Repartidor"
   },
   {
-    "local_id": "LOC-004",
+    "local_id": "LOC-005",
     "dni": "10000020",
-    "nombre": "Javier",
-    "apellido": "González",
-    "calificacion_prom": 4.69,
-    "sueldo": 2662.94,
+    "nombre": "Ricardo",
+    "apellido": "Jiménez",
+    "calificacion_prom": 3.7,
+    "sueldo": 1952.54,
     "role": "Despachador"
   },
   {
-    "local_id": "LOC-004",
+    "local_id": "LOC-005",
     "dni": "10000021",
-    "nombre": "Camila",
-    "apellido": "Ortiz",
-    "calificacion_prom": 4.94,
-    "sueldo": 2077.25,
-    "role": "Cocinero"
+    "nombre": "Miguel",
+    "apellido": "Jiménez",
+    "calificacion_prom": 3.59,
+    "sueldo": 1337.79,
+    "role": "Repartidor"
   },
   {
     "local_id": "LOC-005",
     "dni": "10000022",
-    "nombre": "Rosa",
-    "apellido": "Gómez",
-    "calificacion_prom": 3.88,
-    "sueldo": 2956.12,
-    "role": "Cocinero"
+    "nombre": "Lucía",
+    "apellido": "Pérez",
+    "calificacion_prom": 3.53,
+    "sueldo": 1937.32,
+    "role": "Despachador"
   },
   {
     "local_id": "LOC-005",
     "dni": "10000023",
-    "nombre": "Camila",
-    "apellido": "Martínez",
-    "calificacion_prom": 3.6,
-    "sueldo": 2972.98,
+    "nombre": "Ana",
+    "apellido": "García",
+    "calificacion_prom": 4.47,
+    "sueldo": 1213.5,
     "role": "Cocinero"
   },
   {
     "local_id": "LOC-005",
     "dni": "10000024",
-    "nombre": "Juan",
+    "nombre": "Rosa",
     "apellido": "Castillo",
-    "calificacion_prom": 4.46,
-    "sueldo": 2873.94,
-    "role": "Repartidor"
+    "calificacion_prom": 4.36,
+    "sueldo": 1379.52,
+    "role": "Despachador"
   },
   {
     "local_id": "LOC-005",
     "dni": "10000025",
-    "nombre": "Pedro",
-    "apellido": "González",
-    "calificacion_prom": 4.04,
-    "sueldo": 2007.75,
+    "nombre": "Ricardo",
+    "apellido": "Rodríguez",
+    "calificacion_prom": 4.54,
+    "sueldo": 1497.29,
     "role": "Repartidor"
   },
   {
     "local_id": "LOC-005",
     "dni": "10000026",
-    "nombre": "Jorge",
-    "apellido": "Cruz",
-    "calificacion_prom": 4.42,
-    "sueldo": 1882.46,
-    "role": "Despachador"
+    "nombre": "Rosa",
+    "apellido": "Romero",
+    "calificacion_prom": 4.9,
+    "sueldo": 1231.31,
+    "role": "Cocinero"
   },
   {
-    "local_id": "LOC-005",
+    "local_id": "LOC-006",
     "dni": "10000027",
-    "nombre": "Roberto",
-    "apellido": "Morales",
-    "calificacion_prom": 4.11,
-    "sueldo": 1997.69,
+    "nombre": "Laura",
+    "apellido": "Castillo",
+    "calificacion_prom": 3.94,
+    "sueldo": 1352.55,
     "role": "Repartidor"
   },
   {
-    "local_id": "LOC-005",
+    "local_id": "LOC-006",
     "dni": "10000028",
-    "nombre": "Miguel",
-    "apellido": "Gutiérrez",
-    "calificacion_prom": 4.85,
-    "sueldo": 2795.46,
-    "role": "Cocinero"
+    "nombre": "Patricia",
+    "apellido": "Flores",
+    "calificacion_prom": 3.65,
+    "sueldo": 2044.74,
+    "role": "Despachador"
   },
   {
     "local_id": "LOC-006",
     "dni": "10000029",
-    "nombre": "Laura",
-    "apellido": "Ramírez",
-    "calificacion_prom": 3.79,
-    "sueldo": 1690.55,
-    "role": "Despachador"
+    "nombre": "Carmen",
+    "apellido": "Herrera",
+    "calificacion_prom": 4.5,
+    "sueldo": 1309.8,
+    "role": "Cocinero"
   },
   {
     "local_id": "LOC-006",
     "dni": "10000030",
-    "nombre": "Luis",
-    "apellido": "Reyes",
-    "calificacion_prom": 4.77,
-    "sueldo": 2890.63,
-    "role": "Cocinero"
+    "nombre": "Carlos",
+    "apellido": "Morales",
+    "calificacion_prom": 4.82,
+    "sueldo": 1453.6,
+    "role": "Despachador"
   },
   {
     "local_id": "LOC-006",
     "dni": "10000031",
-    "nombre": "Alberto",
-    "apellido": "Castillo",
-    "calificacion_prom": 4.81,
-    "sueldo": 2712.78,
-    "role": "Cocinero"
+    "nombre": "María",
+    "apellido": "Morales",
+    "calificacion_prom": 3.55,
+    "sueldo": 1555.31,
+    "role": "Despachador"
   },
   {
     "local_id": "LOC-006",
     "dni": "10000032",
-    "nombre": "Raúl",
-    "apellido": "Martínez",
-    "calificacion_prom": 3.55,
-    "sueldo": 2614.84,
+    "nombre": "Jorge",
+    "apellido": "Morales",
+    "calificacion_prom": 4.24,
+    "sueldo": 1550.52,
     "role": "Despachador"
   },
   {
     "local_id": "LOC-006",
     "dni": "10000033",
-    "nombre": "María",
-    "apellido": "Flores",
-    "calificacion_prom": 4.61,
-    "sueldo": 1494.77,
-    "role": "Repartidor"
+    "nombre": "Jorge",
+    "apellido": "García",
+    "calificacion_prom": 4.4,
+    "sueldo": 1898.42,
+    "role": "Despachador"
   },
   {
-    "local_id": "LOC-006",
+    "local_id": "LOC-007",
     "dni": "10000034",
-    "nombre": "Andrea",
-    "apellido": "Castillo",
-    "calificacion_prom": 3.94,
-    "sueldo": 1337.37,
+    "nombre": "Juan",
+    "apellido": "Reyes",
+    "calificacion_prom": 4.22,
+    "sueldo": 2512.93,
     "role": "Despachador"
   },
   {
     "local_id": "LOC-007",
     "dni": "10000035",
-    "nombre": "Fernando",
-    "apellido": "Díaz",
-    "calificacion_prom": 3.8,
-    "sueldo": 2517.46,
+    "nombre": "Lucía",
+    "apellido": "Castillo",
+    "calificacion_prom": 4.45,
+    "sueldo": 2727.94,
     "role": "Despachador"
   },
   {
     "local_id": "LOC-007",
     "dni": "10000036",
-    "nombre": "Luis",
-    "apellido": "López",
-    "calificacion_prom": 4.79,
-    "sueldo": 1312.61,
-    "role": "Despachador"
+    "nombre": "Andrea",
+    "apellido": "Gómez",
+    "calificacion_prom": 3.77,
+    "sueldo": 1287.68,
+    "role": "Repartidor"
   },
   {
     "local_id": "LOC-007",
     "dni": "10000037",
-    "nombre": "Jorge",
-    "apellido": "Ortiz",
-    "calificacion_prom": 4.35,
-    "sueldo": 1922.38,
-    "role": "Repartidor"
+    "nombre": "Laura",
+    "apellido": "López",
+    "calificacion_prom": 4.27,
+    "sueldo": 1790.54,
+    "role": "Despachador"
   },
   {
     "local_id": "LOC-007",
     "dni": "10000038",
-    "nombre": "Valentina",
-    "apellido": "Rodríguez",
-    "calificacion_prom": 3.87,
-    "sueldo": 2770.27,
-    "role": "Repartidor"
+    "nombre": "Jorge",
+    "apellido": "Díaz",
+    "calificacion_prom": 4.64,
+    "sueldo": 2407.49,
+    "role": "Despachador"
   },
   {
     "local_id": "LOC-008",
     "dni": "10000039",
-    "nombre": "Carmen",
+    "nombre": "Alberto",
     "apellido": "Díaz",
-    "calificacion_prom": 3.53,
-    "sueldo": 1420.16,
-    "role": "Cocinero"
+    "calificacion_prom": 4.62,
+    "sueldo": 1870.99,
+    "role": "Repartidor"
   },
   {
     "local_id": "LOC-008",
     "dni": "10000040",
-    "nombre": "Valentina",
-    "apellido": "Ramírez",
-    "calificacion_prom": 4.65,
-    "sueldo": 1233.72,
+    "nombre": "José",
+    "apellido": "Gómez",
+    "calificacion_prom": 4.21,
+    "sueldo": 2193.42,
     "role": "Despachador"
   },
   {
     "local_id": "LOC-008",
     "dni": "10000041",
-    "nombre": "Elena",
-    "apellido": "Martínez",
-    "calificacion_prom": 3.7,
-    "sueldo": 1692.99,
-    "role": "Cocinero"
+    "nombre": "Jorge",
+    "apellido": "Jiménez",
+    "calificacion_prom": 4.82,
+    "sueldo": 2869.66,
+    "role": "Despachador"
   },
   {
     "local_id": "LOC-008",
     "dni": "10000042",
-    "nombre": "Pedro",
-    "apellido": "Cruz",
-    "calificacion_prom": 4.29,
-    "sueldo": 2135.83,
-    "role": "Despachador"
+    "nombre": "Miguel",
+    "apellido": "Ortiz",
+    "calificacion_prom": 4.5,
+    "sueldo": 1707.66,
+    "role": "Cocinero"
   },
   {
     "local_id": "LOC-008",
     "dni": "10000043",
-    "nombre": "Alberto",
-    "apellido": "Sánchez",
-    "calificacion_prom": 4.5,
-    "sueldo": 2751.18,
+    "nombre": "Pedro",
+    "apellido": "Ortiz",
+    "calificacion_prom": 4.22,
+    "sueldo": 1631.06,
+    "role": "Despachador"
+  },
+  {
+    "local_id": "LOC-009",
+    "dni": "10000044",
+    "nombre": "Carlos",
+    "apellido": "Rivera",
+    "calificacion_prom": 4.38,
+    "sueldo": 2937.41,
     "role": "Repartidor"
   },
   {
-    "local_id": "LOC-008",
-    "dni": "10000044",
-    "nombre": "Juan",
-    "apellido": "Mendoza",
-    "calificacion_prom": 4.31,
-    "sueldo": 2077.73,
-    "role": "Despachador"
-  },
-  {
-    "local_id": "LOC-008",
+    "local_id": "LOC-009",
     "dni": "10000045",
-    "nombre": "Isabel",
-    "apellido": "Rivera",
-    "calificacion_prom": 4.42,
-    "sueldo": 1593.99,
-    "role": "Despachador"
+    "nombre": "Camila",
+    "apellido": "Gutiérrez",
+    "calificacion_prom": 4.24,
+    "sueldo": 1307.13,
+    "role": "Repartidor"
   },
   {
     "local_id": "LOC-009",
     "dni": "10000046",
-    "nombre": "Patricia",
-    "apellido": "García",
-    "calificacion_prom": 3.54,
-    "sueldo": 2753.25,
-    "role": "Repartidor"
+    "nombre": "Ricardo",
+    "apellido": "Martínez",
+    "calificacion_prom": 4.29,
+    "sueldo": 1398.72,
+    "role": "Cocinero"
   },
   {
-    "local_id": "LOC-009",
+    "local_id": "LOC-010",
     "dni": "10000047",
-    "nombre": "Javier",
-    "apellido": "Morales",
-    "calificacion_prom": 4.11,
-    "sueldo": 2887.84,
+    "nombre": "Valentina",
+    "apellido": "López",
+    "calificacion_prom": 4.15,
+    "sueldo": 2654.21,
     "role": "Repartidor"
   },
   {
-    "local_id": "LOC-009",
+    "local_id": "LOC-010",
     "dni": "10000048",
-    "nombre": "Rosa",
-    "apellido": "Gutiérrez",
-    "calificacion_prom": 4.7,
-    "sueldo": 1677.45,
-    "role": "Cocinero"
-  },
-  {
-    "local_id": "LOC-009",
-    "dni": "10000049",
-    "nombre": "Fernando",
-    "apellido": "Pérez",
-    "calificacion_prom": 4.74,
-    "sueldo": 1605.48,
-    "role": "Repartidor"
-  },
-  {
-    "local_id": "LOC-009",
-    "dni": "10000050",
-    "nombre": "Raúl",
-    "apellido": "Vargas",
-    "calificacion_prom": 3.87,
-    "sueldo": 2091.95,
-    "role": "Cocinero"
-  },
-  {
-    "local_id": "LOC-009",
-    "dni": "10000051",
-    "nombre": "Elena",
+    "nombre": "Pedro",
     "apellido": "Sánchez",
-    "calificacion_prom": 4.2,
-    "sueldo": 2780.18,
+    "calificacion_prom": 4.03,
+    "sueldo": 2253.03,
     "role": "Cocinero"
   },
   {
-    "local_id": "LOC-009",
-    "dni": "10000052",
-    "nombre": "Andrea",
-    "apellido": "Romero",
-    "calificacion_prom": 4.9,
-    "sueldo": 2418.14,
-    "role": "Despachador"
-  },
-  {
     "local_id": "LOC-010",
-    "dni": "10000053",
-    "nombre": "Carmen",
-    "apellido": "Morales",
-    "calificacion_prom": 3.65,
-    "sueldo": 2801.47,
-    "role": "Despachador"
-  },
-  {
-    "local_id": "LOC-010",
-    "dni": "10000054",
-    "nombre": "Isabel",
-    "apellido": "Pérez",
-    "calificacion_prom": 3.9,
-    "sueldo": 1440.51,
-    "role": "Repartidor"
-  },
-  {
-    "local_id": "LOC-010",
-    "dni": "10000055",
+    "dni": "10000049",
     "nombre": "Jorge",
-    "apellido": "González",
-    "calificacion_prom": 3.87,
-    "sueldo": 2519.17,
+    "apellido": "Castillo",
+    "calificacion_prom": 3.84,
+    "sueldo": 2630.29,
+    "role": "Cocinero"
+  },
+  {
+    "local_id": "LOC-010",
+    "dni": "10000050",
+    "nombre": "Ana",
+    "apellido": "Vargas",
+    "calificacion_prom": 4.95,
+    "sueldo": 2395.67,
+    "role": "Cocinero"
+  },
+  {
+    "local_id": "LOC-010",
+    "dni": "10000051",
+    "nombre": "Roberto",
+    "apellido": "Gómez",
+    "calificacion_prom": 4.04,
+    "sueldo": 1987.6,
     "role": "Repartidor"
+  },
+  {
+    "local_id": "LOC-010",
+    "dni": "10000052",
+    "nombre": "Laura",
+    "apellido": "Martínez",
+    "calificacion_prom": 3.74,
+    "sueldo": 1303.32,
+    "role": "Repartidor"
+  },
+  {
+    "local_id": "LOC-011",
+    "dni": "10000053",
+    "nombre": "Laura",
+    "apellido": "Jiménez",
+    "calificacion_prom": 3.62,
+    "sueldo": 1618.54,
+    "role": "Despachador"
+  },
+  {
+    "local_id": "LOC-011",
+    "dni": "10000054",
+    "nombre": "Patricia",
+    "apellido": "Vargas",
+    "calificacion_prom": 4.65,
+    "sueldo": 2084.03,
+    "role": "Repartidor"
+  },
+  {
+    "local_id": "LOC-011",
+    "dni": "10000055",
+    "nombre": "Camila",
+    "apellido": "Herrera",
+    "calificacion_prom": 4.62,
+    "sueldo": 2069.16,
+    "role": "Cocinero"
   },
   {
     "local_id": "LOC-011",
     "dni": "10000056",
-    "nombre": "Ricardo",
+    "nombre": "Rosa",
     "apellido": "Gómez",
-    "calificacion_prom": 3.75,
-    "sueldo": 1290.6,
+    "calificacion_prom": 4.45,
+    "sueldo": 1484.87,
     "role": "Repartidor"
   },
   {
-    "local_id": "LOC-011",
+    "local_id": "LOC-012",
     "dni": "10000057",
-    "nombre": "Ricardo",
-    "apellido": "Flores",
-    "calificacion_prom": 4.28,
-    "sueldo": 1314.04,
-    "role": "Cocinero"
+    "nombre": "José",
+    "apellido": "Romero",
+    "calificacion_prom": 3.83,
+    "sueldo": 1948.6,
+    "role": "Repartidor"
   },
   {
-    "local_id": "LOC-011",
+    "local_id": "LOC-012",
     "dni": "10000058",
-    "nombre": "Andrea",
+    "nombre": "Patricia",
     "apellido": "Martínez",
-    "calificacion_prom": 4.05,
-    "sueldo": 2222.15,
-    "role": "Repartidor"
+    "calificacion_prom": 4.52,
+    "sueldo": 1747.8,
+    "role": "Cocinero"
   },
   {
-    "local_id": "LOC-011",
+    "local_id": "LOC-012",
     "dni": "10000059",
-    "nombre": "Lucía",
-    "apellido": "Herrera",
-    "calificacion_prom": 4.44,
-    "sueldo": 2609.02,
-    "role": "Despachador"
+    "nombre": "Pedro",
+    "apellido": "Morales",
+    "calificacion_prom": 3.62,
+    "sueldo": 1600.47,
+    "role": "Repartidor"
   },
   {
-    "local_id": "LOC-011",
+    "local_id": "LOC-012",
     "dni": "10000060",
-    "nombre": "Miguel",
-    "apellido": "Rodríguez",
-    "calificacion_prom": 3.72,
-    "sueldo": 2619.25,
+    "nombre": "Jorge",
+    "apellido": "Cruz",
+    "calificacion_prom": 3.82,
+    "sueldo": 1231.79,
     "role": "Cocinero"
   },
   {
-    "local_id": "LOC-011",
+    "local_id": "LOC-012",
     "dni": "10000061",
-    "nombre": "Lucía",
-    "apellido": "Torres",
-    "calificacion_prom": 3.97,
-    "sueldo": 1329.02,
-    "role": "Repartidor"
-  },
-  {
-    "local_id": "LOC-011",
-    "dni": "10000062",
-    "nombre": "Alberto",
-    "apellido": "Vargas",
-    "calificacion_prom": 4.9,
-    "sueldo": 2321.82,
-    "role": "Despachador"
-  },
-  {
-    "local_id": "LOC-012",
-    "dni": "10000063",
-    "nombre": "Diego",
-    "apellido": "Herrera",
-    "calificacion_prom": 4.13,
-    "sueldo": 1415.48,
-    "role": "Cocinero"
-  },
-  {
-    "local_id": "LOC-012",
-    "dni": "10000064",
-    "nombre": "Andrea",
-    "apellido": "González",
-    "calificacion_prom": 3.78,
-    "sueldo": 2473.32,
-    "role": "Repartidor"
-  },
-  {
-    "local_id": "LOC-012",
-    "dni": "10000065",
-    "nombre": "Luis",
-    "apellido": "Flores",
-    "calificacion_prom": 4.47,
-    "sueldo": 2841.38,
-    "role": "Repartidor"
-  },
-  {
-    "local_id": "LOC-012",
-    "dni": "10000066",
-    "nombre": "Luis",
-    "apellido": "Flores",
-    "calificacion_prom": 3.9,
-    "sueldo": 2244.54,
-    "role": "Cocinero"
-  },
-  {
-    "local_id": "LOC-013",
-    "dni": "10000067",
-    "nombre": "Luis",
-    "apellido": "Vargas",
-    "calificacion_prom": 3.67,
-    "sueldo": 1610.49,
-    "role": "Cocinero"
-  },
-  {
-    "local_id": "LOC-013",
-    "dni": "10000068",
-    "nombre": "Fernando",
-    "apellido": "Torres",
-    "calificacion_prom": 4.9,
-    "sueldo": 2981.01,
-    "role": "Despachador"
-  },
-  {
-    "local_id": "LOC-013",
-    "dni": "10000069",
-    "nombre": "Lucía",
-    "apellido": "Ortiz",
-    "calificacion_prom": 4.46,
-    "sueldo": 1569.22,
-    "role": "Cocinero"
-  },
-  {
-    "local_id": "LOC-013",
-    "dni": "10000070",
-    "nombre": "Daniela",
-    "apellido": "Ramírez",
-    "calificacion_prom": 4.95,
-    "sueldo": 1285.35,
-    "role": "Cocinero"
-  },
-  {
-    "local_id": "LOC-013",
-    "dni": "10000071",
-    "nombre": "Andrea",
-    "apellido": "Martínez",
-    "calificacion_prom": 4.34,
-    "sueldo": 1881.1,
-    "role": "Cocinero"
-  },
-  {
-    "local_id": "LOC-013",
-    "dni": "10000072",
     "nombre": "Ana",
-    "apellido": "Gómez",
-    "calificacion_prom": 4.59,
-    "sueldo": 2680.97,
+    "apellido": "Martínez",
+    "calificacion_prom": 3.6,
+    "sueldo": 1220.04,
+    "role": "Cocinero"
+  },
+  {
+    "local_id": "LOC-013",
+    "dni": "10000062",
+    "nombre": "Carmen",
+    "apellido": "Ortiz",
+    "calificacion_prom": 4.58,
+    "sueldo": 2864.45,
     "role": "Despachador"
   },
   {
     "local_id": "LOC-013",
+    "dni": "10000063",
+    "nombre": "Ana",
+    "apellido": "Martínez",
+    "calificacion_prom": 4.83,
+    "sueldo": 2808.13,
+    "role": "Repartidor"
+  },
+  {
+    "local_id": "LOC-013",
+    "dni": "10000064",
+    "nombre": "Rosa",
+    "apellido": "Torres",
+    "calificacion_prom": 4.67,
+    "sueldo": 2891.58,
+    "role": "Despachador"
+  },
+  {
+    "local_id": "LOC-014",
+    "dni": "10000065",
+    "nombre": "Pedro",
+    "apellido": "Gutiérrez",
+    "calificacion_prom": 4.07,
+    "sueldo": 1884.82,
+    "role": "Repartidor"
+  },
+  {
+    "local_id": "LOC-014",
+    "dni": "10000066",
+    "nombre": "Carmen",
+    "apellido": "Rodríguez",
+    "calificacion_prom": 4.38,
+    "sueldo": 1460.97,
+    "role": "Repartidor"
+  },
+  {
+    "local_id": "LOC-014",
+    "dni": "10000067",
+    "nombre": "Patricia",
+    "apellido": "Jiménez",
+    "calificacion_prom": 4.19,
+    "sueldo": 2274.71,
+    "role": "Cocinero"
+  },
+  {
+    "local_id": "LOC-014",
+    "dni": "10000068",
+    "nombre": "Luis",
+    "apellido": "López",
+    "calificacion_prom": 4.01,
+    "sueldo": 1800.23,
+    "role": "Despachador"
+  },
+  {
+    "local_id": "LOC-014",
+    "dni": "10000069",
+    "nombre": "Jorge",
+    "apellido": "Ramírez",
+    "calificacion_prom": 3.7,
+    "sueldo": 2748.33,
+    "role": "Cocinero"
+  },
+  {
+    "local_id": "LOC-014",
+    "dni": "10000070",
+    "nombre": "Elena",
+    "apellido": "Rodríguez",
+    "calificacion_prom": 4.2,
+    "sueldo": 2837.32,
+    "role": "Cocinero"
+  },
+  {
+    "local_id": "LOC-015",
+    "dni": "10000071",
+    "nombre": "Carmen",
+    "apellido": "López",
+    "calificacion_prom": 4.86,
+    "sueldo": 1379.33,
+    "role": "Cocinero"
+  },
+  {
+    "local_id": "LOC-015",
+    "dni": "10000072",
+    "nombre": "Raúl",
+    "apellido": "Ortiz",
+    "calificacion_prom": 4.45,
+    "sueldo": 1643.62,
+    "role": "Despachador"
+  },
+  {
+    "local_id": "LOC-015",
     "dni": "10000073",
     "nombre": "Carmen",
-    "apellido": "Cruz",
-    "calificacion_prom": 4.1,
-    "sueldo": 1699.63,
-    "role": "Despachador"
+    "apellido": "Martínez",
+    "calificacion_prom": 4.94,
+    "sueldo": 1832.76,
+    "role": "Repartidor"
   },
   {
-    "local_id": "LOC-014",
+    "local_id": "LOC-016",
     "dni": "10000074",
-    "nombre": "Camila",
-    "apellido": "Gutiérrez",
-    "calificacion_prom": 4.19,
-    "sueldo": 1699.9,
-    "role": "Repartidor"
-  },
-  {
-    "local_id": "LOC-014",
-    "dni": "10000075",
-    "nombre": "Carmen",
-    "apellido": "Mendoza",
-    "calificacion_prom": 3.78,
-    "sueldo": 1768.82,
-    "role": "Cocinero"
-  },
-  {
-    "local_id": "LOC-014",
-    "dni": "10000076",
-    "nombre": "Camila",
-    "apellido": "Gutiérrez",
-    "calificacion_prom": 4.49,
-    "sueldo": 1857.92,
-    "role": "Cocinero"
-  },
-  {
-    "local_id": "LOC-014",
-    "dni": "10000077",
-    "nombre": "José",
-    "apellido": "Ramírez",
-    "calificacion_prom": 4.06,
-    "sueldo": 1639.03,
-    "role": "Despachador"
-  },
-  {
-    "local_id": "LOC-014",
-    "dni": "10000078",
-    "nombre": "Andrea",
-    "apellido": "Jiménez",
-    "calificacion_prom": 3.97,
-    "sueldo": 2655.63,
-    "role": "Repartidor"
-  },
-  {
-    "local_id": "LOC-015",
-    "dni": "10000079",
-    "nombre": "Carmen",
-    "apellido": "Gómez",
-    "calificacion_prom": 4.29,
-    "sueldo": 1446.09,
-    "role": "Repartidor"
-  },
-  {
-    "local_id": "LOC-015",
-    "dni": "10000080",
-    "nombre": "Isabel",
-    "apellido": "Herrera",
-    "calificacion_prom": 4.58,
-    "sueldo": 1513.58,
-    "role": "Despachador"
-  },
-  {
-    "local_id": "LOC-015",
-    "dni": "10000081",
-    "nombre": "Carlos",
-    "apellido": "Sánchez",
-    "calificacion_prom": 4.43,
-    "sueldo": 1729.84,
-    "role": "Cocinero"
-  },
-  {
-    "local_id": "LOC-015",
-    "dni": "10000082",
-    "nombre": "Alberto",
-    "apellido": "Torres",
-    "calificacion_prom": 4.15,
-    "sueldo": 1674.14,
-    "role": "Repartidor"
-  },
-  {
-    "local_id": "LOC-016",
-    "dni": "10000083",
     "nombre": "Rosa",
-    "apellido": "García",
-    "calificacion_prom": 4.87,
-    "sueldo": 1665.2,
-    "role": "Cocinero"
-  },
-  {
-    "local_id": "LOC-016",
-    "dni": "10000084",
-    "nombre": "Juan",
-    "apellido": "Díaz",
-    "calificacion_prom": 4.79,
-    "sueldo": 1661.1,
-    "role": "Repartidor"
-  },
-  {
-    "local_id": "LOC-016",
-    "dni": "10000085",
-    "nombre": "Alberto",
-    "apellido": "Mendoza",
-    "calificacion_prom": 3.55,
-    "sueldo": 1289.21,
-    "role": "Repartidor"
-  },
-  {
-    "local_id": "LOC-016",
-    "dni": "10000086",
-    "nombre": "Ana",
     "apellido": "Romero",
-    "calificacion_prom": 3.89,
-    "sueldo": 2862.58,
+    "calificacion_prom": 4.59,
+    "sueldo": 2296.83,
     "role": "Despachador"
   },
   {
     "local_id": "LOC-016",
-    "dni": "10000087",
-    "nombre": "Luis",
-    "apellido": "Flores",
-    "calificacion_prom": 4.04,
-    "sueldo": 1491.21,
-    "role": "Repartidor"
-  },
-  {
-    "local_id": "LOC-017",
-    "dni": "10000088",
+    "dni": "10000075",
     "nombre": "Camila",
+    "apellido": "Gutiérrez",
+    "calificacion_prom": 4.33,
+    "sueldo": 1798.81,
+    "role": "Despachador"
+  },
+  {
+    "local_id": "LOC-016",
+    "dni": "10000076",
+    "nombre": "Ana",
+    "apellido": "Castillo",
+    "calificacion_prom": 3.64,
+    "sueldo": 1433.09,
+    "role": "Despachador"
+  },
+  {
+    "local_id": "LOC-016",
+    "dni": "10000077",
+    "nombre": "María",
+    "apellido": "Castillo",
+    "calificacion_prom": 3.77,
+    "sueldo": 2215.71,
+    "role": "Cocinero"
+  },
+  {
+    "local_id": "LOC-017",
+    "dni": "10000078",
+    "nombre": "José",
+    "apellido": "García",
+    "calificacion_prom": 4.58,
+    "sueldo": 1368.13,
+    "role": "Cocinero"
+  },
+  {
+    "local_id": "LOC-017",
+    "dni": "10000079",
+    "nombre": "Ricardo",
+    "apellido": "García",
+    "calificacion_prom": 3.82,
+    "sueldo": 1869.03,
+    "role": "Despachador"
+  },
+  {
+    "local_id": "LOC-017",
+    "dni": "10000080",
+    "nombre": "Rosa",
+    "apellido": "González",
+    "calificacion_prom": 3.97,
+    "sueldo": 1943.87,
+    "role": "Repartidor"
+  },
+  {
+    "local_id": "LOC-017",
+    "dni": "10000081",
+    "nombre": "José",
+    "apellido": "Cruz",
+    "calificacion_prom": 4.35,
+    "sueldo": 2084.66,
+    "role": "Repartidor"
+  },
+  {
+    "local_id": "LOC-017",
+    "dni": "10000082",
+    "nombre": "Miguel",
     "apellido": "Herrera",
-    "calificacion_prom": 4.56,
-    "sueldo": 2538.87,
+    "calificacion_prom": 4.63,
+    "sueldo": 2485.16,
+    "role": "Repartidor"
+  },
+  {
+    "local_id": "LOC-017",
+    "dni": "10000083",
+    "nombre": "Laura",
+    "apellido": "Gómez",
+    "calificacion_prom": 3.81,
+    "sueldo": 2985.44,
     "role": "Cocinero"
   },
   {
     "local_id": "LOC-017",
-    "dni": "10000089",
-    "nombre": "Carlos",
-    "apellido": "Ortiz",
-    "calificacion_prom": 4.74,
-    "sueldo": 2603.44,
-    "role": "Cocinero"
-  },
-  {
-    "local_id": "LOC-017",
-    "dni": "10000090",
-    "nombre": "Raúl",
-    "apellido": "López",
-    "calificacion_prom": 3.85,
-    "sueldo": 2001.89,
+    "dni": "10000084",
+    "nombre": "Pedro",
+    "apellido": "Cruz",
+    "calificacion_prom": 3.52,
+    "sueldo": 1836.72,
     "role": "Cocinero"
   },
   {
     "local_id": "LOC-018",
-    "dni": "10000091",
-    "nombre": "Lucía",
-    "apellido": "Flores",
-    "calificacion_prom": 3.56,
-    "sueldo": 1459.8,
+    "dni": "10000085",
+    "nombre": "Andrea",
+    "apellido": "Morales",
+    "calificacion_prom": 3.68,
+    "sueldo": 1464.93,
     "role": "Repartidor"
   },
   {
     "local_id": "LOC-018",
-    "dni": "10000092",
-    "nombre": "José",
-    "apellido": "Flores",
-    "calificacion_prom": 4.7,
-    "sueldo": 1429.76,
+    "dni": "10000086",
+    "nombre": "Ricardo",
+    "apellido": "Herrera",
+    "calificacion_prom": 4.81,
+    "sueldo": 1462.12,
+    "role": "Repartidor"
+  },
+  {
+    "local_id": "LOC-018",
+    "dni": "10000087",
+    "nombre": "Alberto",
+    "apellido": "Gómez",
+    "calificacion_prom": 4.93,
+    "sueldo": 2297.01,
+    "role": "Repartidor"
+  },
+  {
+    "local_id": "LOC-018",
+    "dni": "10000088",
+    "nombre": "Juan",
+    "apellido": "García",
+    "calificacion_prom": 4.24,
+    "sueldo": 2176.18,
     "role": "Despachador"
   },
   {
     "local_id": "LOC-018",
-    "dni": "10000093",
-    "nombre": "Roberto",
+    "dni": "10000089",
+    "nombre": "María",
     "apellido": "Torres",
-    "calificacion_prom": 4.75,
-    "sueldo": 2859.87,
-    "role": "Despachador"
+    "calificacion_prom": 4.2,
+    "sueldo": 2805.38,
+    "role": "Repartidor"
   },
   {
     "local_id": "LOC-018",
+    "dni": "10000090",
+    "nombre": "Javier",
+    "apellido": "Flores",
+    "calificacion_prom": 3.82,
+    "sueldo": 1281.72,
+    "role": "Repartidor"
+  },
+  {
+    "local_id": "LOC-019",
+    "dni": "10000091",
+    "nombre": "Ana",
+    "apellido": "Flores",
+    "calificacion_prom": 3.88,
+    "sueldo": 2980.86,
+    "role": "Repartidor"
+  },
+  {
+    "local_id": "LOC-019",
+    "dni": "10000092",
+    "nombre": "Miguel",
+    "apellido": "Martínez",
+    "calificacion_prom": 4.52,
+    "sueldo": 2286.93,
+    "role": "Cocinero"
+  },
+  {
+    "local_id": "LOC-019",
+    "dni": "10000093",
+    "nombre": "Ana",
+    "apellido": "Gutiérrez",
+    "calificacion_prom": 4.52,
+    "sueldo": 1306.49,
+    "role": "Cocinero"
+  },
+  {
+    "local_id": "LOC-019",
     "dni": "10000094",
-    "nombre": "José",
-    "apellido": "Romero",
-    "calificacion_prom": 4.39,
-    "sueldo": 2178.32,
+    "nombre": "Diego",
+    "apellido": "Castillo",
+    "calificacion_prom": 4.3,
+    "sueldo": 1576.18,
     "role": "Cocinero"
   },
   {
     "local_id": "LOC-019",
     "dni": "10000095",
-    "nombre": "Fernando",
-    "apellido": "Reyes",
-    "calificacion_prom": 4.67,
-    "sueldo": 2277.1,
-    "role": "Despachador"
+    "nombre": "Andrea",
+    "apellido": "Díaz",
+    "calificacion_prom": 4.1,
+    "sueldo": 2652.62,
+    "role": "Repartidor"
   },
   {
     "local_id": "LOC-019",
     "dni": "10000096",
-    "nombre": "Sofía",
-    "apellido": "Morales",
-    "calificacion_prom": 4.85,
-    "sueldo": 1719.1,
+    "nombre": "Valentina",
+    "apellido": "González",
+    "calificacion_prom": 4.72,
+    "sueldo": 1981.08,
     "role": "Despachador"
   },
   {
     "local_id": "LOC-019",
     "dni": "10000097",
-    "nombre": "Luis",
-    "apellido": "González",
-    "calificacion_prom": 4.34,
-    "sueldo": 2743.45,
-    "role": "Despachador"
-  },
-  {
-    "local_id": "LOC-019",
-    "dni": "10000098",
-    "nombre": "Jorge",
+    "nombre": "Ricardo",
     "apellido": "Reyes",
-    "calificacion_prom": 4.77,
-    "sueldo": 1851.31,
+    "calificacion_prom": 3.9,
+    "sueldo": 2958.1,
     "role": "Cocinero"
   },
   {
-    "local_id": "LOC-019",
+    "local_id": "LOC-020",
+    "dni": "10000098",
+    "nombre": "Daniela",
+    "apellido": "Reyes",
+    "calificacion_prom": 3.84,
+    "sueldo": 1964.16,
+    "role": "Cocinero"
+  },
+  {
+    "local_id": "LOC-020",
     "dni": "10000099",
-    "nombre": "Carmen",
-    "apellido": "Gómez",
-    "calificacion_prom": 4.16,
-    "sueldo": 2418.55,
-    "role": "Repartidor"
-  },
-  {
-    "local_id": "LOC-019",
-    "dni": "10000100",
     "nombre": "Valentina",
-    "apellido": "Torres",
-    "calificacion_prom": 3.65,
-    "sueldo": 2192.41,
-    "role": "Repartidor"
-  },
-  {
-    "local_id": "LOC-020",
-    "dni": "10000101",
-    "nombre": "Carmen",
-    "apellido": "Rivera",
-    "calificacion_prom": 4.71,
-    "sueldo": 1451.17,
+    "apellido": "Sánchez",
+    "calificacion_prom": 3.75,
+    "sueldo": 1697.11,
     "role": "Cocinero"
   },
   {
     "local_id": "LOC-020",
+    "dni": "10000100",
+    "nombre": "Miguel",
+    "apellido": "Rivera",
+    "calificacion_prom": 3.82,
+    "sueldo": 1599.33,
+    "role": "Repartidor"
+  },
+  {
+    "local_id": "LOC-021",
+    "dni": "10000101",
+    "nombre": "María",
+    "apellido": "Torres",
+    "calificacion_prom": 4.46,
+    "sueldo": 2916.2,
+    "role": "Cocinero"
+  },
+  {
+    "local_id": "LOC-021",
     "dni": "10000102",
     "nombre": "Luis",
-    "apellido": "Rivera",
-    "calificacion_prom": 3.55,
-    "sueldo": 1728.34,
-    "role": "Repartidor"
+    "apellido": "Díaz",
+    "calificacion_prom": 4.58,
+    "sueldo": 2954.58,
+    "role": "Cocinero"
   },
   {
-    "local_id": "LOC-020",
+    "local_id": "LOC-021",
     "dni": "10000103",
-    "nombre": "Pedro",
-    "apellido": "Reyes",
-    "calificacion_prom": 3.98,
-    "sueldo": 1458.59,
-    "role": "Repartidor"
+    "nombre": "Andrea",
+    "apellido": "García",
+    "calificacion_prom": 3.96,
+    "sueldo": 2090.14,
+    "role": "Cocinero"
   },
   {
-    "local_id": "LOC-020",
+    "local_id": "LOC-021",
     "dni": "10000104",
-    "nombre": "Patricia",
-    "apellido": "Morales",
-    "calificacion_prom": 3.72,
-    "sueldo": 1250.99,
-    "role": "Repartidor"
+    "nombre": "Rosa",
+    "apellido": "Vargas",
+    "calificacion_prom": 3.6,
+    "sueldo": 2306.19,
+    "role": "Despachador"
   },
   {
     "local_id": "LOC-021",
     "dni": "10000105",
-    "nombre": "Pedro",
-    "apellido": "Sánchez",
-    "calificacion_prom": 3.78,
-    "sueldo": 1774.1,
-    "role": "Repartidor"
+    "nombre": "Valentina",
+    "apellido": "López",
+    "calificacion_prom": 4.01,
+    "sueldo": 2116.84,
+    "role": "Cocinero"
   },
   {
     "local_id": "LOC-021",
     "dni": "10000106",
-    "nombre": "Ana",
-    "apellido": "Rivera",
-    "calificacion_prom": 3.81,
-    "sueldo": 2770.82,
-    "role": "Cocinero"
-  },
-  {
-    "local_id": "LOC-021",
-    "dni": "10000107",
-    "nombre": "Daniela",
-    "apellido": "López",
-    "calificacion_prom": 4.58,
-    "sueldo": 2309.8,
-    "role": "Repartidor"
-  },
-  {
-    "local_id": "LOC-021",
-    "dni": "10000108",
-    "nombre": "Jorge",
-    "apellido": "Flores",
-    "calificacion_prom": 4.06,
-    "sueldo": 2269.69,
-    "role": "Repartidor"
-  },
-  {
-    "local_id": "LOC-021",
-    "dni": "10000109",
-    "nombre": "Patricia",
-    "apellido": "Rodríguez",
-    "calificacion_prom": 3.62,
-    "sueldo": 2629.51,
-    "role": "Repartidor"
-  },
-  {
-    "local_id": "LOC-022",
-    "dni": "10000110",
     "nombre": "Juan",
-    "apellido": "Mendoza",
-    "calificacion_prom": 4.74,
-    "sueldo": 2738.51,
-    "role": "Cocinero"
-  },
-  {
-    "local_id": "LOC-022",
-    "dni": "10000111",
-    "nombre": "José",
-    "apellido": "Torres",
-    "calificacion_prom": 4.79,
-    "sueldo": 2602.62,
-    "role": "Cocinero"
-  },
-  {
-    "local_id": "LOC-022",
-    "dni": "10000112",
-    "nombre": "Fernando",
-    "apellido": "Gutiérrez",
-    "calificacion_prom": 4.95,
-    "sueldo": 2833.9,
-    "role": "Cocinero"
-  },
-  {
-    "local_id": "LOC-022",
-    "dni": "10000113",
-    "nombre": "Diego",
-    "apellido": "Gutiérrez",
-    "calificacion_prom": 4.56,
-    "sueldo": 2520.25,
-    "role": "Cocinero"
-  },
-  {
-    "local_id": "LOC-022",
-    "dni": "10000114",
-    "nombre": "Javier",
-    "apellido": "González",
-    "calificacion_prom": 3.81,
-    "sueldo": 2395.04,
-    "role": "Despachador"
-  },
-  {
-    "local_id": "LOC-022",
-    "dni": "10000115",
-    "nombre": "Ricardo",
-    "apellido": "Reyes",
-    "calificacion_prom": 4.03,
-    "sueldo": 1336.68,
-    "role": "Despachador"
-  },
-  {
-    "local_id": "LOC-023",
-    "dni": "10000116",
-    "nombre": "Sofía",
-    "apellido": "Jiménez",
+    "apellido": "Herrera",
     "calificacion_prom": 4.44,
-    "sueldo": 2475.55,
-    "role": "Despachador"
-  },
-  {
-    "local_id": "LOC-023",
-    "dni": "10000117",
-    "nombre": "Carlos",
-    "apellido": "Díaz",
-    "calificacion_prom": 3.79,
-    "sueldo": 1592.98,
+    "sueldo": 2261.57,
     "role": "Cocinero"
   },
   {
-    "local_id": "LOC-023",
-    "dni": "10000118",
-    "nombre": "Elena",
-    "apellido": "Castillo",
-    "calificacion_prom": 4.59,
-    "sueldo": 2837.75,
-    "role": "Despachador"
-  },
-  {
-    "local_id": "LOC-023",
-    "dni": "10000119",
-    "nombre": "Carlos",
-    "apellido": "Flores",
-    "calificacion_prom": 4.2,
-    "sueldo": 2031.78,
-    "role": "Cocinero"
-  },
-  {
-    "local_id": "LOC-023",
-    "dni": "10000120",
-    "nombre": "Patricia",
-    "apellido": "Cruz",
-    "calificacion_prom": 4.32,
-    "sueldo": 2247.24,
-    "role": "Repartidor"
-  },
-  {
-    "local_id": "LOC-023",
-    "dni": "10000121",
-    "nombre": "Isabel",
-    "apellido": "Ortiz",
-    "calificacion_prom": 3.81,
-    "sueldo": 1896.62,
-    "role": "Repartidor"
-  },
-  {
-    "local_id": "LOC-023",
-    "dni": "10000122",
-    "nombre": "Andrea",
-    "apellido": "Rodríguez",
-    "calificacion_prom": 3.78,
-    "sueldo": 2870.41,
-    "role": "Repartidor"
-  },
-  {
-    "local_id": "LOC-024",
-    "dni": "10000123",
-    "nombre": "María",
-    "apellido": "Torres",
-    "calificacion_prom": 3.75,
-    "sueldo": 2716.67,
-    "role": "Cocinero"
-  },
-  {
-    "local_id": "LOC-024",
-    "dni": "10000124",
-    "nombre": "Carlos",
+    "local_id": "LOC-022",
+    "dni": "10000107",
+    "nombre": "Camila",
     "apellido": "Sánchez",
-    "calificacion_prom": 4.71,
-    "sueldo": 1901.72,
+    "calificacion_prom": 4.66,
+    "sueldo": 1209.32,
+    "role": "Despachador"
+  },
+  {
+    "local_id": "LOC-022",
+    "dni": "10000108",
+    "nombre": "Andrea",
+    "apellido": "García",
+    "calificacion_prom": 4.54,
+    "sueldo": 1492.39,
+    "role": "Repartidor"
+  },
+  {
+    "local_id": "LOC-022",
+    "dni": "10000109",
+    "nombre": "Diego",
+    "apellido": "Castillo",
+    "calificacion_prom": 4.47,
+    "sueldo": 2795.72,
+    "role": "Despachador"
+  },
+  {
+    "local_id": "LOC-023",
+    "dni": "10000110",
+    "nombre": "Isabel",
+    "apellido": "Romero",
+    "calificacion_prom": 4.87,
+    "sueldo": 1538.81,
     "role": "Cocinero"
   },
   {
-    "local_id": "LOC-024",
-    "dni": "10000125",
-    "nombre": "Jorge",
-    "apellido": "Flores",
+    "local_id": "LOC-023",
+    "dni": "10000111",
+    "nombre": "Raúl",
+    "apellido": "Romero",
+    "calificacion_prom": 3.65,
+    "sueldo": 1428.14,
+    "role": "Cocinero"
+  },
+  {
+    "local_id": "LOC-023",
+    "dni": "10000112",
+    "nombre": "María",
+    "apellido": "Martínez",
     "calificacion_prom": 4.45,
-    "sueldo": 1273.9,
+    "sueldo": 1713.84,
+    "role": "Repartidor"
+  },
+  {
+    "local_id": "LOC-024",
+    "dni": "10000113",
+    "nombre": "Valentina",
+    "apellido": "Martínez",
+    "calificacion_prom": 3.78,
+    "sueldo": 1551.48,
+    "role": "Despachador"
+  },
+  {
+    "local_id": "LOC-024",
+    "dni": "10000114",
+    "nombre": "Patricia",
+    "apellido": "Rivera",
+    "calificacion_prom": 3.88,
+    "sueldo": 2054.45,
+    "role": "Repartidor"
+  },
+  {
+    "local_id": "LOC-024",
+    "dni": "10000115",
+    "nombre": "Carlos",
+    "apellido": "Rodríguez",
+    "calificacion_prom": 3.95,
+    "sueldo": 2356.45,
+    "role": "Cocinero"
+  },
+  {
+    "local_id": "LOC-025",
+    "dni": "10000116",
+    "nombre": "Carlos",
+    "apellido": "García",
+    "calificacion_prom": 4.08,
+    "sueldo": 2502.52,
     "role": "Repartidor"
   },
   {
     "local_id": "LOC-025",
+    "dni": "10000117",
+    "nombre": "Elena",
+    "apellido": "González",
+    "calificacion_prom": 4.9,
+    "sueldo": 2926.31,
+    "role": "Repartidor"
+  },
+  {
+    "local_id": "LOC-025",
+    "dni": "10000118",
+    "nombre": "Laura",
+    "apellido": "Ortiz",
+    "calificacion_prom": 4.71,
+    "sueldo": 2249.83,
+    "role": "Repartidor"
+  },
+  {
+    "local_id": "LOC-026",
+    "dni": "10000119",
+    "nombre": "Isabel",
+    "apellido": "Ortiz",
+    "calificacion_prom": 4.56,
+    "sueldo": 1288.43,
+    "role": "Despachador"
+  },
+  {
+    "local_id": "LOC-026",
+    "dni": "10000120",
+    "nombre": "Elena",
+    "apellido": "González",
+    "calificacion_prom": 4.12,
+    "sueldo": 2512.31,
+    "role": "Cocinero"
+  },
+  {
+    "local_id": "LOC-026",
+    "dni": "10000121",
+    "nombre": "Diego",
+    "apellido": "Ortiz",
+    "calificacion_prom": 3.72,
+    "sueldo": 1698.75,
+    "role": "Despachador"
+  },
+  {
+    "local_id": "LOC-027",
+    "dni": "10000122",
+    "nombre": "Juan",
+    "apellido": "Gutiérrez",
+    "calificacion_prom": 4.37,
+    "sueldo": 2967.35,
+    "role": "Repartidor"
+  },
+  {
+    "local_id": "LOC-027",
+    "dni": "10000123",
+    "nombre": "Carlos",
+    "apellido": "Sánchez",
+    "calificacion_prom": 4.47,
+    "sueldo": 2452.85,
+    "role": "Cocinero"
+  },
+  {
+    "local_id": "LOC-027",
+    "dni": "10000124",
+    "nombre": "Laura",
+    "apellido": "Ortiz",
+    "calificacion_prom": 4.97,
+    "sueldo": 1298.32,
+    "role": "Despachador"
+  },
+  {
+    "local_id": "LOC-028",
+    "dni": "10000125",
+    "nombre": "Roberto",
+    "apellido": "Martínez",
+    "calificacion_prom": 3.63,
+    "sueldo": 2586.44,
+    "role": "Repartidor"
+  },
+  {
+    "local_id": "LOC-028",
     "dni": "10000126",
     "nombre": "Patricia",
-    "apellido": "Romero",
-    "calificacion_prom": 4.38,
-    "sueldo": 2079.86,
+    "apellido": "Pérez",
+    "calificacion_prom": 3.87,
+    "sueldo": 2855.33,
     "role": "Repartidor"
   },
   {
-    "local_id": "LOC-025",
+    "local_id": "LOC-028",
     "dni": "10000127",
-    "nombre": "Miguel",
-    "apellido": "Jiménez",
-    "calificacion_prom": 4.44,
-    "sueldo": 2415.68,
-    "role": "Despachador"
+    "nombre": "Laura",
+    "apellido": "López",
+    "calificacion_prom": 4.15,
+    "sueldo": 2587.98,
+    "role": "Repartidor"
   },
   {
-    "local_id": "LOC-025",
+    "local_id": "LOC-029",
     "dni": "10000128",
-    "nombre": "Diego",
-    "apellido": "Mendoza",
-    "calificacion_prom": 4.69,
-    "sueldo": 1540.91,
-    "role": "Cocinero"
+    "nombre": "Carlos",
+    "apellido": "Rodríguez",
+    "calificacion_prom": 4.11,
+    "sueldo": 2577.68,
+    "role": "Repartidor"
   },
   {
-    "local_id": "LOC-026",
+    "local_id": "LOC-029",
     "dni": "10000129",
     "nombre": "Pedro",
-    "apellido": "Castillo",
-    "calificacion_prom": 4.27,
-    "sueldo": 2954.28,
+    "apellido": "Torres",
+    "calificacion_prom": 3.69,
+    "sueldo": 1587.26,
+    "role": "Despachador"
+  },
+  {
+    "local_id": "LOC-029",
+    "dni": "10000130",
+    "nombre": "Camila",
+    "apellido": "Gómez",
+    "calificacion_prom": 4.69,
+    "sueldo": 2172.68,
     "role": "Cocinero"
   },
   {
-    "local_id": "LOC-026",
-    "dni": "10000130",
-    "nombre": "Patricia",
-    "apellido": "Vargas",
-    "calificacion_prom": 3.66,
-    "sueldo": 2417.09,
-    "role": "Despachador"
-  },
-  {
-    "local_id": "LOC-026",
+    "local_id": "LOC-029",
     "dni": "10000131",
-    "nombre": "Diego",
+    "nombre": "Pedro",
     "apellido": "Rodríguez",
-    "calificacion_prom": 3.5,
-    "sueldo": 2207.21,
+    "calificacion_prom": 4.94,
+    "sueldo": 1392.53,
     "role": "Repartidor"
   },
   {
-    "local_id": "LOC-027",
+    "local_id": "LOC-029",
     "dni": "10000132",
-    "nombre": "Valentina",
-    "apellido": "Gutiérrez",
-    "calificacion_prom": 4.5,
-    "sueldo": 1456.86,
+    "nombre": "Lucía",
+    "apellido": "Reyes",
+    "calificacion_prom": 4.85,
+    "sueldo": 2638.06,
     "role": "Despachador"
   },
   {
-    "local_id": "LOC-027",
+    "local_id": "LOC-029",
     "dni": "10000133",
-    "nombre": "Valentina",
-    "apellido": "López",
-    "calificacion_prom": 3.86,
-    "sueldo": 2683.22,
-    "role": "Repartidor"
+    "nombre": "Jorge",
+    "apellido": "Herrera",
+    "calificacion_prom": 4.69,
+    "sueldo": 1614.54,
+    "role": "Cocinero"
   },
   {
-    "local_id": "LOC-027",
+    "local_id": "LOC-030",
     "dni": "10000134",
-    "nombre": "Lucía",
-    "apellido": "Gómez",
-    "calificacion_prom": 4.27,
-    "sueldo": 1629.19,
+    "nombre": "Miguel",
+    "apellido": "Rodríguez",
+    "calificacion_prom": 4.89,
+    "sueldo": 2161.06,
     "role": "Repartidor"
   },
   {
-    "local_id": "LOC-027",
+    "local_id": "LOC-030",
     "dni": "10000135",
-    "nombre": "María",
-    "apellido": "Morales",
-    "calificacion_prom": 3.72,
-    "sueldo": 2301.63,
-    "role": "Repartidor"
+    "nombre": "Juan",
+    "apellido": "Martínez",
+    "calificacion_prom": 4.49,
+    "sueldo": 2098.04,
+    "role": "Cocinero"
   },
   {
-    "local_id": "LOC-027",
+    "local_id": "LOC-030",
     "dni": "10000136",
     "nombre": "Jorge",
-    "apellido": "Sánchez",
-    "calificacion_prom": 4.98,
-    "sueldo": 1277.2,
-    "role": "Repartidor"
+    "apellido": "Mendoza",
+    "calificacion_prom": 4.51,
+    "sueldo": 2611.38,
+    "role": "Despachador"
   },
   {
-    "local_id": "LOC-027",
+    "local_id": "LOC-030",
     "dni": "10000137",
-    "nombre": "Carmen",
-    "apellido": "Sánchez",
-    "calificacion_prom": 4.68,
-    "sueldo": 1227.66,
-    "role": "Cocinero"
-  },
-  {
-    "local_id": "LOC-028",
-    "dni": "10000138",
-    "nombre": "Carlos",
-    "apellido": "Ortiz",
-    "calificacion_prom": 3.85,
-    "sueldo": 2282.04,
-    "role": "Despachador"
-  },
-  {
-    "local_id": "LOC-028",
-    "dni": "10000139",
-    "nombre": "Laura",
+    "nombre": "Sofía",
     "apellido": "Herrera",
-    "calificacion_prom": 4.9,
-    "sueldo": 2309.25,
-    "role": "Cocinero"
-  },
-  {
-    "local_id": "LOC-028",
-    "dni": "10000140",
-    "nombre": "Lucía",
-    "apellido": "Gómez",
-    "calificacion_prom": 4.05,
-    "sueldo": 1419.75,
+    "calificacion_prom": 4.09,
+    "sueldo": 2927.19,
     "role": "Despachador"
   },
   {
-    "local_id": "LOC-029",
+    "local_id": "LOC-030",
+    "dni": "10000138",
+    "nombre": "Pedro",
+    "apellido": "Morales",
+    "calificacion_prom": 3.63,
+    "sueldo": 2341.1,
+    "role": "Repartidor"
+  },
+  {
+    "local_id": "LOC-030",
+    "dni": "10000139",
+    "nombre": "Roberto",
+    "apellido": "Rivera",
+    "calificacion_prom": 4.16,
+    "sueldo": 2488.86,
+    "role": "Cocinero"
+  },
+  {
+    "local_id": "LOC-030",
+    "dni": "10000140",
+    "nombre": "Laura",
+    "apellido": "Romero",
+    "calificacion_prom": 3.51,
+    "sueldo": 2933.64,
+    "role": "Repartidor"
+  },
+  {
+    "local_id": "LOC-031",
     "dni": "10000141",
-    "nombre": "Javier",
-    "apellido": "Jiménez",
-    "calificacion_prom": 4.14,
-    "sueldo": 2814.94,
-    "role": "Repartidor"
-  },
-  {
-    "local_id": "LOC-029",
-    "dni": "10000142",
     "nombre": "Andrea",
-    "apellido": "García",
-    "calificacion_prom": 4.87,
-    "sueldo": 2071.63,
+    "apellido": "Mendoza",
+    "calificacion_prom": 4.12,
+    "sueldo": 2035.11,
     "role": "Repartidor"
   },
   {
-    "local_id": "LOC-029",
+    "local_id": "LOC-031",
+    "dni": "10000142",
+    "nombre": "Elena",
+    "apellido": "López",
+    "calificacion_prom": 4.27,
+    "sueldo": 2440.65,
+    "role": "Cocinero"
+  },
+  {
+    "local_id": "LOC-031",
     "dni": "10000143",
     "nombre": "Raúl",
-    "apellido": "Cruz",
-    "calificacion_prom": 3.74,
-    "sueldo": 2695.61,
+    "apellido": "Rivera",
+    "calificacion_prom": 4.1,
+    "sueldo": 2679.78,
     "role": "Repartidor"
   },
   {
-    "local_id": "LOC-029",
+    "local_id": "LOC-032",
     "dni": "10000144",
-    "nombre": "Juan",
-    "apellido": "López",
-    "calificacion_prom": 4.04,
-    "sueldo": 2151.42,
-    "role": "Cocinero"
+    "nombre": "Luis",
+    "apellido": "González",
+    "calificacion_prom": 3.95,
+    "sueldo": 1943.61,
+    "role": "Despachador"
   },
   {
-    "local_id": "LOC-030",
+    "local_id": "LOC-032",
     "dni": "10000145",
-    "nombre": "Juan",
-    "apellido": "González",
-    "calificacion_prom": 4.86,
-    "sueldo": 1315.77,
-    "role": "Repartidor"
-  },
-  {
-    "local_id": "LOC-030",
-    "dni": "10000146",
-    "nombre": "Pedro",
-    "apellido": "Gómez",
-    "calificacion_prom": 4.82,
-    "sueldo": 2810.34,
-    "role": "Cocinero"
-  },
-  {
-    "local_id": "LOC-030",
-    "dni": "10000147",
-    "nombre": "Camila",
-    "apellido": "Sánchez",
-    "calificacion_prom": 3.54,
-    "sueldo": 1366.9,
-    "role": "Repartidor"
-  },
-  {
-    "local_id": "LOC-030",
-    "dni": "10000148",
-    "nombre": "Sofía",
-    "apellido": "Gutiérrez",
-    "calificacion_prom": 4.09,
-    "sueldo": 2062.4,
-    "role": "Despachador"
-  },
-  {
-    "local_id": "LOC-030",
-    "dni": "10000149",
-    "nombre": "Juan",
-    "apellido": "Flores",
-    "calificacion_prom": 3.75,
-    "sueldo": 2405.75,
-    "role": "Repartidor"
-  },
-  {
-    "local_id": "LOC-030",
-    "dni": "10000150",
-    "nombre": "Diego",
-    "apellido": "Martínez",
-    "calificacion_prom": 4.21,
-    "sueldo": 1242.62,
-    "role": "Repartidor"
-  },
-  {
-    "local_id": "LOC-030",
-    "dni": "10000151",
-    "nombre": "Rosa",
-    "apellido": "Rivera",
-    "calificacion_prom": 4.78,
-    "sueldo": 1883.34,
-    "role": "Despachador"
-  },
-  {
-    "local_id": "LOC-031",
-    "dni": "10000152",
-    "nombre": "Jorge",
-    "apellido": "Jiménez",
-    "calificacion_prom": 4.99,
-    "sueldo": 1990.95,
-    "role": "Despachador"
-  },
-  {
-    "local_id": "LOC-031",
-    "dni": "10000153",
-    "nombre": "Pedro",
-    "apellido": "Ramírez",
-    "calificacion_prom": 4.53,
-    "sueldo": 2399.11,
-    "role": "Despachador"
-  },
-  {
-    "local_id": "LOC-031",
-    "dni": "10000154",
-    "nombre": "Pedro",
-    "apellido": "Rivera",
-    "calificacion_prom": 4.31,
-    "sueldo": 1399.49,
-    "role": "Despachador"
-  },
-  {
-    "local_id": "LOC-031",
-    "dni": "10000155",
-    "nombre": "Laura",
-    "apellido": "Herrera",
-    "calificacion_prom": 4.95,
-    "sueldo": 2537.35,
-    "role": "Cocinero"
-  },
-  {
-    "local_id": "LOC-031",
-    "dni": "10000156",
-    "nombre": "Isabel",
-    "apellido": "Gutiérrez",
-    "calificacion_prom": 4.35,
-    "sueldo": 1478.26,
-    "role": "Cocinero"
-  },
-  {
-    "local_id": "LOC-031",
-    "dni": "10000157",
-    "nombre": "Fernando",
-    "apellido": "Martínez",
-    "calificacion_prom": 4.26,
-    "sueldo": 2790.67,
-    "role": "Despachador"
-  },
-  {
-    "local_id": "LOC-031",
-    "dni": "10000158",
-    "nombre": "Elena",
-    "apellido": "Castillo",
-    "calificacion_prom": 4.03,
-    "sueldo": 2293.88,
-    "role": "Repartidor"
-  },
-  {
-    "local_id": "LOC-032",
-    "dni": "10000159",
-    "nombre": "Raúl",
-    "apellido": "Romero",
-    "calificacion_prom": 4.13,
-    "sueldo": 2392.88,
-    "role": "Despachador"
-  },
-  {
-    "local_id": "LOC-032",
-    "dni": "10000160",
-    "nombre": "María",
-    "apellido": "Rodríguez",
-    "calificacion_prom": 3.88,
-    "sueldo": 1942.2,
-    "role": "Despachador"
-  },
-  {
-    "local_id": "LOC-032",
-    "dni": "10000161",
-    "nombre": "Sofía",
-    "apellido": "Herrera",
-    "calificacion_prom": 4.97,
-    "sueldo": 2225.55,
-    "role": "Repartidor"
-  },
-  {
-    "local_id": "LOC-032",
-    "dni": "10000162",
-    "nombre": "Pedro",
-    "apellido": "González",
-    "calificacion_prom": 4.65,
-    "sueldo": 1472.15,
-    "role": "Cocinero"
-  },
-  {
-    "local_id": "LOC-032",
-    "dni": "10000163",
-    "nombre": "Fernando",
-    "apellido": "Martínez",
-    "calificacion_prom": 4.18,
-    "sueldo": 2201.36,
-    "role": "Cocinero"
-  },
-  {
-    "local_id": "LOC-033",
-    "dni": "10000164",
-    "nombre": "Carlos",
-    "apellido": "García",
-    "calificacion_prom": 4.72,
-    "sueldo": 1458.3,
-    "role": "Despachador"
-  },
-  {
-    "local_id": "LOC-033",
-    "dni": "10000165",
-    "nombre": "Isabel",
-    "apellido": "Mendoza",
-    "calificacion_prom": 4.72,
-    "sueldo": 2593.54,
-    "role": "Despachador"
-  },
-  {
-    "local_id": "LOC-033",
-    "dni": "10000166",
     "nombre": "Carmen",
-    "apellido": "Díaz",
-    "calificacion_prom": 4.85,
-    "sueldo": 2043.54,
-    "role": "Despachador"
-  },
-  {
-    "local_id": "LOC-033",
-    "dni": "10000167",
-    "nombre": "Jorge",
-    "apellido": "Vargas",
-    "calificacion_prom": 4.65,
-    "sueldo": 1248.45,
-    "role": "Despachador"
-  },
-  {
-    "local_id": "LOC-033",
-    "dni": "10000168",
-    "nombre": "Fernando",
-    "apellido": "Martínez",
-    "calificacion_prom": 4.1,
-    "sueldo": 2494.04,
-    "role": "Repartidor"
-  },
-  {
-    "local_id": "LOC-033",
-    "dni": "10000169",
-    "nombre": "Rosa",
-    "apellido": "Pérez",
-    "calificacion_prom": 3.66,
-    "sueldo": 1772.9,
-    "role": "Cocinero"
-  },
-  {
-    "local_id": "LOC-034",
-    "dni": "10000170",
-    "nombre": "Sofía",
-    "apellido": "López",
-    "calificacion_prom": 4.74,
-    "sueldo": 1687.85,
-    "role": "Cocinero"
-  },
-  {
-    "local_id": "LOC-034",
-    "dni": "10000171",
-    "nombre": "Jorge",
-    "apellido": "Vargas",
-    "calificacion_prom": 3.71,
-    "sueldo": 1321.51,
-    "role": "Repartidor"
-  },
-  {
-    "local_id": "LOC-034",
-    "dni": "10000172",
-    "nombre": "Laura",
-    "apellido": "Castillo",
-    "calificacion_prom": 4.1,
-    "sueldo": 2112.02,
-    "role": "Despachador"
-  },
-  {
-    "local_id": "LOC-034",
-    "dni": "10000173",
-    "nombre": "Sofía",
-    "apellido": "García",
-    "calificacion_prom": 3.8,
-    "sueldo": 2517.3,
-    "role": "Despachador"
-  },
-  {
-    "local_id": "LOC-034",
-    "dni": "10000174",
-    "nombre": "Valentina",
-    "apellido": "Jiménez",
-    "calificacion_prom": 4.64,
-    "sueldo": 2354.25,
-    "role": "Repartidor"
-  },
-  {
-    "local_id": "LOC-035",
-    "dni": "10000175",
-    "nombre": "Camila",
-    "apellido": "Martínez",
-    "calificacion_prom": 4.47,
-    "sueldo": 2016.07,
-    "role": "Repartidor"
-  },
-  {
-    "local_id": "LOC-035",
-    "dni": "10000176",
-    "nombre": "Juan",
-    "apellido": "García",
-    "calificacion_prom": 4.78,
-    "sueldo": 2271.67,
-    "role": "Cocinero"
-  },
-  {
-    "local_id": "LOC-035",
-    "dni": "10000177",
-    "nombre": "Daniela",
     "apellido": "Ortiz",
-    "calificacion_prom": 4.34,
-    "sueldo": 2903.48,
+    "calificacion_prom": 4.86,
+    "sueldo": 2896.56,
+    "role": "Despachador"
+  },
+  {
+    "local_id": "LOC-032",
+    "dni": "10000146",
+    "nombre": "Laura",
+    "apellido": "Pérez",
+    "calificacion_prom": 4.37,
+    "sueldo": 1606.77,
+    "role": "Cocinero"
+  },
+  {
+    "local_id": "LOC-033",
+    "dni": "10000147",
+    "nombre": "Patricia",
+    "apellido": "Ramírez",
+    "calificacion_prom": 3.96,
+    "sueldo": 1292.86,
+    "role": "Repartidor"
+  },
+  {
+    "local_id": "LOC-033",
+    "dni": "10000148",
+    "nombre": "Rosa",
+    "apellido": "Vargas",
+    "calificacion_prom": 3.51,
+    "sueldo": 2911.68,
+    "role": "Cocinero"
+  },
+  {
+    "local_id": "LOC-033",
+    "dni": "10000149",
+    "nombre": "Fernando",
+    "apellido": "López",
+    "calificacion_prom": 3.96,
+    "sueldo": 2891.74,
+    "role": "Cocinero"
+  },
+  {
+    "local_id": "LOC-033",
+    "dni": "10000150",
+    "nombre": "Roberto",
+    "apellido": "Vargas",
+    "calificacion_prom": 4.46,
+    "sueldo": 1519.45,
+    "role": "Repartidor"
+  },
+  {
+    "local_id": "LOC-033",
+    "dni": "10000151",
+    "nombre": "Javier",
+    "apellido": "Reyes",
+    "calificacion_prom": 3.71,
+    "sueldo": 2269.54,
+    "role": "Cocinero"
+  },
+  {
+    "local_id": "LOC-033",
+    "dni": "10000152",
+    "nombre": "Lucía",
+    "apellido": "Rivera",
+    "calificacion_prom": 3.7,
+    "sueldo": 1744.94,
+    "role": "Cocinero"
+  },
+  {
+    "local_id": "LOC-034",
+    "dni": "10000153",
+    "nombre": "Laura",
+    "apellido": "Rodríguez",
+    "calificacion_prom": 4.81,
+    "sueldo": 2516.42,
+    "role": "Despachador"
+  },
+  {
+    "local_id": "LOC-034",
+    "dni": "10000154",
+    "nombre": "Fernando",
+    "apellido": "Morales",
+    "calificacion_prom": 4.32,
+    "sueldo": 1611.37,
+    "role": "Repartidor"
+  },
+  {
+    "local_id": "LOC-034",
+    "dni": "10000155",
+    "nombre": "Lucía",
+    "apellido": "Gutiérrez",
+    "calificacion_prom": 4.11,
+    "sueldo": 1901.32,
+    "role": "Despachador"
+  },
+  {
+    "local_id": "LOC-034",
+    "dni": "10000156",
+    "nombre": "Raúl",
+    "apellido": "Castillo",
+    "calificacion_prom": 4.65,
+    "sueldo": 1538.79,
+    "role": "Cocinero"
+  },
+  {
+    "local_id": "LOC-035",
+    "dni": "10000157",
+    "nombre": "Andrea",
+    "apellido": "Gutiérrez",
+    "calificacion_prom": 3.99,
+    "sueldo": 2924.24,
     "role": "Repartidor"
   },
   {
     "local_id": "LOC-035",
+    "dni": "10000158",
+    "nombre": "Rosa",
+    "apellido": "Morales",
+    "calificacion_prom": 4.73,
+    "sueldo": 1251.71,
+    "role": "Despachador"
+  },
+  {
+    "local_id": "LOC-035",
+    "dni": "10000159",
+    "nombre": "José",
+    "apellido": "García",
+    "calificacion_prom": 3.56,
+    "sueldo": 2064.1,
+    "role": "Repartidor"
+  },
+  {
+    "local_id": "LOC-035",
+    "dni": "10000160",
+    "nombre": "Ana",
+    "apellido": "Gómez",
+    "calificacion_prom": 4.15,
+    "sueldo": 2247.29,
+    "role": "Despachador"
+  },
+  {
+    "local_id": "LOC-035",
+    "dni": "10000161",
+    "nombre": "Pedro",
+    "apellido": "Jiménez",
+    "calificacion_prom": 4.84,
+    "sueldo": 1202.11,
+    "role": "Despachador"
+  },
+  {
+    "local_id": "LOC-036",
+    "dni": "10000162",
+    "nombre": "Camila",
+    "apellido": "Castillo",
+    "calificacion_prom": 4.98,
+    "sueldo": 2291.25,
+    "role": "Despachador"
+  },
+  {
+    "local_id": "LOC-036",
+    "dni": "10000163",
+    "nombre": "Daniela",
+    "apellido": "Reyes",
+    "calificacion_prom": 3.78,
+    "sueldo": 1936.72,
+    "role": "Despachador"
+  },
+  {
+    "local_id": "LOC-036",
+    "dni": "10000164",
+    "nombre": "Raúl",
+    "apellido": "López",
+    "calificacion_prom": 4.29,
+    "sueldo": 1842.57,
+    "role": "Repartidor"
+  },
+  {
+    "local_id": "LOC-036",
+    "dni": "10000165",
+    "nombre": "Jorge",
+    "apellido": "Díaz",
+    "calificacion_prom": 4.25,
+    "sueldo": 2527.5,
+    "role": "Cocinero"
+  },
+  {
+    "local_id": "LOC-037",
+    "dni": "10000166",
+    "nombre": "Laura",
+    "apellido": "Herrera",
+    "calificacion_prom": 3.87,
+    "sueldo": 1306.57,
+    "role": "Cocinero"
+  },
+  {
+    "local_id": "LOC-037",
+    "dni": "10000167",
+    "nombre": "Miguel",
+    "apellido": "Gómez",
+    "calificacion_prom": 4.83,
+    "sueldo": 2111.1,
+    "role": "Cocinero"
+  },
+  {
+    "local_id": "LOC-037",
+    "dni": "10000168",
+    "nombre": "Carmen",
+    "apellido": "Romero",
+    "calificacion_prom": 3.76,
+    "sueldo": 2110.5,
+    "role": "Cocinero"
+  },
+  {
+    "local_id": "LOC-037",
+    "dni": "10000169",
+    "nombre": "Ana",
+    "apellido": "Castillo",
+    "calificacion_prom": 4.54,
+    "sueldo": 1303.35,
+    "role": "Despachador"
+  },
+  {
+    "local_id": "LOC-037",
+    "dni": "10000170",
+    "nombre": "Lucía",
+    "apellido": "Morales",
+    "calificacion_prom": 4.04,
+    "sueldo": 2276.23,
+    "role": "Repartidor"
+  },
+  {
+    "local_id": "LOC-037",
+    "dni": "10000171",
+    "nombre": "María",
+    "apellido": "Martínez",
+    "calificacion_prom": 3.6,
+    "sueldo": 1251.07,
+    "role": "Repartidor"
+  },
+  {
+    "local_id": "LOC-038",
+    "dni": "10000172",
+    "nombre": "Ricardo",
+    "apellido": "Gutiérrez",
+    "calificacion_prom": 4.2,
+    "sueldo": 2608.07,
+    "role": "Despachador"
+  },
+  {
+    "local_id": "LOC-038",
+    "dni": "10000173",
+    "nombre": "Carlos",
+    "apellido": "Castillo",
+    "calificacion_prom": 4.22,
+    "sueldo": 2539.68,
+    "role": "Cocinero"
+  },
+  {
+    "local_id": "LOC-038",
+    "dni": "10000174",
+    "nombre": "Javier",
+    "apellido": "Rivera",
+    "calificacion_prom": 4.88,
+    "sueldo": 2342.13,
+    "role": "Repartidor"
+  },
+  {
+    "local_id": "LOC-038",
+    "dni": "10000175",
+    "nombre": "Patricia",
+    "apellido": "Rivera",
+    "calificacion_prom": 4.7,
+    "sueldo": 1691.8,
+    "role": "Despachador"
+  },
+  {
+    "local_id": "LOC-038",
+    "dni": "10000176",
+    "nombre": "Daniela",
+    "apellido": "Torres",
+    "calificacion_prom": 3.82,
+    "sueldo": 1561.53,
+    "role": "Despachador"
+  },
+  {
+    "local_id": "LOC-039",
+    "dni": "10000177",
+    "nombre": "Ana",
+    "apellido": "Ramírez",
+    "calificacion_prom": 3.59,
+    "sueldo": 1378.12,
+    "role": "Cocinero"
+  },
+  {
+    "local_id": "LOC-039",
     "dni": "10000178",
     "nombre": "Andrea",
-    "apellido": "Cruz",
-    "calificacion_prom": 3.82,
-    "sueldo": 1412.04,
-    "role": "Despachador"
-  },
-  {
-    "local_id": "LOC-036",
-    "dni": "10000179",
-    "nombre": "Miguel",
-    "apellido": "Reyes",
-    "calificacion_prom": 3.9,
-    "sueldo": 2329.55,
-    "role": "Despachador"
-  },
-  {
-    "local_id": "LOC-036",
-    "dni": "10000180",
-    "nombre": "Miguel",
-    "apellido": "Sánchez",
-    "calificacion_prom": 3.89,
-    "sueldo": 2124.28,
-    "role": "Repartidor"
-  },
-  {
-    "local_id": "LOC-036",
-    "dni": "10000181",
-    "nombre": "Alberto",
-    "apellido": "Vargas",
-    "calificacion_prom": 4.67,
-    "sueldo": 1492.29,
-    "role": "Repartidor"
-  },
-  {
-    "local_id": "LOC-036",
-    "dni": "10000182",
-    "nombre": "Valentina",
-    "apellido": "Ortiz",
-    "calificacion_prom": 4.45,
-    "sueldo": 2441.31,
-    "role": "Repartidor"
-  },
-  {
-    "local_id": "LOC-037",
-    "dni": "10000183",
-    "nombre": "Juan",
-    "apellido": "Díaz",
-    "calificacion_prom": 4.17,
-    "sueldo": 2832.49,
-    "role": "Despachador"
-  },
-  {
-    "local_id": "LOC-037",
-    "dni": "10000184",
-    "nombre": "Isabel",
-    "apellido": "Herrera",
+    "apellido": "García",
     "calificacion_prom": 4.78,
-    "sueldo": 1968.84,
+    "sueldo": 2364.23,
     "role": "Repartidor"
   },
   {
-    "local_id": "LOC-037",
-    "dni": "10000185",
-    "nombre": "Isabel",
-    "apellido": "López",
-    "calificacion_prom": 3.76,
-    "sueldo": 1787.03,
-    "role": "Despachador"
-  },
-  {
-    "local_id": "LOC-037",
-    "dni": "10000186",
-    "nombre": "Laura",
-    "apellido": "Cruz",
-    "calificacion_prom": 3.52,
-    "sueldo": 1264.26,
-    "role": "Despachador"
-  },
-  {
-    "local_id": "LOC-037",
-    "dni": "10000187",
-    "nombre": "Luis",
-    "apellido": "Vargas",
-    "calificacion_prom": 4.98,
-    "sueldo": 2375.72,
-    "role": "Cocinero"
-  },
-  {
-    "local_id": "LOC-038",
-    "dni": "10000188",
-    "nombre": "Juan",
-    "apellido": "Martínez",
-    "calificacion_prom": 4.27,
-    "sueldo": 2006.11,
-    "role": "Repartidor"
-  },
-  {
-    "local_id": "LOC-038",
-    "dni": "10000189",
-    "nombre": "José",
-    "apellido": "Ortiz",
-    "calificacion_prom": 4.44,
-    "sueldo": 2095.4,
-    "role": "Despachador"
-  },
-  {
-    "local_id": "LOC-038",
-    "dni": "10000190",
-    "nombre": "Luis",
-    "apellido": "López",
-    "calificacion_prom": 4.12,
-    "sueldo": 1683.98,
-    "role": "Cocinero"
-  },
-  {
-    "local_id": "LOC-038",
-    "dni": "10000191",
-    "nombre": "María",
-    "apellido": "Jiménez",
-    "calificacion_prom": 4.38,
-    "sueldo": 1771.84,
-    "role": "Cocinero"
-  },
-  {
-    "local_id": "LOC-038",
-    "dni": "10000192",
+    "local_id": "LOC-039",
+    "dni": "10000179",
     "nombre": "Ricardo",
-    "apellido": "Torres",
-    "calificacion_prom": 3.54,
-    "sueldo": 2766.33,
-    "role": "Repartidor"
-  },
-  {
-    "local_id": "LOC-039",
-    "dni": "10000193",
-    "nombre": "Jorge",
-    "apellido": "Díaz",
-    "calificacion_prom": 4.7,
-    "sueldo": 1932.68,
-    "role": "Repartidor"
-  },
-  {
-    "local_id": "LOC-039",
-    "dni": "10000194",
-    "nombre": "Ana",
-    "apellido": "Gutiérrez",
-    "calificacion_prom": 4.21,
-    "sueldo": 1503.85,
-    "role": "Despachador"
-  },
-  {
-    "local_id": "LOC-039",
-    "dni": "10000195",
-    "nombre": "Rosa",
-    "apellido": "Gutiérrez",
-    "calificacion_prom": 4.82,
-    "sueldo": 1324.18,
-    "role": "Cocinero"
-  },
-  {
-    "local_id": "LOC-039",
-    "dni": "10000196",
-    "nombre": "Jorge",
-    "apellido": "Gutiérrez",
-    "calificacion_prom": 4.23,
-    "sueldo": 1459.62,
-    "role": "Cocinero"
-  },
-  {
-    "local_id": "LOC-039",
-    "dni": "10000197",
-    "nombre": "Daniela",
-    "apellido": "González",
-    "calificacion_prom": 3.65,
-    "sueldo": 2241.84,
-    "role": "Repartidor"
-  },
-  {
-    "local_id": "LOC-039",
-    "dni": "10000198",
-    "nombre": "Elena",
     "apellido": "Gómez",
-    "calificacion_prom": 4.13,
-    "sueldo": 1909.08,
-    "role": "Despachador"
+    "calificacion_prom": 4.28,
+    "sueldo": 1341.93,
+    "role": "Cocinero"
   },
   {
-    "local_id": "LOC-040",
-    "dni": "10000199",
-    "nombre": "Alberto",
-    "apellido": "Jiménez",
-    "calificacion_prom": 4.19,
-    "sueldo": 1390.35,
-    "role": "Repartidor"
-  },
-  {
-    "local_id": "LOC-040",
-    "dni": "10000200",
-    "nombre": "Lucía",
-    "apellido": "Ramírez",
-    "calificacion_prom": 3.61,
-    "sueldo": 1931.7,
-    "role": "Repartidor"
-  },
-  {
-    "local_id": "LOC-040",
-    "dni": "10000201",
-    "nombre": "María",
+    "local_id": "LOC-039",
+    "dni": "10000180",
+    "nombre": "Ricardo",
     "apellido": "Gutiérrez",
-    "calificacion_prom": 4.3,
-    "sueldo": 2922.54,
-    "role": "Despachador"
+    "calificacion_prom": 3.82,
+    "sueldo": 2298.44,
+    "role": "Cocinero"
+  },
+  {
+    "local_id": "LOC-039",
+    "dni": "10000181",
+    "nombre": "Patricia",
+    "apellido": "García",
+    "calificacion_prom": 4.72,
+    "sueldo": 2443.97,
+    "role": "Cocinero"
+  },
+  {
+    "local_id": "LOC-039",
+    "dni": "10000182",
+    "nombre": "Luis",
+    "apellido": "Gutiérrez",
+    "calificacion_prom": 4.34,
+    "sueldo": 1898.64,
+    "role": "Repartidor"
+  },
+  {
+    "local_id": "LOC-039",
+    "dni": "10000183",
+    "nombre": "Sofía",
+    "apellido": "Jiménez",
+    "calificacion_prom": 3.53,
+    "sueldo": 2393.28,
+    "role": "Repartidor"
   },
   {
     "local_id": "LOC-040",
-    "dni": "10000202",
+    "dni": "10000184",
+    "nombre": "Ana",
+    "apellido": "Cruz",
+    "calificacion_prom": 4.5,
+    "sueldo": 2052.7,
+    "role": "Repartidor"
+  },
+  {
+    "local_id": "LOC-040",
+    "dni": "10000185",
+    "nombre": "Ana",
+    "apellido": "Cruz",
+    "calificacion_prom": 4.03,
+    "sueldo": 2684.47,
+    "role": "Cocinero"
+  },
+  {
+    "local_id": "LOC-040",
+    "dni": "10000186",
     "nombre": "Miguel",
-    "apellido": "Flores",
-    "calificacion_prom": 3.73,
-    "sueldo": 2655.76,
+    "apellido": "García",
+    "calificacion_prom": 4.31,
+    "sueldo": 1584.51,
+    "role": "Cocinero"
+  },
+  {
+    "local_id": "LOC-040",
+    "dni": "10000187",
+    "nombre": "Patricia",
+    "apellido": "Mendoza",
+    "calificacion_prom": 4.11,
+    "sueldo": 1882.48,
+    "role": "Repartidor"
+  },
+  {
+    "local_id": "LOC-040",
+    "dni": "10000188",
+    "nombre": "Diego",
+    "apellido": "Romero",
+    "calificacion_prom": 4.13,
+    "sueldo": 2193.71,
+    "role": "Repartidor"
+  },
+  {
+    "local_id": "LOC-040",
+    "dni": "10000189",
+    "nombre": "Raúl",
+    "apellido": "Cruz",
+    "calificacion_prom": 4.66,
+    "sueldo": 1213.51,
+    "role": "Repartidor"
+  },
+  {
+    "local_id": "LOC-040",
+    "dni": "10000190",
+    "nombre": "Ana",
+    "apellido": "López",
+    "calificacion_prom": 4.01,
+    "sueldo": 2309.38,
+    "role": "Repartidor"
+  },
+  {
+    "local_id": "LOC-041",
+    "dni": "10000191",
+    "nombre": "Carmen",
+    "apellido": "Romero",
+    "calificacion_prom": 3.98,
+    "sueldo": 2829.01,
     "role": "Despachador"
   },
   {
     "local_id": "LOC-041",
-    "dni": "10000203",
-    "nombre": "Lucía",
+    "dni": "10000192",
+    "nombre": "Raúl",
+    "apellido": "Herrera",
+    "calificacion_prom": 4.41,
+    "sueldo": 1947.02,
+    "role": "Cocinero"
+  },
+  {
+    "local_id": "LOC-041",
+    "dni": "10000193",
+    "nombre": "Alberto",
+    "apellido": "Torres",
+    "calificacion_prom": 4.02,
+    "sueldo": 1322.88,
+    "role": "Despachador"
+  },
+  {
+    "local_id": "LOC-041",
+    "dni": "10000194",
+    "nombre": "Carmen",
+    "apellido": "Castillo",
+    "calificacion_prom": 3.57,
+    "sueldo": 1867.78,
+    "role": "Repartidor"
+  },
+  {
+    "local_id": "LOC-042",
+    "dni": "10000195",
+    "nombre": "Jorge",
+    "apellido": "Vargas",
+    "calificacion_prom": 4.5,
+    "sueldo": 2246.15,
+    "role": "Cocinero"
+  },
+  {
+    "local_id": "LOC-042",
+    "dni": "10000196",
+    "nombre": "Carmen",
+    "apellido": "Ramírez",
+    "calificacion_prom": 4.27,
+    "sueldo": 2139.02,
+    "role": "Cocinero"
+  },
+  {
+    "local_id": "LOC-042",
+    "dni": "10000197",
+    "nombre": "María",
+    "apellido": "Romero",
+    "calificacion_prom": 3.86,
+    "sueldo": 2391.82,
+    "role": "Cocinero"
+  },
+  {
+    "local_id": "LOC-042",
+    "dni": "10000198",
+    "nombre": "Pedro",
+    "apellido": "Sánchez",
+    "calificacion_prom": 3.98,
+    "sueldo": 1322.65,
+    "role": "Cocinero"
+  },
+  {
+    "local_id": "LOC-042",
+    "dni": "10000199",
+    "nombre": "Sofía",
+    "apellido": "González",
+    "calificacion_prom": 4.17,
+    "sueldo": 1206.02,
+    "role": "Despachador"
+  },
+  {
+    "local_id": "LOC-042",
+    "dni": "10000200",
+    "nombre": "Ricardo",
     "apellido": "Gutiérrez",
     "calificacion_prom": 4.5,
-    "sueldo": 2894.52,
+    "sueldo": 2604.22,
     "role": "Despachador"
   },
   {
-    "local_id": "LOC-041",
-    "dni": "10000204",
-    "nombre": "Valentina",
-    "apellido": "Torres",
-    "calificacion_prom": 4.09,
-    "sueldo": 2493.85,
+    "local_id": "LOC-042",
+    "dni": "10000201",
+    "nombre": "Sofía",
+    "apellido": "Sánchez",
+    "calificacion_prom": 4.84,
+    "sueldo": 1915.28,
+    "role": "Despachador"
+  },
+  {
+    "local_id": "LOC-043",
+    "dni": "10000202",
+    "nombre": "Alberto",
+    "apellido": "Reyes",
+    "calificacion_prom": 4.64,
+    "sueldo": 1747.95,
+    "role": "Despachador"
+  },
+  {
+    "local_id": "LOC-043",
+    "dni": "10000203",
+    "nombre": "Pedro",
+    "apellido": "Herrera",
+    "calificacion_prom": 4.68,
+    "sueldo": 2026.74,
     "role": "Cocinero"
   },
   {
-    "local_id": "LOC-041",
+    "local_id": "LOC-043",
+    "dni": "10000204",
+    "nombre": "Lucía",
+    "apellido": "Castillo",
+    "calificacion_prom": 4.2,
+    "sueldo": 1589.58,
+    "role": "Repartidor"
+  },
+  {
+    "local_id": "LOC-043",
     "dni": "10000205",
-    "nombre": "Ana",
-    "apellido": "Ortiz",
-    "calificacion_prom": 4.25,
-    "sueldo": 2432.97,
-    "role": "Despachador"
-  },
-  {
-    "local_id": "LOC-041",
-    "dni": "10000206",
-    "nombre": "Patricia",
-    "apellido": "Díaz",
-    "calificacion_prom": 4.21,
-    "sueldo": 1969.33,
-    "role": "Repartidor"
-  },
-  {
-    "local_id": "LOC-041",
-    "dni": "10000207",
-    "nombre": "Raúl",
-    "apellido": "Vargas",
-    "calificacion_prom": 3.56,
-    "sueldo": 2870.08,
-    "role": "Despachador"
-  },
-  {
-    "local_id": "LOC-041",
-    "dni": "10000208",
     "nombre": "Fernando",
-    "apellido": "Díaz",
-    "calificacion_prom": 3.78,
-    "sueldo": 2586.25,
-    "role": "Repartidor"
+    "apellido": "Torres",
+    "calificacion_prom": 4.43,
+    "sueldo": 2762.96,
+    "role": "Cocinero"
   },
   {
-    "local_id": "LOC-042",
-    "dni": "10000209",
-    "nombre": "Juan",
+    "local_id": "LOC-043",
+    "dni": "10000206",
+    "nombre": "Rosa",
+    "apellido": "Jiménez",
+    "calificacion_prom": 4.68,
+    "sueldo": 2155.21,
+    "role": "Cocinero"
+  },
+  {
+    "local_id": "LOC-043",
+    "dni": "10000207",
+    "nombre": "Rosa",
     "apellido": "Torres",
-    "calificacion_prom": 3.9,
-    "sueldo": 1625.87,
+    "calificacion_prom": 3.6,
+    "sueldo": 2914.86,
     "role": "Despachador"
   },
   {
-    "local_id": "LOC-042",
+    "local_id": "LOC-044",
+    "dni": "10000208",
+    "nombre": "Diego",
+    "apellido": "Torres",
+    "calificacion_prom": 3.83,
+    "sueldo": 1990.67,
+    "role": "Despachador"
+  },
+  {
+    "local_id": "LOC-044",
+    "dni": "10000209",
+    "nombre": "Laura",
+    "apellido": "Pérez",
+    "calificacion_prom": 4.23,
+    "sueldo": 2667.59,
+    "role": "Cocinero"
+  },
+  {
+    "local_id": "LOC-044",
     "dni": "10000210",
     "nombre": "María",
-    "apellido": "Morales",
-    "calificacion_prom": 4.74,
-    "sueldo": 2058.97,
-    "role": "Despachador"
-  },
-  {
-    "local_id": "LOC-042",
-    "dni": "10000211",
-    "nombre": "Juan",
-    "apellido": "Torres",
-    "calificacion_prom": 3.86,
-    "sueldo": 1494.32,
-    "role": "Repartidor"
-  },
-  {
-    "local_id": "LOC-043",
-    "dni": "10000212",
-    "nombre": "Camila",
-    "apellido": "González",
-    "calificacion_prom": 4.77,
-    "sueldo": 2652.05,
-    "role": "Repartidor"
-  },
-  {
-    "local_id": "LOC-043",
-    "dni": "10000213",
-    "nombre": "Fernando",
-    "apellido": "Herrera",
-    "calificacion_prom": 3.74,
-    "sueldo": 2429.73,
-    "role": "Cocinero"
-  },
-  {
-    "local_id": "LOC-043",
-    "dni": "10000214",
-    "nombre": "José",
-    "apellido": "Herrera",
-    "calificacion_prom": 4.42,
-    "sueldo": 2700.12,
-    "role": "Repartidor"
-  },
-  {
-    "local_id": "LOC-043",
-    "dni": "10000215",
-    "nombre": "Ricardo",
     "apellido": "García",
-    "calificacion_prom": 3.79,
-    "sueldo": 1614.0,
-    "role": "Cocinero"
-  },
-  {
-    "local_id": "LOC-043",
-    "dni": "10000216",
-    "nombre": "Sofía",
-    "apellido": "Jiménez",
-    "calificacion_prom": 4.33,
-    "sueldo": 2536.37,
-    "role": "Repartidor"
-  },
-  {
-    "local_id": "LOC-043",
-    "dni": "10000217",
-    "nombre": "Laura",
-    "apellido": "López",
-    "calificacion_prom": 4.14,
-    "sueldo": 2876.31,
-    "role": "Despachador"
-  },
-  {
-    "local_id": "LOC-044",
-    "dni": "10000218",
-    "nombre": "Miguel",
-    "apellido": "Reyes",
-    "calificacion_prom": 4.54,
-    "sueldo": 2261.83,
-    "role": "Repartidor"
-  },
-  {
-    "local_id": "LOC-044",
-    "dni": "10000219",
-    "nombre": "Ana",
-    "apellido": "López",
-    "calificacion_prom": 4.85,
-    "sueldo": 2803.75,
-    "role": "Despachador"
-  },
-  {
-    "local_id": "LOC-044",
-    "dni": "10000220",
-    "nombre": "Sofía",
-    "apellido": "Cruz",
-    "calificacion_prom": 4.92,
-    "sueldo": 2808.66,
+    "calificacion_prom": 4.26,
+    "sueldo": 2768.36,
     "role": "Despachador"
   },
   {
     "local_id": "LOC-045",
-    "dni": "10000221",
+    "dni": "10000211",
+    "nombre": "Daniela",
+    "apellido": "Rivera",
+    "calificacion_prom": 3.63,
+    "sueldo": 2207.89,
+    "role": "Repartidor"
+  },
+  {
+    "local_id": "LOC-045",
+    "dni": "10000212",
+    "nombre": "Valentina",
+    "apellido": "Sánchez",
+    "calificacion_prom": 3.89,
+    "sueldo": 2914.16,
+    "role": "Despachador"
+  },
+  {
+    "local_id": "LOC-045",
+    "dni": "10000213",
+    "nombre": "Raúl",
+    "apellido": "Morales",
+    "calificacion_prom": 4.2,
+    "sueldo": 1567.36,
+    "role": "Cocinero"
+  },
+  {
+    "local_id": "LOC-045",
+    "dni": "10000214",
+    "nombre": "Sofía",
+    "apellido": "Rodríguez",
+    "calificacion_prom": 4.0,
+    "sueldo": 2758.7,
+    "role": "Repartidor"
+  },
+  {
+    "local_id": "LOC-046",
+    "dni": "10000215",
+    "nombre": "Roberto",
+    "apellido": "Torres",
+    "calificacion_prom": 4.25,
+    "sueldo": 2860.43,
+    "role": "Repartidor"
+  },
+  {
+    "local_id": "LOC-046",
+    "dni": "10000216",
     "nombre": "Lucía",
     "apellido": "Ortiz",
-    "calificacion_prom": 3.78,
-    "sueldo": 2248.85,
+    "calificacion_prom": 4.83,
+    "sueldo": 2379.66,
     "role": "Cocinero"
   },
   {
-    "local_id": "LOC-045",
+    "local_id": "LOC-046",
+    "dni": "10000217",
+    "nombre": "Patricia",
+    "apellido": "Ramírez",
+    "calificacion_prom": 4.67,
+    "sueldo": 2280.85,
+    "role": "Repartidor"
+  },
+  {
+    "local_id": "LOC-046",
+    "dni": "10000218",
+    "nombre": "Ana",
+    "apellido": "Morales",
+    "calificacion_prom": 4.64,
+    "sueldo": 1866.35,
+    "role": "Despachador"
+  },
+  {
+    "local_id": "LOC-046",
+    "dni": "10000219",
+    "nombre": "Valentina",
+    "apellido": "Romero",
+    "calificacion_prom": 4.83,
+    "sueldo": 2721.37,
+    "role": "Cocinero"
+  },
+  {
+    "local_id": "LOC-046",
+    "dni": "10000220",
+    "nombre": "Ricardo",
+    "apellido": "Cruz",
+    "calificacion_prom": 4.15,
+    "sueldo": 2325.77,
+    "role": "Repartidor"
+  },
+  {
+    "local_id": "LOC-046",
+    "dni": "10000221",
+    "nombre": "Camila",
+    "apellido": "Cruz",
+    "calificacion_prom": 4.53,
+    "sueldo": 2356.23,
+    "role": "Cocinero"
+  },
+  {
+    "local_id": "LOC-047",
     "dni": "10000222",
+    "nombre": "Fernando",
+    "apellido": "Morales",
+    "calificacion_prom": 4.09,
+    "sueldo": 2423.7,
+    "role": "Repartidor"
+  },
+  {
+    "local_id": "LOC-047",
+    "dni": "10000223",
+    "nombre": "Sofía",
+    "apellido": "Vargas",
+    "calificacion_prom": 4.72,
+    "sueldo": 2105.58,
+    "role": "Despachador"
+  },
+  {
+    "local_id": "LOC-047",
+    "dni": "10000224",
+    "nombre": "Isabel",
+    "apellido": "Herrera",
+    "calificacion_prom": 4.2,
+    "sueldo": 1212.13,
+    "role": "Repartidor"
+  },
+  {
+    "local_id": "LOC-048",
+    "dni": "10000225",
     "nombre": "Ana",
     "apellido": "Mendoza",
-    "calificacion_prom": 4.8,
-    "sueldo": 2676.46,
-    "role": "Cocinero"
-  },
-  {
-    "local_id": "LOC-045",
-    "dni": "10000223",
-    "nombre": "Luis",
-    "apellido": "Rodríguez",
-    "calificacion_prom": 4.78,
-    "sueldo": 1954.08,
-    "role": "Cocinero"
-  },
-  {
-    "local_id": "LOC-045",
-    "dni": "10000224",
-    "nombre": "Daniela",
-    "apellido": "Vargas",
-    "calificacion_prom": 3.62,
-    "sueldo": 2278.59,
-    "role": "Despachador"
-  },
-  {
-    "local_id": "LOC-046",
-    "dni": "10000225",
-    "nombre": "Isabel",
-    "apellido": "Morales",
-    "calificacion_prom": 4.47,
-    "sueldo": 2694.34,
-    "role": "Cocinero"
-  },
-  {
-    "local_id": "LOC-046",
-    "dni": "10000226",
-    "nombre": "Raúl",
-    "apellido": "Romero",
-    "calificacion_prom": 3.73,
-    "sueldo": 2788.02,
-    "role": "Repartidor"
-  },
-  {
-    "local_id": "LOC-046",
-    "dni": "10000227",
-    "nombre": "Jorge",
-    "apellido": "Morales",
-    "calificacion_prom": 4.62,
-    "sueldo": 2841.52,
-    "role": "Despachador"
-  },
-  {
-    "local_id": "LOC-046",
-    "dni": "10000228",
-    "nombre": "Ricardo",
-    "apellido": "Cruz",
-    "calificacion_prom": 4.0,
-    "sueldo": 2846.17,
-    "role": "Cocinero"
-  },
-  {
-    "local_id": "LOC-047",
-    "dni": "10000229",
-    "nombre": "Carlos",
-    "apellido": "Herrera",
-    "calificacion_prom": 4.29,
-    "sueldo": 1467.01,
-    "role": "Cocinero"
-  },
-  {
-    "local_id": "LOC-047",
-    "dni": "10000230",
-    "nombre": "Sofía",
-    "apellido": "Pérez",
-    "calificacion_prom": 4.75,
-    "sueldo": 1566.42,
-    "role": "Despachador"
-  },
-  {
-    "local_id": "LOC-047",
-    "dni": "10000231",
-    "nombre": "Alberto",
-    "apellido": "Romero",
-    "calificacion_prom": 4.84,
-    "sueldo": 2039.08,
-    "role": "Cocinero"
-  },
-  {
-    "local_id": "LOC-048",
-    "dni": "10000232",
-    "nombre": "Camila",
-    "apellido": "Ramírez",
     "calificacion_prom": 4.35,
-    "sueldo": 1585.84,
-    "role": "Repartidor"
-  },
-  {
-    "local_id": "LOC-048",
-    "dni": "10000233",
-    "nombre": "Pedro",
-    "apellido": "Romero",
-    "calificacion_prom": 4.1,
-    "sueldo": 1820.71,
+    "sueldo": 2270.56,
     "role": "Cocinero"
   },
   {
     "local_id": "LOC-048",
-    "dni": "10000234",
-    "nombre": "Andrea",
-    "apellido": "Flores",
-    "calificacion_prom": 4.2,
-    "sueldo": 2501.57,
-    "role": "Despachador"
-  },
-  {
-    "local_id": "LOC-048",
-    "dni": "10000235",
-    "nombre": "Luis",
-    "apellido": "Torres",
-    "calificacion_prom": 4.51,
-    "sueldo": 2736.56,
-    "role": "Despachador"
-  },
-  {
-    "local_id": "LOC-048",
-    "dni": "10000236",
-    "nombre": "Lucía",
-    "apellido": "Martínez",
-    "calificacion_prom": 4.46,
-    "sueldo": 2557.95,
-    "role": "Despachador"
-  },
-  {
-    "local_id": "LOC-048",
-    "dni": "10000237",
-    "nombre": "Ricardo",
-    "apellido": "Pérez",
-    "calificacion_prom": 4.42,
-    "sueldo": 2388.23,
-    "role": "Repartidor"
-  },
-  {
-    "local_id": "LOC-049",
-    "dni": "10000238",
-    "nombre": "Jorge",
-    "apellido": "Cruz",
-    "calificacion_prom": 4.81,
-    "sueldo": 2032.02,
-    "role": "Cocinero"
-  },
-  {
-    "local_id": "LOC-049",
-    "dni": "10000239",
-    "nombre": "Elena",
-    "apellido": "Rivera",
-    "calificacion_prom": 3.55,
-    "sueldo": 1753.39,
-    "role": "Repartidor"
-  },
-  {
-    "local_id": "LOC-049",
-    "dni": "10000240",
-    "nombre": "María",
-    "apellido": "Castillo",
-    "calificacion_prom": 4.79,
-    "sueldo": 1757.82,
-    "role": "Despachador"
-  },
-  {
-    "local_id": "LOC-049",
-    "dni": "10000241",
-    "nombre": "Diego",
-    "apellido": "Díaz",
-    "calificacion_prom": 4.15,
-    "sueldo": 1671.97,
-    "role": "Repartidor"
-  },
-  {
-    "local_id": "LOC-050",
-    "dni": "10000242",
-    "nombre": "Luis",
-    "apellido": "Sánchez",
-    "calificacion_prom": 4.64,
-    "sueldo": 2841.05,
-    "role": "Repartidor"
-  },
-  {
-    "local_id": "LOC-050",
-    "dni": "10000243",
+    "dni": "10000226",
     "nombre": "Miguel",
-    "apellido": "Torres",
-    "calificacion_prom": 4.51,
-    "sueldo": 1364.79,
-    "role": "Cocinero"
+    "apellido": "Sánchez",
+    "calificacion_prom": 3.97,
+    "sueldo": 2853.16,
+    "role": "Despachador"
   },
   {
-    "local_id": "LOC-050",
-    "dni": "10000244",
-    "nombre": "Juan",
+    "local_id": "LOC-048",
+    "dni": "10000227",
+    "nombre": "José",
     "apellido": "García",
-    "calificacion_prom": 4.11,
-    "sueldo": 2998.23,
+    "calificacion_prom": 4.45,
+    "sueldo": 2592.58,
+    "role": "Repartidor"
+  },
+  {
+    "local_id": "LOC-048",
+    "dni": "10000228",
+    "nombre": "Laura",
+    "apellido": "González",
+    "calificacion_prom": 4.03,
+    "sueldo": 1275.69,
+    "role": "Cocinero"
+  },
+  {
+    "local_id": "LOC-049",
+    "dni": "10000229",
+    "nombre": "Javier",
+    "apellido": "Flores",
+    "calificacion_prom": 3.97,
+    "sueldo": 2582.28,
+    "role": "Despachador"
+  },
+  {
+    "local_id": "LOC-049",
+    "dni": "10000230",
+    "nombre": "Carmen",
+    "apellido": "Ortiz",
+    "calificacion_prom": 3.73,
+    "sueldo": 2994.79,
+    "role": "Cocinero"
+  },
+  {
+    "local_id": "LOC-049",
+    "dni": "10000231",
+    "nombre": "Andrea",
+    "apellido": "Castillo",
+    "calificacion_prom": 4.28,
+    "sueldo": 1336.39,
+    "role": "Cocinero"
+  },
+  {
+    "local_id": "LOC-049",
+    "dni": "10000232",
+    "nombre": "Sofía",
+    "apellido": "Gómez",
+    "calificacion_prom": 4.03,
+    "sueldo": 1252.2,
+    "role": "Repartidor"
+  },
+  {
+    "local_id": "LOC-049",
+    "dni": "10000233",
+    "nombre": "Carlos",
+    "apellido": "Pérez",
+    "calificacion_prom": 4.5,
+    "sueldo": 1457.99,
     "role": "Cocinero"
   },
   {
     "local_id": "LOC-050",
+    "dni": "10000234",
+    "nombre": "Sofía",
+    "apellido": "Reyes",
+    "calificacion_prom": 3.71,
+    "sueldo": 1585.64,
+    "role": "Cocinero"
+  },
+  {
+    "local_id": "LOC-050",
+    "dni": "10000235",
+    "nombre": "Pedro",
+    "apellido": "Castillo",
+    "calificacion_prom": 4.68,
+    "sueldo": 2435.47,
+    "role": "Cocinero"
+  },
+  {
+    "local_id": "LOC-050",
+    "dni": "10000236",
+    "nombre": "Carlos",
+    "apellido": "Ramírez",
+    "calificacion_prom": 3.84,
+    "sueldo": 1668.29,
+    "role": "Repartidor"
+  },
+  {
+    "local_id": "LOC-050",
+    "dni": "10000237",
+    "nombre": "Patricia",
+    "apellido": "Jiménez",
+    "calificacion_prom": 4.67,
+    "sueldo": 2371.26,
+    "role": "Cocinero"
+  },
+  {
+    "local_id": "LOC-050",
+    "dni": "10000238",
+    "nombre": "Pedro",
+    "apellido": "Reyes",
+    "calificacion_prom": 4.68,
+    "sueldo": 2260.24,
+    "role": "Cocinero"
+  },
+  {
+    "local_id": "LOC-050",
+    "dni": "10000239",
+    "nombre": "Valentina",
+    "apellido": "Ortiz",
+    "calificacion_prom": 3.89,
+    "sueldo": 1942.25,
+    "role": "Repartidor"
+  },
+  {
+    "local_id": "LOC-050",
+    "dni": "10000240",
+    "nombre": "Valentina",
+    "apellido": "Martínez",
+    "calificacion_prom": 4.01,
+    "sueldo": 1372.75,
+    "role": "Cocinero"
+  },
+  {
+    "local_id": "LOC-051",
+    "dni": "10000241",
+    "nombre": "Javier",
+    "apellido": "Ortiz",
+    "calificacion_prom": 4.15,
+    "sueldo": 1919.47,
+    "role": "Repartidor"
+  },
+  {
+    "local_id": "LOC-051",
+    "dni": "10000242",
+    "nombre": "Patricia",
+    "apellido": "Torres",
+    "calificacion_prom": 3.94,
+    "sueldo": 2070.85,
+    "role": "Repartidor"
+  },
+  {
+    "local_id": "LOC-051",
+    "dni": "10000243",
+    "nombre": "Roberto",
+    "apellido": "Morales",
+    "calificacion_prom": 4.42,
+    "sueldo": 1604.53,
+    "role": "Repartidor"
+  },
+  {
+    "local_id": "LOC-051",
+    "dni": "10000244",
+    "nombre": "Patricia",
+    "apellido": "Morales",
+    "calificacion_prom": 4.72,
+    "sueldo": 1446.13,
+    "role": "Despachador"
+  },
+  {
+    "local_id": "LOC-051",
     "dni": "10000245",
     "nombre": "Sofía",
-    "apellido": "González",
-    "calificacion_prom": 4.71,
-    "sueldo": 1618.63,
+    "apellido": "Sánchez",
+    "calificacion_prom": 4.15,
+    "sueldo": 1831.3,
     "role": "Despachador"
   },
   {
     "local_id": "LOC-051",
     "dni": "10000246",
-    "nombre": "Rosa",
-    "apellido": "Herrera",
-    "calificacion_prom": 3.76,
-    "sueldo": 1996.75,
+    "nombre": "Miguel",
+    "apellido": "Rodríguez",
+    "calificacion_prom": 3.59,
+    "sueldo": 1485.86,
     "role": "Repartidor"
   },
   {
-    "local_id": "LOC-051",
+    "local_id": "LOC-052",
     "dni": "10000247",
-    "nombre": "Sofía",
-    "apellido": "Reyes",
-    "calificacion_prom": 4.74,
-    "sueldo": 1613.16,
-    "role": "Despachador"
-  },
-  {
-    "local_id": "LOC-051",
-    "dni": "10000248",
-    "nombre": "Laura",
-    "apellido": "Castillo",
-    "calificacion_prom": 4.59,
-    "sueldo": 1299.72,
-    "role": "Despachador"
-  },
-  {
-    "local_id": "LOC-051",
-    "dni": "10000249",
-    "nombre": "Ricardo",
-    "apellido": "Ortiz",
-    "calificacion_prom": 3.92,
-    "sueldo": 1575.59,
-    "role": "Despachador"
-  },
-  {
-    "local_id": "LOC-051",
-    "dni": "10000250",
-    "nombre": "Daniela",
-    "apellido": "Castillo",
-    "calificacion_prom": 4.0,
-    "sueldo": 1611.3,
-    "role": "Repartidor"
-  },
-  {
-    "local_id": "LOC-051",
-    "dni": "10000251",
-    "nombre": "Isabel",
-    "apellido": "López",
-    "calificacion_prom": 3.87,
-    "sueldo": 2526.07,
-    "role": "Despachador"
-  },
-  {
-    "local_id": "LOC-051",
-    "dni": "10000252",
-    "nombre": "Miguel",
-    "apellido": "Castillo",
-    "calificacion_prom": 4.9,
-    "sueldo": 1365.98,
-    "role": "Cocinero"
-  },
-  {
-    "local_id": "LOC-052",
-    "dni": "10000253",
-    "nombre": "Raúl",
-    "apellido": "Pérez",
-    "calificacion_prom": 3.84,
-    "sueldo": 2213.87,
-    "role": "Despachador"
-  },
-  {
-    "local_id": "LOC-052",
-    "dni": "10000254",
-    "nombre": "Elena",
-    "apellido": "Ortiz",
-    "calificacion_prom": 3.72,
-    "sueldo": 1334.67,
-    "role": "Repartidor"
-  },
-  {
-    "local_id": "LOC-052",
-    "dni": "10000255",
-    "nombre": "Daniela",
-    "apellido": "Cruz",
-    "calificacion_prom": 4.51,
-    "sueldo": 1368.02,
-    "role": "Cocinero"
-  },
-  {
-    "local_id": "LOC-052",
-    "dni": "10000256",
-    "nombre": "Ana",
-    "apellido": "Herrera",
-    "calificacion_prom": 4.6,
-    "sueldo": 1282.3,
-    "role": "Cocinero"
-  },
-  {
-    "local_id": "LOC-052",
-    "dni": "10000257",
-    "nombre": "Valentina",
-    "apellido": "Ramírez",
-    "calificacion_prom": 4.12,
-    "sueldo": 2837.03,
-    "role": "Despachador"
-  },
-  {
-    "local_id": "LOC-052",
-    "dni": "10000258",
-    "nombre": "Patricia",
-    "apellido": "Herrera",
-    "calificacion_prom": 3.86,
-    "sueldo": 1529.14,
-    "role": "Cocinero"
-  },
-  {
-    "local_id": "LOC-052",
-    "dni": "10000259",
-    "nombre": "Roberto",
-    "apellido": "Cruz",
-    "calificacion_prom": 4.63,
-    "sueldo": 1322.41,
-    "role": "Despachador"
-  },
-  {
-    "local_id": "LOC-053",
-    "dni": "10000260",
-    "nombre": "Jorge",
-    "apellido": "Díaz",
-    "calificacion_prom": 3.96,
-    "sueldo": 1700.67,
-    "role": "Cocinero"
-  },
-  {
-    "local_id": "LOC-053",
-    "dni": "10000261",
-    "nombre": "Isabel",
-    "apellido": "Gómez",
-    "calificacion_prom": 4.53,
-    "sueldo": 1676.19,
-    "role": "Cocinero"
-  },
-  {
-    "local_id": "LOC-053",
-    "dni": "10000262",
-    "nombre": "Miguel",
-    "apellido": "Mendoza",
-    "calificacion_prom": 4.29,
-    "sueldo": 2593.13,
-    "role": "Repartidor"
-  },
-  {
-    "local_id": "LOC-053",
-    "dni": "10000263",
-    "nombre": "Javier",
-    "apellido": "Torres",
-    "calificacion_prom": 3.97,
-    "sueldo": 1288.98,
-    "role": "Repartidor"
-  },
-  {
-    "local_id": "LOC-054",
-    "dni": "10000264",
-    "nombre": "Jorge",
-    "apellido": "Cruz",
-    "calificacion_prom": 4.49,
-    "sueldo": 1349.65,
-    "role": "Cocinero"
-  },
-  {
-    "local_id": "LOC-054",
-    "dni": "10000265",
-    "nombre": "Laura",
-    "apellido": "Romero",
-    "calificacion_prom": 4.57,
-    "sueldo": 2415.97,
-    "role": "Repartidor"
-  },
-  {
-    "local_id": "LOC-054",
-    "dni": "10000266",
-    "nombre": "Elena",
-    "apellido": "Gómez",
-    "calificacion_prom": 4.41,
-    "sueldo": 2289.0,
-    "role": "Repartidor"
-  },
-  {
-    "local_id": "LOC-054",
-    "dni": "10000267",
-    "nombre": "Raúl",
-    "apellido": "Gutiérrez",
-    "calificacion_prom": 4.24,
-    "sueldo": 1967.11,
-    "role": "Repartidor"
-  },
-  {
-    "local_id": "LOC-054",
-    "dni": "10000268",
-    "nombre": "María",
-    "apellido": "Morales",
-    "calificacion_prom": 4.28,
-    "sueldo": 2921.89,
-    "role": "Despachador"
-  },
-  {
-    "local_id": "LOC-054",
-    "dni": "10000269",
-    "nombre": "Carlos",
-    "apellido": "Cruz",
-    "calificacion_prom": 4.85,
-    "sueldo": 2243.42,
-    "role": "Despachador"
-  },
-  {
-    "local_id": "LOC-055",
-    "dni": "10000270",
-    "nombre": "Carmen",
-    "apellido": "Ortiz",
-    "calificacion_prom": 4.32,
-    "sueldo": 2437.51,
-    "role": "Despachador"
-  },
-  {
-    "local_id": "LOC-055",
-    "dni": "10000271",
-    "nombre": "María",
-    "apellido": "González",
-    "calificacion_prom": 4.43,
-    "sueldo": 1811.71,
-    "role": "Repartidor"
-  },
-  {
-    "local_id": "LOC-055",
-    "dni": "10000272",
-    "nombre": "Laura",
-    "apellido": "Ortiz",
-    "calificacion_prom": 4.24,
-    "sueldo": 2835.88,
-    "role": "Cocinero"
-  },
-  {
-    "local_id": "LOC-055",
-    "dni": "10000273",
-    "nombre": "Ana",
-    "apellido": "Gutiérrez",
-    "calificacion_prom": 3.77,
-    "sueldo": 2723.97,
-    "role": "Repartidor"
-  },
-  {
-    "local_id": "LOC-055",
-    "dni": "10000274",
-    "nombre": "Fernando",
-    "apellido": "García",
-    "calificacion_prom": 4.52,
-    "sueldo": 1603.22,
-    "role": "Repartidor"
-  },
-  {
-    "local_id": "LOC-055",
-    "dni": "10000275",
-    "nombre": "Alberto",
-    "apellido": "González",
-    "calificacion_prom": 4.26,
-    "sueldo": 2517.64,
-    "role": "Despachador"
-  },
-  {
-    "local_id": "LOC-055",
-    "dni": "10000276",
     "nombre": "Diego",
+    "apellido": "Reyes",
+    "calificacion_prom": 3.6,
+    "sueldo": 1765.88,
+    "role": "Repartidor"
+  },
+  {
+    "local_id": "LOC-052",
+    "dni": "10000248",
+    "nombre": "Camila",
+    "apellido": "Herrera",
+    "calificacion_prom": 4.08,
+    "sueldo": 2571.07,
+    "role": "Repartidor"
+  },
+  {
+    "local_id": "LOC-052",
+    "dni": "10000249",
+    "nombre": "Juan",
+    "apellido": "Reyes",
+    "calificacion_prom": 4.33,
+    "sueldo": 1303.44,
+    "role": "Despachador"
+  },
+  {
+    "local_id": "LOC-053",
+    "dni": "10000250",
+    "nombre": "Pedro",
+    "apellido": "Flores",
+    "calificacion_prom": 4.98,
+    "sueldo": 1816.01,
+    "role": "Despachador"
+  },
+  {
+    "local_id": "LOC-053",
+    "dni": "10000251",
+    "nombre": "María",
+    "apellido": "Jiménez",
+    "calificacion_prom": 3.59,
+    "sueldo": 1222.93,
+    "role": "Repartidor"
+  },
+  {
+    "local_id": "LOC-053",
+    "dni": "10000252",
+    "nombre": "Rosa",
+    "apellido": "Flores",
+    "calificacion_prom": 3.9,
+    "sueldo": 2748.26,
+    "role": "Despachador"
+  },
+  {
+    "local_id": "LOC-054",
+    "dni": "10000253",
+    "nombre": "Patricia",
+    "apellido": "Martínez",
+    "calificacion_prom": 4.61,
+    "sueldo": 2909.6,
+    "role": "Repartidor"
+  },
+  {
+    "local_id": "LOC-054",
+    "dni": "10000254",
+    "nombre": "José",
+    "apellido": "García",
+    "calificacion_prom": 4.15,
+    "sueldo": 2693.17,
+    "role": "Repartidor"
+  },
+  {
+    "local_id": "LOC-054",
+    "dni": "10000255",
+    "nombre": "Isabel",
+    "apellido": "Romero",
+    "calificacion_prom": 4.43,
+    "sueldo": 1240.77,
+    "role": "Repartidor"
+  },
+  {
+    "local_id": "LOC-054",
+    "dni": "10000256",
+    "nombre": "Alberto",
+    "apellido": "Romero",
+    "calificacion_prom": 3.53,
+    "sueldo": 1421.88,
+    "role": "Repartidor"
+  },
+  {
+    "local_id": "LOC-054",
+    "dni": "10000257",
+    "nombre": "Javier",
+    "apellido": "Pérez",
+    "calificacion_prom": 4.56,
+    "sueldo": 1669.35,
+    "role": "Despachador"
+  },
+  {
+    "local_id": "LOC-054",
+    "dni": "10000258",
+    "nombre": "Diego",
+    "apellido": "Rivera",
+    "calificacion_prom": 4.27,
+    "sueldo": 2579.76,
+    "role": "Cocinero"
+  },
+  {
+    "local_id": "LOC-055",
+    "dni": "10000259",
+    "nombre": "Rosa",
+    "apellido": "Cruz",
+    "calificacion_prom": 3.95,
+    "sueldo": 1926.85,
+    "role": "Cocinero"
+  },
+  {
+    "local_id": "LOC-055",
+    "dni": "10000260",
+    "nombre": "Valentina",
+    "apellido": "Morales",
+    "calificacion_prom": 4.7,
+    "sueldo": 1642.03,
+    "role": "Cocinero"
+  },
+  {
+    "local_id": "LOC-055",
+    "dni": "10000261",
+    "nombre": "Fernando",
     "apellido": "Gutiérrez",
-    "calificacion_prom": 3.75,
-    "sueldo": 2994.58,
+    "calificacion_prom": 4.91,
+    "sueldo": 2484.71,
+    "role": "Repartidor"
+  },
+  {
+    "local_id": "LOC-056",
+    "dni": "10000262",
+    "nombre": "Rosa",
+    "apellido": "González",
+    "calificacion_prom": 4.38,
+    "sueldo": 2575.11,
+    "role": "Despachador"
+  },
+  {
+    "local_id": "LOC-056",
+    "dni": "10000263",
+    "nombre": "Juan",
+    "apellido": "Torres",
+    "calificacion_prom": 4.71,
+    "sueldo": 2797.48,
     "role": "Cocinero"
   },
   {
     "local_id": "LOC-056",
+    "dni": "10000264",
+    "nombre": "Pedro",
+    "apellido": "Rodríguez",
+    "calificacion_prom": 4.64,
+    "sueldo": 2958.78,
+    "role": "Despachador"
+  },
+  {
+    "local_id": "LOC-056",
+    "dni": "10000265",
+    "nombre": "José",
+    "apellido": "Romero",
+    "calificacion_prom": 4.32,
+    "sueldo": 2411.51,
+    "role": "Despachador"
+  },
+  {
+    "local_id": "LOC-056",
+    "dni": "10000266",
+    "nombre": "Lucía",
+    "apellido": "Castillo",
+    "calificacion_prom": 4.31,
+    "sueldo": 1898.06,
+    "role": "Cocinero"
+  },
+  {
+    "local_id": "LOC-056",
+    "dni": "10000267",
+    "nombre": "Ana",
+    "apellido": "Vargas",
+    "calificacion_prom": 4.62,
+    "sueldo": 2083.58,
+    "role": "Despachador"
+  },
+  {
+    "local_id": "LOC-056",
+    "dni": "10000268",
+    "nombre": "Isabel",
+    "apellido": "Mendoza",
+    "calificacion_prom": 3.79,
+    "sueldo": 1905.69,
+    "role": "Repartidor"
+  },
+  {
+    "local_id": "LOC-057",
+    "dni": "10000269",
+    "nombre": "Carmen",
+    "apellido": "Reyes",
+    "calificacion_prom": 4.0,
+    "sueldo": 1383.06,
+    "role": "Repartidor"
+  },
+  {
+    "local_id": "LOC-057",
+    "dni": "10000270",
+    "nombre": "Diego",
+    "apellido": "Ortiz",
+    "calificacion_prom": 3.82,
+    "sueldo": 1922.58,
+    "role": "Cocinero"
+  },
+  {
+    "local_id": "LOC-057",
+    "dni": "10000271",
+    "nombre": "Camila",
+    "apellido": "Gómez",
+    "calificacion_prom": 3.88,
+    "sueldo": 2599.5,
+    "role": "Cocinero"
+  },
+  {
+    "local_id": "LOC-057",
+    "dni": "10000272",
+    "nombre": "Ana",
+    "apellido": "Ramírez",
+    "calificacion_prom": 3.67,
+    "sueldo": 1974.44,
+    "role": "Cocinero"
+  },
+  {
+    "local_id": "LOC-057",
+    "dni": "10000273",
+    "nombre": "Daniela",
+    "apellido": "Mendoza",
+    "calificacion_prom": 4.08,
+    "sueldo": 1358.53,
+    "role": "Cocinero"
+  },
+  {
+    "local_id": "LOC-057",
+    "dni": "10000274",
+    "nombre": "Raúl",
+    "apellido": "Ramírez",
+    "calificacion_prom": 3.96,
+    "sueldo": 1345.14,
+    "role": "Despachador"
+  },
+  {
+    "local_id": "LOC-058",
+    "dni": "10000275",
+    "nombre": "Javier",
+    "apellido": "Vargas",
+    "calificacion_prom": 3.63,
+    "sueldo": 2088.33,
+    "role": "Despachador"
+  },
+  {
+    "local_id": "LOC-058",
+    "dni": "10000276",
+    "nombre": "Alberto",
+    "apellido": "Herrera",
+    "calificacion_prom": 3.53,
+    "sueldo": 1695.91,
+    "role": "Cocinero"
+  },
+  {
+    "local_id": "LOC-058",
     "dni": "10000277",
     "nombre": "Roberto",
-    "apellido": "Romero",
-    "calificacion_prom": 4.61,
-    "sueldo": 1772.62,
-    "role": "Despachador"
-  },
-  {
-    "local_id": "LOC-056",
-    "dni": "10000278",
-    "nombre": "Valentina",
-    "apellido": "Herrera",
-    "calificacion_prom": 3.72,
-    "sueldo": 2882.79,
-    "role": "Despachador"
-  },
-  {
-    "local_id": "LOC-056",
-    "dni": "10000279",
-    "nombre": "Carlos",
-    "apellido": "García",
-    "calificacion_prom": 4.13,
-    "sueldo": 2439.37,
-    "role": "Repartidor"
-  },
-  {
-    "local_id": "LOC-056",
-    "dni": "10000280",
-    "nombre": "Juan",
-    "apellido": "Martínez",
-    "calificacion_prom": 5.0,
-    "sueldo": 2522.86,
-    "role": "Repartidor"
-  },
-  {
-    "local_id": "LOC-056",
-    "dni": "10000281",
-    "nombre": "Diego",
-    "apellido": "García",
-    "calificacion_prom": 3.86,
-    "sueldo": 1334.63,
-    "role": "Repartidor"
-  },
-  {
-    "local_id": "LOC-056",
-    "dni": "10000282",
-    "nombre": "Daniela",
-    "apellido": "Herrera",
-    "calificacion_prom": 4.24,
-    "sueldo": 2923.03,
-    "role": "Despachador"
-  },
-  {
-    "local_id": "LOC-056",
-    "dni": "10000283",
-    "nombre": "Roberto",
-    "apellido": "Sánchez",
-    "calificacion_prom": 4.62,
-    "sueldo": 2748.23,
-    "role": "Repartidor"
-  },
-  {
-    "local_id": "LOC-057",
-    "dni": "10000284",
-    "nombre": "Elena",
-    "apellido": "Rodríguez",
-    "calificacion_prom": 4.88,
-    "sueldo": 1434.91,
-    "role": "Cocinero"
-  },
-  {
-    "local_id": "LOC-057",
-    "dni": "10000285",
-    "nombre": "Raúl",
-    "apellido": "Pérez",
-    "calificacion_prom": 3.87,
-    "sueldo": 2272.77,
-    "role": "Despachador"
-  },
-  {
-    "local_id": "LOC-057",
-    "dni": "10000286",
-    "nombre": "Daniela",
-    "apellido": "Cruz",
-    "calificacion_prom": 4.82,
-    "sueldo": 2173.12,
-    "role": "Despachador"
-  },
-  {
-    "local_id": "LOC-058",
-    "dni": "10000287",
-    "nombre": "Javier",
-    "apellido": "Romero",
-    "calificacion_prom": 4.99,
-    "sueldo": 2407.97,
-    "role": "Repartidor"
-  },
-  {
-    "local_id": "LOC-058",
-    "dni": "10000288",
-    "nombre": "Laura",
     "apellido": "Jiménez",
-    "calificacion_prom": 4.82,
-    "sueldo": 2937.69,
+    "calificacion_prom": 3.96,
+    "sueldo": 2581.62,
+    "role": "Repartidor"
+  },
+  {
+    "local_id": "LOC-058",
+    "dni": "10000278",
+    "nombre": "Alberto",
+    "apellido": "Rodríguez",
+    "calificacion_prom": 3.71,
+    "sueldo": 2168.5,
     "role": "Despachador"
   },
   {
     "local_id": "LOC-058",
-    "dni": "10000289",
+    "dni": "10000279",
+    "nombre": "Luis",
+    "apellido": "Herrera",
+    "calificacion_prom": 4.21,
+    "sueldo": 2847.48,
+    "role": "Cocinero"
+  },
+  {
+    "local_id": "LOC-058",
+    "dni": "10000280",
     "nombre": "Elena",
-    "apellido": "Cruz",
-    "calificacion_prom": 3.57,
-    "sueldo": 2753.29,
+    "apellido": "Ramírez",
+    "calificacion_prom": 4.47,
+    "sueldo": 2685.09,
     "role": "Cocinero"
   },
   {
     "local_id": "LOC-059",
-    "dni": "10000290",
+    "dni": "10000281",
+    "nombre": "Fernando",
+    "apellido": "Gutiérrez",
+    "calificacion_prom": 4.57,
+    "sueldo": 1407.34,
+    "role": "Repartidor"
+  },
+  {
+    "local_id": "LOC-059",
+    "dni": "10000282",
+    "nombre": "Sofía",
+    "apellido": "Vargas",
+    "calificacion_prom": 4.49,
+    "sueldo": 1963.86,
+    "role": "Repartidor"
+  },
+  {
+    "local_id": "LOC-059",
+    "dni": "10000283",
     "nombre": "Patricia",
-    "apellido": "Romero",
+    "apellido": "López",
     "calificacion_prom": 4.23,
-    "sueldo": 1798.01,
-    "role": "Cocinero"
+    "sueldo": 2333.5,
+    "role": "Repartidor"
   },
   {
     "local_id": "LOC-059",
-    "dni": "10000291",
-    "nombre": "José",
-    "apellido": "Ortiz",
-    "calificacion_prom": 3.79,
-    "sueldo": 1294.25,
+    "dni": "10000284",
+    "nombre": "Daniela",
+    "apellido": "Cruz",
+    "calificacion_prom": 3.74,
+    "sueldo": 2862.86,
     "role": "Despachador"
   },
   {
     "local_id": "LOC-059",
-    "dni": "10000292",
-    "nombre": "Raúl",
-    "apellido": "Gutiérrez",
-    "calificacion_prom": 3.62,
-    "sueldo": 2566.01,
-    "role": "Cocinero"
+    "dni": "10000285",
+    "nombre": "Luis",
+    "apellido": "Pérez",
+    "calificacion_prom": 3.57,
+    "sueldo": 2778.34,
+    "role": "Repartidor"
   },
   {
     "local_id": "LOC-059",
-    "dni": "10000293",
-    "nombre": "Camila",
-    "apellido": "Rivera",
-    "calificacion_prom": 3.59,
-    "sueldo": 2794.14,
+    "dni": "10000286",
+    "nombre": "Patricia",
+    "apellido": "Vargas",
+    "calificacion_prom": 3.85,
+    "sueldo": 1979.61,
+    "role": "Cocinero"
+  },
+  {
+    "local_id": "LOC-060",
+    "dni": "10000287",
+    "nombre": "Patricia",
+    "apellido": "Ortiz",
+    "calificacion_prom": 4.57,
+    "sueldo": 1575.92,
+    "role": "Repartidor"
+  },
+  {
+    "local_id": "LOC-060",
+    "dni": "10000288",
+    "nombre": "Sofía",
+    "apellido": "Gutiérrez",
+    "calificacion_prom": 3.67,
+    "sueldo": 2138.83,
     "role": "Despachador"
   },
   {
     "local_id": "LOC-060",
+    "dni": "10000289",
+    "nombre": "Luis",
+    "apellido": "López",
+    "calificacion_prom": 4.95,
+    "sueldo": 2416.39,
+    "role": "Cocinero"
+  },
+  {
+    "local_id": "LOC-060",
+    "dni": "10000290",
+    "nombre": "Diego",
+    "apellido": "Martínez",
+    "calificacion_prom": 3.91,
+    "sueldo": 1674.94,
+    "role": "Repartidor"
+  },
+  {
+    "local_id": "LOC-060",
+    "dni": "10000291",
+    "nombre": "Pedro",
+    "apellido": "Ortiz",
+    "calificacion_prom": 3.92,
+    "sueldo": 1863.19,
+    "role": "Despachador"
+  },
+  {
+    "local_id": "LOC-060",
+    "dni": "10000292",
+    "nombre": "Juan",
+    "apellido": "González",
+    "calificacion_prom": 4.43,
+    "sueldo": 1470.63,
+    "role": "Despachador"
+  },
+  {
+    "local_id": "LOC-060",
+    "dni": "10000293",
+    "nombre": "José",
+    "apellido": "Castillo",
+    "calificacion_prom": 4.86,
+    "sueldo": 1429.21,
+    "role": "Despachador"
+  },
+  {
+    "local_id": "LOC-061",
     "dni": "10000294",
     "nombre": "Roberto",
-    "apellido": "Cruz",
-    "calificacion_prom": 4.38,
-    "sueldo": 2291.39,
-    "role": "Cocinero"
-  },
-  {
-    "local_id": "LOC-060",
-    "dni": "10000295",
-    "nombre": "Fernando",
-    "apellido": "Jiménez",
-    "calificacion_prom": 4.52,
-    "sueldo": 1350.89,
+    "apellido": "Morales",
+    "calificacion_prom": 4.06,
+    "sueldo": 1413.06,
     "role": "Despachador"
   },
   {
-    "local_id": "LOC-060",
-    "dni": "10000296",
+    "local_id": "LOC-061",
+    "dni": "10000295",
     "nombre": "Juan",
-    "apellido": "Castillo",
-    "calificacion_prom": 3.5,
-    "sueldo": 1658.55,
+    "apellido": "Ortiz",
+    "calificacion_prom": 4.74,
+    "sueldo": 1532.4,
     "role": "Cocinero"
+  },
+  {
+    "local_id": "LOC-061",
+    "dni": "10000296",
+    "nombre": "Diego",
+    "apellido": "Jiménez",
+    "calificacion_prom": 4.43,
+    "sueldo": 2541.46,
+    "role": "Despachador"
   },
   {
     "local_id": "LOC-061",
     "dni": "10000297",
-    "nombre": "Carmen",
-    "apellido": "Cruz",
-    "calificacion_prom": 4.24,
-    "sueldo": 2932.03,
-    "role": "Despachador"
+    "nombre": "María",
+    "apellido": "Rivera",
+    "calificacion_prom": 4.05,
+    "sueldo": 2298.73,
+    "role": "Cocinero"
   },
   {
     "local_id": "LOC-061",
     "dni": "10000298",
-    "nombre": "Javier",
-    "apellido": "Mendoza",
-    "calificacion_prom": 4.12,
-    "sueldo": 2350.64,
+    "nombre": "María",
+    "apellido": "Castillo",
+    "calificacion_prom": 3.55,
+    "sueldo": 1341.05,
     "role": "Despachador"
   },
   {
-    "local_id": "LOC-061",
+    "local_id": "LOC-062",
     "dni": "10000299",
-    "nombre": "Juan",
-    "apellido": "Gómez",
-    "calificacion_prom": 3.64,
-    "sueldo": 2793.68,
-    "role": "Repartidor"
+    "nombre": "Carlos",
+    "apellido": "Flores",
+    "calificacion_prom": 4.72,
+    "sueldo": 1922.23,
+    "role": "Despachador"
   },
   {
     "local_id": "LOC-062",
     "dni": "10000300",
-    "nombre": "Juan",
-    "apellido": "Martínez",
-    "calificacion_prom": 3.93,
-    "sueldo": 1344.0,
-    "role": "Cocinero"
+    "nombre": "Patricia",
+    "apellido": "Ortiz",
+    "calificacion_prom": 4.24,
+    "sueldo": 2957.48,
+    "role": "Despachador"
   },
   {
     "local_id": "LOC-062",
     "dni": "10000301",
-    "nombre": "Lucía",
-    "apellido": "Torres",
-    "calificacion_prom": 4.5,
-    "sueldo": 2371.23,
-    "role": "Repartidor"
-  },
-  {
-    "local_id": "LOC-062",
-    "dni": "10000302",
-    "nombre": "Valentina",
-    "apellido": "Martínez",
-    "calificacion_prom": 3.79,
-    "sueldo": 2842.98,
-    "role": "Despachador"
-  },
-  {
-    "local_id": "LOC-062",
-    "dni": "10000303",
-    "nombre": "Isabel",
-    "apellido": "Ortiz",
-    "calificacion_prom": 4.96,
-    "sueldo": 2858.95,
+    "nombre": "Carlos",
+    "apellido": "Mendoza",
+    "calificacion_prom": 4.7,
+    "sueldo": 1875.88,
     "role": "Cocinero"
   },
   {
     "local_id": "LOC-062",
-    "dni": "10000304",
-    "nombre": "Jorge",
-    "apellido": "Flores",
-    "calificacion_prom": 4.34,
-    "sueldo": 2697.97,
+    "dni": "10000302",
+    "nombre": "María",
+    "apellido": "García",
+    "calificacion_prom": 4.5,
+    "sueldo": 2365.39,
     "role": "Repartidor"
   },
   {
     "local_id": "LOC-062",
+    "dni": "10000303",
+    "nombre": "Valentina",
+    "apellido": "Reyes",
+    "calificacion_prom": 4.4,
+    "sueldo": 2364.2,
+    "role": "Cocinero"
+  },
+  {
+    "local_id": "LOC-063",
+    "dni": "10000304",
+    "nombre": "Fernando",
+    "apellido": "Reyes",
+    "calificacion_prom": 3.76,
+    "sueldo": 2500.3,
+    "role": "Cocinero"
+  },
+  {
+    "local_id": "LOC-063",
     "dni": "10000305",
-    "nombre": "Jorge",
+    "nombre": "Raúl",
     "apellido": "Cruz",
-    "calificacion_prom": 4.68,
-    "sueldo": 2967.78,
+    "calificacion_prom": 4.38,
+    "sueldo": 2005.12,
     "role": "Despachador"
   },
   {
-    "local_id": "LOC-062",
+    "local_id": "LOC-063",
     "dni": "10000306",
-    "nombre": "Roberto",
-    "apellido": "Torres",
-    "calificacion_prom": 4.15,
-    "sueldo": 1438.86,
-    "role": "Repartidor"
+    "nombre": "Sofía",
+    "apellido": "Reyes",
+    "calificacion_prom": 3.53,
+    "sueldo": 2576.44,
+    "role": "Despachador"
   },
   {
     "local_id": "LOC-063",
     "dni": "10000307",
-    "nombre": "Jorge",
-    "apellido": "Ramírez",
-    "calificacion_prom": 3.65,
-    "sueldo": 2228.39,
-    "role": "Repartidor"
+    "nombre": "Andrea",
+    "apellido": "Torres",
+    "calificacion_prom": 4.94,
+    "sueldo": 2281.16,
+    "role": "Cocinero"
   },
   {
     "local_id": "LOC-063",
     "dni": "10000308",
-    "nombre": "Daniela",
-    "apellido": "Mendoza",
-    "calificacion_prom": 3.98,
-    "sueldo": 2681.95,
+    "nombre": "Raúl",
+    "apellido": "González",
+    "calificacion_prom": 4.53,
+    "sueldo": 2392.67,
     "role": "Repartidor"
   },
   {
-    "local_id": "LOC-063",
+    "local_id": "LOC-064",
     "dni": "10000309",
-    "nombre": "Pedro",
-    "apellido": "Herrera",
-    "calificacion_prom": 4.93,
-    "sueldo": 2167.27,
-    "role": "Despachador"
+    "nombre": "Ricardo",
+    "apellido": "Ortiz",
+    "calificacion_prom": 3.88,
+    "sueldo": 2067.78,
+    "role": "Cocinero"
   },
   {
     "local_id": "LOC-064",
     "dni": "10000310",
-    "nombre": "Ana",
-    "apellido": "Mendoza",
-    "calificacion_prom": 4.54,
-    "sueldo": 2231.1,
-    "role": "Repartidor"
+    "nombre": "Alberto",
+    "apellido": "Jiménez",
+    "calificacion_prom": 4.56,
+    "sueldo": 1330.64,
+    "role": "Despachador"
   },
   {
     "local_id": "LOC-064",
     "dni": "10000311",
-    "nombre": "Andrea",
-    "apellido": "Rodríguez",
-    "calificacion_prom": 4.97,
-    "sueldo": 2365.96,
+    "nombre": "Raúl",
+    "apellido": "Ortiz",
+    "calificacion_prom": 4.89,
+    "sueldo": 2939.3,
     "role": "Repartidor"
   },
   {
     "local_id": "LOC-064",
     "dni": "10000312",
-    "nombre": "Ricardo",
-    "apellido": "Castillo",
-    "calificacion_prom": 4.49,
-    "sueldo": 2860.81,
-    "role": "Cocinero"
+    "nombre": "Laura",
+    "apellido": "Díaz",
+    "calificacion_prom": 4.62,
+    "sueldo": 1347.89,
+    "role": "Despachador"
   },
   {
     "local_id": "LOC-065",
     "dni": "10000313",
-    "nombre": "Camila",
-    "apellido": "Cruz",
-    "calificacion_prom": 3.57,
-    "sueldo": 1335.13,
+    "nombre": "Laura",
+    "apellido": "Ortiz",
+    "calificacion_prom": 4.65,
+    "sueldo": 1468.38,
     "role": "Cocinero"
   },
   {
     "local_id": "LOC-065",
     "dni": "10000314",
-    "nombre": "Andrea",
-    "apellido": "Martínez",
-    "calificacion_prom": 4.39,
-    "sueldo": 2790.49,
+    "nombre": "Roberto",
+    "apellido": "Rodríguez",
+    "calificacion_prom": 4.19,
+    "sueldo": 2134.73,
     "role": "Despachador"
   },
   {
     "local_id": "LOC-065",
     "dni": "10000315",
     "nombre": "Juan",
-    "apellido": "Morales",
-    "calificacion_prom": 3.67,
-    "sueldo": 2837.47,
-    "role": "Cocinero"
-  },
-  {
-    "local_id": "LOC-065",
-    "dni": "10000316",
-    "nombre": "Laura",
-    "apellido": "Rodríguez",
-    "calificacion_prom": 3.98,
-    "sueldo": 2800.43,
+    "apellido": "Sánchez",
+    "calificacion_prom": 4.13,
+    "sueldo": 2942.95,
     "role": "Despachador"
   },
   {
     "local_id": "LOC-065",
+    "dni": "10000316",
+    "nombre": "Elena",
+    "apellido": "Mendoza",
+    "calificacion_prom": 4.65,
+    "sueldo": 1403.4,
+    "role": "Repartidor"
+  },
+  {
+    "local_id": "LOC-065",
     "dni": "10000317",
-    "nombre": "Fernando",
-    "apellido": "Herrera",
-    "calificacion_prom": 3.71,
-    "sueldo": 2568.19,
+    "nombre": "María",
+    "apellido": "Ortiz",
+    "calificacion_prom": 3.87,
+    "sueldo": 1552.46,
     "role": "Cocinero"
   },
   {
     "local_id": "LOC-065",
     "dni": "10000318",
     "nombre": "Jorge",
-    "apellido": "Sánchez",
-    "calificacion_prom": 4.25,
-    "sueldo": 2066.18,
-    "role": "Cocinero"
-  },
-  {
-    "local_id": "LOC-066",
-    "dni": "10000319",
-    "nombre": "Carmen",
-    "apellido": "Gutiérrez",
-    "calificacion_prom": 4.18,
-    "sueldo": 1956.37,
+    "apellido": "López",
+    "calificacion_prom": 4.38,
+    "sueldo": 1917.01,
     "role": "Despachador"
   },
   {
     "local_id": "LOC-066",
+    "dni": "10000319",
+    "nombre": "Ricardo",
+    "apellido": "Cruz",
+    "calificacion_prom": 4.98,
+    "sueldo": 2915.05,
+    "role": "Repartidor"
+  },
+  {
+    "local_id": "LOC-066",
     "dni": "10000320",
-    "nombre": "Isabel",
-    "apellido": "Torres",
-    "calificacion_prom": 4.86,
-    "sueldo": 2777.77,
+    "nombre": "Alberto",
+    "apellido": "Jiménez",
+    "calificacion_prom": 4.11,
+    "sueldo": 2775.26,
     "role": "Cocinero"
   },
   {
     "local_id": "LOC-066",
     "dni": "10000321",
-    "nombre": "Laura",
-    "apellido": "Castillo",
-    "calificacion_prom": 3.52,
-    "sueldo": 1584.04,
-    "role": "Despachador"
+    "nombre": "Juan",
+    "apellido": "Flores",
+    "calificacion_prom": 4.98,
+    "sueldo": 2500.4,
+    "role": "Cocinero"
   },
   {
     "local_id": "LOC-066",
     "dni": "10000322",
-    "nombre": "Laura",
-    "apellido": "Gutiérrez",
-    "calificacion_prom": 3.85,
-    "sueldo": 1365.64,
-    "role": "Despachador"
+    "nombre": "Lucía",
+    "apellido": "López",
+    "calificacion_prom": 3.64,
+    "sueldo": 2999.31,
+    "role": "Repartidor"
   },
   {
     "local_id": "LOC-066",
     "dni": "10000323",
     "nombre": "Roberto",
-    "apellido": "López",
-    "calificacion_prom": 3.95,
-    "sueldo": 1221.23,
-    "role": "Repartidor"
+    "apellido": "Rodríguez",
+    "calificacion_prom": 4.58,
+    "sueldo": 1357.98,
+    "role": "Despachador"
   },
   {
     "local_id": "LOC-066",
     "dni": "10000324",
-    "nombre": "Diego",
-    "apellido": "Romero",
-    "calificacion_prom": 3.52,
-    "sueldo": 2873.05,
-    "role": "Despachador"
+    "nombre": "Pedro",
+    "apellido": "Cruz",
+    "calificacion_prom": 4.16,
+    "sueldo": 2016.68,
+    "role": "Cocinero"
   },
   {
     "local_id": "LOC-067",
     "dni": "10000325",
-    "nombre": "Ricardo",
-    "apellido": "Castillo",
-    "calificacion_prom": 4.93,
-    "sueldo": 2461.68,
+    "nombre": "Isabel",
+    "apellido": "Jiménez",
+    "calificacion_prom": 4.37,
+    "sueldo": 1958.59,
     "role": "Cocinero"
   },
   {
     "local_id": "LOC-067",
     "dni": "10000326",
-    "nombre": "Pedro",
-    "apellido": "Morales",
-    "calificacion_prom": 3.53,
-    "sueldo": 1919.51,
+    "nombre": "María",
+    "apellido": "Herrera",
+    "calificacion_prom": 4.92,
+    "sueldo": 2214.89,
     "role": "Repartidor"
   },
   {
     "local_id": "LOC-067",
     "dni": "10000327",
-    "nombre": "Elena",
-    "apellido": "Ortiz",
-    "calificacion_prom": 4.32,
-    "sueldo": 1771.18,
-    "role": "Cocinero"
+    "nombre": "Valentina",
+    "apellido": "Ramírez",
+    "calificacion_prom": 4.83,
+    "sueldo": 1278.05,
+    "role": "Despachador"
   },
   {
     "local_id": "LOC-067",
     "dni": "10000328",
-    "nombre": "Raúl",
-    "apellido": "Cruz",
-    "calificacion_prom": 3.74,
-    "sueldo": 2383.08,
-    "role": "Repartidor"
+    "nombre": "Laura",
+    "apellido": "Rodríguez",
+    "calificacion_prom": 3.86,
+    "sueldo": 1370.53,
+    "role": "Cocinero"
   },
   {
     "local_id": "LOC-067",
     "dni": "10000329",
-    "nombre": "Juan",
-    "apellido": "Reyes",
-    "calificacion_prom": 3.7,
-    "sueldo": 1624.23,
+    "nombre": "Javier",
+    "apellido": "Herrera",
+    "calificacion_prom": 3.68,
+    "sueldo": 1545.96,
     "role": "Repartidor"
   },
   {
-    "local_id": "LOC-068",
+    "local_id": "LOC-067",
     "dni": "10000330",
-    "nombre": "Ana",
-    "apellido": "Jiménez",
-    "calificacion_prom": 3.93,
-    "sueldo": 2374.92,
+    "nombre": "Laura",
+    "apellido": "Ramírez",
+    "calificacion_prom": 4.02,
+    "sueldo": 1521.5,
+    "role": "Cocinero"
+  },
+  {
+    "local_id": "LOC-067",
+    "dni": "10000331",
+    "nombre": "Roberto",
+    "apellido": "Sánchez",
+    "calificacion_prom": 4.28,
+    "sueldo": 1696.0,
     "role": "Cocinero"
   },
   {
     "local_id": "LOC-068",
-    "dni": "10000331",
-    "nombre": "Juan",
-    "apellido": "Jiménez",
-    "calificacion_prom": 4.35,
-    "sueldo": 1766.16,
-    "role": "Despachador"
-  },
-  {
-    "local_id": "LOC-068",
     "dni": "10000332",
-    "nombre": "Ana",
-    "apellido": "Jiménez",
-    "calificacion_prom": 4.51,
-    "sueldo": 1572.37,
+    "nombre": "Laura",
+    "apellido": "López",
+    "calificacion_prom": 3.71,
+    "sueldo": 2740.53,
     "role": "Repartidor"
   },
   {
     "local_id": "LOC-068",
     "dni": "10000333",
-    "nombre": "Ricardo",
-    "apellido": "Rodríguez",
-    "calificacion_prom": 3.75,
-    "sueldo": 1734.94,
-    "role": "Cocinero"
+    "nombre": "Diego",
+    "apellido": "Gómez",
+    "calificacion_prom": 4.18,
+    "sueldo": 2120.55,
+    "role": "Despachador"
   },
   {
-    "local_id": "LOC-069",
+    "local_id": "LOC-068",
     "dni": "10000334",
-    "nombre": "Jorge",
-    "apellido": "Gutiérrez",
-    "calificacion_prom": 3.58,
-    "sueldo": 1775.27,
+    "nombre": "Daniela",
+    "apellido": "Rodríguez",
+    "calificacion_prom": 3.77,
+    "sueldo": 2651.59,
     "role": "Cocinero"
   },
   {
-    "local_id": "LOC-069",
+    "local_id": "LOC-068",
     "dni": "10000335",
-    "nombre": "Alberto",
-    "apellido": "López",
-    "calificacion_prom": 3.88,
-    "sueldo": 2614.65,
-    "role": "Repartidor"
+    "nombre": "Valentina",
+    "apellido": "Ramírez",
+    "calificacion_prom": 3.87,
+    "sueldo": 1229.55,
+    "role": "Cocinero"
   },
   {
     "local_id": "LOC-069",
     "dni": "10000336",
-    "nombre": "Daniela",
-    "apellido": "Martínez",
-    "calificacion_prom": 4.81,
-    "sueldo": 2505.84,
+    "nombre": "Laura",
+    "apellido": "Flores",
+    "calificacion_prom": 3.96,
+    "sueldo": 1407.47,
     "role": "Cocinero"
   },
   {
     "local_id": "LOC-069",
     "dni": "10000337",
-    "nombre": "Diego",
-    "apellido": "Castillo",
-    "calificacion_prom": 4.21,
-    "sueldo": 2740.6,
+    "nombre": "Patricia",
+    "apellido": "López",
+    "calificacion_prom": 3.95,
+    "sueldo": 2422.18,
     "role": "Cocinero"
   },
   {
     "local_id": "LOC-069",
     "dni": "10000338",
-    "nombre": "Alberto",
-    "apellido": "López",
-    "calificacion_prom": 4.71,
-    "sueldo": 1704.23,
+    "nombre": "Roberto",
+    "apellido": "Ramírez",
+    "calificacion_prom": 4.75,
+    "sueldo": 2017.43,
     "role": "Cocinero"
   },
   {
     "local_id": "LOC-069",
     "dni": "10000339",
-    "nombre": "Javier",
-    "apellido": "Rodríguez",
-    "calificacion_prom": 4.54,
-    "sueldo": 1874.37,
+    "nombre": "Andrea",
+    "apellido": "Díaz",
+    "calificacion_prom": 4.06,
+    "sueldo": 2212.25,
     "role": "Cocinero"
   },
   {
     "local_id": "LOC-069",
     "dni": "10000340",
-    "nombre": "José",
-    "apellido": "Romero",
-    "calificacion_prom": 4.13,
-    "sueldo": 1519.52,
-    "role": "Cocinero"
-  },
-  {
-    "local_id": "LOC-070",
-    "dni": "10000341",
-    "nombre": "Sofía",
-    "apellido": "Martínez",
-    "calificacion_prom": 3.76,
-    "sueldo": 2648.51,
-    "role": "Cocinero"
-  },
-  {
-    "local_id": "LOC-070",
-    "dni": "10000342",
-    "nombre": "Javier",
-    "apellido": "Romero",
-    "calificacion_prom": 3.96,
-    "sueldo": 2383.42,
+    "nombre": "Patricia",
+    "apellido": "López",
+    "calificacion_prom": 4.04,
+    "sueldo": 2966.58,
     "role": "Repartidor"
   },
   {
     "local_id": "LOC-070",
-    "dni": "10000343",
-    "nombre": "Lucía",
-    "apellido": "Herrera",
-    "calificacion_prom": 4.68,
-    "sueldo": 2925.83,
+    "dni": "10000341",
+    "nombre": "Luis",
+    "apellido": "Díaz",
+    "calificacion_prom": 4.88,
+    "sueldo": 1887.0,
+    "role": "Repartidor"
+  },
+  {
+    "local_id": "LOC-070",
+    "dni": "10000342",
+    "nombre": "Juan",
+    "apellido": "Romero",
+    "calificacion_prom": 4.17,
+    "sueldo": 2564.79,
     "role": "Despachador"
   },
   {
     "local_id": "LOC-070",
+    "dni": "10000343",
+    "nombre": "Ana",
+    "apellido": "López",
+    "calificacion_prom": 4.67,
+    "sueldo": 1903.03,
+    "role": "Cocinero"
+  },
+  {
+    "local_id": "LOC-071",
     "dni": "10000344",
-    "nombre": "Andrea",
-    "apellido": "Mendoza",
-    "calificacion_prom": 4.14,
-    "sueldo": 2492.09,
+    "nombre": "Raúl",
+    "apellido": "Pérez",
+    "calificacion_prom": 4.15,
+    "sueldo": 2325.68,
     "role": "Despachador"
   },
   {
     "local_id": "LOC-071",
     "dni": "10000345",
-    "nombre": "Elena",
+    "nombre": "Rosa",
     "apellido": "Morales",
-    "calificacion_prom": 4.95,
-    "sueldo": 2497.83,
-    "role": "Cocinero"
-  },
-  {
-    "local_id": "LOC-071",
-    "dni": "10000346",
-    "nombre": "Laura",
-    "apellido": "Ortiz",
-    "calificacion_prom": 3.76,
-    "sueldo": 2093.57,
+    "calificacion_prom": 4.46,
+    "sueldo": 1567.33,
     "role": "Despachador"
   },
   {
     "local_id": "LOC-071",
+    "dni": "10000346",
+    "nombre": "Luis",
+    "apellido": "Morales",
+    "calificacion_prom": 3.98,
+    "sueldo": 2080.0,
+    "role": "Cocinero"
+  },
+  {
+    "local_id": "LOC-071",
     "dni": "10000347",
-    "nombre": "Ricardo",
-    "apellido": "Flores",
-    "calificacion_prom": 4.7,
-    "sueldo": 2100.51,
+    "nombre": "María",
+    "apellido": "Ortiz",
+    "calificacion_prom": 3.55,
+    "sueldo": 1929.42,
     "role": "Cocinero"
   },
   {
     "local_id": "LOC-071",
     "dni": "10000348",
-    "nombre": "Carmen",
-    "apellido": "Cruz",
-    "calificacion_prom": 3.54,
-    "sueldo": 2912.39,
-    "role": "Despachador"
+    "nombre": "Sofía",
+    "apellido": "Sánchez",
+    "calificacion_prom": 4.09,
+    "sueldo": 2262.59,
+    "role": "Cocinero"
   },
   {
     "local_id": "LOC-071",
     "dni": "10000349",
-    "nombre": "Rosa",
-    "apellido": "Flores",
-    "calificacion_prom": 4.39,
-    "sueldo": 2285.95,
+    "nombre": "Elena",
+    "apellido": "Pérez",
+    "calificacion_prom": 3.98,
+    "sueldo": 1643.8,
+    "role": "Despachador"
+  },
+  {
+    "local_id": "LOC-072",
+    "dni": "10000350",
+    "nombre": "Patricia",
+    "apellido": "Morales",
+    "calificacion_prom": 4.44,
+    "sueldo": 1370.31,
     "role": "Cocinero"
   },
   {
-    "local_id": "LOC-071",
-    "dni": "10000350",
-    "nombre": "José",
-    "apellido": "Flores",
-    "calificacion_prom": 4.0,
-    "sueldo": 2688.59,
-    "role": "Repartidor"
-  },
-  {
-    "local_id": "LOC-071",
+    "local_id": "LOC-072",
     "dni": "10000351",
-    "nombre": "Valentina",
-    "apellido": "Reyes",
-    "calificacion_prom": 3.72,
-    "sueldo": 2016.72,
-    "role": "Despachador"
+    "nombre": "Carmen",
+    "apellido": "Rivera",
+    "calificacion_prom": 4.68,
+    "sueldo": 2146.8,
+    "role": "Repartidor"
   },
   {
     "local_id": "LOC-072",
     "dni": "10000352",
-    "nombre": "Carmen",
-    "apellido": "Herrera",
-    "calificacion_prom": 3.85,
-    "sueldo": 2493.85,
-    "role": "Despachador"
+    "nombre": "Patricia",
+    "apellido": "Sánchez",
+    "calificacion_prom": 4.76,
+    "sueldo": 1375.41,
+    "role": "Cocinero"
   },
   {
     "local_id": "LOC-072",
     "dni": "10000353",
-    "nombre": "Valentina",
-    "apellido": "Rivera",
-    "calificacion_prom": 4.91,
-    "sueldo": 1242.81,
-    "role": "Repartidor"
+    "nombre": "Camila",
+    "apellido": "Ramírez",
+    "calificacion_prom": 4.7,
+    "sueldo": 1324.29,
+    "role": "Cocinero"
   },
   {
     "local_id": "LOC-072",
     "dni": "10000354",
-    "nombre": "Jorge",
-    "apellido": "Reyes",
-    "calificacion_prom": 3.58,
-    "sueldo": 2234.82,
+    "nombre": "Isabel",
+    "apellido": "Morales",
+    "calificacion_prom": 3.73,
+    "sueldo": 1962.68,
     "role": "Cocinero"
   },
   {
-    "local_id": "LOC-073",
+    "local_id": "LOC-072",
     "dni": "10000355",
-    "nombre": "Miguel",
-    "apellido": "Gómez",
-    "calificacion_prom": 4.6,
-    "sueldo": 1287.63,
-    "role": "Despachador"
+    "nombre": "María",
+    "apellido": "Herrera",
+    "calificacion_prom": 4.55,
+    "sueldo": 2044.02,
+    "role": "Cocinero"
   },
   {
-    "local_id": "LOC-073",
+    "local_id": "LOC-072",
     "dni": "10000356",
-    "nombre": "Sofía",
-    "apellido": "Ortiz",
-    "calificacion_prom": 4.48,
-    "sueldo": 1826.43,
+    "nombre": "Patricia",
+    "apellido": "Ramírez",
+    "calificacion_prom": 4.84,
+    "sueldo": 1286.13,
     "role": "Repartidor"
   },
   {
     "local_id": "LOC-073",
     "dni": "10000357",
-    "nombre": "Ricardo",
-    "apellido": "Pérez",
-    "calificacion_prom": 4.07,
-    "sueldo": 2640.34,
+    "nombre": "Raúl",
+    "apellido": "Flores",
+    "calificacion_prom": 4.55,
+    "sueldo": 1275.29,
     "role": "Repartidor"
   },
   {
     "local_id": "LOC-073",
     "dni": "10000358",
-    "nombre": "Alberto",
-    "apellido": "Castillo",
-    "calificacion_prom": 4.04,
-    "sueldo": 1372.56,
-    "role": "Despachador"
+    "nombre": "María",
+    "apellido": "Mendoza",
+    "calificacion_prom": 4.82,
+    "sueldo": 2185.53,
+    "role": "Repartidor"
   },
   {
     "local_id": "LOC-073",
     "dni": "10000359",
-    "nombre": "Camila",
-    "apellido": "Flores",
-    "calificacion_prom": 4.82,
-    "sueldo": 2844.52,
-    "role": "Despachador"
+    "nombre": "Javier",
+    "apellido": "Gutiérrez",
+    "calificacion_prom": 4.0,
+    "sueldo": 2799.16,
+    "role": "Cocinero"
   },
   {
     "local_id": "LOC-073",
     "dni": "10000360",
-    "nombre": "Alberto",
-    "apellido": "Rivera",
-    "calificacion_prom": 4.17,
-    "sueldo": 1359.16,
-    "role": "Despachador"
+    "nombre": "Lucía",
+    "apellido": "Castillo",
+    "calificacion_prom": 4.21,
+    "sueldo": 2221.76,
+    "role": "Repartidor"
   },
   {
     "local_id": "LOC-073",
     "dni": "10000361",
-    "nombre": "Miguel",
-    "apellido": "Torres",
-    "calificacion_prom": 4.79,
-    "sueldo": 1594.53,
+    "nombre": "Ricardo",
+    "apellido": "Cruz",
+    "calificacion_prom": 4.54,
+    "sueldo": 1528.22,
+    "role": "Cocinero"
+  },
+  {
+    "local_id": "LOC-073",
+    "dni": "10000362",
+    "nombre": "Raúl",
+    "apellido": "Vargas",
+    "calificacion_prom": 4.73,
+    "sueldo": 2486.29,
     "role": "Repartidor"
   },
   {
-    "local_id": "LOC-074",
-    "dni": "10000362",
-    "nombre": "Carmen",
-    "apellido": "Gutiérrez",
-    "calificacion_prom": 3.58,
-    "sueldo": 2178.85,
-    "role": "Despachador"
-  },
-  {
-    "local_id": "LOC-074",
+    "local_id": "LOC-073",
     "dni": "10000363",
-    "nombre": "Fernando",
-    "apellido": "Morales",
-    "calificacion_prom": 4.31,
-    "sueldo": 2982.83,
+    "nombre": "Juan",
+    "apellido": "Sánchez",
+    "calificacion_prom": 4.51,
+    "sueldo": 2119.26,
     "role": "Despachador"
   },
   {
     "local_id": "LOC-074",
     "dni": "10000364",
-    "nombre": "Luis",
-    "apellido": "Mendoza",
-    "calificacion_prom": 4.57,
-    "sueldo": 2605.98,
-    "role": "Repartidor"
+    "nombre": "Raúl",
+    "apellido": "Jiménez",
+    "calificacion_prom": 3.53,
+    "sueldo": 1329.05,
+    "role": "Despachador"
   },
   {
     "local_id": "LOC-074",
     "dni": "10000365",
-    "nombre": "Fernando",
-    "apellido": "Vargas",
-    "calificacion_prom": 5.0,
-    "sueldo": 2517.47,
-    "role": "Cocinero"
-  },
-  {
-    "local_id": "LOC-074",
-    "dni": "10000366",
-    "nombre": "Raúl",
-    "apellido": "Rodríguez",
-    "calificacion_prom": 3.64,
-    "sueldo": 2532.43,
+    "nombre": "Alberto",
+    "apellido": "Reyes",
+    "calificacion_prom": 4.3,
+    "sueldo": 1652.19,
     "role": "Repartidor"
   },
   {
     "local_id": "LOC-074",
+    "dni": "10000366",
+    "nombre": "Andrea",
+    "apellido": "Flores",
+    "calificacion_prom": 3.8,
+    "sueldo": 1278.15,
+    "role": "Cocinero"
+  },
+  {
+    "local_id": "LOC-075",
     "dni": "10000367",
-    "nombre": "Camila",
-    "apellido": "Gutiérrez",
-    "calificacion_prom": 4.84,
-    "sueldo": 1417.71,
+    "nombre": "Ricardo",
+    "apellido": "Flores",
+    "calificacion_prom": 4.47,
+    "sueldo": 2320.84,
     "role": "Repartidor"
   },
   {
     "local_id": "LOC-075",
     "dni": "10000368",
-    "nombre": "Valentina",
-    "apellido": "Ortiz",
-    "calificacion_prom": 4.14,
-    "sueldo": 2752.85,
-    "role": "Cocinero"
-  },
-  {
-    "local_id": "LOC-075",
-    "dni": "10000369",
-    "nombre": "Isabel",
-    "apellido": "Sánchez",
-    "calificacion_prom": 4.11,
-    "sueldo": 1233.32,
-    "role": "Cocinero"
-  },
-  {
-    "local_id": "LOC-075",
-    "dni": "10000370",
-    "nombre": "Diego",
-    "apellido": "Sánchez",
-    "calificacion_prom": 3.95,
-    "sueldo": 2012.05,
+    "nombre": "Camila",
+    "apellido": "Romero",
+    "calificacion_prom": 4.17,
+    "sueldo": 1426.45,
     "role": "Repartidor"
   },
   {
     "local_id": "LOC-075",
-    "dni": "10000371",
-    "nombre": "Roberto",
-    "apellido": "Rivera",
-    "calificacion_prom": 4.35,
-    "sueldo": 2687.53,
+    "dni": "10000369",
+    "nombre": "Patricia",
+    "apellido": "Ramírez",
+    "calificacion_prom": 4.71,
+    "sueldo": 2673.98,
     "role": "Cocinero"
   },
   {
-    "local_id": "LOC-075",
+    "local_id": "LOC-076",
+    "dni": "10000370",
+    "nombre": "Andrea",
+    "apellido": "Rodríguez",
+    "calificacion_prom": 4.72,
+    "sueldo": 1229.09,
+    "role": "Repartidor"
+  },
+  {
+    "local_id": "LOC-076",
+    "dni": "10000371",
+    "nombre": "Valentina",
+    "apellido": "Torres",
+    "calificacion_prom": 3.94,
+    "sueldo": 1408.0,
+    "role": "Repartidor"
+  },
+  {
+    "local_id": "LOC-076",
     "dni": "10000372",
-    "nombre": "Roberto",
-    "apellido": "Rivera",
-    "calificacion_prom": 4.54,
-    "sueldo": 2033.41,
+    "nombre": "Miguel",
+    "apellido": "Rodríguez",
+    "calificacion_prom": 4.8,
+    "sueldo": 1335.74,
     "role": "Repartidor"
   },
   {
     "local_id": "LOC-076",
     "dni": "10000373",
-    "nombre": "Patricia",
-    "apellido": "Castillo",
-    "calificacion_prom": 4.47,
-    "sueldo": 1250.17,
-    "role": "Cocinero"
+    "nombre": "Daniela",
+    "apellido": "Cruz",
+    "calificacion_prom": 4.07,
+    "sueldo": 1425.01,
+    "role": "Despachador"
   },
   {
     "local_id": "LOC-076",
     "dni": "10000374",
-    "nombre": "Raúl",
-    "apellido": "García",
-    "calificacion_prom": 4.16,
-    "sueldo": 1580.4,
-    "role": "Cocinero"
-  },
-  {
-    "local_id": "LOC-076",
-    "dni": "10000375",
-    "nombre": "Lucía",
-    "apellido": "Mendoza",
-    "calificacion_prom": 3.83,
-    "sueldo": 2634.73,
-    "role": "Cocinero"
-  },
-  {
-    "local_id": "LOC-076",
-    "dni": "10000376",
-    "nombre": "Laura",
-    "apellido": "Flores",
-    "calificacion_prom": 3.52,
-    "sueldo": 1514.94,
-    "role": "Cocinero"
-  },
-  {
-    "local_id": "LOC-076",
-    "dni": "10000377",
-    "nombre": "Jorge",
-    "apellido": "Vargas",
-    "calificacion_prom": 4.9,
-    "sueldo": 1796.92,
-    "role": "Repartidor"
-  },
-  {
-    "local_id": "LOC-076",
-    "dni": "10000378",
-    "nombre": "Ricardo",
-    "apellido": "Gómez",
-    "calificacion_prom": 3.86,
-    "sueldo": 2336.28,
-    "role": "Repartidor"
-  },
-  {
-    "local_id": "LOC-076",
-    "dni": "10000379",
-    "nombre": "Sofía",
-    "apellido": "González",
-    "calificacion_prom": 4.46,
-    "sueldo": 1889.61,
+    "nombre": "Miguel",
+    "apellido": "Romero",
+    "calificacion_prom": 4.81,
+    "sueldo": 2101.74,
     "role": "Repartidor"
   },
   {
     "local_id": "LOC-077",
-    "dni": "10000380",
+    "dni": "10000375",
+    "nombre": "Pedro",
+    "apellido": "Gómez",
+    "calificacion_prom": 4.61,
+    "sueldo": 1619.34,
+    "role": "Cocinero"
+  },
+  {
+    "local_id": "LOC-077",
+    "dni": "10000376",
+    "nombre": "Valentina",
+    "apellido": "Torres",
+    "calificacion_prom": 3.8,
+    "sueldo": 2048.55,
+    "role": "Repartidor"
+  },
+  {
+    "local_id": "LOC-077",
+    "dni": "10000377",
+    "nombre": "Ricardo",
+    "apellido": "Jiménez",
+    "calificacion_prom": 3.98,
+    "sueldo": 1617.19,
+    "role": "Despachador"
+  },
+  {
+    "local_id": "LOC-077",
+    "dni": "10000378",
     "nombre": "Ana",
-    "apellido": "Rivera",
-    "calificacion_prom": 4.18,
-    "sueldo": 1785.94,
+    "apellido": "Castillo",
+    "calificacion_prom": 4.88,
+    "sueldo": 1673.74,
+    "role": "Despachador"
+  },
+  {
+    "local_id": "LOC-077",
+    "dni": "10000379",
+    "nombre": "Javier",
+    "apellido": "López",
+    "calificacion_prom": 4.02,
+    "sueldo": 2125.09,
+    "role": "Cocinero"
+  },
+  {
+    "local_id": "LOC-077",
+    "dni": "10000380",
+    "nombre": "Andrea",
+    "apellido": "Ortiz",
+    "calificacion_prom": 3.61,
+    "sueldo": 1797.31,
     "role": "Despachador"
   },
   {
     "local_id": "LOC-077",
     "dni": "10000381",
-    "nombre": "Fernando",
-    "apellido": "González",
-    "calificacion_prom": 3.93,
-    "sueldo": 1357.81,
-    "role": "Cocinero"
-  },
-  {
-    "local_id": "LOC-077",
-    "dni": "10000382",
-    "nombre": "Valentina",
+    "nombre": "Ricardo",
     "apellido": "Herrera",
-    "calificacion_prom": 3.9,
-    "sueldo": 2396.38,
-    "role": "Cocinero"
+    "calificacion_prom": 4.89,
+    "sueldo": 1909.88,
+    "role": "Repartidor"
   },
   {
-    "local_id": "LOC-077",
+    "local_id": "LOC-078",
+    "dni": "10000382",
+    "nombre": "María",
+    "apellido": "Díaz",
+    "calificacion_prom": 3.71,
+    "sueldo": 1590.23,
+    "role": "Repartidor"
+  },
+  {
+    "local_id": "LOC-078",
     "dni": "10000383",
-    "nombre": "Sofía",
-    "apellido": "Martínez",
-    "calificacion_prom": 4.28,
-    "sueldo": 2805.45,
-    "role": "Cocinero"
+    "nombre": "Laura",
+    "apellido": "Ortiz",
+    "calificacion_prom": 4.42,
+    "sueldo": 1475.46,
+    "role": "Repartidor"
   },
   {
     "local_id": "LOC-078",
     "dni": "10000384",
-    "nombre": "Ricardo",
-    "apellido": "Ortiz",
-    "calificacion_prom": 4.07,
-    "sueldo": 1438.56,
-    "role": "Cocinero"
+    "nombre": "Carmen",
+    "apellido": "Martínez",
+    "calificacion_prom": 4.22,
+    "sueldo": 2397.68,
+    "role": "Despachador"
   },
   {
     "local_id": "LOC-078",
     "dni": "10000385",
-    "nombre": "Roberto",
-    "apellido": "Morales",
-    "calificacion_prom": 3.74,
-    "sueldo": 1813.27,
+    "nombre": "Ana",
+    "apellido": "Ramírez",
+    "calificacion_prom": 3.51,
+    "sueldo": 1506.74,
     "role": "Repartidor"
   },
   {
     "local_id": "LOC-078",
     "dni": "10000386",
     "nombre": "Daniela",
-    "apellido": "Torres",
-    "calificacion_prom": 4.58,
-    "sueldo": 1372.15,
-    "role": "Cocinero"
-  },
-  {
-    "local_id": "LOC-078",
-    "dni": "10000387",
-    "nombre": "Luis",
-    "apellido": "Castillo",
-    "calificacion_prom": 4.6,
-    "sueldo": 1502.8,
+    "apellido": "López",
+    "calificacion_prom": 3.84,
+    "sueldo": 1205.11,
     "role": "Repartidor"
   },
   {
-    "local_id": "LOC-078",
+    "local_id": "LOC-079",
+    "dni": "10000387",
+    "nombre": "Diego",
+    "apellido": "Ortiz",
+    "calificacion_prom": 4.34,
+    "sueldo": 2312.82,
+    "role": "Cocinero"
+  },
+  {
+    "local_id": "LOC-079",
     "dni": "10000388",
-    "nombre": "Alberto",
-    "apellido": "Jiménez",
-    "calificacion_prom": 4.04,
-    "sueldo": 2564.69,
+    "nombre": "Isabel",
+    "apellido": "Ortiz",
+    "calificacion_prom": 4.73,
+    "sueldo": 1941.79,
     "role": "Despachador"
   },
   {
-    "local_id": "LOC-078",
+    "local_id": "LOC-079",
     "dni": "10000389",
-    "nombre": "José",
-    "apellido": "Torres",
-    "calificacion_prom": 4.87,
-    "sueldo": 2729.64,
-    "role": "Repartidor"
+    "nombre": "Luis",
+    "apellido": "Jiménez",
+    "calificacion_prom": 4.86,
+    "sueldo": 2964.61,
+    "role": "Despachador"
   },
   {
-    "local_id": "LOC-079",
+    "local_id": "LOC-080",
     "dni": "10000390",
-    "nombre": "José",
-    "apellido": "Vargas",
-    "calificacion_prom": 4.08,
-    "sueldo": 1286.24,
-    "role": "Repartidor"
-  },
-  {
-    "local_id": "LOC-079",
-    "dni": "10000391",
-    "nombre": "Patricia",
-    "apellido": "Castillo",
-    "calificacion_prom": 4.93,
-    "sueldo": 2461.58,
-    "role": "Repartidor"
-  },
-  {
-    "local_id": "LOC-079",
-    "dni": "10000392",
-    "nombre": "Fernando",
-    "apellido": "Gómez",
-    "calificacion_prom": 4.95,
-    "sueldo": 2855.76,
+    "nombre": "Lucía",
+    "apellido": "Morales",
+    "calificacion_prom": 3.87,
+    "sueldo": 2034.78,
     "role": "Cocinero"
   },
   {
-    "local_id": "LOC-079",
+    "local_id": "LOC-080",
+    "dni": "10000391",
+    "nombre": "Fernando",
+    "apellido": "Cruz",
+    "calificacion_prom": 4.01,
+    "sueldo": 2317.19,
+    "role": "Repartidor"
+  },
+  {
+    "local_id": "LOC-080",
+    "dni": "10000392",
+    "nombre": "Elena",
+    "apellido": "Reyes",
+    "calificacion_prom": 4.28,
+    "sueldo": 1728.08,
+    "role": "Despachador"
+  },
+  {
+    "local_id": "LOC-080",
     "dni": "10000393",
-    "nombre": "Diego",
-    "apellido": "Rodríguez",
-    "calificacion_prom": 3.55,
-    "sueldo": 1715.41,
+    "nombre": "Daniela",
+    "apellido": "Vargas",
+    "calificacion_prom": 3.88,
+    "sueldo": 1656.58,
     "role": "Cocinero"
   },
   {
     "local_id": "LOC-080",
     "dni": "10000394",
-    "nombre": "Sofía",
-    "apellido": "García",
-    "calificacion_prom": 3.57,
-    "sueldo": 2788.43,
-    "role": "Repartidor"
+    "nombre": "Rosa",
+    "apellido": "Herrera",
+    "calificacion_prom": 4.69,
+    "sueldo": 1643.2,
+    "role": "Despachador"
   },
   {
     "local_id": "LOC-080",
     "dni": "10000395",
-    "nombre": "Carlos",
-    "apellido": "Romero",
-    "calificacion_prom": 4.84,
-    "sueldo": 2029.79,
-    "role": "Cocinero"
-  },
-  {
-    "local_id": "LOC-080",
-    "dni": "10000396",
-    "nombre": "Raúl",
-    "apellido": "Rivera",
-    "calificacion_prom": 4.77,
-    "sueldo": 1438.63,
-    "role": "Cocinero"
-  },
-  {
-    "local_id": "LOC-080",
-    "dni": "10000397",
-    "nombre": "Andrea",
-    "apellido": "Ramírez",
-    "calificacion_prom": 4.46,
-    "sueldo": 2531.36,
-    "role": "Despachador"
-  },
-  {
-    "local_id": "LOC-080",
-    "dni": "10000398",
-    "nombre": "Laura",
-    "apellido": "Pérez",
-    "calificacion_prom": 4.05,
-    "sueldo": 2910.75,
-    "role": "Cocinero"
-  },
-  {
-    "local_id": "LOC-080",
-    "dni": "10000399",
-    "nombre": "Camila",
-    "apellido": "Gómez",
-    "calificacion_prom": 4.94,
-    "sueldo": 1990.42,
-    "role": "Despachador"
-  },
-  {
-    "local_id": "LOC-080",
-    "dni": "10000400",
-    "nombre": "Roberto",
+    "nombre": "Jorge",
     "apellido": "Castillo",
-    "calificacion_prom": 4.59,
-    "sueldo": 2391.83,
-    "role": "Despachador"
+    "calificacion_prom": 4.92,
+    "sueldo": 2429.55,
+    "role": "Cocinero"
   },
   {
     "local_id": "LOC-081",
-    "dni": "10000401",
-    "nombre": "Pedro",
-    "apellido": "Morales",
-    "calificacion_prom": 4.22,
-    "sueldo": 1460.98,
-    "role": "Repartidor"
-  },
-  {
-    "local_id": "LOC-081",
-    "dni": "10000402",
-    "nombre": "Sofía",
-    "apellido": "Díaz",
-    "calificacion_prom": 4.19,
-    "sueldo": 1523.82,
-    "role": "Repartidor"
-  },
-  {
-    "local_id": "LOC-081",
-    "dni": "10000403",
+    "dni": "10000396",
     "nombre": "Fernando",
-    "apellido": "Mendoza",
-    "calificacion_prom": 4.58,
-    "sueldo": 1375.32,
+    "apellido": "Rivera",
+    "calificacion_prom": 3.57,
+    "sueldo": 1560.35,
     "role": "Repartidor"
   },
   {
-    "local_id": "LOC-082",
-    "dni": "10000404",
-    "nombre": "Daniela",
-    "apellido": "García",
-    "calificacion_prom": 4.72,
-    "sueldo": 2602.55,
-    "role": "Repartidor"
+    "local_id": "LOC-081",
+    "dni": "10000397",
+    "nombre": "Carlos",
+    "apellido": "Castillo",
+    "calificacion_prom": 4.81,
+    "sueldo": 2740.55,
+    "role": "Despachador"
   },
   {
-    "local_id": "LOC-082",
-    "dni": "10000405",
+    "local_id": "LOC-081",
+    "dni": "10000398",
     "nombre": "Isabel",
-    "apellido": "Romero",
-    "calificacion_prom": 4.32,
-    "sueldo": 2241.17,
-    "role": "Repartidor"
+    "apellido": "Vargas",
+    "calificacion_prom": 4.16,
+    "sueldo": 1939.07,
+    "role": "Cocinero"
   },
   {
     "local_id": "LOC-082",
-    "dni": "10000406",
-    "nombre": "José",
-    "apellido": "García",
-    "calificacion_prom": 4.66,
-    "sueldo": 2850.56,
-    "role": "Repartidor"
-  },
-  {
-    "local_id": "LOC-082",
-    "dni": "10000407",
-    "nombre": "Alberto",
-    "apellido": "Gutiérrez",
-    "calificacion_prom": 4.43,
-    "sueldo": 1269.37,
-    "role": "Despachador"
-  },
-  {
-    "local_id": "LOC-082",
-    "dni": "10000408",
+    "dni": "10000399",
     "nombre": "Juan",
-    "apellido": "López",
-    "calificacion_prom": 4.69,
-    "sueldo": 2426.49,
+    "apellido": "Flores",
+    "calificacion_prom": 4.09,
+    "sueldo": 2687.26,
+    "role": "Repartidor"
+  },
+  {
+    "local_id": "LOC-082",
+    "dni": "10000400",
+    "nombre": "José",
+    "apellido": "Mendoza",
+    "calificacion_prom": 4.78,
+    "sueldo": 1413.64,
+    "role": "Repartidor"
+  },
+  {
+    "local_id": "LOC-082",
+    "dni": "10000401",
+    "nombre": "Diego",
+    "apellido": "Herrera",
+    "calificacion_prom": 3.85,
+    "sueldo": 2460.22,
     "role": "Repartidor"
   },
   {
     "local_id": "LOC-083",
-    "dni": "10000409",
-    "nombre": "María",
-    "apellido": "Jiménez",
-    "calificacion_prom": 4.03,
-    "sueldo": 1791.35,
+    "dni": "10000402",
+    "nombre": "Laura",
+    "apellido": "Reyes",
+    "calificacion_prom": 4.53,
+    "sueldo": 1513.8,
     "role": "Despachador"
   },
   {
     "local_id": "LOC-083",
+    "dni": "10000403",
+    "nombre": "Elena",
+    "apellido": "Morales",
+    "calificacion_prom": 4.53,
+    "sueldo": 2029.79,
+    "role": "Despachador"
+  },
+  {
+    "local_id": "LOC-083",
+    "dni": "10000404",
+    "nombre": "Sofía",
+    "apellido": "Jiménez",
+    "calificacion_prom": 4.02,
+    "sueldo": 2689.48,
+    "role": "Repartidor"
+  },
+  {
+    "local_id": "LOC-084",
+    "dni": "10000405",
+    "nombre": "Carmen",
+    "apellido": "Vargas",
+    "calificacion_prom": 3.78,
+    "sueldo": 1574.83,
+    "role": "Cocinero"
+  },
+  {
+    "local_id": "LOC-084",
+    "dni": "10000406",
+    "nombre": "Carmen",
+    "apellido": "García",
+    "calificacion_prom": 3.73,
+    "sueldo": 2058.64,
+    "role": "Despachador"
+  },
+  {
+    "local_id": "LOC-084",
+    "dni": "10000407",
+    "nombre": "Diego",
+    "apellido": "Rivera",
+    "calificacion_prom": 4.93,
+    "sueldo": 2499.3,
+    "role": "Cocinero"
+  },
+  {
+    "local_id": "LOC-084",
+    "dni": "10000408",
+    "nombre": "Andrea",
+    "apellido": "Sánchez",
+    "calificacion_prom": 3.79,
+    "sueldo": 2071.8,
+    "role": "Despachador"
+  },
+  {
+    "local_id": "LOC-084",
+    "dni": "10000409",
+    "nombre": "Ricardo",
+    "apellido": "Flores",
+    "calificacion_prom": 3.67,
+    "sueldo": 2518.07,
+    "role": "Despachador"
+  },
+  {
+    "local_id": "LOC-085",
     "dni": "10000410",
     "nombre": "Diego",
-    "apellido": "González",
-    "calificacion_prom": 4.66,
-    "sueldo": 2197.3,
-    "role": "Despachador"
-  },
-  {
-    "local_id": "LOC-083",
-    "dni": "10000411",
-    "nombre": "Juan",
-    "apellido": "Gómez",
-    "calificacion_prom": 4.49,
-    "sueldo": 1212.67,
-    "role": "Repartidor"
-  },
-  {
-    "local_id": "LOC-083",
-    "dni": "10000412",
-    "nombre": "Laura",
-    "apellido": "González",
-    "calificacion_prom": 4.02,
-    "sueldo": 2730.35,
-    "role": "Despachador"
-  },
-  {
-    "local_id": "LOC-084",
-    "dni": "10000413",
-    "nombre": "Raúl",
-    "apellido": "Flores",
-    "calificacion_prom": 3.92,
-    "sueldo": 2937.73,
-    "role": "Repartidor"
-  },
-  {
-    "local_id": "LOC-084",
-    "dni": "10000414",
-    "nombre": "Camila",
-    "apellido": "Rivera",
-    "calificacion_prom": 3.6,
-    "sueldo": 2479.47,
-    "role": "Repartidor"
-  },
-  {
-    "local_id": "LOC-084",
-    "dni": "10000415",
-    "nombre": "Roberto",
-    "apellido": "López",
-    "calificacion_prom": 4.69,
-    "sueldo": 2280.8,
-    "role": "Repartidor"
-  },
-  {
-    "local_id": "LOC-084",
-    "dni": "10000416",
-    "nombre": "Roberto",
-    "apellido": "Romero",
-    "calificacion_prom": 4.21,
-    "sueldo": 2436.99,
-    "role": "Despachador"
-  },
-  {
-    "local_id": "LOC-084",
-    "dni": "10000417",
-    "nombre": "María",
-    "apellido": "Flores",
-    "calificacion_prom": 3.82,
-    "sueldo": 2679.8,
-    "role": "Cocinero"
-  },
-  {
-    "local_id": "LOC-084",
-    "dni": "10000418",
-    "nombre": "Miguel",
-    "apellido": "Torres",
-    "calificacion_prom": 4.35,
-    "sueldo": 2932.16,
-    "role": "Despachador"
-  },
-  {
-    "local_id": "LOC-085",
-    "dni": "10000419",
-    "nombre": "Diego",
-    "apellido": "Rivera",
-    "calificacion_prom": 4.33,
-    "sueldo": 1932.61,
-    "role": "Cocinero"
-  },
-  {
-    "local_id": "LOC-085",
-    "dni": "10000420",
-    "nombre": "Miguel",
-    "apellido": "Rivera",
-    "calificacion_prom": 4.6,
-    "sueldo": 1721.73,
-    "role": "Despachador"
-  },
-  {
-    "local_id": "LOC-085",
-    "dni": "10000421",
-    "nombre": "Juan",
-    "apellido": "Flores",
-    "calificacion_prom": 4.79,
-    "sueldo": 1884.29,
-    "role": "Repartidor"
-  },
-  {
-    "local_id": "LOC-085",
-    "dni": "10000422",
-    "nombre": "Miguel",
-    "apellido": "Reyes",
-    "calificacion_prom": 4.97,
-    "sueldo": 2124.63,
-    "role": "Cocinero"
-  },
-  {
-    "local_id": "LOC-085",
-    "dni": "10000423",
-    "nombre": "Rosa",
-    "apellido": "Castillo",
-    "calificacion_prom": 4.48,
-    "sueldo": 1260.26,
-    "role": "Cocinero"
-  },
-  {
-    "local_id": "LOC-086",
-    "dni": "10000424",
-    "nombre": "Patricia",
-    "apellido": "Martínez",
-    "calificacion_prom": 4.33,
-    "sueldo": 1938.74,
-    "role": "Cocinero"
-  },
-  {
-    "local_id": "LOC-086",
-    "dni": "10000425",
-    "nombre": "Ana",
-    "apellido": "Morales",
+    "apellido": "Díaz",
     "calificacion_prom": 4.22,
-    "sueldo": 2326.0,
+    "sueldo": 2777.26,
     "role": "Despachador"
   },
   {
-    "local_id": "LOC-086",
-    "dni": "10000426",
-    "nombre": "Carmen",
-    "apellido": "Herrera",
-    "calificacion_prom": 4.71,
-    "sueldo": 2366.76,
+    "local_id": "LOC-085",
+    "dni": "10000411",
+    "nombre": "Valentina",
+    "apellido": "Morales",
+    "calificacion_prom": 3.86,
+    "sueldo": 2651.48,
+    "role": "Cocinero"
+  },
+  {
+    "local_id": "LOC-085",
+    "dni": "10000412",
+    "nombre": "Pedro",
+    "apellido": "Martínez",
+    "calificacion_prom": 3.83,
+    "sueldo": 1252.78,
     "role": "Despachador"
   },
   {
-    "local_id": "LOC-086",
-    "dni": "10000427",
-    "nombre": "Diego",
-    "apellido": "Rodríguez",
-    "calificacion_prom": 4.79,
-    "sueldo": 1938.14,
-    "role": "Repartidor"
+    "local_id": "LOC-085",
+    "dni": "10000413",
+    "nombre": "Ricardo",
+    "apellido": "Gutiérrez",
+    "calificacion_prom": 4.51,
+    "sueldo": 2822.08,
+    "role": "Despachador"
   },
   {
-    "local_id": "LOC-086",
-    "dni": "10000428",
-    "nombre": "Carlos",
-    "apellido": "Flores",
+    "local_id": "LOC-085",
+    "dni": "10000414",
+    "nombre": "Pedro",
+    "apellido": "Ramírez",
     "calificacion_prom": 4.96,
-    "sueldo": 2732.83,
+    "sueldo": 1845.11,
+    "role": "Despachador"
+  },
+  {
+    "local_id": "LOC-085",
+    "dni": "10000415",
+    "nombre": "Rosa",
+    "apellido": "Vargas",
+    "calificacion_prom": 3.75,
+    "sueldo": 2147.32,
+    "role": "Despachador"
+  },
+  {
+    "local_id": "LOC-085",
+    "dni": "10000416",
+    "nombre": "Valentina",
+    "apellido": "Torres",
+    "calificacion_prom": 4.7,
+    "sueldo": 1579.42,
     "role": "Repartidor"
   },
   {
     "local_id": "LOC-086",
+    "dni": "10000417",
+    "nombre": "Javier",
+    "apellido": "Castillo",
+    "calificacion_prom": 3.64,
+    "sueldo": 1302.44,
+    "role": "Repartidor"
+  },
+  {
+    "local_id": "LOC-086",
+    "dni": "10000418",
+    "nombre": "Daniela",
+    "apellido": "Flores",
+    "calificacion_prom": 4.64,
+    "sueldo": 1707.67,
+    "role": "Repartidor"
+  },
+  {
+    "local_id": "LOC-086",
+    "dni": "10000419",
+    "nombre": "Isabel",
+    "apellido": "Gutiérrez",
+    "calificacion_prom": 4.14,
+    "sueldo": 2602.99,
+    "role": "Repartidor"
+  },
+  {
+    "local_id": "LOC-086",
+    "dni": "10000420",
+    "nombre": "Patricia",
+    "apellido": "Rodríguez",
+    "calificacion_prom": 3.87,
+    "sueldo": 2334.84,
+    "role": "Cocinero"
+  },
+  {
+    "local_id": "LOC-086",
+    "dni": "10000421",
+    "nombre": "Sofía",
+    "apellido": "Sánchez",
+    "calificacion_prom": 3.64,
+    "sueldo": 1250.78,
+    "role": "Repartidor"
+  },
+  {
+    "local_id": "LOC-086",
+    "dni": "10000422",
+    "nombre": "José",
+    "apellido": "Romero",
+    "calificacion_prom": 4.51,
+    "sueldo": 1712.96,
+    "role": "Cocinero"
+  },
+  {
+    "local_id": "LOC-087",
+    "dni": "10000423",
+    "nombre": "Ricardo",
+    "apellido": "Rivera",
+    "calificacion_prom": 3.61,
+    "sueldo": 1929.36,
+    "role": "Cocinero"
+  },
+  {
+    "local_id": "LOC-087",
+    "dni": "10000424",
+    "nombre": "José",
+    "apellido": "Sánchez",
+    "calificacion_prom": 3.67,
+    "sueldo": 2710.64,
+    "role": "Repartidor"
+  },
+  {
+    "local_id": "LOC-087",
+    "dni": "10000425",
+    "nombre": "Elena",
+    "apellido": "Torres",
+    "calificacion_prom": 3.52,
+    "sueldo": 1449.47,
+    "role": "Cocinero"
+  },
+  {
+    "local_id": "LOC-087",
+    "dni": "10000426",
+    "nombre": "Camila",
+    "apellido": "Rodríguez",
+    "calificacion_prom": 4.22,
+    "sueldo": 1214.36,
+    "role": "Cocinero"
+  },
+  {
+    "local_id": "LOC-087",
+    "dni": "10000427",
+    "nombre": "Roberto",
+    "apellido": "Morales",
+    "calificacion_prom": 4.17,
+    "sueldo": 2904.42,
+    "role": "Cocinero"
+  },
+  {
+    "local_id": "LOC-087",
+    "dni": "10000428",
+    "nombre": "Miguel",
+    "apellido": "Díaz",
+    "calificacion_prom": 3.58,
+    "sueldo": 2885.56,
+    "role": "Repartidor"
+  },
+  {
+    "local_id": "LOC-088",
     "dni": "10000429",
     "nombre": "Elena",
-    "apellido": "Jiménez",
-    "calificacion_prom": 4.76,
-    "sueldo": 1964.73,
-    "role": "Despachador"
+    "apellido": "Herrera",
+    "calificacion_prom": 4.95,
+    "sueldo": 2973.79,
+    "role": "Repartidor"
   },
   {
-    "local_id": "LOC-086",
+    "local_id": "LOC-088",
     "dni": "10000430",
-    "nombre": "Rosa",
-    "apellido": "Díaz",
-    "calificacion_prom": 4.53,
-    "sueldo": 2069.49,
+    "nombre": "Laura",
+    "apellido": "Sánchez",
+    "calificacion_prom": 4.89,
+    "sueldo": 2634.3,
     "role": "Despachador"
   },
   {
-    "local_id": "LOC-087",
+    "local_id": "LOC-088",
     "dni": "10000431",
-    "nombre": "Javier",
-    "apellido": "López",
-    "calificacion_prom": 4.4,
-    "sueldo": 1203.55,
+    "nombre": "Diego",
+    "apellido": "Morales",
+    "calificacion_prom": 4.27,
+    "sueldo": 2028.1,
     "role": "Repartidor"
   },
   {
-    "local_id": "LOC-087",
+    "local_id": "LOC-088",
     "dni": "10000432",
-    "nombre": "Carlos",
-    "apellido": "Romero",
-    "calificacion_prom": 4.86,
-    "sueldo": 1468.7,
+    "nombre": "Camila",
+    "apellido": "Torres",
+    "calificacion_prom": 3.8,
+    "sueldo": 1497.55,
     "role": "Repartidor"
   },
   {
-    "local_id": "LOC-087",
+    "local_id": "LOC-088",
     "dni": "10000433",
+    "nombre": "María",
+    "apellido": "Ramírez",
+    "calificacion_prom": 4.64,
+    "sueldo": 2455.83,
+    "role": "Repartidor"
+  },
+  {
+    "local_id": "LOC-088",
+    "dni": "10000434",
+    "nombre": "Valentina",
+    "apellido": "Martínez",
+    "calificacion_prom": 3.86,
+    "sueldo": 2848.47,
+    "role": "Cocinero"
+  },
+  {
+    "local_id": "LOC-088",
+    "dni": "10000435",
     "nombre": "Daniela",
-    "apellido": "Díaz",
-    "calificacion_prom": 4.55,
-    "sueldo": 2416.7,
+    "apellido": "Flores",
+    "calificacion_prom": 4.77,
+    "sueldo": 2299.43,
     "role": "Despachador"
   },
   {
-    "local_id": "LOC-087",
-    "dni": "10000434",
+    "local_id": "LOC-089",
+    "dni": "10000436",
+    "nombre": "Pedro",
+    "apellido": "Romero",
+    "calificacion_prom": 4.85,
+    "sueldo": 2611.64,
+    "role": "Repartidor"
+  },
+  {
+    "local_id": "LOC-089",
+    "dni": "10000437",
+    "nombre": "Luis",
+    "apellido": "Rodríguez",
+    "calificacion_prom": 4.76,
+    "sueldo": 2114.24,
+    "role": "Repartidor"
+  },
+  {
+    "local_id": "LOC-089",
+    "dni": "10000438",
+    "nombre": "Andrea",
+    "apellido": "Díaz",
+    "calificacion_prom": 3.53,
+    "sueldo": 2629.49,
+    "role": "Cocinero"
+  },
+  {
+    "local_id": "LOC-090",
+    "dni": "10000439",
+    "nombre": "Juan",
+    "apellido": "Gómez",
+    "calificacion_prom": 3.67,
+    "sueldo": 1481.18,
+    "role": "Despachador"
+  },
+  {
+    "local_id": "LOC-090",
+    "dni": "10000440",
+    "nombre": "Miguel",
+    "apellido": "Romero",
+    "calificacion_prom": 4.21,
+    "sueldo": 2176.1,
+    "role": "Cocinero"
+  },
+  {
+    "local_id": "LOC-090",
+    "dni": "10000441",
+    "nombre": "Carmen",
+    "apellido": "Castillo",
+    "calificacion_prom": 4.36,
+    "sueldo": 1765.1,
+    "role": "Cocinero"
+  },
+  {
+    "local_id": "LOC-090",
+    "dni": "10000442",
+    "nombre": "Laura",
+    "apellido": "Flores",
+    "calificacion_prom": 4.12,
+    "sueldo": 1251.19,
+    "role": "Repartidor"
+  },
+  {
+    "local_id": "LOC-090",
+    "dni": "10000443",
+    "nombre": "Lucía",
+    "apellido": "Díaz",
+    "calificacion_prom": 3.86,
+    "sueldo": 1723.49,
+    "role": "Despachador"
+  },
+  {
+    "local_id": "LOC-090",
+    "dni": "10000444",
+    "nombre": "Isabel",
+    "apellido": "López",
+    "calificacion_prom": 3.79,
+    "sueldo": 2214.51,
+    "role": "Cocinero"
+  },
+  {
+    "local_id": "LOC-091",
+    "dni": "10000445",
+    "nombre": "Fernando",
+    "apellido": "Pérez",
+    "calificacion_prom": 4.08,
+    "sueldo": 2122.92,
+    "role": "Cocinero"
+  },
+  {
+    "local_id": "LOC-091",
+    "dni": "10000446",
+    "nombre": "Ricardo",
+    "apellido": "Ortiz",
+    "calificacion_prom": 3.97,
+    "sueldo": 1377.01,
+    "role": "Despachador"
+  },
+  {
+    "local_id": "LOC-091",
+    "dni": "10000447",
+    "nombre": "Luis",
+    "apellido": "Flores",
+    "calificacion_prom": 4.56,
+    "sueldo": 1652.63,
+    "role": "Repartidor"
+  },
+  {
+    "local_id": "LOC-091",
+    "dni": "10000448",
+    "nombre": "Ana",
+    "apellido": "Ortiz",
+    "calificacion_prom": 4.43,
+    "sueldo": 2588.79,
+    "role": "Repartidor"
+  },
+  {
+    "local_id": "LOC-091",
+    "dni": "10000449",
     "nombre": "Raúl",
     "apellido": "Mendoza",
-    "calificacion_prom": 4.41,
-    "sueldo": 1226.06,
-    "role": "Despachador"
-  },
-  {
-    "local_id": "LOC-087",
-    "dni": "10000435",
-    "nombre": "Roberto",
-    "apellido": "Morales",
-    "calificacion_prom": 4.48,
-    "sueldo": 2689.21,
-    "role": "Cocinero"
-  },
-  {
-    "local_id": "LOC-087",
-    "dni": "10000436",
-    "nombre": "José",
-    "apellido": "Ramírez",
-    "calificacion_prom": 4.45,
-    "sueldo": 2931.75,
-    "role": "Repartidor"
-  },
-  {
-    "local_id": "LOC-088",
-    "dni": "10000437",
-    "nombre": "Lucía",
-    "apellido": "Castillo",
-    "calificacion_prom": 3.59,
-    "sueldo": 1917.36,
-    "role": "Despachador"
-  },
-  {
-    "local_id": "LOC-088",
-    "dni": "10000438",
-    "nombre": "Lucía",
-    "apellido": "Ortiz",
-    "calificacion_prom": 4.92,
-    "sueldo": 1785.6,
-    "role": "Despachador"
-  },
-  {
-    "local_id": "LOC-088",
-    "dni": "10000439",
-    "nombre": "Daniela",
-    "apellido": "Torres",
-    "calificacion_prom": 4.85,
-    "sueldo": 1898.39,
-    "role": "Repartidor"
-  },
-  {
-    "local_id": "LOC-089",
-    "dni": "10000440",
-    "nombre": "Diego",
-    "apellido": "Mendoza",
-    "calificacion_prom": 3.5,
-    "sueldo": 1991.2,
-    "role": "Despachador"
-  },
-  {
-    "local_id": "LOC-089",
-    "dni": "10000441",
-    "nombre": "Fernando",
-    "apellido": "Gutiérrez",
-    "calificacion_prom": 3.91,
-    "sueldo": 2986.15,
-    "role": "Despachador"
-  },
-  {
-    "local_id": "LOC-089",
-    "dni": "10000442",
-    "nombre": "Rosa",
-    "apellido": "López",
-    "calificacion_prom": 4.44,
-    "sueldo": 2112.39,
-    "role": "Cocinero"
-  },
-  {
-    "local_id": "LOC-089",
-    "dni": "10000443",
-    "nombre": "Jorge",
-    "apellido": "Gómez",
-    "calificacion_prom": 4.03,
-    "sueldo": 2588.45,
-    "role": "Despachador"
-  },
-  {
-    "local_id": "LOC-089",
-    "dni": "10000444",
-    "nombre": "Rosa",
-    "apellido": "Herrera",
-    "calificacion_prom": 4.47,
-    "sueldo": 1784.03,
-    "role": "Cocinero"
-  },
-  {
-    "local_id": "LOC-089",
-    "dni": "10000445",
-    "nombre": "Elena",
-    "apellido": "Gómez",
-    "calificacion_prom": 4.59,
-    "sueldo": 2667.48,
-    "role": "Despachador"
-  },
-  {
-    "local_id": "LOC-089",
-    "dni": "10000446",
-    "nombre": "María",
-    "apellido": "Romero",
-    "calificacion_prom": 3.77,
-    "sueldo": 1545.7,
-    "role": "Cocinero"
-  },
-  {
-    "local_id": "LOC-090",
-    "dni": "10000447",
-    "nombre": "Valentina",
-    "apellido": "Torres",
-    "calificacion_prom": 4.31,
-    "sueldo": 2539.12,
-    "role": "Despachador"
-  },
-  {
-    "local_id": "LOC-090",
-    "dni": "10000448",
-    "nombre": "José",
-    "apellido": "González",
-    "calificacion_prom": 4.51,
-    "sueldo": 2243.18,
-    "role": "Cocinero"
-  },
-  {
-    "local_id": "LOC-090",
-    "dni": "10000449",
-    "nombre": "Luis",
-    "apellido": "Mendoza",
-    "calificacion_prom": 4.23,
-    "sueldo": 1390.88,
-    "role": "Repartidor"
-  },
-  {
-    "local_id": "LOC-090",
-    "dni": "10000450",
-    "nombre": "Roberto",
-    "apellido": "Morales",
-    "calificacion_prom": 4.07,
-    "sueldo": 1681.21,
-    "role": "Cocinero"
-  },
-  {
-    "local_id": "LOC-091",
-    "dni": "10000451",
-    "nombre": "Isabel",
-    "apellido": "Morales",
-    "calificacion_prom": 4.84,
-    "sueldo": 2885.08,
-    "role": "Repartidor"
-  },
-  {
-    "local_id": "LOC-091",
-    "dni": "10000452",
-    "nombre": "Miguel",
-    "apellido": "Castillo",
-    "calificacion_prom": 4.34,
-    "sueldo": 2741.04,
-    "role": "Despachador"
-  },
-  {
-    "local_id": "LOC-091",
-    "dni": "10000453",
-    "nombre": "María",
-    "apellido": "Cruz",
-    "calificacion_prom": 4.44,
-    "sueldo": 1355.83,
+    "calificacion_prom": 4.82,
+    "sueldo": 2514.63,
     "role": "Cocinero"
   },
   {
     "local_id": "LOC-092",
+    "dni": "10000450",
+    "nombre": "Camila",
+    "apellido": "Rodríguez",
+    "calificacion_prom": 4.04,
+    "sueldo": 1544.39,
+    "role": "Cocinero"
+  },
+  {
+    "local_id": "LOC-092",
+    "dni": "10000451",
+    "nombre": "Ricardo",
+    "apellido": "López",
+    "calificacion_prom": 3.89,
+    "sueldo": 2161.12,
+    "role": "Cocinero"
+  },
+  {
+    "local_id": "LOC-092",
+    "dni": "10000452",
+    "nombre": "Elena",
+    "apellido": "Castillo",
+    "calificacion_prom": 4.33,
+    "sueldo": 1897.85,
+    "role": "Repartidor"
+  },
+  {
+    "local_id": "LOC-092",
+    "dni": "10000453",
+    "nombre": "Juan",
+    "apellido": "Ortiz",
+    "calificacion_prom": 3.59,
+    "sueldo": 2747.29,
+    "role": "Despachador"
+  },
+  {
+    "local_id": "LOC-093",
     "dni": "10000454",
     "nombre": "Elena",
-    "apellido": "Ramírez",
-    "calificacion_prom": 4.26,
-    "sueldo": 2730.04,
-    "role": "Cocinero"
+    "apellido": "Rivera",
+    "calificacion_prom": 3.95,
+    "sueldo": 1748.83,
+    "role": "Despachador"
   },
   {
-    "local_id": "LOC-092",
+    "local_id": "LOC-093",
     "dni": "10000455",
-    "nombre": "Luis",
-    "apellido": "Ramírez",
-    "calificacion_prom": 4.3,
-    "sueldo": 2638.19,
+    "nombre": "Ricardo",
+    "apellido": "Vargas",
+    "calificacion_prom": 4.48,
+    "sueldo": 2914.45,
     "role": "Repartidor"
   },
   {
-    "local_id": "LOC-092",
+    "local_id": "LOC-093",
     "dni": "10000456",
     "nombre": "Camila",
-    "apellido": "Morales",
-    "calificacion_prom": 3.82,
-    "sueldo": 2760.1,
-    "role": "Cocinero"
+    "apellido": "Cruz",
+    "calificacion_prom": 4.75,
+    "sueldo": 1833.92,
+    "role": "Despachador"
   },
   {
-    "local_id": "LOC-092",
+    "local_id": "LOC-093",
     "dni": "10000457",
-    "nombre": "Camila",
-    "apellido": "Vargas",
-    "calificacion_prom": 4.77,
-    "sueldo": 2787.07,
-    "role": "Repartidor"
-  },
-  {
-    "local_id": "LOC-092",
-    "dni": "10000458",
-    "nombre": "Raúl",
-    "apellido": "Rodríguez",
-    "calificacion_prom": 4.37,
-    "sueldo": 2705.18,
-    "role": "Despachador"
-  },
-  {
-    "local_id": "LOC-093",
-    "dni": "10000459",
-    "nombre": "Miguel",
-    "apellido": "Mendoza",
-    "calificacion_prom": 4.1,
-    "sueldo": 2342.78,
-    "role": "Despachador"
-  },
-  {
-    "local_id": "LOC-093",
-    "dni": "10000460",
-    "nombre": "Laura",
-    "apellido": "Gutiérrez",
-    "calificacion_prom": 4.11,
-    "sueldo": 1758.92,
-    "role": "Despachador"
-  },
-  {
-    "local_id": "LOC-093",
-    "dni": "10000461",
-    "nombre": "Fernando",
-    "apellido": "Rodríguez",
-    "calificacion_prom": 3.64,
-    "sueldo": 2910.96,
-    "role": "Despachador"
-  },
-  {
-    "local_id": "LOC-093",
-    "dni": "10000462",
     "nombre": "Ana",
-    "apellido": "Herrera",
-    "calificacion_prom": 4.41,
-    "sueldo": 1510.32,
+    "apellido": "Jiménez",
+    "calificacion_prom": 4.03,
+    "sueldo": 1808.41,
     "role": "Despachador"
   },
   {
     "local_id": "LOC-093",
-    "dni": "10000463",
-    "nombre": "Valentina",
-    "apellido": "Flores",
-    "calificacion_prom": 4.29,
-    "sueldo": 1978.97,
+    "dni": "10000458",
+    "nombre": "Elena",
+    "apellido": "González",
+    "calificacion_prom": 4.09,
+    "sueldo": 1898.44,
     "role": "Cocinero"
   },
   {
     "local_id": "LOC-094",
+    "dni": "10000459",
+    "nombre": "Carmen",
+    "apellido": "Rodríguez",
+    "calificacion_prom": 3.56,
+    "sueldo": 2341.96,
+    "role": "Despachador"
+  },
+  {
+    "local_id": "LOC-094",
+    "dni": "10000460",
+    "nombre": "Laura",
+    "apellido": "Torres",
+    "calificacion_prom": 4.67,
+    "sueldo": 1774.65,
+    "role": "Repartidor"
+  },
+  {
+    "local_id": "LOC-094",
+    "dni": "10000461",
+    "nombre": "Patricia",
+    "apellido": "Gómez",
+    "calificacion_prom": 3.7,
+    "sueldo": 1851.99,
+    "role": "Despachador"
+  },
+  {
+    "local_id": "LOC-094",
+    "dni": "10000462",
+    "nombre": "Carmen",
+    "apellido": "Reyes",
+    "calificacion_prom": 4.11,
+    "sueldo": 1520.72,
+    "role": "Cocinero"
+  },
+  {
+    "local_id": "LOC-094",
+    "dni": "10000463",
+    "nombre": "Ana",
+    "apellido": "Sánchez",
+    "calificacion_prom": 3.69,
+    "sueldo": 1935.08,
+    "role": "Despachador"
+  },
+  {
+    "local_id": "LOC-094",
     "dni": "10000464",
-    "nombre": "Miguel",
-    "apellido": "Vargas",
-    "calificacion_prom": 4.9,
-    "sueldo": 1472.6,
+    "nombre": "Ana",
+    "apellido": "Rivera",
+    "calificacion_prom": 4.41,
+    "sueldo": 2532.02,
     "role": "Cocinero"
   },
   {
     "local_id": "LOC-094",
     "dni": "10000465",
-    "nombre": "Fernando",
-    "apellido": "Rivera",
-    "calificacion_prom": 4.47,
-    "sueldo": 2960.58,
+    "nombre": "Elena",
+    "apellido": "Reyes",
+    "calificacion_prom": 4.33,
+    "sueldo": 2319.65,
     "role": "Repartidor"
   },
   {
-    "local_id": "LOC-094",
+    "local_id": "LOC-095",
     "dni": "10000466",
-    "nombre": "Alberto",
-    "apellido": "Flores",
-    "calificacion_prom": 4.9,
-    "sueldo": 2119.08,
-    "role": "Repartidor"
-  },
-  {
-    "local_id": "LOC-094",
-    "dni": "10000467",
-    "nombre": "Daniela",
-    "apellido": "López",
-    "calificacion_prom": 3.97,
-    "sueldo": 1945.67,
-    "role": "Repartidor"
-  },
-  {
-    "local_id": "LOC-094",
-    "dni": "10000468",
-    "nombre": "Valentina",
-    "apellido": "García",
-    "calificacion_prom": 3.6,
-    "sueldo": 1333.74,
+    "nombre": "María",
+    "apellido": "Reyes",
+    "calificacion_prom": 3.75,
+    "sueldo": 1790.07,
     "role": "Cocinero"
   },
   {
     "local_id": "LOC-095",
-    "dni": "10000469",
-    "nombre": "Patricia",
-    "apellido": "Flores",
-    "calificacion_prom": 4.98,
-    "sueldo": 2041.92,
+    "dni": "10000467",
+    "nombre": "Pedro",
+    "apellido": "Ortiz",
+    "calificacion_prom": 3.98,
+    "sueldo": 2853.14,
     "role": "Repartidor"
   },
   {
     "local_id": "LOC-095",
+    "dni": "10000468",
+    "nombre": "Pedro",
+    "apellido": "López",
+    "calificacion_prom": 4.45,
+    "sueldo": 2033.17,
+    "role": "Cocinero"
+  },
+  {
+    "local_id": "LOC-096",
+    "dni": "10000469",
+    "nombre": "Rosa",
+    "apellido": "Morales",
+    "calificacion_prom": 4.25,
+    "sueldo": 1409.68,
+    "role": "Cocinero"
+  },
+  {
+    "local_id": "LOC-096",
     "dni": "10000470",
     "nombre": "Laura",
-    "apellido": "Cruz",
-    "calificacion_prom": 3.56,
-    "sueldo": 1800.63,
-    "role": "Cocinero"
+    "apellido": "Mendoza",
+    "calificacion_prom": 3.63,
+    "sueldo": 1733.58,
+    "role": "Despachador"
   },
   {
-    "local_id": "LOC-095",
+    "local_id": "LOC-096",
     "dni": "10000471",
-    "nombre": "Valentina",
-    "apellido": "Gómez",
-    "calificacion_prom": 4.79,
-    "sueldo": 1280.99,
+    "nombre": "Andrea",
+    "apellido": "Flores",
+    "calificacion_prom": 4.01,
+    "sueldo": 1983.06,
     "role": "Despachador"
   },
   {
     "local_id": "LOC-096",
     "dni": "10000472",
-    "nombre": "Isabel",
-    "apellido": "Vargas",
-    "calificacion_prom": 4.75,
-    "sueldo": 2276.49,
-    "role": "Repartidor"
+    "nombre": "Juan",
+    "apellido": "Herrera",
+    "calificacion_prom": 3.63,
+    "sueldo": 1956.47,
+    "role": "Despachador"
   },
   {
     "local_id": "LOC-096",
     "dni": "10000473",
-    "nombre": "Diego",
-    "apellido": "Castillo",
-    "calificacion_prom": 3.72,
-    "sueldo": 2463.95,
+    "nombre": "Fernando",
+    "apellido": "Cruz",
+    "calificacion_prom": 3.85,
+    "sueldo": 2234.08,
     "role": "Repartidor"
   },
   {
-    "local_id": "LOC-096",
+    "local_id": "LOC-097",
     "dni": "10000474",
-    "nombre": "Daniela",
-    "apellido": "Ortiz",
-    "calificacion_prom": 3.82,
-    "sueldo": 2590.72,
-    "role": "Despachador"
+    "nombre": "Juan",
+    "apellido": "Rivera",
+    "calificacion_prom": 3.56,
+    "sueldo": 2109.16,
+    "role": "Repartidor"
   },
   {
-    "local_id": "LOC-096",
+    "local_id": "LOC-097",
     "dni": "10000475",
-    "nombre": "Daniela",
-    "apellido": "Reyes",
-    "calificacion_prom": 3.58,
-    "sueldo": 2184.94,
-    "role": "Cocinero"
+    "nombre": "Miguel",
+    "apellido": "Torres",
+    "calificacion_prom": 4.6,
+    "sueldo": 1965.68,
+    "role": "Repartidor"
   },
   {
-    "local_id": "LOC-096",
+    "local_id": "LOC-097",
     "dni": "10000476",
-    "nombre": "Andrea",
-    "apellido": "Rodríguez",
-    "calificacion_prom": 3.96,
-    "sueldo": 2697.96,
+    "nombre": "Isabel",
+    "apellido": "Jiménez",
+    "calificacion_prom": 3.98,
+    "sueldo": 1727.45,
     "role": "Despachador"
   },
   {
-    "local_id": "LOC-096",
+    "local_id": "LOC-097",
     "dni": "10000477",
-    "nombre": "Diego",
-    "apellido": "Mendoza",
-    "calificacion_prom": 4.57,
-    "sueldo": 2567.01,
-    "role": "Cocinero"
+    "nombre": "Sofía",
+    "apellido": "Martínez",
+    "calificacion_prom": 4.84,
+    "sueldo": 2148.07,
+    "role": "Repartidor"
   },
   {
     "local_id": "LOC-097",
     "dni": "10000478",
     "nombre": "Fernando",
-    "apellido": "Reyes",
-    "calificacion_prom": 4.17,
-    "sueldo": 2106.1,
-    "role": "Despachador"
+    "apellido": "Gómez",
+    "calificacion_prom": 4.81,
+    "sueldo": 1923.7,
+    "role": "Cocinero"
   },
   {
     "local_id": "LOC-097",
     "dni": "10000479",
-    "nombre": "Ana",
-    "apellido": "Vargas",
-    "calificacion_prom": 3.69,
-    "sueldo": 2979.37,
-    "role": "Despachador"
+    "nombre": "Javier",
+    "apellido": "Gómez",
+    "calificacion_prom": 4.81,
+    "sueldo": 2553.63,
+    "role": "Repartidor"
   },
   {
     "local_id": "LOC-097",
     "dni": "10000480",
-    "nombre": "Sofía",
-    "apellido": "Vargas",
-    "calificacion_prom": 3.7,
-    "sueldo": 1463.94,
-    "role": "Cocinero"
+    "nombre": "Lucía",
+    "apellido": "Castillo",
+    "calificacion_prom": 4.39,
+    "sueldo": 1821.17,
+    "role": "Despachador"
   },
   {
-    "local_id": "LOC-097",
+    "local_id": "LOC-098",
     "dni": "10000481",
     "nombre": "Andrea",
-    "apellido": "López",
-    "calificacion_prom": 4.94,
-    "sueldo": 2364.99,
-    "role": "Cocinero"
+    "apellido": "Torres",
+    "calificacion_prom": 3.52,
+    "sueldo": 2610.28,
+    "role": "Repartidor"
   },
   {
     "local_id": "LOC-098",
     "dni": "10000482",
-    "nombre": "Diego",
+    "nombre": "Lucía",
     "apellido": "García",
-    "calificacion_prom": 4.92,
-    "sueldo": 2225.09,
-    "role": "Cocinero"
+    "calificacion_prom": 3.52,
+    "sueldo": 2277.76,
+    "role": "Repartidor"
   },
   {
     "local_id": "LOC-098",
     "dni": "10000483",
-    "nombre": "Roberto",
-    "apellido": "Morales",
-    "calificacion_prom": 4.23,
-    "sueldo": 2645.12,
-    "role": "Cocinero"
+    "nombre": "Patricia",
+    "apellido": "Ramírez",
+    "calificacion_prom": 4.4,
+    "sueldo": 1236.54,
+    "role": "Despachador"
   },
   {
     "local_id": "LOC-098",
     "dni": "10000484",
-    "nombre": "Juan",
-    "apellido": "Romero",
-    "calificacion_prom": 4.97,
-    "sueldo": 2624.44,
-    "role": "Cocinero"
+    "nombre": "Luis",
+    "apellido": "Pérez",
+    "calificacion_prom": 4.99,
+    "sueldo": 1802.24,
+    "role": "Repartidor"
   },
   {
     "local_id": "LOC-098",
     "dni": "10000485",
-    "nombre": "José",
-    "apellido": "Ortiz",
-    "calificacion_prom": 4.57,
-    "sueldo": 1700.56,
-    "role": "Despachador"
+    "nombre": "Pedro",
+    "apellido": "Herrera",
+    "calificacion_prom": 4.11,
+    "sueldo": 1577.56,
+    "role": "Repartidor"
   },
   {
-    "local_id": "LOC-099",
+    "local_id": "LOC-098",
     "dni": "10000486",
-    "nombre": "Elena",
-    "apellido": "López",
-    "calificacion_prom": 4.17,
-    "sueldo": 1747.12,
-    "role": "Cocinero"
+    "nombre": "Fernando",
+    "apellido": "Ramírez",
+    "calificacion_prom": 4.81,
+    "sueldo": 1294.54,
+    "role": "Repartidor"
   },
   {
     "local_id": "LOC-099",
     "dni": "10000487",
-    "nombre": "Elena",
-    "apellido": "Mendoza",
-    "calificacion_prom": 4.57,
-    "sueldo": 2414.52,
+    "nombre": "Valentina",
+    "apellido": "Cruz",
+    "calificacion_prom": 3.6,
+    "sueldo": 1716.12,
     "role": "Cocinero"
   },
   {
     "local_id": "LOC-099",
     "dni": "10000488",
     "nombre": "Ana",
-    "apellido": "Vargas",
-    "calificacion_prom": 3.97,
-    "sueldo": 1346.23,
-    "role": "Cocinero"
+    "apellido": "Díaz",
+    "calificacion_prom": 3.83,
+    "sueldo": 2884.07,
+    "role": "Repartidor"
   },
   {
     "local_id": "LOC-099",
     "dni": "10000489",
-    "nombre": "Valentina",
-    "apellido": "Cruz",
-    "calificacion_prom": 4.11,
-    "sueldo": 1944.42,
-    "role": "Despachador"
+    "nombre": "Rosa",
+    "apellido": "Rodríguez",
+    "calificacion_prom": 4.24,
+    "sueldo": 1930.1,
+    "role": "Cocinero"
   },
   {
-    "local_id": "LOC-099",
+    "local_id": "LOC-100",
     "dni": "10000490",
     "nombre": "Laura",
-    "apellido": "Pérez",
-    "calificacion_prom": 4.88,
-    "sueldo": 1682.75,
+    "apellido": "Cruz",
+    "calificacion_prom": 4.25,
+    "sueldo": 2760.77,
     "role": "Cocinero"
   },
   {
     "local_id": "LOC-100",
     "dni": "10000491",
-    "nombre": "Pedro",
-    "apellido": "Castillo",
-    "calificacion_prom": 4.44,
-    "sueldo": 2605.14,
+    "nombre": "José",
+    "apellido": "Gutiérrez",
+    "calificacion_prom": 4.65,
+    "sueldo": 2410.64,
     "role": "Cocinero"
   },
   {
     "local_id": "LOC-100",
     "dni": "10000492",
-    "nombre": "Daniela",
-    "apellido": "Cruz",
-    "calificacion_prom": 3.99,
-    "sueldo": 2175.17,
+    "nombre": "Sofía",
+    "apellido": "Gutiérrez",
+    "calificacion_prom": 3.77,
+    "sueldo": 2956.57,
     "role": "Repartidor"
   },
   {
     "local_id": "LOC-100",
     "dni": "10000493",
     "nombre": "Alberto",
-    "apellido": "Castillo",
-    "calificacion_prom": 3.72,
-    "sueldo": 2205.97,
+    "apellido": "Jiménez",
+    "calificacion_prom": 3.74,
+    "sueldo": 2136.26,
     "role": "Cocinero"
   },
   {
     "local_id": "LOC-100",
     "dni": "10000494",
-    "nombre": "Luis",
-    "apellido": "Torres",
-    "calificacion_prom": 4.69,
-    "sueldo": 2664.29,
-    "role": "Repartidor"
+    "nombre": "Diego",
+    "apellido": "Rivera",
+    "calificacion_prom": 3.59,
+    "sueldo": 1454.58,
+    "role": "Despachador"
   },
   {
     "local_id": "LOC-100",
     "dni": "10000495",
-    "nombre": "Daniela",
-    "apellido": "Ortiz",
-    "calificacion_prom": 4.89,
-    "sueldo": 2847.36,
-    "role": "Cocinero"
+    "nombre": "José",
+    "apellido": "Flores",
+    "calificacion_prom": 3.52,
+    "sueldo": 2780.1,
+    "role": "Despachador"
   }
 ]

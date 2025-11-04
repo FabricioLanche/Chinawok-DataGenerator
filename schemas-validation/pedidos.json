@@ -21,76 +21,54 @@
       "type": ["string", "null"], 
       "format": "date-time" 
     },
-    "status": {
+
+    "estado": {
       "type": "string",
       "enum": ["procesando", "cocinando", "empacando", "enviando", "recibido"]
     },
-    "procesando": {
-      "type": "object",
-      "properties": {
-        "activo": { "type": "boolean" },
-        "hora_inicio": { "type": "string", "format": "date-time" },
-        "hora_fin": { "type": "string", "format": "date-time" }
+
+    "historial_estados": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "estado": {
+            "type": "string",
+            "enum": ["procesando", "cocinando", "empacando", "enviando", "recibido"]
+          },
+          "hora_inicio": { "type": "string", "format": "date-time" },
+          "hora_fin": { "type": "string", "format": "date-time" },
+          "activo": { "type": "boolean" },
+          "empleado": {
+            "type": ["object", "null"],
+            "properties": {
+              "dni": { "type": "string" },
+              "nombre_completo": { "type": "string" },
+              "rol": { 
+                "type": "string",
+                "enum": ["cocinero", "despachador", "repartidor"]
+              },
+              "calificacion_prom": { "type": "number", "minimum": 0, "maximum": 5 }
+            },
+            "required": ["dni", "nombre_completo", "rol"]
+          }
+        },
+        "required": ["estado", "hora_inicio", "hora_fin", "activo"]
       },
-      "required": ["activo", "hora_inicio", "hora_fin"]
-    },
-    "cocinando": {
-      "type": ["object", "null"],
-      "properties": {
-        "activo": { "type": "boolean" },
-        "cocinero_dni": { "type": "string" },
-        "cocinero_nombre": { "type": "string" },
-        "cocinero_apellido": { "type": "string" },
-        "cocinero_calificacion_prom": { "type": "number", "minimum": 0, "maximum": 5 },
-        "hora_inicio": { "type": "string", "format": "date-time" },
-        "hora_fin": { "type": "string", "format": "date-time" }
-      },
-      "required": ["activo", "cocinero_dni", "cocinero_nombre", "cocinero_apellido", "cocinero_calificacion_prom", "hora_inicio", "hora_fin"]
-    },
-    "empacando": {
-      "type": ["object", "null"],
-      "properties": {
-        "activo": { "type": "boolean" },
-        "despachador_dni": { "type": "string" },
-        "despachador_nombre": { "type": "string" },
-        "despachador_apellido": { "type": "string" },
-        "despachador_calificacion_prom": { "type": "number", "minimum": 0, "maximum": 5 },
-        "hora_inicio": { "type": "string", "format": "date-time" },
-        "hora_fin": { "type": "string", "format": "date-time" }
-      },
-      "required": ["activo", "despachador_dni", "despachador_nombre", "despachador_apellido", "despachador_calificacion_prom", "hora_inicio", "hora_fin"]
-    },
-    "enviando": {
-      "type": ["object", "null"],
-      "properties": {
-        "activo": { "type": "boolean" },
-        "repartidor_dni": { "type": "string" },
-        "repartidor_nombre": { "type": "string" },
-        "repartidor_apellido": { "type": "string" },
-        "repartidor_calificacion_prom": { "type": "number", "minimum": 0, "maximum": 5 },
-        "hora_inicio": { "type": "string", "format": "date-time" },
-        "hora_fin": { "type": "string", "format": "date-time" }
-      },
-      "required": ["activo", "repartidor_dni", "repartidor_nombre", "repartidor_apellido", "repartidor_calificacion_prom", "hora_inicio", "hora_fin"]
-    },
-    "recibido": {
-      "type": ["object", "null"],
-      "properties": {
-        "activo": { "type": "boolean" },
-        "hora_inicio": { "type": "string", "format": "date-time" },
-        "hora_fin": { "type": "string", "format": "date-time" }
-      },
-      "required": ["activo", "hora_inicio", "hora_fin"]
+      "minItems": 1
     }
   },
+
   "required": [
     "local_id", 
     "pedido_id", 
     "usuario_correo", 
+    "direccion",
     "productos_nombres", 
     "costo", 
-    "status",
-    "procesando"
+    "estado",
+    "historial_estados"
   ],
+
   "additionalProperties": false
 }

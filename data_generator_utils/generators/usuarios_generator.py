@@ -61,14 +61,13 @@ class UsuariosGenerator:
             "role": "cliente"
         }
         
-        # 70% de los clientes tienen información bancaria
+        # 70% de los clientes tienen información bancaria COMPLETA
         if random.random() > 0.3:
             usuario["informacion_bancaria"] = {
-                "numero_tarjeta_encriptado": ''.join([str(random.randint(0, 9)) for _ in range(16)]),
-                "cvv_encriptado": ''.join([str(random.randint(0, 9)) for _ in range(3)]),
+                "numero_tarjeta": ''.join([str(random.randint(0, 9)) for _ in range(16)]),
+                "cvv": ''.join([str(random.randint(0, 9)) for _ in range(3)]),
                 "fecha_vencimiento": f"{random.randint(1, 12):02d}/{random.randint(25, 30):02d}",
-                "nombre_titular": f"{nombre} {apellido}",
-                "tipo_tarjeta": random.choice(["Visa", "Mastercard", "American Express"])
+                "direccion_facturacion": random.choice(SampleData.DIRECCIONES_LIMA)
             }
         
         return usuario

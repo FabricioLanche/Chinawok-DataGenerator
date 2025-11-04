@@ -14,24 +14,24 @@ class ResenasGenerator:
         resenas = []
         resena_counter = 1
         
-        pedidos_completados = [p for p in pedidos if p["status"] == "recibido"]
+        pedidos_completados = [p for p in pedidos if p["estado"] == "recibido"]
         num_resenas = min(Config.NUM_RESENAS, len(pedidos_completados))
         pedidos_a_resenar = random.sample(pedidos_completados, num_resenas)
         
         for pedido in pedidos_a_resenar:
-            # Extraer DNIs de empleados de los estados del pedido
+            # Extraer empleados del historial_estados
             empleados_en_pedido = []
             
-            if pedido.get("cocinando", {}).get("cocinero_dni"):
-                empleados_en_pedido.append(pedido["cocinando"]["cocinero_dni"])
-            if pedido.get("empacando", {}).get("despachador_dni"):
-                empleados_en_pedido.append(pedido["empacando"]["despachador_dni"])
-            if pedido.get("enviando", {}).get("repartidor_dni"):
-                empleados_en_pedido.append(pedido["enviando"]["repartidor_dni"])
+            for entrada in pedido.get("historial_estados", []):
+                empleado = entrada.get("empleado")
+                if empleado and empleado.get("dni"):
+                    # Evitar duplicados
+                    if empleado["dni"] not in [e["dni"] for e in empleados_en_pedido]:
+                        empleados_en_pedido.append(empleado)
             
             # Crear una reseña por cada empleado
-            for empleado_dni in empleados_en_pedido:
-                resena = cls._crear_resena(resena_counter, pedido, empleado_dni)
+            for empleado in empleados_en_pedido:
+                resena = cls._crear_resena(resena_counter, pedido, empleado)
                 resenas.append(resena)
                 resena_counter += 1
         
@@ -39,7 +39,7 @@ class ResenasGenerator:
         return resenas
     
     @classmethod
-    def _crear_resena(cls, counter, pedido, empleado_dni):
+    def _crear_resena(cls, counter, pedido, empleado):
         """Crea una reseña individual para un empleado específico"""
         calificacion = random.uniform(1, 5)
         
@@ -51,6 +51,7 @@ class ResenasGenerator:
             resena_texto = random.choice(SampleData.RESENAS_NEGATIVAS)
         
         local_id = pedido["local_id"]
+        empleado_dni = empleado["dni"]
         pk = f"LOCAL#{local_id}#EMP#{empleado_dni}"
         
         return {

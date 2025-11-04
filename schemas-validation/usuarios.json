@@ -18,7 +18,7 @@
         "fecha_vencimiento": { "type": "string", "pattern": "^(0[1-9]|1[0-2])/[0-9]{2}$" },
         "direccion_facturacion": { "type": "string" }
       },
-      "required": ["numero_tarjeta", "cvv", "fecha_vencimiento"],
+      "required": ["numero_tarjeta", "cvv", "fecha_vencimiento", "direccion_facturacion"],
       "additionalProperties": false
     }
   },

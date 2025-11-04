@@ -1,5 +1,5 @@
 """
-Generador de Pedidos con máquina de estados
+Generador de Pedidos con historial de estados
 """
 import random
 from datetime import datetime, timedelta
@@ -8,13 +8,20 @@ from ..sample_data import SampleData
 
 
 class PedidosGenerator:
-    """Generador de datos para la tabla Pedidos con máquina de estados"""
+    """Generador de datos para la tabla Pedidos con historial de estados"""
     
     ESTADOS = ["procesando", "cocinando", "empacando", "enviando", "recibido"]
     
+    # Mapeo de estados a roles de empleados
+    ESTADO_A_ROL = {
+        "cocinando": "cocinero",
+        "empacando": "despachador",
+        "enviando": "repartidor"
+    }
+    
     @classmethod
     def generar_pedidos(cls, locales_ids, usuarios, productos, productos_por_local, empleados_por_local):
-        """Genera pedidos con estados progresivos"""
+        """Genera pedidos con historial de estados"""
         pedidos = []
         
         usuarios_validos = [u for u in usuarios if u.get("informacion_bancaria") and u.get("role") == "cliente"]
@@ -32,7 +39,7 @@ class PedidosGenerator:
             local_id = random.choice(locales_ids)
             usuario = random.choice(usuarios_validos)
             
-            pedido = cls._crear_pedido_con_estados(
+            pedido = cls._crear_pedido_con_historial(
                 i + 1, local_id, usuario, productos_dict, productos_por_local, empleados_por_local
             )
             
@@ -47,30 +54,28 @@ class PedidosGenerator:
         return pedidos, pedidos_ids
     
     @classmethod
-    def _crear_pedido_con_estados(cls, counter, local_id, usuario, productos_dict, productos_por_local, empleados_por_local):
-        """Crea un pedido usando SOLO recursos del local específico (multi-tenancy)"""
+    def _crear_pedido_con_historial(cls, counter, local_id, usuario, productos_dict, productos_por_local, empleados_por_local):
+        """Crea un pedido con historial de estados"""
         pedido_id = f"PED-{counter:06d}"
         
-        # IMPORTANTE: Solo productos DEL LOCAL específico
+        # Seleccionar productos DEL LOCAL específico
         productos_disponibles = productos_por_local.get(local_id, [])
         
         if not productos_disponibles:
-            # Si no hay productos en este local, usar valores por defecto
             productos_nombres = []
             costo = 0
         else:
-            # Seleccionar productos aleatorios DEL LOCAL
             num_productos = min(random.randint(1, 4), len(productos_disponibles))
             productos_nombres = random.sample(productos_disponibles, num_productos)
             
-            # Calcular costo basado en los productos seleccionados
             costo = sum([
                 productos_dict[nombre]["precio"] 
                 for nombre in productos_nombres 
                 if nombre in productos_dict
             ])
-            costo += random.uniform(3.0, 8.0)  # Delivery fee
+            costo += random.uniform(3.0, 8.0)
         
+        # Determinar estado actual del pedido
         estado_actual = random.choices(
             cls.ESTADOS,
             weights=[10, 20, 15, 25, 30],
@@ -78,12 +83,20 @@ class PedidosGenerator:
         )[0]
         
         fecha_base = datetime.now() - timedelta(hours=random.randint(0, 72))
+        
+        # Calcular fecha de entrega aproximada
         fecha_entrega_aproximada = cls._calcular_fecha_entrega(fecha_base, len(productos_nombres))
         
-        # Generar estados usando SOLO empleados DEL LOCAL
-        estados = cls._generar_estados_progresivos(
+        # Generar historial de estados
+        historial_estados = cls._generar_historial_estados(
             estado_actual, fecha_base, local_id, empleados_por_local
         )
+        
+        # IMPORTANTE: Direccion SIEMPRE presente (requerida por schema)
+        # Usar direccion_facturacion del usuario o una aleatoria
+        direccion_pedido = usuario.get("informacion_bancaria", {}).get("direccion_facturacion")
+        if not direccion_pedido:
+            direccion_pedido = random.choice(SampleData.DIRECCIONES_LIMA)
         
         pedido = {
             "local_id": local_id,
@@ -92,20 +105,10 @@ class PedidosGenerator:
             "productos_nombres": productos_nombres,
             "costo": round(costo, 2),
             "fecha_entrega_aproximada": fecha_entrega_aproximada,
-            "direccion": random.choice(SampleData.DIRECCIONES_LIMA) if estado_actual in ["enviando", "recibido"] else "",
-            "status": estado_actual,
-            "procesando": estados["procesando"]
+            "direccion": direccion_pedido,  # SIEMPRE presente
+            "estado": estado_actual,
+            "historial_estados": historial_estados
         }
-        
-        # Solo agregar estados que ya se han alcanzado
-        if estados["cocinando"] is not None:
-            pedido["cocinando"] = estados["cocinando"]
-        if estados["empacando"] is not None:
-            pedido["empacando"] = estados["empacando"]
-        if estados["enviando"] is not None:
-            pedido["enviando"] = estados["enviando"]
-        if estados["recibido"] is not None:
-            pedido["recibido"] = estados["recibido"]
         
         return pedido
     
@@ -120,20 +123,16 @@ class PedidosGenerator:
         return fecha_entrega.isoformat()
     
     @classmethod
-    def _generar_estados_progresivos(cls, estado_actual, fecha_base, local_id, empleados_por_local):
-        """Genera estados usando SOLO empleados del local específico"""
-        estados = {
-            "procesando": {},
-            "cocinando": None,
-            "empacando": None,
-            "enviando": None,
-            "recibido": None
-        }
-        
+    def _generar_historial_estados(cls, estado_actual, fecha_base, local_id, empleados_por_local):
+        """
+        Genera el historial de estados como un array.
+        Solo incluye estados hasta el estado actual.
+        """
+        historial = []
         tiempo_acumulado = 0
         estado_actual_index = cls.ESTADOS.index(estado_actual)
         
-        # IMPORTANTE: Obtener empleados DEL LOCAL ESPECÍFICO
+        # Obtener empleados DEL LOCAL específico
         empleados_del_local = empleados_por_local.get(local_id, {
             "cocinero": [],
             "despachador": [],
@@ -149,81 +148,50 @@ class PedidosGenerator:
                 duracion = cls._obtener_duracion_estado(estado)
                 hora_fin = hora_inicio + timedelta(minutes=duracion)
                 
-                if estado == "procesando":
-                    estados[estado] = {
-                        "activo": es_estado_actual,
-                        "hora_inicio": hora_inicio.isoformat(),
-                        "hora_fin": hora_fin.isoformat()
-                    }
+                # Crear entrada en el historial
+                entrada_historial = {
+                    "estado": estado,
+                    "hora_inicio": hora_inicio.isoformat(),
+                    "hora_fin": hora_fin.isoformat(),
+                    "activo": es_estado_actual
+                }
                 
-                elif estado == "cocinando":
-                    # Solo cocineros DEL LOCAL
-                    if empleados_del_local["cocinero"]:
-                        empleado_dni = random.choice(empleados_del_local["cocinero"])
-                        empleado_info = empleados_del_local["info_empleados"].get(empleado_dni, {})
-                    else:
-                        # Fallback si no hay cocineros (no debería pasar)
-                        empleado_dni = ""
-                        empleado_info = {}
+                # Agregar información del empleado si el estado lo requiere
+                if estado in cls.ESTADO_A_ROL:
+                    rol = cls.ESTADO_A_ROL[estado]
+                    empleado_info = cls._obtener_info_empleado(
+                        empleados_del_local, rol
+                    )
                     
-                    estados[estado] = {
-                        "activo": es_estado_actual,
-                        "cocinero_dni": empleado_dni,
-                        "cocinero_nombre": empleado_info.get("nombre", ""),
-                        "cocinero_apellido": empleado_info.get("apellido", ""),
-                        "cocinero_calificacion_prom": empleado_info.get("calificacion_prom", round(random.uniform(3.5, 5.0), 2)),
-                        "hora_inicio": hora_inicio.isoformat(),
-                        "hora_fin": hora_fin.isoformat()
-                    }
-                
-                elif estado == "empacando":
-                    # Solo despachadores DEL LOCAL
-                    if empleados_del_local["despachador"]:
-                        empleado_dni = random.choice(empleados_del_local["despachador"])
-                        empleado_info = empleados_del_local["info_empleados"].get(empleado_dni, {})
+                    if empleado_info:
+                        entrada_historial["empleado"] = empleado_info
                     else:
-                        empleado_dni = ""
-                        empleado_info = {}
-                    
-                    estados[estado] = {
-                        "activo": es_estado_actual,
-                        "despachador_dni": empleado_dni,
-                        "despachador_nombre": empleado_info.get("nombre", ""),
-                        "despachador_apellido": empleado_info.get("apellido", ""),
-                        "despachador_calificacion_prom": empleado_info.get("calificacion_prom", round(random.uniform(3.5, 5.0), 2)),
-                        "hora_inicio": hora_inicio.isoformat(),
-                        "hora_fin": hora_fin.isoformat()
-                    }
+                        entrada_historial["empleado"] = None
+                else:
+                    entrada_historial["empleado"] = None
                 
-                elif estado == "enviando":
-                    # Solo repartidores DEL LOCAL
-                    if empleados_del_local["repartidor"]:
-                        empleado_dni = random.choice(empleados_del_local["repartidor"])
-                        empleado_info = empleados_del_local["info_empleados"].get(empleado_dni, {})
-                    else:
-                        empleado_dni = ""
-                        empleado_info = {}
-                    
-                    estados[estado] = {
-                        "activo": es_estado_actual,
-                        "repartidor_dni": empleado_dni,
-                        "repartidor_nombre": empleado_info.get("nombre", ""),
-                        "repartidor_apellido": empleado_info.get("apellido", ""),
-                        "repartidor_calificacion_prom": empleado_info.get("calificacion_prom", round(random.uniform(3.5, 5.0), 2)),
-                        "hora_inicio": hora_inicio.isoformat(),
-                        "hora_fin": hora_fin.isoformat()
-                    }
-                
-                elif estado == "recibido":
-                    estados[estado] = {
-                        "activo": es_estado_actual,
-                        "hora_inicio": hora_inicio.isoformat(),
-                        "hora_fin": hora_fin.isoformat()
-                    }
-                
+                historial.append(entrada_historial)
                 tiempo_acumulado += duracion
         
-        return estados
+        return historial
+    
+    @classmethod
+    def _obtener_info_empleado(cls, empleados_del_local, rol):
+        """Obtiene información de un empleado del local para un rol específico"""
+        empleados_del_rol = empleados_del_local.get(rol, [])
+        
+        if not empleados_del_rol:
+            return None
+        
+        empleado_dni = random.choice(empleados_del_rol)
+        empleado_data = empleados_del_local["info_empleados"].get(empleado_dni, {})
+        
+        return {
+            "dni": empleado_dni,
+            "nombre_completo": f"{empleado_data.get('nombre', '')} {empleado_data.get('apellido', '')}".strip(),
+            "rol": rol,
+            "calificacion_prom": empleado_data.get("calificacion_prom", round(random.uniform(3.5, 5.0), 2))
+        }
     
     @classmethod
     def _obtener_duracion_estado(cls, estado):
