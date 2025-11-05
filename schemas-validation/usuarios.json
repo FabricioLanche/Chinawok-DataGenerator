@@ -9,7 +9,7 @@
     "nombre": { "type": "string" },
     "correo": { "type": "string", "format": "email" },
     "contrasena": { "type": "string", "minLength": 6 },
-    "role": { "type": "string", "enum": ["Cliente", "Admin"] },
+    "role": { "type": "string", "enum": ["Cliente", "Gerente", "Admin"] },
     "informacion_bancaria": {
       "type": "object",
       "properties": {
@@ -20,6 +20,11 @@
       },
       "required": ["numero_tarjeta", "cvv", "fecha_vencimiento", "direccion_delivery"],
       "additionalProperties": false
+    },
+    "historial_pedidos": {
+      "type": "array",
+      "items": { "type": "string" },
+      "default": []
     }
   },
   "required": ["nombre", "correo", "contrasena", "role"],

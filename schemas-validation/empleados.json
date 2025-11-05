@@ -15,6 +15,10 @@
     "sueldo": { "type": "number", "minimum": 0 },
     "role": { "type": "string", "enum": ["Repartidor", "Cocinero", "Despachador"] }
   },
+  "ocupado": {
+    "type": "boolean",
+    "default": false
+  },
   "required": ["local_id", "dni", "nombre", "apellido", "role"],
   "additionalProperties": false
 }

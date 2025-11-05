@@ -37,11 +37,10 @@ def main():
     locales, locales_ids = LocalesGenerator.generar_locales()
     guardar_json("locales.json", locales)
     
-    # 2. Generar Usuarios
+    # 2. Generar Usuarios (pasando datos de locales para crear gerentes)
     print("\n👥 Generando Usuarios...")
-    usuarios, usuarios_ids = UsuariosGenerator.generar_usuarios()
+    usuarios, usuarios_ids = UsuariosGenerator.generar_usuarios(locales_data=locales)
     guardar_json("usuarios.json", usuarios)
-    print(f"  ℹ️  1 administrador + {Config.NUM_USUARIOS} clientes")
     
     # 3. Generar Productos
     print("\n🍜 Generando Productos...")

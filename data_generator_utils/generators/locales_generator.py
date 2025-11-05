@@ -11,7 +11,7 @@ class LocalesGenerator:
     
     @classmethod
     def generar_locales(cls):
-        """Genera locales con administradores únicos"""
+        """Genera locales, cada uno con su gerente único (multi-tenancy)"""
         locales = []
         locales_ids = []
         
@@ -20,18 +20,19 @@ class LocalesGenerator:
             locales.append(local)
             locales_ids.append(local["local_id"])
         
-        print(f"  ✅ {Config.NUM_LOCALES} locales generados (cada uno con su administrador)")
+        print(f"  ✅ {Config.NUM_LOCALES} locales generados")
+        print(f"  👤 Cada local tiene su gerente único (multi-tenancy)")
         return locales, locales_ids
     
     @classmethod
     def _crear_local(cls, index):
-        """Crea un local individual con su administrador"""
+        """Crea un local individual con su gerente único"""
         local_id = Helpers.generar_uuid()
         direccion = random.choice(SampleData.DIRECCIONES_LIMA)
         
-        # Generar administrador único para este local
-        nombre_admin = random.choice(SampleData.NOMBRES)
-        apellido_admin = random.choice(SampleData.APELLIDOS)
+        # Cada local tiene su propio gerente (multi-tenancy)
+        nombre_gerente = random.choice(SampleData.NOMBRES)
+        apellido_gerente = random.choice(SampleData.APELLIDOS)
         
         return {
             "local_id": local_id,
@@ -39,9 +40,9 @@ class LocalesGenerator:
             "telefono": f"+51{random.randint(900000000, 999999999)}",
             "hora_apertura": "08:00",
             "hora_finalizacion": "22:00",
-            "administrador": {
-                "nombre": f"{nombre_admin} {apellido_admin}",
-                "correo": f"admin.{index + 1:03d}@chinawok.pe",
-                "contrasena": f"Admin{index + 1:03d}!123"
+            "gerente": {
+                "nombre": f"{nombre_gerente} {apellido_gerente}",
+                "correo": f"gerente.local{index + 1:03d}@chinawok.pe",
+                "contrasena": f"Gerente{index + 1:03d}!Pass"
             }
         }

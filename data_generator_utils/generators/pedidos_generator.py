@@ -14,6 +14,7 @@ class PedidosGenerator:
     ESTADOS = ["procesando", "cocinando", "empacando", "enviando", "recibido"]
     
     # Mapeo de estados a roles de empleados
+    # Nota: "procesando" y "recibido" NO tienen empleado asignado
     ESTADO_A_ROL = {
         "cocinando": "cocinero",
         "empacando": "despachador",
@@ -25,13 +26,14 @@ class PedidosGenerator:
         """Genera pedidos con historial de estados"""
         pedidos = []
         
-        usuarios_validos = [u for u in usuarios if u.get("informacion_bancaria") and u.get("role") == "cliente"]
+        # Filtrar solo usuarios con rol "Cliente" que tengan información bancaria
+        usuarios_validos = [u for u in usuarios if u.get("informacion_bancaria") and u.get("role") == "Cliente"]
         
         if not usuarios_validos:
-            print("  ⚠️  No hay usuarios con información bancaria")
+            print("  ⚠️  No hay usuarios Cliente con información bancaria")
             return pedidos, []
         
-        print(f"  ℹ️  Usuarios válidos: {len(usuarios_validos)}")
+        print(f"  ℹ️  Usuarios Cliente válidos para pedidos: {len(usuarios_validos)}")
         
         # Crear diccionario de productos por nombre para búsqueda rápida
         productos_dict = {p["nombre"]: p for p in productos}
@@ -51,6 +53,7 @@ class PedidosGenerator:
         
         pedidos_ids = [p["pedido_id"] for p in pedidos]
         print(f"  ✅ {len(pedidos)} pedidos generados")
+        print(f"  ℹ️  Empleados asignados solo en estados: cocinando, empacando, enviando")
         
         return pedidos, pedidos_ids
     

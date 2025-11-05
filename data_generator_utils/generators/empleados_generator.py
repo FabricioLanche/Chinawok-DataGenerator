@@ -42,7 +42,8 @@ class EmpleadosGenerator:
                 }
         
         print(f"  ✅ {len(empleados)} empleados generados")
-        print(f"  ℹ️  Distribuidos en {len(locales_ids)} locales")
+        print(f"  ℹ️  Distribuidos en {len(locales_ids)} locales (multi-tenancy)")
+        print(f"  ℹ️  Campo 'ocupado' = False por defecto (se actualizará en tiempo real)")
         return empleados, empleados_por_local
     
     @classmethod

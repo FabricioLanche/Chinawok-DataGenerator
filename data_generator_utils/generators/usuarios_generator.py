@@ -9,18 +9,25 @@ class UsuariosGenerator:
     """Generador de datos para la tabla Usuarios"""
     
     @classmethod
-    def generar_usuarios(cls):
-        """Genera administradores (proporcionales a locales) + clientes"""
+    def generar_usuarios(cls, locales_data=None):
+        """Genera 1 Admin único (desde .env) + Gerentes (uno por local) + Clientes"""
         usuarios = []
         usuarios_ids = []
         
-        # Crear administradores (1 por cada 10 clientes aproximadamente)
-        num_admins = max(1, Config.NUM_USUARIOS // 10)
+        # Crear UN ÚNICO Admin (desde variables de entorno)
+        admin = cls._crear_admin_unico()
+        usuarios.append(admin)
+        usuarios_ids.append(admin["correo"])
         
-        for i in range(num_admins):
-            admin = cls._crear_administrador(i)
-            usuarios.append(admin)
-            usuarios_ids.append(admin["correo"])
+        # Crear Gerentes (uno por cada local) - IMPORTANTE: pasar locales_data
+        num_gerentes = 0
+        if locales_data:
+            for local in locales_data:
+                gerente_data = local["gerente"]
+                gerente = cls._crear_gerente_desde_local(gerente_data)
+                usuarios.append(gerente)
+                usuarios_ids.append(gerente["correo"])
+                num_gerentes += 1
         
         # Crear clientes
         for i in range(Config.NUM_USUARIOS):
@@ -28,22 +35,36 @@ class UsuariosGenerator:
             usuarios.append(usuario)
             usuarios_ids.append(usuario["correo"])
         
-        print(f"  ✅ {num_admins} administradores + {Config.NUM_USUARIOS} clientes generados")
+        print(f"  ✅ 1 Admin + {num_gerentes} Gerentes + {Config.NUM_USUARIOS} Clientes generados")
+        print(f"  ℹ️  Admin: {admin['correo']}")
+        if num_gerentes > 0:
+            print(f"  ℹ️  Gerentes: {num_gerentes} (uno por local)")
         return usuarios, usuarios_ids
     
     @classmethod
-    def _crear_administrador(cls, index):
-        """Crea un usuario administrador"""
-        nombre = random.choice(SampleData.NOMBRES)
-        apellido = random.choice(SampleData.APELLIDOS)
-        
+    def _crear_admin_unico(cls):
+        """Crea el único usuario administrador de toda la plataforma (desde .env)"""
         return {
-            "nombre": nombre,
-            "apellido": apellido,
-            "correo": f"admin{index+1:03d}@chinawok.pe",
+            "nombre": Config.ADMIN_NOMBRE,
+            "apellido": Config.ADMIN_APELLIDO,
+            "correo": Config.ADMIN_EMAIL,
+            "telefono": Config.ADMIN_TELEFONO,
+            "contrasena": Config.ADMIN_PASSWORD,
+            "role": "Admin",
+            "historial_pedidos": []
+        }
+    
+    @classmethod
+    def _crear_gerente_desde_local(cls, gerente_data):
+        """Crea un usuario Gerente a partir de los datos del local"""
+        return {
+            "nombre": gerente_data["nombre"].split()[0],  # Primer nombre
+            "apellido": " ".join(gerente_data["nombre"].split()[1:]),  # Apellidos
+            "correo": gerente_data["correo"],
             "telefono": f"+51{random.randint(900000000, 999999999)}",
-            "contrasena": f"Admin{index+1:03d}!",
-            "role": "admin"
+            "contrasena": gerente_data["contrasena"],
+            "role": "Gerente",
+            "historial_pedidos": []
         }
     
     @classmethod
@@ -58,7 +79,8 @@ class UsuariosGenerator:
             "correo": f"{nombre.lower()}.{apellido.lower()}{index}@email.com",
             "telefono": f"+51{random.randint(900000000, 999999999)}",
             "contrasena": f"cliente{index:04d}",
-            "role": "cliente"
+            "role": "Cliente",  # Primera letra mayúscula
+            "historial_pedidos": []  # Array vacío por defecto
         }
         
         # 70% de los clientes tienen información bancaria COMPLETA

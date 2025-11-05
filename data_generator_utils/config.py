@@ -45,15 +45,15 @@ class Config:
     SALARIO_MIN = 1200.0
     SALARIO_MAX = 3000.0
     
-    # Admin credentials
+        # Admin credentials (Usuario único con rol Admin - administrador general de la plataforma)
     ADMIN_NOMBRE = os.getenv('ADMIN_NOMBRE', 'Administrador')
-    ADMIN_APELLIDO = os.getenv('ADMIN_APELLIDO', 'Sistema')
+    ADMIN_APELLIDO = os.getenv('ADMIN_APELLIDO', 'General')
     ADMIN_EMAIL = os.getenv('ADMIN_EMAIL', 'admin@chinawok.pe')
-    ADMIN_TELEFONO = os.getenv('ADMIN_TELEFONO', '+51-999999999')
-    ADMIN_PASSWORD = os.getenv('ADMIN_PASSWORD', 'Admin123!')
+    ADMIN_TELEFONO = os.getenv('ADMIN_TELEFONO', '+51999999999')
+    ADMIN_PASSWORD = os.getenv('ADMIN_PASSWORD', 'AdminChinaWok2024!')
     
-    # Estados de pedidos
-    ESTADOS_PEDIDO = ["eligiendo", "cocinando", "empacando", "enviando", "recibido"]
+    # Estados de pedidos (DEBEN coincidir con schema exactamente)
+    ESTADOS_PEDIDO = ["procesando", "cocinando", "empacando", "enviando", "recibido"]
     
     # Roles de empleados (DEBEN coincidir con schema: Primera letra mayúscula)
     ROLES_EMPLEADO = ["Repartidor", "Cocinero", "Despachador"]
@@ -75,7 +75,10 @@ class Config:
     ]
     
     # Roles de usuarios (DEBEN coincidir con schema: Primera letra mayúscula)
-    ROLES_USUARIO = ["Cliente", "Admin"]
+    # Cliente: usuarios que realizan pedidos (pueden o no tener info bancaria)
+    # Gerente: encargado de un local específico (multi-tenancy) - se genera automáticamente con cada local
+    # Admin: administrador general de toda la plataforma (SOLO 1, se crea desde .env)
+    ROLES_USUARIO = ["Cliente", "Gerente", "Admin"]
 
     @staticmethod
     def crear_directorio_salida():
