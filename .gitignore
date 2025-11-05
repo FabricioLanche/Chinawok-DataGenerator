@@ -42,9 +42,8 @@ env/
 *~
 .DS_Store
 
-# Generated data (opcional - descomenta si no quieres versionar los datos)
-# dynamodb_data/
-# *.json
+# Generated data
+dynamodb_data/
 
 # Logs
 *.log
