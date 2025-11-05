@@ -26,7 +26,8 @@ class PedidosGenerator:
         pedidos = []
         usuarios_a_pedidos = {}  # Mapeo de usuario_correo a lista de pedido_ids
         
-        usuarios_validos = [u for u in usuarios if u.get("informacion_bancaria") and u.get("role") == "Cliente"]
+        # Solo usuarios tipo Cliente con información bancaria pueden hacer pedidos
+        usuarios_validos = [u for u in usuarios if u.get("informacion_bancaria") and u.get("role") == Config.ROLES_USUARIO[0]]
         
         if not usuarios_validos:
             print("  ⚠️  No hay usuarios con información bancaria")

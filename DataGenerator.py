@@ -71,8 +71,7 @@ def main():
     print("\n🔗 Actualizando historial de pedidos de usuarios...")
     for usuario in usuarios:
         correo = usuario["correo"]
-        if correo in usuarios_a_pedidos:
-            usuario["historial_pedidos"] = usuarios_a_pedidos[correo]
+        usuario["historial_pedidos"] = usuarios_a_pedidos.get(correo, [])
     # Guardar usuarios actualizados con historial_pedidos
     guardar_json("usuarios.json", usuarios)
     print(f"  ✅ Historial de pedidos actualizado para {len(usuarios_a_pedidos)} usuarios")
