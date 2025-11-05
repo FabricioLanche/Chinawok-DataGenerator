@@ -22,14 +22,15 @@ class PedidosGenerator:
     
     @classmethod
     def generar_pedidos(cls, locales_ids, usuarios, productos, productos_por_local, empleados_por_local):
-        """Genera pedidos con historial de estados"""
+        """Genera pedidos con historial de estados y retorna mapeo de usuarios a pedidos"""
         pedidos = []
+        usuarios_a_pedidos = {}  # Mapeo de usuario_correo a lista de pedido_ids
         
-        usuarios_validos = [u for u in usuarios if u.get("informacion_bancaria") and u.get("role") == "cliente"]
+        usuarios_validos = [u for u in usuarios if u.get("informacion_bancaria") and u.get("role") == "Cliente"]
         
         if not usuarios_validos:
             print("  ⚠️  No hay usuarios con información bancaria")
-            return pedidos, []
+            return pedidos, [], usuarios_a_pedidos
         
         print(f"  ℹ️  Usuarios válidos: {len(usuarios_validos)}")
         
@@ -46,13 +47,19 @@ class PedidosGenerator:
             
             pedidos.append(pedido)
             
+            # Agregar pedido_id al mapeo de usuario
+            usuario_correo = usuario["correo"]
+            if usuario_correo not in usuarios_a_pedidos:
+                usuarios_a_pedidos[usuario_correo] = []
+            usuarios_a_pedidos[usuario_correo].append(pedido["pedido_id"])
+            
             if (i + 1) % 1000 == 0:
                 print(f"  📊 Progreso: {i + 1}/{Config.NUM_PEDIDOS}")
         
         pedidos_ids = [p["pedido_id"] for p in pedidos]
         print(f"  ✅ {len(pedidos)} pedidos generados")
         
-        return pedidos, pedidos_ids
+        return pedidos, pedidos_ids, usuarios_a_pedidos
     
     @classmethod
     def _crear_pedido_con_historial(cls, local_id, usuario, productos_dict, productos_por_local, empleados_por_local):

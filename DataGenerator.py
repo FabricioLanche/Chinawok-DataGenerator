@@ -62,10 +62,20 @@ def main():
     
     # 6. Generar Pedidos
     print("\n📦 Generando Pedidos...")
-    pedidos, pedidos_ids = PedidosGenerator.generar_pedidos(
+    pedidos, pedidos_ids, usuarios_a_pedidos = PedidosGenerator.generar_pedidos(
         locales_ids, usuarios, productos, productos_por_local, empleados_por_local
     )
     guardar_json("pedidos.json", pedidos)
+    
+    # 6.1. Actualizar historial_pedidos de usuarios
+    print("\n🔗 Actualizando historial de pedidos de usuarios...")
+    for usuario in usuarios:
+        correo = usuario["correo"]
+        if correo in usuarios_a_pedidos:
+            usuario["historial_pedidos"] = usuarios_a_pedidos[correo]
+    # Guardar usuarios actualizados con historial_pedidos
+    guardar_json("usuarios.json", usuarios)
+    print(f"  ✅ Historial de pedidos actualizado para {len(usuarios_a_pedidos)} usuarios")
     
     # 7. Generar Ofertas
     print("\n🎉 Generando Ofertas...")

@@ -43,7 +43,8 @@ class UsuariosGenerator:
             "correo": f"admin{index+1:03d}@chinawok.pe",
             "telefono": f"+51{random.randint(900000000, 999999999)}",
             "contrasena": f"Admin{index+1:03d}!",
-            "role": "admin"
+            "role": "Admin",
+            "historial_pedidos": []
         }
     
     @classmethod
@@ -58,7 +59,8 @@ class UsuariosGenerator:
             "correo": f"{nombre.lower()}.{apellido.lower()}{index}@email.com",
             "telefono": f"+51{random.randint(900000000, 999999999)}",
             "contrasena": f"cliente{index:04d}",
-            "role": "cliente"
+            "role": "Cliente",
+            "historial_pedidos": []
         }
         
         # 70% de los clientes tienen información bancaria COMPLETA
