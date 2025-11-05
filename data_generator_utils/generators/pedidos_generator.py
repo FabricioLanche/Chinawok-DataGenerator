@@ -5,6 +5,7 @@ import random
 from datetime import datetime, timedelta
 from ..config import Config
 from ..sample_data import SampleData
+from ..helpers import Helpers
 
 
 class PedidosGenerator:
@@ -40,7 +41,7 @@ class PedidosGenerator:
             usuario = random.choice(usuarios_validos)
             
             pedido = cls._crear_pedido_con_historial(
-                i + 1, local_id, usuario, productos_dict, productos_por_local, empleados_por_local
+                local_id, usuario, productos_dict, productos_por_local, empleados_por_local
             )
             
             pedidos.append(pedido)
@@ -54,9 +55,9 @@ class PedidosGenerator:
         return pedidos, pedidos_ids
     
     @classmethod
-    def _crear_pedido_con_historial(cls, counter, local_id, usuario, productos_dict, productos_por_local, empleados_por_local):
+    def _crear_pedido_con_historial(cls, local_id, usuario, productos_dict, productos_por_local, empleados_por_local):
         """Crea un pedido con historial de estados"""
-        pedido_id = f"PED-{counter:06d}"
+        pedido_id = Helpers.generar_uuid()
         
         # Seleccionar productos DEL LOCAL específico
         productos_disponibles = productos_por_local.get(local_id, [])

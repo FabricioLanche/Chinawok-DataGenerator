@@ -4,6 +4,7 @@ Generador de Reseñas
 import random
 from ..config import Config
 from ..sample_data import SampleData
+from ..helpers import Helpers
 
 class ResenasGenerator:
     """Generador de datos para la tabla Reseñas"""
@@ -12,7 +13,6 @@ class ResenasGenerator:
     def generar_resenas(cls, pedidos):
         """Genera reseñas solo para pedidos completados"""
         resenas = []
-        resena_counter = 1
         
         pedidos_completados = [p for p in pedidos if p["estado"] == "recibido"]
         num_resenas = min(Config.NUM_RESENAS, len(pedidos_completados))
@@ -31,16 +31,16 @@ class ResenasGenerator:
             
             # Crear una reseña por cada empleado
             for empleado in empleados_en_pedido:
-                resena = cls._crear_resena(resena_counter, pedido, empleado)
+                resena = cls._crear_resena(pedido, empleado)
                 resenas.append(resena)
-                resena_counter += 1
         
         print(f"  ✅ {len(resenas)} reseñas generadas")
         return resenas
     
     @classmethod
-    def _crear_resena(cls, counter, pedido, empleado):
+    def _crear_resena(cls, pedido, empleado):
         """Crea una reseña individual para un empleado específico"""
+        resena_id = Helpers.generar_uuid()
         calificacion = random.uniform(1, 5)
         
         if calificacion >= 4:
@@ -58,7 +58,7 @@ class ResenasGenerator:
             "pk": pk,
             "local_id": local_id,
             "empleado_dni": empleado_dni,
-            "resena_id": f"RES-{counter:05d}",
+            "resena_id": resena_id,
             "pedido_id": pedido["pedido_id"],
             "resena": resena_texto,
             "calificacion": round(calificacion, 2)

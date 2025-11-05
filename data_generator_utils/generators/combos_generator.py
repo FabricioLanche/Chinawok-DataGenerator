@@ -3,6 +3,7 @@ Generador de Combos
 """
 import random
 from ..config import Config
+from ..helpers import Helpers
 
 
 class CombosGenerator:
@@ -25,8 +26,6 @@ class CombosGenerator:
         # Crear diccionario de productos por nombre para búsqueda rápida
         productos_dict = {p["nombre"]: p for p in productos}
         
-        combo_counter = 1
-        
         for _ in range(Config.NUM_COMBOS):
             local_id = random.choice(locales_ids)
             
@@ -38,7 +37,6 @@ class CombosGenerator:
                 continue
             
             combo = cls._crear_combo(
-                combo_counter, 
                 local_id, 
                 productos_del_local,  # Solo productos de este local
                 productos_dict
@@ -46,16 +44,15 @@ class CombosGenerator:
             
             combos.append(combo)
             combos_por_local[local_id].append(combo["combo_id"])
-            combo_counter += 1
         
         print(f"  ✅ {len(combos)} combos generados")
         print(f"  ℹ️  Distribuidos en {len(locales_ids)} locales")
         return combos, combos_por_local
     
     @classmethod
-    def _crear_combo(cls, counter, local_id, productos_disponibles, productos_dict):
+    def _crear_combo(cls, local_id, productos_disponibles, productos_dict):
         """Crea un combo usando solo productos del local especificado"""
-        combo_id = f"COMBO-{counter:04d}"
+        combo_id = Helpers.generar_uuid()
         
         # Seleccionar 2-4 productos DEL LOCAL
         num_productos = random.randint(2, min(4, len(productos_disponibles)))
@@ -75,7 +72,7 @@ class CombosGenerator:
         return {
             "local_id": local_id,
             "combo_id": combo_id,
-            "nombre": f"Combo {combo_id}",
+            "nombre": f"Combo {combo_id[:8]}",
             "productos_nombres": productos_seleccionados,
             "precio": round(precio_combo, 2),
             "disponible": random.choice([True, False])

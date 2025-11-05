@@ -4,6 +4,7 @@ Generador de Locales
 import random
 from ..config import Config
 from ..sample_data import SampleData
+from ..helpers import Helpers
 
 class LocalesGenerator:
     """Generador de datos para la tabla Locales"""
@@ -25,7 +26,7 @@ class LocalesGenerator:
     @classmethod
     def _crear_local(cls, index):
         """Crea un local individual con su administrador"""
-        local_id = f"LOC-{index + 1:03d}"
+        local_id = Helpers.generar_uuid()
         direccion = random.choice(SampleData.DIRECCIONES_LIMA)
         
         # Generar administrador único para este local
@@ -40,7 +41,7 @@ class LocalesGenerator:
             "hora_finalizacion": "22:00",
             "administrador": {
                 "nombre": f"{nombre_admin} {apellido_admin}",
-                "correo": f"admin.{local_id.lower()}@chinawok.pe",
-                "contrasena": f"Admin{local_id}!123"
+                "correo": f"admin.{index + 1:03d}@chinawok.pe",
+                "contrasena": f"Admin{index + 1:03d}!123"
             }
         }

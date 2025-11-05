@@ -4,6 +4,7 @@ Generador de Empleados
 import random
 from ..config import Config
 from ..sample_data import SampleData
+from ..helpers import Helpers
 
 class EmpleadosGenerator:
     """Generador de datos para la tabla Empleados"""
@@ -22,14 +23,12 @@ class EmpleadosGenerator:
             for local_id in locales_ids
         }
         
-        empleado_counter = 1
-        
         for local_id in locales_ids:
             # Cada local tiene entre 3-7 empleados
             num_empleados_local = random.randint(3, 7)
             
             for _ in range(num_empleados_local):
-                empleado = cls._crear_empleado(empleado_counter, local_id)
+                empleado = cls._crear_empleado(local_id)
                 empleados.append(empleado)
                 
                 # Guardar DNI en lista por rol ESPECÍFICO DEL LOCAL
@@ -41,19 +40,17 @@ class EmpleadosGenerator:
                     "apellido": empleado["apellido"],
                     "calificacion_prom": empleado.get("calificacion_prom")
                 }
-                
-                empleado_counter += 1
         
         print(f"  ✅ {len(empleados)} empleados generados")
         print(f"  ℹ️  Distribuidos en {len(locales_ids)} locales")
         return empleados, empleados_por_local
     
     @classmethod
-    def _crear_empleado(cls, counter, local_id):
+    def _crear_empleado(cls, local_id):
         """Crea un empleado individual"""
         nombre = random.choice(SampleData.NOMBRES)
         apellido = random.choice(SampleData.APELLIDOS)
-        dni = cls._generar_dni(counter)
+        dni = Helpers.generar_uuid()
         role = random.choice(["Repartidor", "Cocinero", "Despachador"])
         
         return {
@@ -65,8 +62,3 @@ class EmpleadosGenerator:
             "sueldo": round(random.uniform(1200, 3000), 2),
             "role": role
         }
-    
-    @staticmethod
-    def _generar_dni(counter):
-        """Genera un DNI único de 8 dígitos"""
-        return f"{10000000 + counter:08d}"
