@@ -22,7 +22,7 @@ class PedidosGenerator:
     }
     
     @classmethod
-    def generar_pedidos(cls, locales_ids, usuarios, productos, productos_por_local, empleados_por_local):
+    def generar_pedidos(cls, locales_ids, usuarios, productos, productos_por_local, empleados_por_local, combos_por_local):
         """Genera pedidos con historial de estados"""
         pedidos = []
         
@@ -43,7 +43,7 @@ class PedidosGenerator:
             usuario = random.choice(usuarios_validos)
             
             pedido = cls._crear_pedido_con_historial(
-                local_id, usuario, productos_dict, productos_por_local, empleados_por_local
+                local_id, usuario, productos_dict, productos_por_local, empleados_por_local, combos_por_local
             )
             
             pedidos.append(pedido)
@@ -58,26 +58,75 @@ class PedidosGenerator:
         return pedidos, pedidos_ids
     
     @classmethod
-    def _crear_pedido_con_historial(cls, local_id, usuario, productos_dict, productos_por_local, empleados_por_local):
+    def _crear_pedido_con_historial(cls, local_id, usuario, productos_dict, productos_por_local, empleados_por_local, combos_por_local):
         """Crea un pedido con historial de estados"""
         pedido_id = Helpers.generar_uuid()
         
-        # Seleccionar productos DEL LOCAL específico
-        productos_disponibles = productos_por_local.get(local_id, [])
+        # Decidir si el pedido incluye productos, combos o ambos
+        tipo_pedido = random.choices(
+            ["solo_productos", "solo_combos", "mixto"],
+            weights=[50, 30, 20],
+            k=1
+        )[0]
         
-        if not productos_disponibles:
-            productos_nombres = []
-            costo = 0
-        else:
-            num_productos = min(random.randint(1, 4), len(productos_disponibles))
-            productos_nombres = random.sample(productos_disponibles, num_productos)
+        costo_total = 0
+        productos_pedido = []
+        combos_pedido = []
+        
+        # Generar productos si corresponde
+        if tipo_pedido in ["solo_productos", "mixto"]:
+            productos_disponibles = productos_por_local.get(local_id, [])
             
-            costo = sum([
-                productos_dict[nombre]["precio"] 
-                for nombre in productos_nombres 
-                if nombre in productos_dict
-            ])
-            costo += random.uniform(3.0, 8.0)
+            if productos_disponibles:
+                num_productos = min(random.randint(1, 4), len(productos_disponibles))
+                productos_seleccionados = random.sample(productos_disponibles, num_productos)
+                
+                for nombre_producto in productos_seleccionados:
+                    if nombre_producto in productos_dict:
+                        cantidad = random.randint(1, 3)
+                        precio_unitario = productos_dict[nombre_producto]["precio"]
+                        
+                        productos_pedido.append({
+                            "nombre": nombre_producto,
+                            "cantidad": cantidad
+                        })
+                        
+                        costo_total += precio_unitario * cantidad
+        
+        # Generar combos si corresponde
+        if tipo_pedido in ["solo_combos", "mixto"]:
+            combos_disponibles = combos_por_local.get(local_id, [])
+            
+            if combos_disponibles:
+                num_combos = min(random.randint(1, 2), len(combos_disponibles))
+                combos_seleccionados = random.sample(combos_disponibles, num_combos)
+                
+                for combo_id in combos_seleccionados:
+                    cantidad = random.randint(1, 2)
+                    # Estimar precio del combo (aproximadamente 15-35 soles)
+                    precio_combo = random.uniform(15.0, 35.0)
+                    
+                    combos_pedido.append({
+                        "combo_id": combo_id,
+                        "cantidad": cantidad
+                    })
+                    
+                    costo_total += precio_combo * cantidad
+        
+        # Si no hay productos ni combos, forzar al menos un producto
+        if not productos_pedido and not combos_pedido:
+            productos_disponibles = productos_por_local.get(local_id, [])
+            if productos_disponibles:
+                nombre_producto = random.choice(productos_disponibles)
+                if nombre_producto in productos_dict:
+                    productos_pedido.append({
+                        "nombre": nombre_producto,
+                        "cantidad": 1
+                    })
+                    costo_total += productos_dict[nombre_producto]["precio"]
+        
+        # Agregar costo de delivery
+        costo_total += random.uniform(3.0, 8.0)
         
         # Determinar estado actual del pedido
         estado_actual = random.choices(
@@ -89,7 +138,8 @@ class PedidosGenerator:
         fecha_base = datetime.now() - timedelta(hours=random.randint(0, 72))
         
         # Calcular fecha de entrega aproximada
-        fecha_entrega_aproximada = cls._calcular_fecha_entrega(fecha_base, len(productos_nombres))
+        total_items = len(productos_pedido) + len(combos_pedido)
+        fecha_entrega_aproximada = cls._calcular_fecha_entrega(fecha_base, total_items)
         
         # Generar historial de estados
         historial_estados = cls._generar_historial_estados(
@@ -106,13 +156,20 @@ class PedidosGenerator:
             "local_id": local_id,
             "pedido_id": pedido_id,
             "usuario_correo": usuario["correo"],
-            "productos_nombres": productos_nombres,
-            "costo": round(costo, 2),
+            "costo": round(costo_total, 2),
             "fecha_entrega_aproximada": fecha_entrega_aproximada,
-            "direccion": direccion_pedido,  # SIEMPRE presente
+            "direccion": direccion_pedido,
             "estado": estado_actual,
             "historial_estados": historial_estados
         }
+        
+        # Agregar productos solo si existen
+        if productos_pedido:
+            pedido["productos"] = productos_pedido
+        
+        # Agregar combos solo si existen
+        if combos_pedido:
+            pedido["combos"] = combos_pedido
         
         return pedido
     

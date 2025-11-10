@@ -62,7 +62,7 @@ def main():
     # 6. Generar Pedidos
     print("\n📦 Generando Pedidos...")
     pedidos, pedidos_ids = PedidosGenerator.generar_pedidos(
-        locales_ids, usuarios, productos, productos_por_local, empleados_por_local
+        locales_ids, usuarios, productos, productos_por_local, empleados_por_local, combos_por_local
     )
     guardar_json("pedidos.json", pedidos)
     
