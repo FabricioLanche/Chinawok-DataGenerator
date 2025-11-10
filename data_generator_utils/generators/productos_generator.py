@@ -57,35 +57,79 @@ class ProductosGenerator:
         productos = []
         productos_por_local = {}
         
+        # Crear lista plana de todos los productos disponibles
+        todos_los_productos = []
+        for categoria, items in cls.PRODUCTOS_BASE.items():
+            for nombre in items:
+                todos_los_productos.append({
+                    "nombre": nombre,
+                    "categoria": categoria
+                })
+        
+        total_productos_disponibles = len(todos_los_productos)
+        print(f"  ℹ️  Total de productos únicos disponibles: {total_productos_disponibles}")
+        
+        productos_duplicados = 0
+        
         for local_id in locales_ids:
             # Cada local tiene su propia lista de productos
             productos_por_local[local_id] = []
+            productos_usados = set()  # Para detectar duplicados
             
-            # Cada local tiene entre 30-50 productos
-            num_productos_local = random.randint(30, 50)
+            # Cada local tiene entre 30-50 productos (limitado por productos disponibles)
+            num_productos_local = min(random.randint(30, 50), total_productos_disponibles)
             
-            for i in range(num_productos_local):
-                producto = cls._crear_producto(local_id)
+            # Seleccionar productos aleatorios sin repetir
+            productos_seleccionados = random.sample(todos_los_productos, num_productos_local)
+            
+            for prod_info in productos_seleccionados:
+                nombre = prod_info["nombre"]
+                categoria = prod_info["categoria"]
+                
+                # Verificación de duplicados (no debería ocurrir con sample, pero por seguridad)
+                if nombre in productos_usados:
+                    productos_duplicados += 1
+                    print(f"  ⚠️  Producto duplicado detectado: {nombre} en local {local_id}")
+                    continue
+                
+                productos_usados.add(nombre)
+                
+                producto = cls._crear_producto(local_id, nombre, categoria)
                 productos.append(producto)
-                # Guardar el NOMBRE del producto para este local
-                productos_por_local[local_id].append(producto["nombre"])
+                productos_por_local[local_id].append(nombre)
         
         print(f"  ✅ {len(productos)} productos generados")
         print(f"  ℹ️  Distribuidos en {len(locales_ids)} locales")
+        
+        if productos_duplicados > 0:
+            print(f"  ⚠️  Duplicados evitados: {productos_duplicados}")
+        
+        # Validar que no hay duplicados en el resultado final
+        claves_unicas = set()
+        duplicados_finales = 0
+        for prod in productos:
+            clave = (prod["local_id"], prod["nombre"])
+            if clave in claves_unicas:
+                duplicados_finales += 1
+                print(f"  🔴 ERROR: Duplicado final detectado - Local: {prod['local_id']}, Producto: {prod['nombre']}")
+            claves_unicas.add(clave)
+        
+        if duplicados_finales > 0:
+            print(f"  🔴 TOTAL DE DUPLICADOS EN RESULTADO FINAL: {duplicados_finales}")
+        else:
+            print(f"  ✅ Validación: No hay duplicados en el resultado final")
+        
         return productos, productos_por_local
     
     @classmethod
-    def _crear_producto(cls, local_id):
+    def _crear_producto(cls, local_id, nombre_producto, categoria):
         """Crea un producto individual con datos aleatorios"""
-        nombre_categoria = random.choice(list(cls.PRODUCTOS_BASE.keys()))
-        nombre_producto = random.choice(cls.PRODUCTOS_BASE[nombre_categoria])
-        
         # Solo campos permitidos por el schema de validación
         return {
             "local_id": local_id,
             "nombre": nombre_producto,
             "precio": round(random.uniform(Config.PRECIO_MIN_PRODUCTO, Config.PRECIO_MAX_PRODUCTO), 2),
             "descripcion": f"{nombre_producto} preparado al estilo China Wok",
-            "categoria": nombre_categoria,
+            "categoria": categoria,
             "stock": random.randint(10, 100)
         }
