@@ -79,16 +79,13 @@ class ProductosGenerator:
         """Crea un producto individual con datos aleatorios"""
         nombre_categoria = random.choice(list(cls.PRODUCTOS_BASE.keys()))
         nombre_producto = random.choice(cls.PRODUCTOS_BASE[nombre_categoria])
-        producto_id = Helpers.generar_uuid()
         
+        # Solo campos permitidos por el schema de validación
         return {
-            "producto_id": producto_id,
             "local_id": local_id,
             "nombre": nombre_producto,
+            "precio": round(random.uniform(Config.PRECIO_MIN_PRODUCTO, Config.PRECIO_MAX_PRODUCTO), 2),
             "descripcion": f"{nombre_producto} preparado al estilo China Wok",
             "categoria": nombre_categoria,
-            "precio": round(random.uniform(Config.PRECIO_MIN_PRODUCTO, Config.PRECIO_MAX_PRODUCTO), 2),
-            "stock": random.randint(10, 100),
-            "created_at": Helpers.generar_timestamp(),
-            "updated_at": Helpers.generar_timestamp()
+            "stock": random.randint(10, 100)
         }
