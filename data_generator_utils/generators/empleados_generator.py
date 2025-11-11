@@ -71,7 +71,8 @@ class EmpleadosGenerator:
             "apellido": apellido,
             "calificacion_prom": round(random.uniform(3.5, 5.0), 2),
             "sueldo": round(random.uniform(1200, 3000), 2),
-            "role": role
+            "role": role,
+            "ocupado": False
         }
     
     @classmethod
