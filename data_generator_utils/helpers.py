@@ -35,6 +35,12 @@ class Helpers:
         return ''.join([str(random.randint(0, 9)) for _ in range(8)])
     
     @staticmethod
+    def generar_dni_peruano():
+        """Genera un DNI peruano válido (8 dígitos numéricos)"""
+        # DNI peruano: 8 dígitos, rango típico 10000000-99999999
+        return str(random.randint(10000000, 99999999))
+    
+    @staticmethod
     def generar_tarjeta():
         """Genera número de tarjeta de 16 dígitos"""
         return ''.join([str(random.randint(0, 9)) for _ in range(16)])

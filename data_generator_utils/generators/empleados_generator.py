@@ -9,6 +9,9 @@ from ..helpers import Helpers
 class EmpleadosGenerator:
     """Generador de datos para la tabla Empleados"""
     
+    # Set global para rastrear DNIs ya generados
+    _dnis_generados = set()
+    
     @classmethod
     def generar_empleados(cls, locales_ids):
         """Genera empleados ÚNICOS para cada local (multi-tenancy)"""
@@ -22,6 +25,9 @@ class EmpleadosGenerator:
             }
             for local_id in locales_ids
         }
+        
+        # Limpiar DNIs generados al inicio
+        cls._dnis_generados.clear()
         
         for local_id in locales_ids:
             # Cada local tiene entre 3-7 empleados
@@ -43,6 +49,7 @@ class EmpleadosGenerator:
         
         print(f"  ✅ {len(empleados)} empleados generados")
         print(f"  ℹ️  Distribuidos en {len(locales_ids)} locales (multi-tenancy)")
+        print(f"  ℹ️  DNIs peruanos únicos: {len(cls._dnis_generados)} generados")
         print(f"  ℹ️  Campo 'ocupado' = False por defecto (se actualizará en tiempo real)")
         return empleados, empleados_por_local
     
@@ -51,7 +58,10 @@ class EmpleadosGenerator:
         """Crea un empleado individual"""
         nombre = random.choice(SampleData.NOMBRES)
         apellido = random.choice(SampleData.APELLIDOS)
-        dni = Helpers.generar_uuid()
+        
+        # Generar DNI peruano único (8 dígitos)
+        dni = cls._generar_dni_unico()
+        
         role = random.choice(["Repartidor", "Cocinero", "Despachador"])
         
         return {
@@ -63,3 +73,23 @@ class EmpleadosGenerator:
             "sueldo": round(random.uniform(1200, 3000), 2),
             "role": role
         }
+    
+    @classmethod
+    def _generar_dni_unico(cls):
+        """Genera un DNI peruano único (8 dígitos numéricos)"""
+        max_intentos = 1000
+        intentos = 0
+        
+        while intentos < max_intentos:
+            dni = Helpers.generar_dni_peruano()
+            
+            if dni not in cls._dnis_generados:
+                cls._dnis_generados.add(dni)
+                return dni
+            
+            intentos += 1
+        
+        # Si después de muchos intentos no se genera único, agregar sufijo
+        dni_base = Helpers.generar_dni_peruano()
+        print(f"  ⚠️  Colisión de DNI detectada después de {max_intentos} intentos")
+        return dni_base
