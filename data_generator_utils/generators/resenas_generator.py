@@ -11,25 +11,31 @@ class ResenasGenerator:
     
     @classmethod
     def generar_resenas(cls, pedidos, empleados_por_local):
-        """Genera reseñas para pedidos completados con los 3 roles de empleados"""
+        """Genera reseñas solo para pedidos completados que tengan los 3 empleados"""
         resenas = []
         
+        # Filtrar solo pedidos en estado "recibido"
         pedidos_completados = [p for p in pedidos if p["estado"] == "recibido"]
-        num_resenas = min(Config.NUM_RESENAS, len(pedidos_completados))
-        pedidos_a_resenar = random.sample(pedidos_completados, num_resenas)
         
-        for pedido in pedidos_a_resenar:
-            resena = cls._crear_resena(pedido, empleados_por_local)
-            if resena:  # Solo agregar si se pudo crear correctamente
+        # Barajar para tener variedad
+        random.shuffle(pedidos_completados)
+        
+        # Intentar generar hasta NUM_RESENAS
+        for pedido in pedidos_completados:
+            if len(resenas) >= Config.NUM_RESENAS:
+                break
+                
+            resena = cls._crear_resena(pedido)
+            if resena:
                 resenas.append(resena)
         
-        print(f"  ✅ {len(resenas)} reseñas generadas")
+        print(f"  ✅ {len(resenas)} reseñas generadas de {len(pedidos_completados)} pedidos completados")
         return resenas
     
     @classmethod
-    def _crear_resena(cls, pedido, empleados_por_local):
-        """Crea una reseña con los DNIs de cocinero, repartidor y despachador"""
-        # Extraer empleados del historial_estados por rol (en minúsculas según schema de pedidos)
+    def _crear_resena(cls, pedido):
+        """Crea una reseña extrayendo los 3 DNIs del historial del pedido"""
+        # Extraer los DNIs directamente del historial
         cocinero_dni = None
         repartidor_dni = None
         despachador_dni = None
@@ -37,45 +43,20 @@ class ResenasGenerator:
         for entrada in pedido.get("historial_estados", []):
             empleado = entrada.get("empleado")
             if empleado and empleado.get("dni") and empleado.get("rol"):
-                rol = empleado["rol"].lower()  # Asegurar minúsculas
-                if rol == "cocinero" and not cocinero_dni:
+                rol = empleado["rol"].lower()
+                
+                if rol == "cocinero":
                     cocinero_dni = empleado["dni"]
-                elif rol == "repartidor" and not repartidor_dni:
+                elif rol == "repartidor":
                     repartidor_dni = empleado["dni"]
-                elif rol == "despachador" and not despachador_dni:
+                elif rol == "despachador":
                     despachador_dni = empleado["dni"]
         
-        # Si falta algún empleado, intentar obtenerlo del local
-        local_id = pedido["local_id"]
-        
-        # Verificar si empleados_por_local es un dict con listas de objetos empleado
-        if local_id not in empleados_por_local:
-            print(f"  ⚠️  Local {local_id} no encontrado en empleados_por_local")
-            return None
-        
-        empleados_data = empleados_por_local[local_id]
-        
-        # empleados_por_local[local_id] debería ser una lista de objetos empleado
-        if not cocinero_dni:
-            cocineros = [e for e in empleados_data if isinstance(e, dict) and e.get("role") == "Cocinero"]
-            if cocineros:
-                cocinero_dni = random.choice(cocineros)["dni"]
-        
-        if not repartidor_dni:
-            repartidores = [e for e in empleados_data if isinstance(e, dict) and e.get("role") == "Repartidor"]
-            if repartidores:
-                repartidor_dni = random.choice(repartidores)["dni"]
-        
-        if not despachador_dni:
-            despachadores = [e for e in empleados_data if isinstance(e, dict) and e.get("role") == "Despachador"]
-            if despachadores:
-                despachador_dni = random.choice(despachadores)["dni"]
-        
-        # Validar que tengamos los 3 empleados
+        # Si faltan empleados, saltar este pedido
         if not all([cocinero_dni, repartidor_dni, despachador_dni]):
-            print(f"  ⚠️  No se pudo crear reseña para pedido {pedido['pedido_id']} - faltan empleados")
             return None
         
+        # Generar reseña
         resena_id = Helpers.generar_uuid()
         calificacion = random.uniform(1, 5)
         
@@ -87,7 +68,7 @@ class ResenasGenerator:
             resena_texto = random.choice(SampleData.RESENAS_NEGATIVAS)
         
         return {
-            "local_id": local_id,
+            "local_id": pedido["local_id"],
             "cocinero_dni": cocinero_dni,
             "repartidor_dni": repartidor_dni,
             "despachador_dni": despachador_dni,
