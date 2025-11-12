@@ -47,20 +47,27 @@ class ResenasGenerator:
         
         # Si falta algún empleado, intentar obtenerlo del local
         local_id = pedido["local_id"]
-        empleados_local = empleados_por_local.get(local_id, [])
         
+        # Verificar si empleados_por_local es un dict con listas de objetos empleado
+        if local_id not in empleados_por_local:
+            print(f"  ⚠️  Local {local_id} no encontrado en empleados_por_local")
+            return None
+        
+        empleados_data = empleados_por_local[local_id]
+        
+        # empleados_por_local[local_id] debería ser una lista de objetos empleado
         if not cocinero_dni:
-            cocineros = [e for e in empleados_local if e.get("role") == "Cocinero"]
+            cocineros = [e for e in empleados_data if isinstance(e, dict) and e.get("role") == "Cocinero"]
             if cocineros:
                 cocinero_dni = random.choice(cocineros)["dni"]
         
         if not repartidor_dni:
-            repartidores = [e for e in empleados_local if e.get("role") == "Repartidor"]
+            repartidores = [e for e in empleados_data if isinstance(e, dict) and e.get("role") == "Repartidor"]
             if repartidores:
                 repartidor_dni = random.choice(repartidores)["dni"]
         
         if not despachador_dni:
-            despachadores = [e for e in empleados_local if e.get("role") == "Despachador"]
+            despachadores = [e for e in empleados_data if isinstance(e, dict) and e.get("role") == "Despachador"]
             if despachadores:
                 despachador_dni = random.choice(despachadores)["dni"]
         
