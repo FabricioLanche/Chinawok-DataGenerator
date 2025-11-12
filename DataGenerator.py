@@ -75,7 +75,7 @@ def main():
     
     # 8. Generar Reseñas
     print("\n⭐ Generando Reseñas...")
-    resenas = ResenasGenerator.generar_resenas(pedidos)
+    resenas = ResenasGenerator.generar_resenas(pedidos, empleados_por_local)
     guardar_json("resenas.json", resenas)
     
     # Resumen final

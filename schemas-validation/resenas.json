@@ -3,21 +3,19 @@
   "title": "Reseñas",
   "type": "object",
   "x-dynamodb": {
-    "partition_key": "pk",
+    "partition_key": "local_id",
     "sort_key": "resena_id"
   },
   "properties": {
-    "pk": {
-      "type": "string",
-      "description": "Partition key compuesta formada concatenando local_id y empleado_dni, por ejemplo: LOCAL#001#EMP#12345678"
-    },
     "local_id": { "type": "string" },
-    "empleado_dni": { "type": "string" },
+    "cocinero_dni": { "type": "string" },
+    "repartidor_dni": { "type": "string" },
+    "despachador_dni": { "type": "string" },
     "resena_id": { "type": "string" },
     "pedido_id": { "type": "string" },
     "resena": { "type": "string" },
     "calificacion": { "type": "number", "minimum": 0, "maximum": 5 }
   },
-  "required": ["pk", "local_id", "empleado_dni", "resena_id", "pedido_id", "calificacion"],
+  "required": ["local_id", "cocinero_dni", "repartidor_dni", "despachador_dni", "resena_id", "pedido_id", "calificacion"],
   "additionalProperties": false
 }

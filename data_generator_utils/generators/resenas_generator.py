@@ -10,8 +10,8 @@ class ResenasGenerator:
     """Generador de datos para la tabla Reseñas"""
     
     @classmethod
-    def generar_resenas(cls, pedidos):
-        """Genera reseñas solo para pedidos completados"""
+    def generar_resenas(cls, pedidos, empleados_por_local):
+        """Genera reseñas para pedidos completados con los 3 roles de empleados"""
         resenas = []
         
         pedidos_completados = [p for p in pedidos if p["estado"] == "recibido"]
@@ -19,27 +19,56 @@ class ResenasGenerator:
         pedidos_a_resenar = random.sample(pedidos_completados, num_resenas)
         
         for pedido in pedidos_a_resenar:
-            # Extraer empleados del historial_estados
-            empleados_en_pedido = []
-            
-            for entrada in pedido.get("historial_estados", []):
-                empleado = entrada.get("empleado")
-                if empleado and empleado.get("dni"):
-                    # Evitar duplicados
-                    if empleado["dni"] not in [e["dni"] for e in empleados_en_pedido]:
-                        empleados_en_pedido.append(empleado)
-            
-            # Crear una reseña por cada empleado
-            for empleado in empleados_en_pedido:
-                resena = cls._crear_resena(pedido, empleado)
+            resena = cls._crear_resena(pedido, empleados_por_local)
+            if resena:  # Solo agregar si se pudo crear correctamente
                 resenas.append(resena)
         
         print(f"  ✅ {len(resenas)} reseñas generadas")
         return resenas
     
     @classmethod
-    def _crear_resena(cls, pedido, empleado):
-        """Crea una reseña individual para un empleado específico"""
+    def _crear_resena(cls, pedido, empleados_por_local):
+        """Crea una reseña con los DNIs de cocinero, repartidor y despachador"""
+        # Extraer empleados del historial_estados por rol (en minúsculas según schema de pedidos)
+        cocinero_dni = None
+        repartidor_dni = None
+        despachador_dni = None
+        
+        for entrada in pedido.get("historial_estados", []):
+            empleado = entrada.get("empleado")
+            if empleado and empleado.get("dni") and empleado.get("rol"):
+                rol = empleado["rol"].lower()  # Asegurar minúsculas
+                if rol == "cocinero" and not cocinero_dni:
+                    cocinero_dni = empleado["dni"]
+                elif rol == "repartidor" and not repartidor_dni:
+                    repartidor_dni = empleado["dni"]
+                elif rol == "despachador" and not despachador_dni:
+                    despachador_dni = empleado["dni"]
+        
+        # Si falta algún empleado, intentar obtenerlo del local
+        local_id = pedido["local_id"]
+        empleados_local = empleados_por_local.get(local_id, [])
+        
+        if not cocinero_dni:
+            cocineros = [e for e in empleados_local if e.get("role") == "Cocinero"]
+            if cocineros:
+                cocinero_dni = random.choice(cocineros)["dni"]
+        
+        if not repartidor_dni:
+            repartidores = [e for e in empleados_local if e.get("role") == "Repartidor"]
+            if repartidores:
+                repartidor_dni = random.choice(repartidores)["dni"]
+        
+        if not despachador_dni:
+            despachadores = [e for e in empleados_local if e.get("role") == "Despachador"]
+            if despachadores:
+                despachador_dni = random.choice(despachadores)["dni"]
+        
+        # Validar que tengamos los 3 empleados
+        if not all([cocinero_dni, repartidor_dni, despachador_dni]):
+            print(f"  ⚠️  No se pudo crear reseña para pedido {pedido['pedido_id']} - faltan empleados")
+            return None
+        
         resena_id = Helpers.generar_uuid()
         calificacion = random.uniform(1, 5)
         
@@ -50,14 +79,11 @@ class ResenasGenerator:
         else:
             resena_texto = random.choice(SampleData.RESENAS_NEGATIVAS)
         
-        local_id = pedido["local_id"]
-        empleado_dni = empleado["dni"]
-        pk = f"LOCAL#{local_id}#EMP#{empleado_dni}"
-        
         return {
-            "pk": pk,
             "local_id": local_id,
-            "empleado_dni": empleado_dni,
+            "cocinero_dni": cocinero_dni,
+            "repartidor_dni": repartidor_dni,
+            "despachador_dni": despachador_dni,
             "resena_id": resena_id,
             "pedido_id": pedido["pedido_id"],
             "resena": resena_texto,
