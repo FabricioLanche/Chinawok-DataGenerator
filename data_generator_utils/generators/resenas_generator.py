@@ -13,6 +13,7 @@ class ResenasGenerator:
     def generar_resenas(cls, pedidos, empleados_por_local):
         """Genera reseñas solo para pedidos completados que tengan los 3 empleados"""
         resenas = []
+        pedidos_resenados = set()  # Rastrear pedidos que ya tienen reseña
         
         # Filtrar solo pedidos en estado "recibido"
         pedidos_completados = [p for p in pedidos if p["estado"] == "recibido"]
@@ -24,12 +25,18 @@ class ResenasGenerator:
         for pedido in pedidos_completados:
             if len(resenas) >= Config.NUM_RESENAS:
                 break
+            
+            # IMPORTANTE: Solo una reseña por pedido
+            if pedido["pedido_id"] in pedidos_resenados:
+                continue
                 
             resena = cls._crear_resena(pedido)
             if resena:
                 resenas.append(resena)
+                pedidos_resenados.add(pedido["pedido_id"])
         
         print(f"  ✅ {len(resenas)} reseñas generadas de {len(pedidos_completados)} pedidos completados")
+        print(f"  ℹ️  Garantizado: 1 reseña por pedido único")
         return resenas
     
     @classmethod

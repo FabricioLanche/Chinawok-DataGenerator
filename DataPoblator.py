@@ -270,12 +270,16 @@ def batch_write_items(table, items, table_name):
                                 raise
                             else:
                                 local_errors += 1
-                                if local_errors <= 2:
-                                    print(f"      ⚠️  Error al insertar item: {str(e)[:80]}")
+                                if local_errors <= 3:  # Mostrar más detalles
+                                    error_msg = e.response['Error']['Message']
+                                    print(f"      ⚠️  Error ValidationException: {error_msg}")
+                                    # Imprimir el item problemático (solo claves)
+                                    if 'local_id' in item and 'resena_id' in item:
+                                        print(f"         Item: local_id={item['local_id']}, resena_id={item['resena_id']}")
                         except Exception as e:
                             local_errors += 1
-                            if local_errors <= 2:
-                                print(f"      ⚠️  Error al insertar item: {str(e)[:80]}")
+                            if local_errors <= 3:
+                                print(f"      ⚠️  Error inesperado: {str(e)[:100]}")
                 
                 # Si llegamos aquí, el batch fue exitoso
                 return local_success, local_errors
