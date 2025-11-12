@@ -29,6 +29,7 @@ TABLE_COMBOS = os.getenv('TABLE_COMBOS')
 TABLE_PEDIDOS = os.getenv('TABLE_PEDIDOS')
 TABLE_OFERTAS = os.getenv('TABLE_OFERTAS')
 TABLE_RESENAS = os.getenv('TABLE_RESENAS')
+TABLE_TOKENS = os.getenv('TABLE_TOKENS')
 
 # Carpeta con los datos JSON
 DATA_DIR = "dynamodb_data"
@@ -75,6 +76,13 @@ TABLE_MAPPING = {
         "pk": "local_id",  # Cambiado de "pk" a "local_id"
         "sk": "resena_id"
     }
+}
+
+# Configuración para la tabla de tokens (sin archivo JSON asociado)
+TABLE_TOKENS_CONFIG = {
+    "table_name": TABLE_TOKENS,
+    "pk": "token",
+    "sk": None
 }
 
 
@@ -505,6 +513,24 @@ def main():
         return
 
     print("✅ Conexión establecida exitosamente")
+
+    # Crear/verificar tabla de tokens (sin datos de JSON)
+    if TABLE_TOKENS:
+        print(f"\n📦 Verificando tabla de tokens: {TABLE_TOKENS}")
+        if not table_exists(TABLE_TOKENS):
+            created = create_table(
+                TABLE_TOKENS_CONFIG["table_name"],
+                TABLE_TOKENS_CONFIG["pk"],
+                TABLE_TOKENS_CONFIG["sk"]
+            )
+            if created:
+                print(f"   ✅ Tabla de tokens '{TABLE_TOKENS}' creada (vacía)")
+            else:
+                print(f"   ⚠️  No se pudo crear la tabla de tokens")
+        else:
+            print(f"   ℹ️  Tabla de tokens '{TABLE_TOKENS}' ya existe")
+    else:
+        print(f"\n⚠️  TABLE_TOKENS no está configurada en .env, se omitirá su creación")
 
     # Preguntar acción global una sola vez
     global_action = ask_user_action_global()
